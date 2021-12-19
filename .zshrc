@@ -99,6 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 alias l="ls -la"
 alias neofetch="neofetch --source ~/.config/neofetch/ascii2.txt"
+alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+
 
 echo "
  ▄▄▄██▀▀▀ ▒█████   ██▀███    ▄████ ▓█████ 
@@ -111,4 +113,3 @@ echo "
  ░ ░ ░   ░ ░ ░ ▒    ░░   ░ ░ ░   ░    ░   
  ░   ░       ░ ░     ░           ░    ░  ░
 "
-alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
