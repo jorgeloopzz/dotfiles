@@ -1,0 +1,14 @@
+/*      __________        _____.__      */
+/*      \______   \ _____/ ____\__|     */
+/*       |       _//  _ \   __\|  |     */
+/*       |    |   (  <_> )  |  |  |     */
+/*       |____|_  /\____/|__|  |__|     */
+/*              \/                      */
+/*  https://github.com/Jorgedeveloopzz  */
+
+configuration {
+	modi: "drun,window,ssh";
+	show-icons: true;
+	icon-theme: "win11";
+	theme: "nord";	/* https://github.com/lr-tech/rofi-nord */
+}
