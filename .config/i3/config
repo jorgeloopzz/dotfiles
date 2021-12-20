@@ -122,8 +122,8 @@ set $ws2 "2: "
 set $ws3 "3: "
 set $ws4 "4: "
 set $ws5 "5: "
-set $ws6 "6: "
-set $ws7 "7:"
+set $ws6 "6: "
+set $ws7 "7: "
 set $ws8 "8:"
 set $ws9 "9:"
 set $ws10 "10:"
@@ -158,7 +158,8 @@ assign [class="^Alacritty$"] → number "2: "
 assign [class="^Code$"] → number "3: "
 assign [class="^Spacefm$"] → number "4: "
 assign [class="^mpv$"] → number "5: "
-assign [class="^discord$"] number "6: "
+assign [class="^qBittorrent$"] → number "6: "
+assign [class="^discord$"] → number "7: "
 # Focus window opened automatically
 for_window[class="."] focus
 
@@ -237,10 +238,10 @@ bar {
 	workspace_buttons yes
 	height 24
  	font pango:Hack nerd font 10
-#	i3bar_command i3bar --transparency
+	i3bar_command i3bar --transparency
  	colors {
  		background #2E3440
- 		separator #ECEFF4
+		separator #ECEFF4
 		focused_workspace #2E3440 #2E3440 #ECEFF4
 		active_workspace #2E3440 #1a1a1a #ECEFF4
  }
