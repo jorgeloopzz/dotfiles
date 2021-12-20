@@ -30,7 +30,7 @@ order += "cpu_usage"
 order += "memory"
 order += "tztime local"
 order += "battery 1"
-order += "volume master"
+#order += "volume master"
 
 wireless _first_ {
         format_up = "W: (%quality at %essid) %ip"
@@ -76,6 +76,7 @@ battery 1 {
 	status_chr = " "
 	status_full = " "
 	last_full_capacity = true
+	integer_battery_capacity = true
 }
 
 volume master {
