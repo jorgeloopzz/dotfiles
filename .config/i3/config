@@ -155,8 +155,23 @@ assign [class="^mpv$"] → $ws5
 assign [class="^qBittorrent$"] → $ws6
 assign [class="^discord$"] → $ws7
 assign [class="^Tor Browser"] → $ws8
+
 # Focus window opened automatically
 for_window[class="."] focus
+
+### Put workspaces on specific monitors ###
+
+# Monitor 1
+workspace $ws1 output eDP-1
+workspace $ws5 output eDP-1
+workspace $ws6 output eDP-1
+workspace $ws7 output eDP-1
+workspace $ws8 output eDP-1
+
+# Monitor 2
+workspace $ws2 output HDMI-1
+workspace $ws3 output HDMI-1
+workspace $ws4 output HDMI-1
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
