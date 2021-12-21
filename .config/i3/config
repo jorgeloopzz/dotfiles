@@ -124,9 +124,7 @@ set $ws4 "4: "
 set $ws5 "5: "
 set $ws6 "6: "
 set $ws7 "7: "
-set $ws8 "8:"
-set $ws9 "9:"
-set $ws10 "10:"
+set $ws8 "8:﨩"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
@@ -137,8 +135,6 @@ bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
-bindsym $mod+0 workspace $ws10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -149,17 +145,16 @@ bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
-bindsym $mod+Shift+0 move container to workspace $ws10
 
 # Open applications in certain workspaces
-assign [class="^Brave-browser$"] → number "1:爵 " 
-assign [class="^Alacritty$"] → number "2: "
-assign [class="^Code$"] → number "3: "
-assign [class="^Spacefm$"] → number "4: "
-assign [class="^mpv$"] → number "5: "
-assign [class="^qBittorrent$"] → number "6: "
-assign [class="^discord$"] → number "7: "
+assign [class="^Brave-browser$"] → $ws1 
+assign [class="^Alacritty$"] → $ws2
+assign [class="^Code$"] → $ws3
+assign [class="^Spacefm$"] → $ws4
+assign [class="^mpv$"] → $ws5
+assign [class="^qBittorrent$"] → $ws6
+assign [class="^discord$"] → $ws7
+assign [class="^Tor Browser"] → $ws8
 # Focus window opened automatically
 for_window[class="."] focus
 
