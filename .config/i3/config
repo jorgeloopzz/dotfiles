@@ -214,6 +214,9 @@ mode "resize" {
 #                               Autostart                             #
 #######################################################################
 
+# Avoid the screen to turn off after X time
+exec xset s off
+
 # Restore the chosen wallpaper with nitrogen
 exec nitrogen --restore &
 
