@@ -33,12 +33,12 @@ order += "battery 1"
 #order += "volume master"
 
 wireless _first_ {
-        format_up = "W: (%quality at %essid) %ip"
+        format_up = "W: (%quality at %essid)"
         format_down = "W: down"
 }
 
 ethernet _first_ {
-        format_up = "%ip %speed  "
+        format_up = "%speed  "
         format_down = "E: down  "
 }
 
