@@ -56,11 +56,11 @@ cpu_temperature 0 {
 }
 
 cpu_usage {
-	format =  "  %usage "
+	format =  "  %usage "
 }
 
 memory {
-        format = "   %used "
+        format = "  %used "
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 #	prefix_type = decimal
