@@ -251,7 +251,6 @@ bar {
 	workspace_buttons yes
 	height 24
  	font pango:Hack nerd font 10
-	i3bar_command i3bar --transparency
  	colors {
  		background #2E3440
 		separator #ECEFF4
