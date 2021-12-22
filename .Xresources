@@ -1,3 +1,5 @@
 ! COLORS FOR SXIV
 Sxiv.foreground: #FFFFFF
 Sxiv.background: #2F2F2F
+
+Xft.dpi: 96
