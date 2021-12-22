@@ -122,9 +122,7 @@ set $ws2 "2: "
 set $ws3 "3: "
 set $ws4 "4: "
 set $ws5 "5: "
-set $ws6 "6: "
-set $ws7 "7: "
-set $ws8 "8:﨩"
+set $ws6 "6: "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
@@ -133,8 +131,6 @@ bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -143,18 +139,15 @@ bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8
 
 # Open applications in certain workspaces
 assign [class="^Brave-browser$"] → $ws1 
+assign [class="^Tor Browser"] → $ws1
 assign [class="^Alacritty$"] → $ws2
 assign [class="^Code$"] → $ws3
 assign [class="^Spacefm$"] → $ws4
 assign [class="^mpv$"] → $ws5
-assign [class="^qBittorrent$"] → $ws6
-assign [class="^discord$"] → $ws7
-assign [class="^Tor Browser"] → $ws8
+assign [class="^discord$"] → $ws6
 
 # Focus window opened automatically
 for_window[class="."] focus
@@ -165,8 +158,6 @@ for_window[class="."] focus
 workspace $ws1 output eDP-1
 workspace $ws5 output eDP-1
 workspace $ws6 output eDP-1
-workspace $ws7 output eDP-1
-workspace $ws8 output eDP-1
 
 # Monitor 2
 workspace $ws2 output HDMI-1
