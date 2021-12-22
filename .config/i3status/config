@@ -21,7 +21,7 @@ general {
         interval = 1 
 }
 
-#order += "wireless _first_"
+order += "wireless _first_"
 order += "ethernet _first_"
 order += "disk /"
 #order += "load"
@@ -33,13 +33,13 @@ order += "battery 1"
 #order += "volume master"
 
 wireless _first_ {
-        format_up = "W: (%quality at %essid)"
-        format_down = "W: down"
+        format_up = "直 %essid "
+        format_down = "睊 "
 }
 
 ethernet _first_ {
-        format_up = "%speed  "
-        format_down = "E: down  "
+        format_up = "  %speed  "
+        format_down = "  "
 }
 
 disk "/" {
