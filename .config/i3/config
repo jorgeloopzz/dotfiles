@@ -212,7 +212,7 @@ exec xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00
 exec xset s off
 
 # Restore the chosen wallpaper with nitrogen
-exec nitrogen --restore &
+exec sleep2; nitrogen --restore &
 
 # Set screen temperature
 exec sct 3200
