@@ -205,6 +205,9 @@ mode "resize" {
 #                               Autostart                             #
 #######################################################################
 
+# Set monitor resolution
+exec xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00
+
 # Avoid the screen to turn off after X time
 exec xset s off
 
