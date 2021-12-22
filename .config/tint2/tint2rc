@@ -91,7 +91,7 @@ panel_padding = 4 0 4
 panel_background_id = 1
 wm_menu = 1
 panel_dock = 0
-panel_position = bottom center horizontal
+panel_position = top center horizontal
 panel_layer = normal
 panel_monitor = all
 panel_shrink = 1
@@ -180,12 +180,12 @@ launcher_item_app = x-terminal-emulator.desktop
 
 #-------------------------------------
 # Clock
-time1_format = %H:%M
-time2_format = %A %d %B
-time1_font = sans bold 8
+time1_format = %T
+time2_format =%a %d %B
+time1_font = Hack Nerd Font 8
 time1_timezone = 
 time2_timezone = 
-time2_font = sans 7
+time2_font = agave Nerd Font 7
 clock_font_color = #eeeeee 100
 clock_padding = 1 0
 clock_background_id = 0
