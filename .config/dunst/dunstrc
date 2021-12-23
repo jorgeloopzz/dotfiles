@@ -65,7 +65,7 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#ffffff"
+    frame_color = "#00ffff"
 
     # Define a color for the separator.
     # possible values are:
@@ -87,7 +87,7 @@
 
     ### Text ###
 
-    font = Garuda 10
+    font = Hack Nerd Font 11
 
     # The spacing between lines.
     line_height = 0
@@ -126,7 +126,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<i>%s</i>\n%b"
+    format = "<b><i>%s</i></b>\n%b"
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
@@ -166,7 +166,7 @@
     max_icon_size = 32
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_path = /usr/share/icons/candy-icons
 
     ### History ###
 
@@ -213,7 +213,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 3 
+    corner_radius = 0 
 
     ### Legacy
 
@@ -267,7 +267,7 @@
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#2e3440"
+    background = "#131c26"
     foreground = "#d8dee9"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
