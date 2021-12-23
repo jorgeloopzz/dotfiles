@@ -32,7 +32,7 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x5-10+32"
+    geometry = "330x5-10+32"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -87,7 +87,7 @@
 
     ### Text ###
 
-    font = Hack Nerd Font 11
+    font = Hack Nerd Font 9
 
     # The spacing between lines.
     line_height = 0
