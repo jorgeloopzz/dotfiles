@@ -206,19 +206,19 @@ mode "resize" {
 #######################################################################
 
 # Set monitor resolution
-exec xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00
+exec xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00 &
 
 # Avoid the screen to turn off after X time
-exec xset s off
+exec xset s off &
 
 # Restore the chosen wallpaper with nitrogen
 exec sleep2; nitrogen --restore &
 
 # Set screen temperature
-exec sct 3200
+exec sct 3200 &
 
 # Start imwheel
-exec imwheel
+exec imwheel &
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -227,7 +227,7 @@ exec imwheel
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # Systrays
-exec --no-startup-id nm-applet
+exec --no-startup-id nm-applet &
 #exec --no-startup-id cbatticon -n BAT1
 exec --no-startup-id volumeicon &
 exec --no-startup-id udiskie -t --no-appindicator &
@@ -241,6 +241,7 @@ bar {
 	status_command i3status
 	strip_workspace_numbers yes
 	workspace_min_width 40
+	tray_output eDP-1
 	position top
 	workspace_buttons yes
 	height 24
