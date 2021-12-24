@@ -26,7 +26,7 @@
 #
 # So, for example:
 #
-     MusicDir = /home/jorge/Música
+#     MusicDir = /home/jorge/Música
 #     Fastdir1 = ${MusicDir}/mp3/rock
 #     Fastdir2 = ${MusicDir}/mp3/electronic
 #     Fastdir3 = ${MusicDir}/mp3/rap
@@ -71,13 +71,13 @@
 #
 # Example:    MusicDir = "/home/joe/music"
 #
-#MusicDir =
+MusicDir = "/home/jorge/Música"
 
 # Start in the music directory by default?  If set to 'no', start
 # in the directory being viewed when the was client last active or,
 # as a last resort, the directory in which the client is being started.
 # A single directory on the command line takes precedence.
-#StartInMusicDir = no
+StartInMusicDir = yes
 
 # The number of lines which are retained in an in-memory circular logging
 # buffer.  A value of zero indicates that lines will be written directly
@@ -235,7 +235,7 @@
 #
 # Example:    Theme = laras_theme
 #
-#Theme =
+Theme = my-theme
 
 # The theme used when running on an xterm.
 #
