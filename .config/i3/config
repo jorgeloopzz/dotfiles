@@ -236,7 +236,7 @@ exec --no-startup-id udiskie -t --no-appindicator &
 exec picom --config ~/.config/picom/picom.conf & 
 
 # Start any status bar
-#exec_always --no-startup-id yabar &
+# exec_always --no-startup-id yabar &
 bar {
 	status_command i3status
 	strip_workspace_numbers yes
@@ -247,9 +247,9 @@ bar {
 	height 24
  	font pango:Hack nerd font 10
  	colors {
- 		background #2E3440
+ 		background #282a36
 		separator #ECEFF4
-		focused_workspace #2E3440 #2E3440 #ECEFF4
-		active_workspace #2E3440 #1a1a1a #ECEFF4
+		focused_workspace #282a36 #282a36 #f8f8f2
+		active_workspace #282a36 #1a1a1a #f8f8f2
  }
 }
