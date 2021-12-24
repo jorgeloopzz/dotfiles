@@ -26,7 +26,7 @@
 #
 # So, for example:
 #
-#     MusicDir = /music/${USER:-public}
+     MusicDir = /home/jorge/Música
 #     Fastdir1 = ${MusicDir}/mp3/rock
 #     Fastdir2 = ${MusicDir}/mp3/electronic
 #     Fastdir3 = ${MusicDir}/mp3/rap
