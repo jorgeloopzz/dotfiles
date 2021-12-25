@@ -84,8 +84,31 @@ input * {
     xkb_variant "colemak,,typewriter"
     xkb_options "grp:win_space_toggle"
 }
-
 input 0:0:Acer_WMI_hotkeys xkb_model "pc101"
+
+### Gaps ###
+gaps inner 15
+gaps outer 0
+
+# Only enable gaps on a workspace when there is at least one container
+smart_gaps on
+
+# Only enable outer gaps when there is exactly one container
+smart_gaps inverse_outer
+
+# Activate smart borders (always)
+smart_borders on
+
+# Activate smart borders (only when there are effectively no gaps)
+smart_borders no_gaps
+
+### Window borders ###
+# class                 border  backgr. text    indicator child_border
+client.focused          #ff0000 #ff0000 #ff0000 #ff0000   #ff0000
+client.unfocused	#008080 #008080 #008080 #008080   #008080
+
+# Disable window titlebars
+for_window [class="^.*"] border pixel 2# Window borders
 
 ### Key bindings ###
 
@@ -222,6 +245,9 @@ mode "resize" {
 
 # Start imwheel
 exec imwheel &
+
+# Theme
+exec GTK_THEME=Noita
 
 ### Swaybar ###
 bar {
