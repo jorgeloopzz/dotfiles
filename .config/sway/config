@@ -37,20 +37,18 @@ set $right l
 set $term x-terminal-emulator
 
 # Your preferred application launcher
-set $menu rofi -show
+set $menu wofi -I -S drun
+
 
 ### Output configuration ###
 
-# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
+# Wallpaper
 output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
-# Example configuration:
-#
-#   output HDMI-A-1 resolution 1920x1080 position 1920,0
-#
-# You can get the names of your outputs by running: swaymsg -t get_outputs
+# Monitors
 output eDP-1 resolution 1920x1080 position 0,0
 output HDMI-A-1 resolution 1920x1080 position 1920,0
+
 
 ### Idle configuration ###
 
@@ -66,19 +64,6 @@ output HDMI-A-1 resolution 1920x1080 position 1920,0
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
 
-### Input configuration ###
-
-# Example configuration:
-#
-#   input "2:14:SynPS/2_Synaptics_TouchPad" {
-#       dwt enabled
-#       tap enabled
-#       natural_scroll enabled
-#       middle_emulation enabled
-#   }
-
-# You can get the names of your inputs by running: swaymsg -t get_inputs
-# Read `man 5 sway-input` for more information about this section.
 
 ### Keymap ###
 input * {
@@ -86,6 +71,7 @@ input * {
     xkb_variant "colemak,,typewriter"
     xkb_options "grp:win_space_toggle"
 }
+
 input 0:0:Acer_WMI_hotkeys xkb_model "pc101"
 
 ### Gaps ###
@@ -111,6 +97,7 @@ client.unfocused	#008080 #008080 #008080 #008080   #008080
 
 # Disable window titlebars
 default_border pixel 2
+
 
 ### Key bindings ###
 
@@ -223,25 +210,22 @@ default_border pixel 2
 # Resizing containers:
 
 mode "resize" {
-    # left will shrink the containers width
-    # right will grow the containers width
-    # up will shrink the containers height
-    # down will grow the containers height
+    # Resize with vim keys
     bindsym $left resize shrink width 10px
     bindsym $down resize grow height 10px
     bindsym $up resize shrink height 10px
     bindsym $right resize grow width 10px
 
-    # Ditto, with arrow keys
+    # Or with arrow keys
     bindsym Left resize shrink width 10px
     bindsym Down resize grow height 10px
     bindsym Up resize shrink height 10px
     bindsym Right resize grow width 10px
 
     # Return to default mode
-    bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+
 
 ### Autostart ###
 
@@ -250,6 +234,7 @@ exec imwheel &
 
 # Theme
 exec GTK_THEME=Noita
+
 
 ### Status bar ###
 
