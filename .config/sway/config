@@ -106,11 +106,11 @@ smart_borders no_gaps
 
 ### Window borders ###
 # class                 border  backgr. text    indicator child_border
-client.focused          #ff0000 #ff0000 #ff0000 #ff0000   #ff0000
+client.focused          #ffff00 #ffff00 #ffff00 #ffff00   #ffff00
 client.unfocused	#008080 #008080 #008080 #008080   #008080
 
 # Disable window titlebars
-for_window [class="^.*"] border pixel 2# Window borders
+default_border pixel 2
 
 ### Key bindings ###
 
