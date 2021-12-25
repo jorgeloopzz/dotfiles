@@ -2,11 +2,13 @@ window {
     opacity: 0.9;
     background-color: #3B4252;
     font: Hurmit Nerd Font;
+    border: 2px solid #0099ff;
 }
 
 #input {
     border-radius: 0;
     background-color: #3B4252;
+    border: 2px solid #0099ff;
 }
 
 #inner-box {
