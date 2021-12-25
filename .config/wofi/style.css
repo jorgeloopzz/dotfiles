@@ -1,0 +1,20 @@
+window {
+    opacity: 0.9;
+    background-color: #3B4252;
+    font: Hurmit Nerd Font;
+}
+
+#input {
+    border-radius: 0;
+    background-color: #3B4252;
+}
+
+#inner-box {
+    padding: 5px;
+}
+
+#text {
+    color: #ECEFF4;
+    margin-left: 10px;
+}
+
