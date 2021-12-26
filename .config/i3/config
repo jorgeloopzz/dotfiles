@@ -217,6 +217,9 @@ exec sleep2; nitrogen --restore &
 # Set screen temperature
 exec sct 3200 &
 
+# Conky
+exec --no-startup-id conky -d -u 1 &
+
 # Start imwheel
 exec imwheel &
 
