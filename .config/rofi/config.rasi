@@ -9,6 +9,6 @@
 configuration {
 	modi: "drun,window,ssh";
 	show-icons: true;
-	icon-theme: "win11";
+	icon-theme: "candy-icons";
 	theme: "nord";	/* https://github.com/lr-tech/rofi-nord */
 }
