@@ -175,6 +175,15 @@ default_border pixel 2
     bindsym $mod+Shift+9 move container to workspace 9
     bindsym $mod+Shift+0 move container to workspace 10
 
+    # Launch apps in certain applications
+    assign [class="^Brave-browser$"]  → 1
+    assign [class="^Tor Browser$"] → 1
+    assign [class="^Alacritty$"] → 2
+    assign [class="^Code$"] → 3
+    assign [class="^Spacefm$"] → 4
+    assign [class="^mpv$"] → 5
+    assign [class="^discord$"] → 6
+
 # Layout stuff:
 
     # You can "split" the current object of your focus with
