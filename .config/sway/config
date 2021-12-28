@@ -92,7 +92,7 @@ smart_borders no_gaps
 
 ### Window borders ###
 # class                 border  backgr. text    indicator child_border
-client.focused          #ffff00 #ffff00 #ffff00 #ffff00   #ffff00
+client.focused          #ff0000 #ff0000 #ff0000 #ff0000   #ff0000
 client.unfocused	#008080 #008080 #008080 #008080   #008080
 
 # Disable window titlebars
