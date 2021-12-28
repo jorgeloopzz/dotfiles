@@ -229,11 +229,11 @@ mode "resize" {
 
 ### Autostart ###
 
+# Notifications
+exec mako &
+
 # Start imwheel
 exec imwheel &
-
-# Theme
-exec GTK_THEME=Noita
 
 
 ### Status bar ###
