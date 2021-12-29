@@ -1,12 +1,13 @@
 {
     "position": "top", 
     "height": 30, 
-    // "width": 1280, // Waybar width
+
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
     "modules-center": ["sway/window"],
-    "modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "battery#bat2", "clock", "tray"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "battery#bat2", "clock", "tray"],
     // Modules configuration
+
      "sway/workspaces": {
          "disable-scroll": true,
     //   "all-outputs": true,
@@ -17,7 +18,8 @@
              "3": "",
              "4": "",
              "5": "",
-	     "6": "ﭮ",
+	     "6": "",
+	     "7": "",
              "urgent": "",
              "focused": "",
              "default": ""
@@ -64,7 +66,8 @@
         "spacing": 10
     },
     "clock": {
-        "format": " {%a %d/%m/%Y - %T} "
+        "format": " {:%a %d/%m/%Y - %T} ",
+	"interval": 1
     },
     "cpu": {
         "format": "{usage}% ",
@@ -104,12 +107,11 @@
         "bat": "BAT2"
     },
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-wifi": " {essid} ({signalStrength}%)",
+        "format-ethernet": " {ifname} {bandwidthUpBits} {bandwidthDownBits}",
+        "format-linked": " (No IP) ",
+        "format-disconnected": "睊",
+	"interval": 1
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
