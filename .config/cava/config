@@ -14,30 +14,30 @@
 [general]
 
 # Smoothing mode. Can be 'normal', 'scientific' or 'waves'. DEPRECATED as of 0.6.0
-mode = normal
+; mode = normal
 
 # Accepts only non-negative values.
-framerate = 100
+; framerate = 100
 
 # 'autosens' will attempt to decrease sensitivity if the bars peak. 1 = on, 0 = off
 # new as of 0.6.0 autosens of low values (dynamic range)
 # 'overshoot' allows bars to overshoot (in % of terminal height) without initiating autosens. DEPRECATED as of 0.6.0
-autosens = 0
-overshoot = 10
+; autosens = 0
+; overshoot = 10
 
 # Manual sensitivity in %. If autosens is enabled, this will only be the initial value.
 # 200 means double height. Accepts only non-negative values.
-sensitivity = 10
+; sensitivity = 10
 
 # The number of bars (0-200). 0 sets it to auto (fill up console).
 # Bars' width and space between bars in number of characters.
-bars = 0
+; bars = 0
 ; bar_width = 1
 ; bar_spacing = 1
 
 # For SDL width and space between bars is in pixels, defaults are:
-bar_width = 2
-bar_spacing = 1
+; bar_width = 2
+; bar_spacing = 1
 
 
 # Lower and higher cutoff frequencies for lowest and highest bars
@@ -96,7 +96,7 @@ bar_spacing = 1
 # 'raw' defaults to 200 bars, which can be adjusted in the 'bars' option above.
 #
 # 'sdl' uses the Simple DirectMedia Layer to render in a graphical context.
-; method = ncurses
+method = ncurses
 
 # Visual channels. Can be 'stereo' or 'mono'.
 # 'stereo' mirrors both channels with low frequencies in center.
@@ -124,7 +124,7 @@ bar_spacing = 1
 
 # sdl window size and position. -1,-1 is centered.
 ; sdl_width = 1000
-sdl_height = 50
+; sdl_height = 50
 ; sdl_x = -1
 ; sdl_y= -1
 
@@ -140,16 +140,16 @@ background = default
 
 # SDL only support hex code colors, these are the default:
 ; background = '#131c26'
-foreground = '#00ffff'
+; foreground = '#00ffff'
 
 
 # Gradient mode, only hex defined colors (and thereby ncurses mode) are supported,
 # background must also be defined in hex  or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
-; gradient = 1
-; gradient_count = 2
-; gradient_color_1 = '#00e7ff'
-; gradient_color_2 = '#da00f9'
+gradient = 1
+gradient_count = 2
+gradient_color_1 = '#00e7ff'
+gradient_color_2 = '#da00f9'
 ; gradient_color_3 = '#a6cc33'
 ; gradient_color_4 = '#cccc33'
 ; gradient_color_5 = '#cca633'
@@ -163,7 +163,7 @@ foreground = '#00ffff'
 
 # Percentage value for integral smoothing. Takes values from 0 - 100.
 # Higher values means smoother, but less precise. 0 to disable.
-integral = 100
+; integral = 100
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
 ; monstercat = 0
@@ -171,7 +171,7 @@ integral = 100
 
 # Set gravity percentage for "drop off". Higher values means bars will drop faster.
 # Accepts only non-negative values. 50 means half gravity, 200 means double. Set to 0 to disable "drop off".
-gravity = 50
+; gravity = 50
 
 
 # In bar height, bars that would have been lower that this will not be drawn.
