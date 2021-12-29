@@ -1,22 +1,39 @@
 window {
-    opacity: 0.9;
-    background-color: #3B4252;
-    font: Hurmit Nerd Font;
-    border: 2px solid #0099ff;
+margin: 0px;
+border: 2px solid #4c566a;
+border-radius: 5px;
+background-color: #3b4252;
+font: Hack Nerd Font;
 }
 
 #input {
-    border-radius: 0;
-    background-color: #3B4252;
-    border: 2px solid #0099ff;
+margin: 5px;
+border: 1px solid #3b4252;
+color: #eceff4;
+background-color: #3b4252;
 }
 
 #inner-box {
-    padding: 5px;
+margin: 5px;
+border: none;
+background-color: #3b4252;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: #3b4252;
+}
+
+#scroll {
+margin: 0px;
+border: none;
 }
 
 #text {
-    color: #ECEFF4;
-    margin-left: 10px;
-}
+margin: 5px;
+border: none;
+color: #eceff4;
+} 
+
 
