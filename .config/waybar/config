@@ -16,13 +16,12 @@
 
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["pulseaudio", "network", "disk", "cpu", "memory", "backlight",  "clock", "battery", "tray"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "network", "disk", "cpu", "memory", "backlight", "battery", "tray"],
 
     // Modules configuration
      "sway/workspaces": {
          "disable-scroll": true,
-    //   "all-outputs": true,
          "format":"{icon}",
          "format-icons": {
              "1": "爵",
@@ -37,59 +36,10 @@
              "default": ""
          }
      },
-    "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
-    },
-
-    "tray": {
-        // "icon-size": 21,
-        "spacing": 10
-    },
 
     "clock": {
         "format": " {:%a %d/%m/%Y - %T} ",
-	"interval": 1
-    },
-
-    "disk": {
-	"format": " {used} / {total}",
-	"path": "/"
-    },
-
-    "cpu": {
-        "format": "{usage}% ",
-	"interval": 1
-    },
-
-    "memory": {
-        "format": "{percentage}% ",
-	"interval": 1
-    },
-
-    "backlight": {
-	"device": "intel_backlight",
-        "format": "{percent}% {icon}",
-        "format-icons": [""]
-    },
-
-    "battery": {
-	"bat": "BAT1",
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-icons": ["", "", "", ""],
-	"tooltip-format": "{time}"
-    },
-
-    "network": {
-        "format-wifi": " {essid} ({signalStrength}%)",
-        "format-ethernet": " {ifname} {bandwidthUpBits} {bandwidthDownBits}",
-        "format-linked": " (No IP) ",
-        "format-disconnected": "睊",
-	"interval": 1
+    "interval": 1
     },
 
     "pulseaudio": {
@@ -111,6 +61,53 @@
         "on-click": "pavucontrol"
     },
 
+    "network": {
+        "format-wifi": " {essid} ({signalStrength}%)",
+        "format-ethernet": " {ifname} {bandwidthUpBits} {bandwidthDownBits}",
+        "format-linked": " (No IP) ",
+        "format-disconnected": "睊",
+        "interval": 1
+    },
+
+    "disk": {
+        "format": " {used} / {total}",
+        "path": "/"
+    },
+    
+    "cpu": {
+        "format": "{usage}% ",
+        "interval": 1
+    },
+    
+    "memory": {
+        "format": "{percentage}% ",
+        "interval": 1
+    },
+    
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{percent}% {icon}",
+        "format-icons": [""]
+    },
+    
+    "battery": {
+        "bat": "BAT1",
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-icons": ["", "", "", ""],
+        "tooltip-format": "{time}"
+    },
+    
+    
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    
     "custom/media": {
         "format": "{icon} {}",
         "return-type": "json",
