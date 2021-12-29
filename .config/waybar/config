@@ -17,7 +17,7 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "network", "disk", "cpu", "memory", "backlight", "battery", "tray"],
+    "modules-right": ["network", "disk", "cpu", "memory", "backlight", "pulseaudio", "battery", "tray"],
 
     // Modules configuration
      "sway/workspaces": {
@@ -41,26 +41,7 @@
         "format": " {:%a %d/%m/%Y - %T} ",
     "interval": 1
     },
-
-    "pulseaudio": {
-        "format": "{icon} {volume}% {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": "ﱝ {icon} {format_source}",
-        "format-muted": "ﱝ {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
-        "format-icons": {
-            "headphones": "",
-            "handsfree": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
-        "on-click": "pavucontrol"
-    },
-
+    
     "network": {
         "format-wifi": " {essid} ({signalStrength}%)",
         "format-ethernet": " {ifname} {bandwidthUpBits} {bandwidthDownBits}",
@@ -68,7 +49,7 @@
         "format-disconnected": "睊",
         "interval": 1
     },
-
+    
     "disk": {
         "format": " {used} / {total}",
         "path": "/"
@@ -89,6 +70,25 @@
         "format": "{percent}% {icon}",
         "format-icons": [""]
     },
+    
+        "pulseaudio": {
+            "format": "{icon} {volume}% {format_source}",
+            "format-bluetooth": "{volume}% {icon} {format_source}",
+            "format-bluetooth-muted": "ﱝ {icon} {format_source}",
+            "format-muted": "ﱝ {format_source}",
+            "format-source": "{volume}% ",
+            "format-source-muted": "",
+            "format-icons": {
+                "headphones": "",
+                "handsfree": "",
+                "headset": "",
+                "phone": "",
+                "portable": "",
+                "car": "",
+                "default": ["", "", ""]
+            },
+            "on-click": "pavucontrol"
+        },
     
     "battery": {
         "bat": "BAT1",
