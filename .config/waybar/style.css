@@ -1,14 +1,11 @@
 * {
     border: none;
-    border-radius: 0;
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: Roboto;
+    font-family: Agave Nerd Font;
     font-size: 13px;
-    min-height: 0;
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
+    background-color: rgba(43, 48, 59, 0);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -18,40 +15,24 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
-
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
+#workspaces {
+    background-color: black;
 }
 
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #ffffff;
-    border-bottom: 3px solid transparent;
+    color: #8a8a8a;
+    border-bottom: 2px solid transparent;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
     box-shadow: inherit;
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 2px solid rgb(151, 151, 151);
 }
 
 #workspaces button.focused {
-    background-color: #64727D;
+    color: #ffffff;
     border-bottom: 3px solid #ffffff;
 }
 
@@ -78,11 +59,11 @@ window#waybar.chromium {
 #idle_inhibitor,
 #mpd {
     padding: 0 10px;
-    margin: 0 4px;
     color: #ffffff;
 }
 
 #clock {
+    border-radius:10px;
     background-color: #64727D;
 }
 
@@ -166,16 +147,8 @@ label:focus {
     background-color: #f0932b;
 }
 
-#temperature.critical {
-    background-color: #eb4d4b;
-}
-
 #tray {
     background-color: #2980b9;
-}
-
-#idle_inhibitor {
-    background-color: #2d3436;
 }
 
 #idle_inhibitor.activated {
