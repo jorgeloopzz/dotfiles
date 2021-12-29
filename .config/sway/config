@@ -43,7 +43,7 @@ set $menu wofi -I -S drun
 ### Output configuration ###
 
 # Wallpaper
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg ~/Wallpapers/0083.png fill
 
 # Monitors
 output eDP-1 resolution 1920x1080 position 0,0
@@ -92,8 +92,8 @@ smart_borders no_gaps
 
 ### Window borders ###
 # class                 border  backgr. text    indicator child_border
-client.focused          #ff0000 #ff0000 #ff0000 #ff0000   #ff0000
-client.unfocused	#008080 #008080 #008080 #008080   #008080
+client.focused          #ac00e6 #ac00e6 #ac00e6 #ac00e6   #ac00e6
+client.unfocused	#4d0066 #4d0066 #4d0066 #4d0066   #4d0066
 
 # Disable window titlebars
 default_border pixel 2
@@ -244,7 +244,7 @@ mode "resize" {
 ### Autostart ###
 
 # Notifications
-exec mako &
+exec mako
 
 # Start imwheel
 exec imwheel &
