@@ -220,6 +220,9 @@ exec sleep2; nitrogen --restore &
 # Set screen temperature
 exec sct 3200 &
 
+# Notifications
+exec dunst &
+
 # Conky
 exec --no-startup-id conky -d -u 1 &
 
