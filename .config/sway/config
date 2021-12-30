@@ -92,8 +92,8 @@ smart_borders no_gaps
 
 ### Window borders ###
 # class                 border  backgr. text    indicator child_border
-client.focused          #ac00e6 #ac00e6 #ac00e6 #ac00e6   #ac00e6
-client.unfocused	#4d0066 #4d0066 #4d0066 #4d0066   #4d0066
+client.focused          #c9a0dc #c9a0dc #c9a0dc #c9a0dc   #c9a0dc
+client.unfocused	#592970 #592970 #592970 #592970   #592970
 
 # Disable window titlebars
 default_border pixel 2
