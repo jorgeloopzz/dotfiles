@@ -17,7 +17,7 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
     "modules-center": ["clock"],
-    "modules-right": ["network", "disk", "cpu", "memory", "backlight", "pulseaudio", "battery", "tray"],
+    "modules-right": ["network", "cpu", "memory", "pulseaudio", "battery", "tray"],
 
     // Modules configuration
      "sway/workspaces": {
@@ -39,7 +39,7 @@
 
     "clock": {
         "format": " {:%a %d/%m/%Y - %T} ",
-    "interval": 1
+    	"interval": 1
     },
     
     "network": {
@@ -48,11 +48,6 @@
         "format-linked": " (No IP) ",
         "format-disconnected": "睊",
         "interval": 1
-    },
-    
-    "disk": {
-        "format": " {used} / {total}",
-        "path": "/"
     },
     
     "cpu": {
@@ -65,17 +60,11 @@
         "interval": 1
     },
     
-    "backlight": {
-        "device": "intel_backlight",
-        "format": "{percent}% {icon}",
-        "format-icons": [""]
-    },
-    
         "pulseaudio": {
-            "format": "{icon} {volume}% {format_source}",
+            "format": "{icon} {volume}%",
             "format-bluetooth": "{volume}% {icon} {format_source}",
             "format-bluetooth-muted": "ﱝ {icon} {format_source}",
-            "format-muted": "ﱝ {format_source}",
+            "format-muted": "ﱝ",
             "format-source": "{volume}% ",
             "format-source-muted": "",
             "format-icons": {
