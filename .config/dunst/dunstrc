@@ -87,7 +87,7 @@
 
     ### Text ###
 
-    font = Hack Nerd Font 9
+    font = Cousine Nerd Font 12 
 
     # The spacing between lines.
     line_height = 0
@@ -126,7 +126,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<b><i>%s</i></b>\n%b"
+    format = "<b>%s</b>\n%b"
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
@@ -213,7 +213,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 0 
+    corner_radius = 10 
 
     ### Legacy
 
