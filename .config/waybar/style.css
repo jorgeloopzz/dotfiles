@@ -6,7 +6,7 @@
 
 window#waybar {
     background-color: rgba(43, 48, 59, 0);
-    color: #ffffff;
+    color: #000000;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -17,7 +17,7 @@ window#waybar.hidden {
 
 #workspaces {
     background-color: black;
-    border: 2px solid #ac00e6;
+    border: 2px solid #c9a0dc;
     border-radius: 10px;
 }
 
@@ -63,14 +63,12 @@ window#waybar.hidden {
 
 #clock {
     border-radius: 10px;
-    background-color: #341056;
-    border: 2px solid #ac00e6;
+    background-color: #c9a0dc;
+    color: #000000;
 }
 
 #battery {
     background-color: #ffffff;
-    border: 2px solid #ac00e6;
-    border-left: none;
     border-radius: 0 10px 10px 0;
     color: #000000;
 }
@@ -102,22 +100,16 @@ label:focus {
 }
 
 #cpu {
-    border-top: 2px solid #ac00e6;
-    border-bottom: 2px solid #ac00e6;
     background-color: #2ecc71;
     color: #000000;
 }
 
 #memory {
     background-color: #9b59b6;
-    border-top: 2px solid #ac00e6;
-    border-bottom: 2px solid #ac00e6;
 }
 
 #network {
     background-color: #2980b9;
-    border: 2px solid #ac00e6;
-    border-right: none;
     border-radius: 10px 0 0 10px;
 }
 
@@ -127,8 +119,6 @@ label:focus {
 
 #pulseaudio {
     background-color: #f1c40f;
-    border-top: 2px solid #ac00e6;
-    border-bottom: 2px solid #ac00e6;
     color: #000000;
 }
 
