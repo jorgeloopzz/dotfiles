@@ -17,23 +17,21 @@ window#waybar.hidden {
 
 #workspaces {
     background-color: black;
+    border-radius: 10px;
 }
 
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
     color: #8a8a8a;
-    border-bottom: 2px solid transparent;
 }
 
 #workspaces button:hover {
     box-shadow: inherit;
-    border-bottom: 2px solid rgb(151, 151, 151);
 }
 
 #workspaces button.focused {
     color: #ffffff;
-    border-bottom: 3px solid #ffffff;
 }
 
 #workspaces button.urgent {
@@ -69,6 +67,7 @@ window#waybar.hidden {
 
 #battery {
     background-color: #ffffff;
+    border-radius: 0 10px 10px 0;
     color: #000000;
 }
 
@@ -113,6 +112,7 @@ label:focus {
 
 #network {
     background-color: #2980b9;
+    border-radius: 10px 0 0 10px;
 }
 
 #network.disconnected {
