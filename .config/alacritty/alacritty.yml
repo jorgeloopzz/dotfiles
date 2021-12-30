@@ -14,7 +14,6 @@ window:
     x: 6
     y: 6
 
-
 schemes:
   # Tokyo Night theme, based on both:
   #   https://github.com/ghifarit53/tokyonight-vim
@@ -75,8 +74,23 @@ schemes:
       cyan:    '0x0db9d7'
       white:   '0xacb0d0'
 
+color: *tokyo-night-storm
+
 # Fonts
 font:
   normal:
     family: Cousine Nerd Font
+    style: Regular
+  bold:
+    family: Cousine Nerd Font
+    style: Bold
+  italic:
+    family: Cousine Nerd Font
+    style: Italic
+  bold_italic:
+    family: Cousine Nerd Font
+    style: Bold Italic
   size: 12 
+
+cursor:
+  style: Beam
