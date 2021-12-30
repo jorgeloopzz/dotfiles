@@ -6,7 +6,6 @@
 
 window#waybar {
     background-color: rgba(43, 48, 59, 0);
-    color: #000000;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -48,8 +47,6 @@ window#waybar.hidden {
 #battery,
 #cpu,
 #memory,
-#temperature,
-#backlight,
 #network,
 #pulseaudio,
 #custom-media,
@@ -68,7 +65,7 @@ window#waybar.hidden {
 }
 
 #battery {
-    background-color: #ffffff;
+    background-color: #c9a0dc;
     border-radius: 0 10px 10px 0;
     color: #000000;
 }
@@ -100,17 +97,19 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
+    background-color: #c9a0dc;
     color: #000000;
 }
 
 #memory {
-    background-color: #9b59b6;
+    background-color: #c9a0dc;
+    color: #000000;
 }
 
 #network {
-    background-color: #2980b9;
+    background-color: #c9a0dc;
     border-radius: 10px 0 0 10px;
+    color: #000000;
 }
 
 #network.disconnected {
@@ -118,13 +117,8 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
+    background-color: #c9a0dc;
     color: #000000;
-}
-
-#pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
 }
 
 #custom-media {
@@ -139,10 +133,6 @@ label:focus {
 
 #custom-media.custom-vlc {
     background-color: #ffa000;
-}
-
-#temperature {
-    background-color: #f0932b;
 }
 
 #tray {
