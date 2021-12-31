@@ -20,7 +20,8 @@
 #         \::/    /                \::/____/                \::/    /                             
 #          \/____/                  ~~                       \/____/                              
 #
-# https://github.com/Jorgedeveloopzz                                                                                                
+# https://github.com/Jorgedeveloopzz 
+
 
 ### Variables ###
 
@@ -254,7 +255,6 @@ exec imwheel &
 
 bar {
     swaybar_command waybar
-    }
 }
 
 include /etc/sway/config.d/*
