@@ -246,19 +246,22 @@ exec picom --config ~/.config/picom/picom.conf &
 
 # Start any status bar
 # exec_always --no-startup-id yabar &
+#bar {
+#	status_command i3status
+#	strip_workspace_numbers yes
+#	workspace_min_width 40
+#	tray_output eDP-1
+#	position top
+#	workspace_buttons yes
+#	height 24
+# 	font pango:Hack nerd font 10
+# 	colors {
+# 		background #282a36
+#		separator #ECEFF4
+#		focused_workspace #282a36 #282a36 #f8f8f2
+#		active_workspace #282a36 #1a1a1a #f8f8f2
+# }
+#}
 bar {
-	status_command i3status
-	strip_workspace_numbers yes
-	workspace_min_width 40
-	tray_output eDP-1
-	position top
-	workspace_buttons yes
-	height 24
- 	font pango:Hack nerd font 10
- 	colors {
- 		background #282a36
-		separator #ECEFF4
-		focused_workspace #282a36 #282a36 #f8f8f2
-		active_workspace #282a36 #1a1a1a #f8f8f2
- }
+  status_command i3blocks
 }
