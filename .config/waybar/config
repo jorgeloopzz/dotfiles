@@ -87,7 +87,7 @@
         },
         "format": "{capacity}% {icon}",
         "format-charging": "{capacity}% ",
-        "format-icons": ["", "", "", ""],
+        "format-icons": ["", "", "", "", "", "", "", "", "", ""],
         "tooltip-format": "{time}"
     },
     
