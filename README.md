@@ -11,6 +11,12 @@
   </a>
 </div>
 
+### [i3](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/i3)
+![2](https://user-images.githubusercontent.com/80071604/147846737-626beda1-a276-42c2-8a7d-4aec927c7cc2.png)
+
+### [Sway](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/sway)
+![sway](https://user-images.githubusercontent.com/80071604/147846742-40904a62-f325-4573-9947-8e55e15f607f.png)
+
 ## Software I use
 * OS: [Ubuntu](https://ubuntu.com/)
 * WM:
@@ -21,6 +27,7 @@
    * [Yabar](https://github.com/geommer/yabar)
    * [Waybar](https://github.com/Alexays/Waybar)
    * [Tint2](https://wiki.archlinux.org/title/Tint2)
+* Login Manager: [Sddm](https://wiki.archlinux.org/title/SDDM)
 * Terminal emulator: [Alacritty](https://github.com/alacritty/alacritty)
 * Browser: [Brave](https://brave.com/)
 * File Managers:
