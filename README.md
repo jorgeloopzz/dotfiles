@@ -11,6 +11,12 @@
   </a>
 </div>
 
+### [i3](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/i3)
+![2](https://user-images.githubusercontent.com/80071604/147846737-626beda1-a276-42c2-8a7d-4aec927c7cc2.png)
+
+### [Sway](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/sway)
+![sway](https://user-images.githubusercontent.com/80071604/147846742-40904a62-f325-4573-9947-8e55e15f607f.png)
+
 ## Software I use
 * OS: [Ubuntu](https://ubuntu.com/)
 * WM:
@@ -21,28 +27,29 @@
    * [Yabar](https://github.com/geommer/yabar)
    * [Waybar](https://github.com/Alexays/Waybar)
    * [Tint2](https://wiki.archlinux.org/title/Tint2)
-* Terminal emulator: [Alacritty](https://github.com/alacritty/alacritty)
+* Login Manager: [Sddm](https://wiki.archlinux.org/title/SDDM)
+* Terminal emulator: [Alacritty](https://wiki.archlinux.org/title/Alacritty)
 * Browser: [Brave](https://brave.com/)
 * File Managers:
-   * [SpaceFM](https://github.com/IgnorantGuru/spacefm)
-   * [Ranger](https://github.com/ranger/ranger)
+   * [SpaceFM](https://wiki.archlinux.org/title/SpaceFM)
+   * [Ranger](https://wiki.archlinux.org/title/Ranger)
 * IDE'S:
-   * [VS Code](https://code.visualstudio.com/)
-   * [Vim](https://www.vim.org/)
+   * [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code)
+   * [Vim](https://wiki.archlinux.org/title/Vim)
 * Media players:
-   * [SXIV](https://github.com/muennich/sxiv) (pictures)
-   * [MPV](https://mpv.io/) (video & audio)
-   * [mocp](https://github.com/jonsafari/mocp) (music)
-* Background setter: [Nitrogen](https://github.com/l3ib/nitrogen)
+   * [SXIV](https://wiki.archlinux.org/title/Sxiv) (pictures)
+   * [MPV](https://wiki.archlinux.org/title/Mpv) (video & audio)
+   * [mocp](https://wiki.archlinux.org/title/MOC) (music)
+* Background setter: [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)
 * Torrent client: [qBittorrent](https://www.qbittorrent.org/)
 * Launchers: 
-   * [Rofi](https://github.com/davatorium/rofi)
+   * [Rofi](https://wiki.archlinux.org/title/Rofi)
    * [Wofi](https://github.com/tsujp/wofi)
 * Screenshots:
    * [gnome-screenshot](https://github.com/GNOME/gnome-screenshot)
    * [grim](https://github.com/emersion/grim)
    * [slurp](https://github.com/emersion/slurp)
-* Document reader: [Evince](https://wiki.gnome.org/Apps/Evince)
+* Document reader: [Evince](https://wiki.archlinux.org/title/GNOME/Document_viewer)
 * Password manager: [Seahorse](https://wiki.gnome.org/Apps/Seahorse)
 * GTK:
    * [lxappearance](https://github.com/lxde/lxappearance)
@@ -52,9 +59,9 @@
    * [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica)
    * [Nordic](https://github.com/EliverLara/Nordic)
    * [Candy-icons](https://github.com/EliverLara/candy-icons)
-* Notifications: [Dunst](https://github.com/dunst-project/dunst)
+* Notifications: [Dunst](https://wiki.archlinux.org/title/Dunst)
 * Sound: 
-   * [Pulseaudio](https://github.com/pulseaudio/pulseaudio)
+   * [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio)
    * [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)
 * Mouse cursor speed: [Imwheel](https://wiki.archlinux.org/title/IMWheel)
 * Network: [Network manager](https://wiki.archlinux.org/title/NetworkManager)
