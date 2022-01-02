@@ -187,8 +187,6 @@
 </dock>
 
 <keyboard>
-  <chainQuitKey>C-g</chainQuitKey>
-
   <!-- Keybindings for desktop switching -->
   <keybind key="A-1">
     <action name="GoToDesktop"><to>1</to></action>
@@ -210,21 +208,18 @@
   <keybind key="A-S-1">
     <action name="SendToDesktop"><to>1</to></action>
   </keybind>
-
   <keybind key="A-S-2">
     <action name="SendToDesktop"><to>2</to></action>
   </keybind>
-
   <keybind key="A-S-3">
     <action name="SendToDesktop"><to>3</to></action>
   </keybind>
-
   <keybind key="A-S-4">
     <action name="SendToDesktop"><to>4</to></action>
   </keybind>
 
   <!-- Keybindings for windows -->
-  <keybind key="A-F4">
+  <keybind key="A-X">
     <action name="Close"/>
   </keybind>
   <keybind key="A-Escape">
@@ -232,9 +227,7 @@
     <action name="FocusToBottom"/>
     <action name="Unfocus"/>
   </keybind>
-  <keybind key="A-space">
-    <action name="ShowMenu"><menu>client-menu</menu></action>
-  </keybind>
+
   <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
   <keybind key="A-Print">
     <action name="Execute"><command>scrot -s</command></action>
@@ -250,67 +243,37 @@
       </finalactions>
     </action>
   </keybind>
-  <keybind key="A-S-Tab">
-    <action name="PreviousWindow">
-      <finalactions>
-        <action name="Focus"/>
-        <action name="Raise"/>
-        <action name="Unshade"/>
-      </finalactions>
-    </action>
-  </keybind>
-  <keybind key="C-A-Tab">
-    <action name="NextWindow">
-      <panels>yes</panels><desktop>yes</desktop>
-      <finalactions>
-        <action name="Focus"/>
-        <action name="Raise"/>
-        <action name="Unshade"/>
-      </finalactions>
-    </action>
-  </keybind>
 
   <!-- Keybindings for window switching with the arrow keys -->
-  <keybind key="W-S-Right">
+  <keybind key="A-Right">
     <action name="DirectionalCycleWindows">
       <direction>right</direction>
     </action>
   </keybind>
-  <keybind key="W-S-Left">
+  <keybind key="A-Left">
     <action name="DirectionalCycleWindows">
       <direction>left</direction>
     </action>
   </keybind>
-  <keybind key="W-S-Up">
+  <keybind key="A-Up">
     <action name="DirectionalCycleWindows">
       <direction>up</direction>
     </action>
   </keybind>
-  <keybind key="W-S-Down">
+  <keybind key="A-Down">
     <action name="DirectionalCycleWindows">
       <direction>down</direction>
     </action>
   </keybind>
 
-  <!-- Keybindings for running applications -->
-  <keybind key="W-e">
-    <action name="Execute">
-      <startupnotify>
-        <enabled>true</enabled>
-        <name>Konqueror</name>
-      </startupnotify>
-      <command>kfmclient openProfile filemanagement</command>
-    </action>
-  </keybind>
-
-  <!-- Launch scrot when Print is pressed -->
-  <keybind key="Print">
-    <action name="Execute"><command>scrot</command></action>
-  </keybind>
-
   <!-- Keybinding to restart Openbox -->
   <keybind key="A-S-R">
     <action name="Reconfigure"></action>
+  </keybind>
+
+  <!-- ToggleFullscreen -->
+  <keybind key="A-F">
+    <action name="ToggleFullscreen"/>
   </keybind>
 </keyboard>
 
