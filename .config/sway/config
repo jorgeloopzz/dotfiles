@@ -250,6 +250,13 @@ exec mako
 # Start imwheel
 exec imwheel &
 
+# Set GTK theme
+set $gnome-schema org.gnome.desktop.interface
+
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Noita'
+    gsettings set $gnome-schema icon-theme 'candy-icons'
+}
 
 ### Status bar ###
 
