@@ -190,44 +190,37 @@
   <chainQuitKey>C-g</chainQuitKey>
 
   <!-- Keybindings for desktop switching -->
-  <keybind key="C-A-Left">
-    <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="C-A-Right">
-    <action name="GoToDesktop"><to>right</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="C-A-Up">
-    <action name="GoToDesktop"><to>up</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="C-A-Down">
-    <action name="GoToDesktop"><to>down</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="S-A-Left">
-    <action name="SendToDesktop"><to>left</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="S-A-Right">
-    <action name="SendToDesktop"><to>right</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="S-A-Up">
-    <action name="SendToDesktop"><to>up</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="S-A-Down">
-    <action name="SendToDesktop"><to>down</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="W-F1">
+  <keybind key="A-1">
     <action name="GoToDesktop"><to>1</to></action>
   </keybind>
-  <keybind key="W-F2">
+  <keybind key="A-2">
     <action name="GoToDesktop"><to>2</to></action>
   </keybind>
-  <keybind key="W-F3">
+  <keybind key="A-3">
     <action name="GoToDesktop"><to>3</to></action>
   </keybind>
-  <keybind key="W-F4">
+  <keybind key="A-4">
     <action name="GoToDesktop"><to>4</to></action>
   </keybind>
-  <keybind key="W-d">
+  <keybind key="A-d">
     <action name="ToggleShowDesktop"/>
+  </keybind>
+
+  <!-- Keybindings for sending windows to workspaces -->
+  <keybind key="A-S-1">
+    <action name="SendToDesktop"><to>1</to></action>
+  </keybind>
+
+  <keybind key="A-S-2">
+    <action name="SendToDesktop"><to>2</to></action>
+  </keybind>
+
+  <keybind key="A-S-3">
+    <action name="SendToDesktop"><to>3</to></action>
+  </keybind>
+
+  <keybind key="A-S-4">
+    <action name="SendToDesktop"><to>4</to></action>
   </keybind>
 
   <!-- Keybindings for windows -->
