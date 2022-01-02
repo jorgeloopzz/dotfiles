@@ -3,7 +3,7 @@
 # to run user-specific things.
 
 # Set resolution on my second monitos
-xrandr --output HDMI-1 --mode 1920x1080 --rate 60 &
+(sleep 1s && xrandr --output HDMI-1 --mode 1920x1080 --rate 60) &
 
 # Set screen temperature
 sct 3200 &
@@ -12,7 +12,7 @@ sct 3200 &
 imwheel &
 
 # Restore the chosen wallpaper with nitrogen
-nitrogen --restore &
+(sleep 2s && nitrogen --restore) &
 
 # Set panel
 tint2 -c ~/.config/tint2/tint2rc &
