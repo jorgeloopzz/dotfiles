@@ -20,3 +20,9 @@ tint2 -c ~/.config/tint2/tint2rc &
 # Start picom
 picom --config ~/.config/picom/picom.conf &
 
+# Start volumeicon to control the volume
+volumeicon &
+
+# Udiskie, for external hard drives
+udiskie -t &
+
