@@ -46,7 +46,7 @@
 </placement>
 
 <theme>
-  <name>Clearlooks</name>
+  <name>Arc-Dark</name>
   <titleLayout>NLIMC</titleLayout>
   <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -302,9 +302,15 @@
       <command>kfmclient openProfile filemanagement</command>
     </action>
   </keybind>
+
   <!-- Launch scrot when Print is pressed -->
   <keybind key="Print">
     <action name="Execute"><command>scrot</command></action>
+  </keybind>
+
+  <!-- Keybinding to restart Openbox -->
+  <keybind key="A-S-R">
+    <action name="Reconfigure"></action>
   </keybind>
 </keyboard>
 
