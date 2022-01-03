@@ -2,31 +2,47 @@
 
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/
                 file:///usr/share/openbox/menu.xsd">
-
   <menu id="root-menu" label="Openbox 3">
-    <item label="Terminal emulator">
+    <!-- Brave -->
+    <item label="Web browser" icon="/usr/share/icons/candy-icons/apps/scalable/brave.svg">
+      <action name="Execute">
+        <execute>brave-browser</execute>
+      </action>
+    </item>
+    <!-- Alacritty -->
+    <item label="Terminal" icon="/usr/share/icons/candy-icons/apps/scalable/Alacritty.svg">
       <action name="Execute">
         <execute>x-terminal-emulator</execute>
       </action>
     </item>
-    <item label="Web browser">
+    <!-- VS Code -->
+    <item label="IDe" icon="/usr/share/icons/candy-icons/apps/scalable/com.visualstudio.code.svg">
       <action name="Execute">
-        <execute>x-www-browser</execute>
+        <execute>code</execute>
+      </action>
+    </item>
+    <!-- SpaceFM -->
+    <item label="File Manager" icon="/usr/share/icons/candy-icons/apps/scalable/spacefm.svg">
+      <action name="Execute">
+        <execute>spacefm</execute>
+      </action>
+    </item>
+    <!-- Music player -->
+    <item label="Music" icon="/usr/share/icons/candy-icons/apps/scalable/juk.svg">
+      <action name="Execute">
+        <execute>alacritty -e mocp</execute>
       </action>
     </item>
     <!-- This requires the presence of the 'obamenu' package to work -->
     <menu id="/Debian" />
     <separator />
-    <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu" />
+    <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu" icon="/usr/share/icons/candy-icons/apps/scalable/app.svg" />
     <separator />
-    <item label="Reconfigure">
-      <action name="Reconfigure" />
-    </item>
-    <item label="Restart">
+    <item label="Restart" icon="/usr/share/icons/candy-icons/apps/scalable/system-restart.svg">
       <action name="Restart" />
     </item>
     <separator />
-    <item label="Exit">
+    <item label="Exit" icon="/usr/share/icons/candy-icons/apps/scalable/xedit.svg">
       <action name="Exit" />
     </item>
   </menu>
