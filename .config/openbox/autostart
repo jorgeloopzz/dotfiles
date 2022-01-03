@@ -1,28 +1,20 @@
 # These things are run when an Openbox X Session is started.
-# You may place a similar script in $HOME/.config/openbox/autostart
-# to run user-specific things.
 
 # Set resolution on my second monitos
 (sleep 1s && xrandr --output HDMI-1 --mode 1920x1080 --rate 60) &
 
-# Set screen temperature
+# Screen temperature
 sct 3200 &
 
-# Start imwheel
-imwheel &
-
-# Restore the chosen wallpaper with nitrogen
-(sleep 2s && nitrogen --restore) &
-
-# Set panel
+# Panel
 tint2 -c ~/.config/tint2/tint2rc &
 
-# Start picom
-picom --config ~/.config/picom/picom.conf --experimental-backends &
-
-# Start volumeicon to control the volume
+# Systray
 volumeicon &
-
-# Udiskie, for external hard drives
 udiskie -t &
 
+imwheel &
+(sleep 2s && nitrogen --restore) &
+picom --config ~/.config/picom/picom.conf --experimental-backends &
+conky -d -c ~/.config/conky/conky.conf
+ 
