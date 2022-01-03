@@ -31,8 +31,6 @@
   <policy>Smart</policy>
   <!-- 'Smart' or 'UnderMouse' -->
   <center>yes</center>
-  <!-- whether to place windows in the center of the free area found or
-       the top left corner -->
   <monitor>Mouse</monitor>
   <!-- with Smart placement on a multi-monitor system, try to place new windows
        on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
@@ -80,21 +78,13 @@
 </theme>
 
 <desktops>
-  <!-- this stuff is only used at startup, pagers allow you to change them
-       during a session
-
-       these are default values to use when other ones are not already set
-       by other applications, or saved in your session
-
-       use obconf if you want to change these without having to log out
-       and back in -->
   <number>4</number>
   <firstdesk>1</firstdesk>
   <names>
-    <!-- set names up here if you want to, like this:
-    <name>desktop 1</name>
-    <name>desktop 2</name>
-    -->
+    <name>爵</name>
+    <name> </name>
+    <name> </name>
+    <name> </name>
   </names>
   <popupTime>875</popupTime>
   <!-- The number of milliseconds to show the popup for when switching
