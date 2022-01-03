@@ -18,7 +18,7 @@ imwheel &
 tint2 -c ~/.config/tint2/tint2rc &
 
 # Start picom
-picom --config ~/.config/picom/picom.conf &
+picom --config ~/.config/picom/picom.conf --experimental-backends &
 
 # Start volumeicon to control the volume
 volumeicon &
