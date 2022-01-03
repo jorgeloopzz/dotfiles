@@ -245,6 +245,13 @@
     <keybind key="A-F">
       <action name="ToggleFullscreen" />
     </keybind>
+
+    <!-- Launch Alacritty -->
+    <keybind key="A-Return">
+      <action name="Execute">
+        <command>alacritty</command>
+      </action>
+    </keybind>
   </keyboard>
 
   <mouse>
