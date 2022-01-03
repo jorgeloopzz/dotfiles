@@ -49,7 +49,6 @@
   <name>Arc-Dark</name>
   <titleLayout>NLMC</titleLayout>
   <!--
-      available characters are NDSLIMC, each can occur at most once.
       N: window icon
       L: window label (AKA title).
       I: iconify
@@ -61,57 +60,21 @@
   <keepBorder>yes</keepBorder>
   <animateIconify>yes</animateIconify>
   <font place="ActiveWindow">
-    <name>sans</name>
-    <size>8</size>
+    <name>DaddyTimeMono Nerd Font</name>
+    <size>12</size>
     <!-- font size in points -->
     <weight>bold</weight>
     <!-- 'bold' or 'normal' -->
-    <slant>normal</slant>
+    <slant>italic</slant>
     <!-- 'italic' or 'normal' -->
   </font>
   <font place="InactiveWindow">
-    <name>sans</name>
+    <name>DaddyTimeMono Nerd Font</name>
     <size>8</size>
     <!-- font size in points -->
     <weight>bold</weight>
     <!-- 'bold' or 'normal' -->
-    <slant>normal</slant>
-    <!-- 'italic' or 'normal' -->
-  </font>
-  <font place="MenuHeader">
-    <name>sans</name>
-    <size>9</size>
-    <!-- font size in points -->
-    <weight>normal</weight>
-    <!-- 'bold' or 'normal' -->
-    <slant>normal</slant>
-    <!-- 'italic' or 'normal' -->
-  </font>
-  <font place="MenuItem">
-    <name>sans</name>
-    <size>9</size>
-    <!-- font size in points -->
-    <weight>normal</weight>
-    <!-- 'bold' or 'normal' -->
-    <slant>normal</slant>
-    <!-- 'italic' or 'normal' -->
-  </font>
-  <font place="ActiveOnScreenDisplay">
-    <name>sans</name>
-    <size>9</size>
-    <!-- font size in points -->
-    <weight>bold</weight>
-    <!-- 'bold' or 'normal' -->
-    <slant>normal</slant>
-    <!-- 'italic' or 'normal' -->
-  </font>
-  <font place="InactiveOnScreenDisplay">
-    <name>sans</name>
-    <size>9</size>
-    <!-- font size in points -->
-    <weight>bold</weight>
-    <!-- 'bold' or 'normal' -->
-    <slant>normal</slant>
+    <slant>italic</slant>
     <!-- 'italic' or 'normal' -->
   </font>
 </theme>
