@@ -8,7 +8,6 @@
 # Background 1: Panel
 rounded = 0
 border_width = 1
-border_sides = TLR
 background_color = #000000 80
 border_color = #555555 80
 background_color_hover = #000000 80
@@ -84,15 +83,15 @@ border_color_pressed = #ffffff 60
 
 #-------------------------------------
 # Panel
-panel_items = L:T:SC
-panel_size = 100% 32
+panel_items = LFTFSBC
+panel_size = 100% 50
 panel_margin = 0 0
-panel_padding = 4 0 4
+panel_padding = 10 5 20
 panel_background_id = 1
 wm_menu = 1
 panel_dock = 0
 panel_position = top center horizontal
-panel_layer = normal
+panel_layer = top
 panel_monitor = all
 panel_shrink = 1
 autohide = 0
@@ -185,9 +184,10 @@ time2_format =%a %d %B
 time1_font = Hack Nerd Font 8
 time1_timezone = 
 time2_timezone = 
-time2_font = agave Nerd Font 7
+time1_font = agave Nerd Font bold 10
+time2_font = agave Nerd Font 12 
 clock_font_color = #eeeeee 100
-clock_padding = 1 0
+clock_padding = 2 2
 clock_background_id = 0
 clock_tooltip = 
 clock_tooltip_timezone = 
@@ -203,12 +203,11 @@ battery_tooltip = 1
 battery_low_status = 10
 battery_low_cmd = notify-send "battery low"
 battery_full_cmd = 
-bat1_font = sans 8
+bat1_font = Cousine Nerd Font 12
 bat2_font = sans 6
 battery_font_color = #eeeeee 100
-bat1_format = 
-bat2_format = 
-battery_padding = 1 0
+bat1_format = %p 
+battery_padding = 1 1
 battery_background_id = 0
 battery_hide = 101
 battery_lclick_command = 
