@@ -1,1 +1,1 @@
-![20211231_02h51m07s_grim](waybar.png)
+![waybar](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/Screenshots/waybar.png)
