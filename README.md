@@ -12,11 +12,11 @@
 </div>
 
 ### [i3](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/i3)
-![2](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/Screenshots/i3-ex.png)
+![2](https://github.com/Jorgedeveloopzz/dotfiles/blob/master/Screenshots/i3-ex.png)
 
 
 ### [Sway](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/sway)
-![sway](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/Screenshots/sway-ex.png)
+![sway](https://github.com/Jorgedeveloopzz/dotfiles/blob/master/Screenshots/sway-ex.png)
 
 ## Software I use
 * OS: [Ubuntu](https://ubuntu.com/)

@@ -1,1 +1,1 @@
-![i3status](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/Screenshots/i3status.png)
+![i3status](https://github.com/Jorgedeveloopzz/dotfiles/blob/master/Screenshots/i3status.png)
