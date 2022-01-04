@@ -1,1 +1,1 @@
-![waybar](https://github.com/Jorgedeveloopzz/dotfiles/blob/master/Screenshots/waybar.png)
+![waybar](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/waybar.png)

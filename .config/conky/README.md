@@ -1,1 +1,1 @@
-![conky](https://github.com/Jorgedeveloopzz/dotfiles/blob/master/Screenshots/conky.png)
+![conky](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/conky.png)
