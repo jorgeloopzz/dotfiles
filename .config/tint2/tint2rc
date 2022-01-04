@@ -9,7 +9,7 @@
 rounded = 20 
 border_width = 1
 background_color = #000000 100
-border_color = #555555 80
+border_color = #ffffff 100
 background_color_hover = #000000 80
 border_color_hover = #555555 80
 background_color_pressed = #000000 80
@@ -83,7 +83,7 @@ border_color_pressed = #ffffff 60
 
 #-------------------------------------
 # Panel
-panel_items = LFTFSBC
+panel_items = PLFTFSBC
 panel_size = 100% 50
 panel_margin = 0 0
 panel_padding = 10 5 15
@@ -110,7 +110,7 @@ mouse_pressed_icon_asb = 100 0 0
 # Taskbar
 taskbar_mode = multi_desktop
 taskbar_hide_if_empty = 0
-taskbar_padding = 0 0 0
+taskbar_padding = 0 0 1
 taskbar_background_id = 0
 taskbar_active_background_id = 0
 taskbar_name = 1
@@ -137,7 +137,7 @@ urgent_nb_of_blink = 100000
 task_maximum_size = 35 35
 task_padding = 4 3 4
 task_font = sans 8
-task_tooltip = 1
+task_tooltip = 0
 task_font_color = #eeeeee 100
 task_icon_asb = 100 0 0
 task_background_id = 2
@@ -161,29 +161,31 @@ systray_monitor = 1
 systray_name_filter = 
 
 #-------------------------------------
-# Launcher
-launcher_padding = 0 0 2
+# Main launcher
+button = new
+button_icon = ~/Descargas/OSLinux-icon.png
+button_max_icon_size = 30
+
+#-------------------------------------
+# Launchers
+launcher_padding = 0 0 10
 launcher_background_id = 0
 launcher_icon_background_id = 0
-launcher_icon_size = 22
+launcher_icon_size = 30
 launcher_icon_asb = 100 0 0
 launcher_icon_theme_override = 0
 startup_notifications = 1
 launcher_tooltip = 1
-launcher_item_app = tint2conf.desktop
-launcher_item_app = firefox.desktop
-launcher_item_app = iceweasel.desktop
-launcher_item_app = chromium-browser.desktop
-launcher_item_app = google-chrome.desktop
-launcher_item_app = x-terminal-emulator.desktop
+launcher_item_app = brave-browser.desktop
+launcher_item_app = com.alacritty.Alacritty.desktop
+launcher_item_app = vscode.desktop
+launcher_item_app = spacefm.desktop
 
 #-------------------------------------
 # Clock
 time1_format = %T
 time2_format =%a %d %B
 time1_font = Hack Nerd Font 8
-time1_timezone = 
-time2_timezone = 
 time1_font = agave Nerd Font bold 10
 time2_font = agave Nerd Font 12 
 clock_font_color = #eeeeee 100
