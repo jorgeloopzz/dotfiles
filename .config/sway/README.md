@@ -2,7 +2,7 @@
   Sway (Wayland)
 </h1>
 
-![result](sway-ex.png)
+![result](sway.png)
 
 * [Wayland](https://wayland.freedesktop.org/)
 * [Sway](https://swaywm.org/)
