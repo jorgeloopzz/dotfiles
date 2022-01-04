@@ -6,9 +6,9 @@
 #-------------------------------------
 # Backgrounds
 # Background 1: Panel
-rounded = 0
+rounded = 20 
 border_width = 1
-background_color = #000000 80
+background_color = #000000 100
 border_color = #555555 80
 background_color_hover = #000000 80
 border_color_hover = #555555 80
@@ -86,11 +86,11 @@ border_color_pressed = #ffffff 60
 panel_items = LFTFSBC
 panel_size = 100% 50
 panel_margin = 0 0
-panel_padding = 10 5 20
+panel_padding = 10 5 15
 panel_background_id = 1
 wm_menu = 1
 panel_dock = 0
-panel_position = top center horizontal
+panel_position = bottom center horizontal
 panel_layer = top
 panel_monitor = all
 panel_shrink = 1
@@ -100,7 +100,7 @@ autohide_hide_timeout = 0.5
 autohide_height = 2
 strut_policy = follow_size
 panel_window_name = tint2
-disable_transparency = 0
+disable_transparency = 1
 mouse_effects = 1
 font_shadow = 0
 mouse_hover_icon_asb = 100 0 10
@@ -121,7 +121,7 @@ taskbar_always_show_all_desktop_tasks = 0
 taskbar_name_padding = 4 0
 taskbar_name_background_id = 6
 taskbar_name_active_background_id = 7
-taskbar_name_font = sans bold 9
+taskbar_name_font = Cousine Nerd Font bold 9
 taskbar_name_font_color = #dddddd 100
 taskbar_name_active_font_color = #dddddd 100
 taskbar_distribute_size = 1
@@ -152,7 +152,7 @@ mouse_scroll_down = next_task
 
 #-------------------------------------
 # System tray (notification area)
-systray_padding = 0 0 2
+systray_padding = 0 0 15
 systray_background_id = 0
 systray_sort = ascending
 systray_icon_size = 22
