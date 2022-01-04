@@ -12,7 +12,8 @@
 </div>
 
 ### [i3](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/i3)
-![2](https://user-images.githubusercontent.com/80071604/147846737-626beda1-a276-42c2-8a7d-4aec927c7cc2.png)
+![2](https://user-images.githubusercontent.com/80071604/148050530-87159f76-5bc8-42c8-9279-767afa84ae1b.png)
+
 
 ### [Sway](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/sway)
 ![sway](https://user-images.githubusercontent.com/80071604/147846742-40904a62-f325-4573-9947-8e55e15f607f.png)
