@@ -710,12 +710,16 @@
   </application>
 -->
 
-    <!-- Removed title bars of Terminal and MPV -->
+    <!-- Remove title bars -->
     <application class="Alacritty">
       <decor>no</decor>
     </application>
 
     <application class="mpv">
+      <decor>no</decor>
+    </application>
+
+    <application class="Conky">
       <decor>no</decor>
     </application>
   </applications>
