@@ -3,17 +3,19 @@
 # full documentation of the configuration options.
 #-------------------------------------
 # Gradients
+# Gradient 1: Nord
+gradient = vertical
+start_color = #2c3e50 100
+end_color = #000000 100
+
 #-------------------------------------
 # Backgrounds
 # Background 1: Panel
 rounded = 20 
-border_width = 1
 background_color = #000000 100
-border_color = #ffffff 100
 background_color_hover = #000000 80
-border_color_hover = #555555 80
 background_color_pressed = #000000 80
-border_color_pressed = #555555 80
+gradient_id = 1
 
 # Background 2: Default task, Iconified task
 rounded = 0
@@ -153,7 +155,7 @@ mouse_scroll_down = next_task
 
 #-------------------------------------
 # System tray (notification area)
-systray_padding = 0 0 15
+systray_padding = 0 0 10
 systray_background_id = 0
 systray_sort = ascending
 systray_icon_size = 22
