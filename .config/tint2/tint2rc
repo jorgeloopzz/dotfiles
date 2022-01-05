@@ -83,7 +83,7 @@ border_color_pressed = #ffffff 60
 
 #-------------------------------------
 # Panel
-panel_items = PLFTFSBC
+panel_items = PLTSBC
 panel_size = 100% 50
 panel_margin = 0 0
 panel_padding = 10 5 15
@@ -165,6 +165,7 @@ systray_name_filter =
 button = new
 button_icon = ~/Descargas/OSLinux-icon.png
 button_max_icon_size = 30
+button_lclick_command = rofi -show 
 
 #-------------------------------------
 # Launchers
@@ -202,41 +203,16 @@ clock_dwheel_command =
 #-------------------------------------
 # Battery
 battery_tooltip = 1
-battery_low_status = 10
+battery_low_status = 30
 battery_low_cmd = notify-send "battery low"
 battery_full_cmd = 
-bat1_font = Cousine Nerd Font 12
-bat2_font = sans 6
+bat1_font = Hack Nerd Font 12
 battery_font_color = #eeeeee 100
 bat1_format = %p 
-battery_padding = 1 1
 battery_background_id = 0
 battery_hide = 101
-battery_lclick_command = 
-battery_rclick_command = 
-battery_mclick_command = 
-battery_uwheel_command = 
-battery_dwheel_command = 
-ac_connected_cmd = 
-ac_disconnected_cmd = 
-
-#-------------------------------------
-# Separator 1
-separator = new
-separator_background_id = 0
-separator_color = #777777 85
-separator_style = dots
-separator_size = 3
-separator_padding = 1 0
-
-#-------------------------------------
-# Separator 2
-separator = new
-separator_background_id = 0
-separator_color = #777777 85
-separator_style = dots
-separator_size = 3
-separator_padding = 1 0
+ac_connected_cmd = notify-send "Charging  "
+ac_disconnected_cmd = notify-send "Done  "
 
 #-------------------------------------
 # Tooltip
