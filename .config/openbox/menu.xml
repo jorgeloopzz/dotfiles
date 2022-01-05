@@ -32,60 +32,60 @@
             </action>
         </item>
         <separator />
-        <menu id="1" label="Development">
+        <menu id="1" label="Development" icon="/usr/share/icons/candy-icons/apps/scalable/applications-development.svg">
             <item label="GDB">
                 <action name="Execute">
                     <execute>alacritty -e gdb</execute>
                 </action>
             </item>
         </menu>
-        <menu id="7" label="Multimedia">
+        <menu id="7" label="Multimedia" icon="/usr/share/icons/candy-icons/apps/scalable/multimedia-volume-control.svg">
             <item label="eXo">
                 <action name="Execute">
                     <execute>exo</execute>
                 </action>
             </item>
-            <item label="mpv">
+            <item label="mpv" icon="/usr/share/icons/candy-icons/apps/scalable/mpv.svg">
                 <action name="Execute">
                     <execute>mpv --player-operation-mode=pseudo-gui</execute>
                 </action>
             </item>
-            <item label="Pavucontrol">
+            <item label="Pavucontrol" icon="/usr/share/icons/candy-icons/apps/scalable/pavucontrol.svg">
                 <action name="Execute">
                     <execute>pavucontrol</execute>
                 </action>
             </item>
         </menu>
-        <menu id="5" label="Network">
-            <item label="Brave">
+        <menu id="5" label="Network" icon="/usr/share/icons/candy-icons/apps/scalable/internet-web-browser.svg">
+            <item label="Brave" icon="/usr/share/icons/candy-icons/apps/scalable/brave.svg">
                 <action name="Execute">
                     <execute>brave-browser-stable</execute>
                 </action>
             </item>
-            <item label="Discord">
+            <item label="Discord" icon="/usr/share/icons/candy-icons/apps/scalable/discord.svg">
                 <action name="Execute">
                     <execute>/usr/share/discord/Discord</execute>
                 </action>
             </item>
-            <item label="Microsoft Teams">
+            <item label="Microsoft Teams" icon="/usr/share/icons/candy-icons/apps/scalable/teams.svg">
                 <action name="Execute">
                     <execute>teams</execute>
                 </action>
             </item>
-            <item label="qBittorrent">
+            <item label="qBittorrent" icon="/usr/share/icons/candy-icons/apps/scalable/qbittorrent.svg">
                 <action name="Execute">
                     <execute>qbittorrent</execute>
                 </action>
             </item>
         </menu>
-        <menu id="3" label="Office">
-            <item label="Document Viewer">
+        <menu id="3" label="Office" icon="/usr/share/icons/candy-icons/apps/scalable/ms-office.svg">
+            <item label="Document Viewer" icon="/usr/share/icons/candy-icons/apps/scalable/document-viewer.svg">
                 <action name="Execute">
                     <execute>evince</execute>
                 </action>
             </item>
         </menu>
-        <menu id="19" label="Shells">
+        <menu id="19" label="Shells" icon="/usr/share/icons/candy-icons/apps/scalable/terminal.svg">
             <item label="Alacritty">
                 <action name="Execute">
                     <execute>alacritty</execute>
@@ -122,7 +122,7 @@
                 </action>
             </item>
         </menu>
-        <menu id="37" label="System">
+        <menu id="37" label="System" icon="/usr/share/icons/candy-icons/apps/scalable/gnome-settings.svg">
             <menu id="36" label="Settings">
                 <menu id="21" label="GNOME">
                     <item label="Advanced Network Configuration">
@@ -295,31 +295,31 @@
                 </action>
             </item>
         </menu>
-        <menu id="38" label="Utilities">
+        <menu id="38" label="Utilities" icon="/usr/share/icons/candy-icons/apps/scalable/applications-utilities.svg">
             <item label="Fonts">
                 <action name="Execute">
                     <execute>gnome-font-viewer</execute>
                 </action>
             </item>
-            <item label="Nitrogen">
+            <item label="Nitrogen" icon="/usr/share/icons/candy-icons/apps/scalable/AppImageLauncher.svg">
                 <action name="Execute">
                     <execute>nitrogen</execute>
                 </action>
             </item>
-            <item label="Screenshot">
+            <item label="Screenshot" icon="/usr/share/icons/candy-icons/apps/scalable/gnome-screenshot.svg">
                 <action name="Execute">
                     <execute>gnome-screenshot --interactive</execute>
                 </action>
             </item>
         </menu>
         <separator />
-        <menu id="40" label="OpenBox">
+        <menu id="40" label="OpenBox" icon="/usr/share/icons/candy-icons/apps/scalable/gnome-monitor.svg">
             <menu id="client-list-menu" />
             <item label="Restart" icon="/usr/share/icons/candy-icons/apps/scalable/system-restart.svg">
                 <action name="Restart" />
             </item>
             <separator />
-            <item label="Exit">
+            <item label="Exit" icon="/usr/share/icons/candy-icons/apps/scalable/xedit.svg">
                 <action name="Exit" />
             </item>
         </menu>
