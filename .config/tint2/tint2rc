@@ -184,21 +184,15 @@ launcher_item_app = spacefm.desktop
 
 #-------------------------------------
 # Clock
-time1_format = %T
-time2_format =%a %d %B
-time1_font = Hack Nerd Font 8
-time1_font = agave Nerd Font bold 10
-time2_font = agave Nerd Font 12 
+time1_format = %T
+time1_font = Cousine Nerd Font 12
 clock_font_color = #eeeeee 100
 clock_padding = 2 2
 clock_background_id = 0
-clock_tooltip = 
+clock_tooltip =  %a %d %B
 clock_tooltip_timezone = 
 clock_lclick_command = zenity --calendar --text ""
 clock_rclick_command = orage
-clock_mclick_command = 
-clock_uwheel_command = 
-clock_dwheel_command = 
 
 #-------------------------------------
 # Battery
@@ -208,7 +202,7 @@ battery_low_cmd = notify-send "battery low"
 battery_full_cmd = 
 bat1_font = Hack Nerd Font 12
 battery_font_color = #eeeeee 100
-bat1_format = %p 
+bat1_format = %p 
 battery_background_id = 0
 battery_hide = 101
 ac_connected_cmd = notify-send "Charging  "
