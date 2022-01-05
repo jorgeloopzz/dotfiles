@@ -13,6 +13,7 @@ tint2 -c ~/.config/tint2/tint2rc &
 volumeicon &
 udiskie -t &
 
+dunst &
 imwheel &
 (sleep 2s && nitrogen --restore) &
 picom --config ~/.config/picom/picom.conf --experimental-backends &
