@@ -15,7 +15,7 @@ end_color = #000000 100
 #-------------------------------------
 # Backgrounds
 # Background 1: Panel
-rounded = 100 
+rounded = 25 
 background_color = #000000 100
 background_color_hover = #000000 80
 background_color_pressed = #000000 80
@@ -28,9 +28,9 @@ background_color_hover = #777777 10
 background_color_pressed = #989898 21
 
 # Background 3: Active task
-rounded = 20
-background_color = #ffffff 21
-background_color_hover = #ffffff 21
+rounded = 0
+background_color = #4C566A 100
+background_color_hover = #2E3440 100
 background_color_pressed = #989898 21
 
 # Background 4: Urgent task
@@ -56,12 +56,15 @@ background_color_pressed = #ffffaa 100
 border_color_pressed = #999999 100
 
 # Background 6: Inactive desktop name
-background_color = #777777 0
-background_color_hover = #ffffff 21
+rounded = 0
+background_color = #4C566A 0
+background_color_hover = #777777 10
 background_color_pressed = #777777 21
 
 # Background 7: Active desktop name
-background_color_hover = #ffffff 21
+rounded = 0
+background_color = #4C566A 100
+background_color_hover = #2E3440 100
 background_color_pressed = #a9a9a9 21
 
 #-------------------------------------
@@ -93,7 +96,7 @@ mouse_pressed_icon_asb = 100 0 0
 # Taskbar
 taskbar_mode = multi_desktop
 taskbar_hide_if_empty = 0
-taskbar_padding = 12 0 1
+taskbar_padding = 2 0 0
 taskbar_background_id = 0
 taskbar_active_background_id = 0
 taskbar_name = 1
@@ -105,7 +108,7 @@ taskbar_always_show_all_desktop_tasks = 1
 taskbar_name_padding = 4 0
 taskbar_name_background_id = 6
 taskbar_name_active_background_id = 7
-taskbar_name_font = Cousine Nerd Font bold 15
+taskbar_name_font = DaddyTimeMono Nerd Font italic 15
 taskbar_name_font_color = #dddddd 100
 taskbar_name_active_font_color = #dddddd 100
 taskbar_distribute_size = 1
@@ -119,8 +122,7 @@ task_icon = 1
 task_centered = 1
 urgent_nb_of_blink = 100000
 task_maximum_size = 30 30
-task_padding = 4 3 4
-task_font = sans 8
+task_padding = 10 3 0
 task_tooltip = 0
 task_font_color = #eeeeee 100
 task_icon_asb = 100 0 0
@@ -168,7 +170,7 @@ launcher_item_app = spacefm.desktop
 #-------------------------------------
 # Clock
 time1_format = %T
-time1_font = Cousine Nerd Font 12
+time1_font = DaddyTimeMono Nerd Font 15
 clock_font_color = #eeeeee 100
 clock_padding = 2 2
 clock_background_id = 0
@@ -182,7 +184,7 @@ battery_tooltip = 1
 battery_low_status = 30
 battery_low_cmd = notify-send "battery low"
 battery_full_cmd = 
-bat1_font = Hack Nerd Font 12
+bat1_font = DaddyTimeMono Nerd Font 15
 battery_font_color = #eeeeee 100
 bat1_format = %p 
 battery_background_id = 0
