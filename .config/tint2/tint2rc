@@ -11,7 +11,7 @@ end_color = #000000 100
 #-------------------------------------
 # Backgrounds
 # Background 1: Panel
-rounded = 20 
+rounded = 100 
 background_color = #000000 100
 background_color_hover = #000000 80
 background_color_pressed = #000000 80
@@ -19,25 +19,15 @@ gradient_id = 1
 
 # Background 2: Default task, Iconified task
 rounded = 0
-border_width = 0
-border_sides = TBLR
 background_color = #777777 0
-border_color = #777777 0
-background_color_hover = #777777 4
-border_color_hover = #cccccc 30
+background_color_hover = #777777 10 
 background_color_pressed = #989898 21
-border_color_pressed = #777777 30
 
 # Background 3: Active task
-rounded = 0
-border_width = 0
-border_sides = TBLR
+rounded = 20
 background_color = #ffffff 21
-border_color = #ffffff 60
 background_color_hover = #ffffff 21
-border_color_hover = #ffffff 60
 background_color_pressed = #989898 21
-border_color_pressed = #ffffff 60
 
 # Background 4: Urgent task
 rounded = 0
@@ -62,26 +52,13 @@ background_color_pressed = #ffffaa 100
 border_color_pressed = #999999 100
 
 # Background 6: Inactive desktop name
-rounded = 0
-border_width = 0
-border_sides = TBLR
 background_color = #777777 0
-border_color = #777777 30
-background_color_hover = #bdbdbd 21
-border_color_hover = #cccccc 30
+background_color_hover = #ffffff 21
 background_color_pressed = #777777 21
-border_color_pressed = #777777 30
 
 # Background 7: Active desktop name
-rounded = 0
-border_width = 0
-border_sides = TBLR
-background_color = #ffffff 21
-border_color = #ffffff 60
 background_color_hover = #ffffff 21
-border_color_hover = #ffffff 60
 background_color_pressed = #a9a9a9 21
-border_color_pressed = #ffffff 60
 
 #-------------------------------------
 # Panel
@@ -161,7 +138,6 @@ systray_sort = ascending
 systray_icon_size = 22
 systray_icon_asb = 100 0 0
 systray_monitor = 1
-systray_name_filter = 
 
 #-------------------------------------
 # Main launcher
