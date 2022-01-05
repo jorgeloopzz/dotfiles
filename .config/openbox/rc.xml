@@ -80,10 +80,10 @@
     <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>爵</name>
-      <name> </name>
-      <name> </name>
-      <name> </name>
+      <name>Desktop 1</name>
+      <name>Desktop 2</name>
+      <name>Desktop 3</name>
+      <name>Desktop 4</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
