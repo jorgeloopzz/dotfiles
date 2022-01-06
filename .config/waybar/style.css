@@ -17,7 +17,7 @@ window#waybar.hidden {
 #workspaces {
     background-color: black;
     border: 2px solid #c9a0dc;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 #workspaces button {
@@ -60,14 +60,14 @@ window#waybar.hidden {
 }
 
 #clock {
-    border-radius: 10px;
+    border-radius: 100px;
     background-color: #c9a0dc;
     color: #000000;
 }
 
 #battery {
     background-color: #c9a0dc;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 100px 100px 0;
     color: #000000;
 }
 
@@ -109,7 +109,7 @@ label:focus {
 
 #network {
     background-color: #c9a0dc;
-    border-radius: 10px 0 0 10px;
+    border-radius: 100px 0 0 100px;
     color: #000000;
 }
 
