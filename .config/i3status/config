@@ -38,7 +38,7 @@ wireless _first_ {
 }
 
 ethernet _first_ {
-        format_up = "  %speed  "
+        format_up = "  %speed  "
         format_down = "  "
 }
 
