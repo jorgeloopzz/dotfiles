@@ -1,10 +1,25 @@
-call plug#begin()
-Plug 'scrooloose/nerdtree'
+"  __   __   __     __    __    
+" /\ \ / /  /\ \   /\ "-./  \   
+" \ \ \'/   \ \ \  \ \ \-./\ \  
+"  \ \__|    \ \_\  \ \_\ \ \_\ 
+"   \/_/      \/_/   \/_/  \/_/ 
 
-Plug 'vim-airline/vim-airline'
+" https://github.com/Jorgedeveloopzz                              
 
-" Initialize plugin system
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+call plug#begin('~/.vim/plugged')
+
+	" File manager
+	Plug 'scrooloose/nerdtree'
+	"Status bar
+	Plug 'vim-airline/vim-airline'
+
 call plug#end()
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General Settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 :set number relativenumber
 
