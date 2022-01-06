@@ -233,7 +233,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # Systrays
 exec --no-startup-id nm-applet &
-#exec --no-startup-id cbatticon -n BAT1
 exec --no-startup-id volumeicon &
 exec --no-startup-id udiskie -t --no-appindicator &
 
@@ -249,12 +248,12 @@ bar {
 	tray_output eDP-1
 	position top
 	workspace_buttons yes
-	height 24
+	height 27
  	font pango:Cousine nerd font 12
  	colors {
-		background #282a36
+		background #3B4252
 		separator #ECEFF4
-		focused_workspace #282a36 #282a36 #f8f8f2
-		active_workspace #282a36 #1a1a1a #f8f8f2
+		focused_workspace #3B4252 #3B4252 #f8f8f2
+		active_workspace #282a36 #282a36 #f8f8f2
  }
 }
