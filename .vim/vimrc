@@ -3,7 +3,7 @@
 " \ \ \'/   \ \ \  \ \ \-./\ \  
 "  \ \__|    \ \_\  \ \_\ \ \_\ 
 "   \/_/      \/_/   \/_/  \/_/ 
-
+"
 " https://github.com/Jorgedeveloopzz                              
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -15,11 +15,16 @@ call plug#begin('~/.vim/plugged')
 	Plug 'scrooloose/nerdtree'
 	"Status bar
 	Plug 'vim-airline/vim-airline'
+	" Icons
+	Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-:set number relativenumber
+set number relativenumber
+syntax enable
+set background=dark
+colorscheme solarized
 
