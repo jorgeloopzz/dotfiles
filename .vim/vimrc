@@ -11,6 +11,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
 
+	"Dracula theme
+	Plug 'dracula/vim', { 'as': 'dracula' }
 	" File manager
 	Plug 'scrooloose/nerdtree'
 	"Status bar
@@ -26,6 +28,6 @@ call plug#end()
 set number relativenumber
 syntax on
 set background=dark
-colorscheme solarized
+colorscheme dracula
 let g:airline_powerline_fonts=1
 
