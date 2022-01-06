@@ -1,2 +1,10 @@
+call plug#begin()
+Plug 'scrooloose/nerdtree'
+
+Plug 'vim-airline/vim-airline'
+
+" Initialize plugin system
+call plug#end()
+
 :set number relativenumber
 
