@@ -18,11 +18,15 @@
 ### [Sway](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/sway)
 ![sway](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/sway-ex.png)
 
+### [Openbox](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/openbox)
+![openbox](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/openbox-ex.png)
+
 ## Software I use
 * OS: [Ubuntu](https://ubuntu.com/)
 * WM:
    * [i3-gaps](https://i3wm.org/)
    * [Sway](https://swaywm.org/)
+   * [Openbox](https://wiki.archlinux.org/title/Openbox)
 * Status bar:
    * [i3status](https://i3wm.org/docs/i3status.html)
    * [Yabar](https://github.com/geommer/yabar)
