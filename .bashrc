@@ -119,3 +119,5 @@ fi
 #Prompt
 eval "$(starship init bash)"
 alias config='/usr/bin/git --git-dir=/home/jorge/.cfg/ --work-tree=/home/jorge'
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
