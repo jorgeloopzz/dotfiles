@@ -35,3 +35,8 @@ syntax on
 colorscheme dracula
 let g:airline_powerline_fonts=1
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Keybings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <C-t> :NERDTreeToggle<CR>
+
