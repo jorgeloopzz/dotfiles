@@ -25,9 +25,9 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set mouse=a
 set number relativenumber
 syntax on
-set background=dark
 colorscheme dracula
 let g:airline_powerline_fonts=1
 
