@@ -215,22 +215,22 @@ mode "resize" {
 #######################################################################
 
 # Set monitor resolution
-exec xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00 &
+exec --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00 &
 
 # Avoid the screen to turn off after X time
-exec xset s off &
+exec --no-startup-id xset s off &
 
 # Restore the chosen wallpaper with nitrogen
-exec sleep2; nitrogen --restore &
+exec --no-startup-id sleep2; nitrogen --restore &
 
 # Set screen temperature
-exec sct 3200 &
+exec --no-startup-id sct 3200 &
 
 # Notifications
-exec dunst &
+exec --no-startup-id dunst &
 
 # Start imwheel
-exec imwheel &
+exec --no-startup-id imwheel &
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -244,7 +244,7 @@ exec --no-startup-id volumeicon &
 exec --no-startup-id udiskie -t --no-appindicator &
 
 # Start picom
-exec picom --config ~/.config/picom/picom.conf & 
+exec --no-startup-id picom --config ~/.config/picom/picom.conf & 
 
 # Start any status bar
 # exec_always --no-startup-id yabar &
