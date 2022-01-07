@@ -151,8 +151,14 @@ assign [class="^Spacefm$"] → $ws4
 assign [class="^mpv$"] → $ws5
 assign [class="^discord$"] → $ws6
 
+# Open certain applications in floating mode
+for_window [class="^mpv$"] floating enable 
+for_window [class="^Nitrogen$"] floating enable
+for_window [class="^Seahorse$"] floating enable
+for_window [class="^Gnome-system-monitor$"] floating enable
+
 # Focus window opened automatically
-for_window[class="."] focus
+for_window [class="."] focus
 
 ### Put workspaces on specific monitors ###
 
