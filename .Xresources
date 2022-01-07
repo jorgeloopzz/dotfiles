@@ -1,5 +1,7 @@
 ! COLORS FOR SXIV
 Sxiv.foreground: #FFFFFF
-Sxiv.background: #2F2F2F
+Sxiv.background: #16161d
+Sxiv.font: DaddyTimeMono Nerd Font-12
 
+! Scale external monitors
 Xft.dpi: 96
