@@ -93,7 +93,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking bindsym $mod+w layout tabbed bindsym $mod+e layout toggle split # toggle tiling / floating bindsym $mod+Shift+space floating toggle
+bindsym $mod+s layout stacking bindsym $mod+w layout tabbed bindsym $mod+e layout toggle split
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+e layout toggle split
@@ -179,7 +179,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut.\
+ Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # Enter resize mode
 bindsym $mod+r mode "resize"
@@ -260,6 +261,6 @@ bar {
 		background #3B4252
 		separator #ECEFF4
 		focused_workspace #3B4252 #3B4252 #f8f8f2
-		active_workspace #282a36 #282a36 #f8f8f2
+		inactive_workspace #282a36 #282a36 #808080
  }
 }
