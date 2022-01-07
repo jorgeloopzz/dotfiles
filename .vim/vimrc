@@ -26,6 +26,8 @@ call plug#end()
 " => General Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set mouse=a
+set cursorline
+set cursorcolumn
 set number relativenumber
 syntax on
 colorscheme dracula
