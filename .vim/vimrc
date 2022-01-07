@@ -19,6 +19,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'vim-airline/vim-airline'
 	" Icons
 	Plug 'ryanoasis/vim-devicons'
+	" Preview CSS colors
+	Plug 'ap/vim-css-color'
 
 call plug#end()
 
