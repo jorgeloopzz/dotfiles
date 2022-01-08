@@ -15,7 +15,7 @@
     "height": 30, 
 
     // Choose the order of the modules
-    "modules-left": ["sway/workspaces", "sway/mode", "custom/media"],
+    "modules-left": ["sway/workspaces", "sway/window"],
     "modules-center": ["clock"],
     "modules-right": ["network", "cpu", "memory", "pulseaudio", "battery", "tray"],
 
@@ -35,6 +35,10 @@
              "focused": "",
              "default": ""
          }
+     },
+
+     "sway/window": {
+	 "format": "{}"
      },
 
     "clock": {

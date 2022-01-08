@@ -1,21 +1,33 @@
 * {
-    border: none;
-    font-family: Cousine  Nerd Font;
+    font-family: Cousine Nerd Font;
     font-size: 15px;
+    border: none;
 }
 
-window#waybar {
+#waybar {
     background-color: rgba(43, 48, 59, 0);
-    transition-property: background-color;
-    transition-duration: .5s;
 }
 
-window#waybar.hidden {
-    opacity: 0.2;
+#waybar.hidden {
+    opacity: 0;
+}
+
+#window {
+    font-family: DaddyTimeMono Nerd Font;
+    background: transparent;
+    border: 2px solid #c9a0dc;
+    border-radius: 100px;
+    color: #ffffff;
+    padding: 0 5px;
+    margin-left: 20px;
+}
+
+window#waybar.empty {
+    border: none;
 }
 
 #workspaces {
-    background-color: black;
+    background-color: #000000;
     border: 2px solid #c9a0dc;
     border-radius: 100px;
 }
