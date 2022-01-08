@@ -15,8 +15,7 @@
 #window {
     font-family: DaddyTimeMono Nerd Font;
     background: transparent;
-    border: 2px solid #c9a0dc;
-    border-radius: 100px;
+    border-bottom: 2px solid #c9a0dc;
     color: #ffffff;
     padding: 0 5px;
     margin-left: 20px;
