@@ -9,8 +9,8 @@
 # Gradients
 # Gradient 1: Nord
 gradient = vertical
-start_color = #2c3e50 100
-end_color = #000000 100
+start_color = #4C566A 100
+end_color = #2E3440 100
 
 #-------------------------------------
 # Backgrounds
@@ -24,13 +24,13 @@ gradient_id = 1
 # Background 2: Default task, Iconified task
 rounded = 0
 background_color = #777777 0
-background_color_hover = #777777 10 
+background_color_hover = #BF616A 20 
 background_color_pressed = #989898 21
 
 # Background 3: Active task
 rounded = 0
-background_color = #4C566A 100
-background_color_hover = #2E3440 100
+background_color = #BF616A 100
+background_color_hover = #BF616A 20
 background_color_pressed = #989898 21
 
 # Background 4: Urgent task
@@ -63,8 +63,8 @@ background_color_pressed = #777777 21
 
 # Background 7: Active desktop name
 rounded = 0
-background_color = #4C566A 100
-background_color_hover = #2E3440 100
+background_color = #BF616A 100
+background_color_hover = #BF616A 20
 background_color_pressed = #a9a9a9 21
 
 #-------------------------------------
@@ -109,8 +109,8 @@ taskbar_name_padding = 4 0
 taskbar_name_background_id = 6
 taskbar_name_active_background_id = 7
 taskbar_name_font = DaddyTimeMono Nerd Font italic 15
-taskbar_name_font_color = #dddddd 100
-taskbar_name_active_font_color = #dddddd 100
+taskbar_name_font_color = #ECEFF4 100
+taskbar_name_active_font_color = #ECEFF4 100
 taskbar_distribute_size = 1
 taskbar_sort_order = none
 task_align = left
@@ -171,7 +171,7 @@ launcher_item_app = spacefm.desktop
 # Clock
 time1_format = %T
 time1_font = DaddyTimeMono Nerd Font 15
-clock_font_color = #eeeeee 100
+clock_font_color = #ECEFF4 100
 clock_padding = 2 2
 clock_background_id = 0
 clock_tooltip =  %a %d %B
@@ -185,7 +185,7 @@ battery_low_status = 30
 battery_low_cmd = notify-send "battery low"
 battery_full_cmd = 
 bat1_font = DaddyTimeMono Nerd Font 15
-battery_font_color = #eeeeee 100
+battery_font_color = #ECEFF4 100
 bat1_format = %p 
 battery_background_id = 0
 battery_hide = 101
@@ -198,6 +198,6 @@ tooltip_show_timeout = 0.5
 tooltip_hide_timeout = 0.1
 tooltip_padding = 2 2
 tooltip_background_id = 5
-tooltip_font_color = #222222 100
+tooltip_font_color = #ECEFF4 100
 tooltip_font = sans 9
 
