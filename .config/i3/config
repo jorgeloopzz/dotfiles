@@ -147,7 +147,7 @@ assign [class="^Brave-browser$"] → $ws1
 assign [class="^Tor Browser"] → $ws1
 assign [class="^Alacritty$"] → $ws2
 assign [class="^Code$"] → $ws3
-assign [class="^Spacefm$"] → $ws4
+assign [class="^Pcmanfm$"] → $ws4
 assign [class="^mpv$"] → $ws5
 assign [class="^discord$"] → $ws6
 

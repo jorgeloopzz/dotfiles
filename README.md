@@ -36,7 +36,7 @@
 * Terminal emulator: [Alacritty](https://wiki.archlinux.org/title/Alacritty)
 * Browser: [Brave](https://brave.com/)
 * File Managers:
-   * [SpaceFM](https://wiki.archlinux.org/title/SpaceFM)
+   * [SpaceFM](https://wiki.archlinux.org/title/PCManFM)
    * [Ranger](https://wiki.archlinux.org/title/Ranger)
 * IDE'S:
    * [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code)
