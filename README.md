@@ -27,6 +27,7 @@
    * [i3-gaps](https://i3wm.org/)
    * [Sway](https://swaywm.org/)
    * [Openbox](https://wiki.archlinux.org/title/Openbox)
+   * [Spectrwm](https://wiki.archlinux.org/title/Spectrwm)
 * Status bar:
    * [i3status](https://i3wm.org/docs/i3status.html)
    * [Yabar](https://github.com/geommer/yabar)
@@ -36,7 +37,7 @@
 * Terminal emulator: [Alacritty](https://wiki.archlinux.org/title/Alacritty)
 * Browser: [Brave](https://brave.com/)
 * File Managers:
-   * [SpaceFM](https://wiki.archlinux.org/title/PCManFM)
+   * [PcmanFM](https://wiki.archlinux.org/title/PCManFM)
    * [Ranger](https://wiki.archlinux.org/title/Ranger)
 * IDE'S:
    * [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code)
