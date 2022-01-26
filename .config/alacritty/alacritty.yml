@@ -173,7 +173,36 @@ schemes:
       cyan: '#6d96a5'
       white: '#aeb3bb'
 
-colors: *dracula
+  snazzy: &snazzy
+    primary:
+      background: '#100c08'
+      foreground: '#eff0eb'
+    normal:
+      black:   '#282a36'
+      red:     '#ff5c57'
+      green:   '#5af78e'
+      yellow:  '#f3f99d'
+      blue:    '#57c7ff'
+      magenta: '#ff6ac1'
+      cyan:    '#9aedfe'
+      white:   '#f1f1f0'
+    bright:
+      black:   '#686868'
+      red:     '#ff5c57'
+      green:   '#5af78e'
+      yellow:  '#f3f99d'
+      blue:    '#57c7ff'
+      magenta: '#ff6ac1'
+      cyan:    '#9aedfe'
+      white:   '#f1f1f0'
+
+# Select one of the next themes:
+# - tokyo-night
+# - tokyo-night-storm
+# - dracula
+# - nord
+# - snazzy
+colors: *snazzy
 
 # Fonts
 font:
