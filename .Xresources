@@ -5,3 +5,7 @@ Sxiv.font: DaddyTimeMono Nerd Font-12
 
 ! Scale external monitors
 Xft.dpi: 96
+
+! Cursor size
+Xcursor.size: 24
+
