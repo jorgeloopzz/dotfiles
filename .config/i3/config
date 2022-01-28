@@ -149,6 +149,7 @@ assign [class="^Code$"] → $ws3
 assign [class="^Pcmanfm$"] → $ws4
 assign [class="^mpv$"] → $ws5
 assign [class="^discord$"] → $ws6
+assign [class="^nuclear$"] → $ws7 
 
 # Open certain applications in floating mode
 for_window [class="^mpv$"] floating enable 
@@ -170,6 +171,7 @@ workspace $ws6 output eDP-1
 workspace $ws2 output HDMI-1
 workspace $ws3 output HDMI-1
 workspace $ws4 output HDMI-1
+workspace $ws7 output HDMI-1
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
