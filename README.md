@@ -35,7 +35,10 @@
    * [Tint2](https://wiki.archlinux.org/title/Tint2)
 * Login Manager: [Sddm](https://wiki.archlinux.org/title/SDDM)
 * Terminal emulator: [Alacritty](https://wiki.archlinux.org/title/Alacritty)
-* Browser: [Brave](https://brave.com/)
+* Browsers: 
+   * [Brave](https://brave.com/)
+   * [Libre Wolf](https://librewolf.net/)
+   * [Tor](https://www.torproject.org/)
 * File Managers:
    * [PcmanFM](https://wiki.archlinux.org/title/PCManFM)
    * [Ranger](https://wiki.archlinux.org/title/Ranger)
