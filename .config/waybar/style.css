@@ -26,7 +26,7 @@ window#waybar.empty {
 }
 
 #workspaces {
-    background-color: #000000;
+    background-color: transparent;
     border: 2px solid #c9a0dc;
     border-radius: 100px;
 }
