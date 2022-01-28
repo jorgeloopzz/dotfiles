@@ -45,7 +45,7 @@
 * Media players:
    * [SXIV](https://wiki.archlinux.org/title/Sxiv) (pictures)
    * [MPV](https://wiki.archlinux.org/title/Mpv) (video & audio)
-   * [mocp](https://wiki.archlinux.org/title/MOC) (music)
+   * [nuclear](https://nuclear.js.org/) (music)
 * Background setter: [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)
 * Torrent client: [qBittorrent](https://www.qbittorrent.org/)
 * Launchers: 
