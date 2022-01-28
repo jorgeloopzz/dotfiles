@@ -44,7 +44,7 @@ set $menu wofi -I -S drun
 ### Output configuration ###
 
 # Wallpaper
-output * bg ~/Wallpapers/0083.png fill
+output * bg ~/Wallpapers/0208.jpg fill
 
 # Monitors
 output eDP-1 resolution 1920x1080 position 0,0
