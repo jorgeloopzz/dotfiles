@@ -45,11 +45,11 @@ smart_borders no_gaps
 #######################################################################
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #00ffff #00ffff #00ffff #00ffff   #00ffff
+client.focused          #96CDFB #96CDFB #96CDFB #96CDFB   #96CDFB
 client.unfocused	#343434 #343434 #343434 #343434   #343434
 
 # Disable window titlebars
-for_window [class="^.*"] border pixel 2# Window borders
+for_window [class="^.*"] border pixel 3# Window borders
 
 
 #######################################################################
@@ -259,9 +259,9 @@ bar {
 	height 27
  	font pango:Cousine nerd font 12
  	colors {
-		background #3B4252
-		separator #ECEFF4
-		focused_workspace #3B4252 #3B4252 #f8f8f2
-		inactive_workspace #282a36 #282a36 #808080
+		background #302D41
+		separator #D9E0EE
+		focused_workspace #302D41 #302D41 #D9E0EE
+		inactive_workspace #1E1E2E #1E1E2E #808080
  }
 }
