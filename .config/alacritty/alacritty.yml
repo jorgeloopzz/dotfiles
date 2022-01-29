@@ -196,13 +196,43 @@ schemes:
       cyan:    '#9aedfe'
       white:   '#f1f1f0'
 
+  catppuccin: &catppuccin
+    primary:
+      background: '#1E1D2F'
+      foreground: '#D9E0EE'
+    cursor:
+      text: '#1E1D2F'
+      cursor: '#F5E0DC'
+    normal:
+      black:   '#6E6C7E'
+      red:     '#F28FAD'
+      green:   '#ABE9B3'
+      yellow:  '#FAE3B0'
+      blue:    '#96CDFB'
+      magenta: '#F5C2E7'
+      cyan:    '#89DCEB'
+      white:   '#D9E0EE'
+    bright:
+      black:   '#988BA2'
+      red:     '#F28FAD'
+      green:   '#ABE9B3'
+      yellow:  '#FAE3B0'
+      blue:    '#96CDFB'
+      magenta: '#F5C2E7'
+      cyan:    '#89DCEB'
+      white:   '#D9E0EE'
+    indexed_colors:
+      - { index: 16, color: '#F8BD96' }
+      - { index: 17, color: '#F5E0DC' }
+
 # Select one of the next themes:
 # - tokyo-night
 # - tokyo-night-storm
 # - dracula
 # - nord
 # - snazzy
-colors: *snazzy
+# - catppuccin
+colors: *catppuccin
 
 # Fonts
 font:
