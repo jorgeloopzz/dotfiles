@@ -1,0 +1,30 @@
+#  ______  ________   _________  ___   ___   __  __   ______    ________      
+# /_____/\/_______/\ /________/\/__/\ /__/\ /_/\/_/\ /_____/\  /_______/\     
+# \:::__\/\::: _  \ \\__.::.__\/\::\ \\  \ \\:\ \:\ \\:::_ \ \ \::: _  \ \    
+#    /: /  \::(_)  \ \  \::\ \   \::\/_\ .\ \\:\ \:\ \\:(_) ) )_\::(_)  \ \   
+#   /::/___ \:: __  \ \  \::\ \   \:: ___::\ \\:\ \:\ \\: __ `\ \\:: __  \ \  
+#  /_:/____/\\:.\ \  \ \  \::\ \   \: \ \\::\ \\:\_\:\ \\ \ `\ \ \\:.\ \  \ \ 
+#  \_______\/ \__\/\__\/   \__\/    \__\/ \::\/ \_____\/ \_\/ \_\/ \__\/\__\/ 
+# 
+# https://github.com/Jorgedeveloopzz                                                                            
+
+# colors
+set statusbar-bg "#00FF00"
+set statusbar-fg red
+
+# settings
+set window-height 1024
+set window-width 768
+set adjust-open width
+
+# use sqlite as bookmarks database backend
+set database sqlite
+
+# key bindings
+map <PageUp> navigate previous
+map <PageDown> navigate next
+
+map + zoom in
+map - zoom out
+
+map <C-q> quit
