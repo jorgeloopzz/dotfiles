@@ -228,7 +228,7 @@ exec --no-startup-id sleep2; nitrogen --restore &
 exec --no-startup-id sct 3200 &
 
 # Notifications
-exec --no-startup-id dunst &
+exec --no-startup-id dunst -conf /home/jorge/.config/dunst/catppuccinrc &
 
 # Start imwheel
 exec --no-startup-id imwheel &
