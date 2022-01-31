@@ -58,7 +58,9 @@
    * [gnome-screenshot](https://github.com/GNOME/gnome-screenshot)
    * [grim](https://github.com/emersion/grim)
    * [slurp](https://github.com/emersion/slurp)
-* Document reader: [Evince](https://wiki.archlinux.org/title/GNOME/Document_viewer)
+* Document reader: 
+   * [Evince](https://wiki.archlinux.org/title/GNOME/Document_viewer)
+   * [Zathura](https://wiki.archlinux.org/title/zathura)
 * Password manager: [Seahorse](https://wiki.gnome.org/Apps/Seahorse)
 * GTK:
    * [lxappearance](https://github.com/lxde/lxappearance)
