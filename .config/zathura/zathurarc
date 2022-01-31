@@ -9,12 +9,14 @@
 # https://github.com/Jorgedeveloopzz                                                                            
 
 # colors
-set statusbar-bg "#00FF00"
-set statusbar-fg red
+include catppuccin
+
+# Font
+set font "Agave Nerd Font 14"
 
 # settings
-set window-height 1024
-set window-width 768
+set window-height 1920
+set window-width 1080
 set adjust-open width
 
 # use sqlite as bookmarks database backend
