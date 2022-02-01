@@ -6,7 +6,7 @@
 #  /_:/____/\\:.\ \  \ \  \::\ \   \: \ \\::\ \\:\_\:\ \\ \ `\ \ \\:.\ \  \ \ 
 #  \_______\/ \__\/\__\/   \__\/    \__\/ \::\/ \_____\/ \_\/ \_\/ \__\/\__\/ 
 # 
-# https://github.com/Jorgedeveloopzz                                                                            
+# https://github.com/Jorgedeveloopzz
 
 # colors
 include catppuccin
@@ -18,15 +18,5 @@ set font "Agave Nerd Font 14"
 set window-height 1920
 set window-width 1080
 set adjust-open width
+set page-padding 3
 
-# use sqlite as bookmarks database backend
-set database sqlite
-
-# key bindings
-map <PageUp> navigate previous
-map <PageDown> navigate next
-
-map + zoom in
-map - zoom out
-
-map <C-q> quit
