@@ -185,6 +185,7 @@ default_border pixel 2
     assign [class="^mpv$"] → 5
     assign [class="^discord$"] → 6
     assign [class="^nuclear$"] → 7
+    assign [class="^Zathura$"] → 8
 
 # Layout stuff:
 

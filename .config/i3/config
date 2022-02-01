@@ -121,6 +121,7 @@ set $ws4 "4: "
 set $ws5 "5: "
 set $ws6 "6: "
 set $ws7 "7: "
+set $ws8 "8:"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
@@ -130,6 +131,7 @@ bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -139,6 +141,7 @@ bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
+bindysm $mod+Shift+8 move container to workspace $ws8
 
 # Open applications in certain workspaces
 assign [class="^Brave-browser$"] → $ws1 
@@ -150,6 +153,7 @@ assign [class="^Pcmanfm$"] → $ws4
 assign [class="^mpv$"] → $ws5
 assign [class="^discord$"] → $ws6
 assign [class="^nuclear$"] → $ws7 
+assign [class="^Zathura$"] → $ws8
 
 # Open certain applications in floating mode
 for_window [class="^mpv$"] floating enable 
