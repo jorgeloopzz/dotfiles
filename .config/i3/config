@@ -49,7 +49,7 @@ client.focused          #96CDFB #96CDFB #96CDFB #96CDFB   #96CDFB
 client.unfocused	#343434 #343434 #343434 #343434   #343434
 
 # Disable window titlebars
-for_window [class="^.*"] border pixel 3# Window borders
+for_window [class="^.*"] border pixel 2# Window borders
 
 
 #######################################################################
