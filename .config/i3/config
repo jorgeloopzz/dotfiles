@@ -46,7 +46,7 @@ smart_borders no_gaps
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #96CDFB #96CDFB #96CDFB #96CDFB   #96CDFB
-client.unfocused	#343434 #343434 #343434 #343434   #343434
+client.unfocused	#055494 #055494 #055494 #055494   #055494
 
 # Disable window titlebars
 for_window [class="^.*"] border pixel 2# Window borders
