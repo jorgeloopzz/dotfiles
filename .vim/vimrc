@@ -36,7 +36,9 @@ colorscheme dracula
 let g:airline_powerline_fonts=1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Keybings
+" => Keybindings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-t> :NERDTreeToggle <CR>
+nnoremap <C-s> :w <CR>
+nnoremap <C-q> :wq <CR>
 
