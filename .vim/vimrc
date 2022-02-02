@@ -21,6 +21,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'ryanoasis/vim-devicons'
 	" Preview CSS colors
 	Plug 'ap/vim-css-color'
+	" Multiple cursor
+	Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 call plug#end()
 
