@@ -48,12 +48,8 @@ border_color_pressed = #aa7733 100
 rounded = 2
 border_width = 1
 border_sides = TBLR
-background_color = #ffffaa 100
-border_color = #999999 100
-background_color_hover = #ffffaa 100
-border_color_hover = #999999 100
-background_color_pressed = #ffffaa 100
-border_color_pressed = #999999 100
+background_color = #4C566A 100
+border_color = #ECEFF4 100
 
 # Background 6: Inactive desktop name
 rounded = 0
@@ -199,5 +195,5 @@ tooltip_hide_timeout = 0.1
 tooltip_padding = 2 2
 tooltip_background_id = 5
 tooltip_font_color = #ECEFF4 100
-tooltip_font = sans 9
+tooltip_font = DaddyTimeMono Nerd Font italic 9
 
