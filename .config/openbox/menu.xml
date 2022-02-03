@@ -22,13 +22,13 @@
         <!-- SpaceFM -->
         <item label="File Manager" icon="/usr/share/icons/candy-icons/apps/scalable/spacefm.svg">
             <action name="Execute">
-                <execute>spacefm</execute>
+                <execute>pcmanfm</execute>
             </action>
         </item>
         <!-- Music player -->
         <item label="Music" icon="/usr/share/icons/candy-icons/apps/scalable/juk.svg">
             <action name="Execute">
-                <execute>alacritty -e mocp</execute>
+                <execute>nuclear</execute>
             </action>
         </item>
         <separator />
@@ -40,11 +40,6 @@
             </item>
         </menu>
         <menu id="7" label="Multimedia" icon="/usr/share/icons/candy-icons/apps/scalable/multimedia-volume-control.svg">
-            <item label="eXo">
-                <action name="Execute">
-                    <execute>exo</execute>
-                </action>
-            </item>
             <item label="mpv" icon="/usr/share/icons/candy-icons/apps/scalable/mpv.svg">
                 <action name="Execute">
                     <execute>mpv --player-operation-mode=pseudo-gui</execute>
