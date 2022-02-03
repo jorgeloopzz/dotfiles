@@ -161,7 +161,7 @@ launcher_tooltip = 1
 launcher_item_app = brave-browser.desktop
 launcher_item_app = com.alacritty.Alacritty.desktop
 launcher_item_app = vscode.desktop
-launcher_item_app = spacefm.desktop
+launcher_item_app = pcmanfm.desktop
 
 #-------------------------------------
 # Clock
