@@ -121,7 +121,7 @@ set $ws4 "4: "
 set $ws5 "5: "
 set $ws6 "6: "
 set $ws7 "7: "
-set $ws8 "8:"
+set $ws8 "8: "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
@@ -153,7 +153,7 @@ assign [class="^Pcmanfm$"] → $ws4
 assign [class="^mpv$"] → $ws5
 assign [class="^discord$"] → $ws6
 assign [class="^nuclear$"] → $ws7 
-assign [class="^Zathura$"] → $ws8
+assign [class="^TelegramDesktop$"] → $ws8
 
 # Open certain applications in floating mode
 for_window [class="^mpv$"] floating enable 
