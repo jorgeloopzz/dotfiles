@@ -67,7 +67,7 @@ memory {
 }
 
 tztime local {
-        format = "  %a %d/%m/%Y -  %T "
+        format = "  %A, %d/%m/%Y -  %T "
 }
 
 battery 1 {
