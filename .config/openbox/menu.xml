@@ -57,9 +57,9 @@
                     <execute>brave-browser-stable</execute>
                 </action>
             </item>
-            <item label="Libre Wolf" icon="/usr/share/icons/candy-icons/apps/scalable/librewolf.svg">
+            <item label="Firefox" icon="/usr/share/icons/candy-icons/apps/scalable/firefox-4.0.svg">
                 <action name="Execute">
-                    <execute>~/AppImages/LibreWolf.x86_64.AppImage</execute>
+                    <execute>firefox</execute>
                 </action>
             </item>
             <item label="Discord" icon="/usr/share/icons/candy-icons/apps/scalable/discord.svg">
