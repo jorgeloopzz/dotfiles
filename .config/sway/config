@@ -179,6 +179,7 @@ default_border pixel 2
     # Launch apps in certain applications
     assign [class="^Brave-browser$"]  → 1
     assign [class="^Tor Browser$"] → 1
+    assign [class="^Firefox$"] → 1
     assign [class="^Alacritty$"] → 2
     assign [class="^Code$"] → 3
     assign [class="^Pcmanfm$"] → 4

@@ -145,8 +145,8 @@ bindysm $mod+Shift+8 move container to workspace $ws8
 
 # Open applications in certain workspaces
 assign [class="^Brave-browser$"] → $ws1 
-assign [class="^Tor Browser"] → $ws1
-assign [class="^LibreWolf"] → $ws1
+assign [class="^Tor Browser$"] → $ws1
+assign [class="^Firefox$"] → $ws1
 assign [class="^Alacritty$"] → $ws2
 assign [class="^Code$"] → $ws3
 assign [class="^Pcmanfm$"] → $ws4
