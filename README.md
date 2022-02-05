@@ -37,7 +37,7 @@
 * Terminal emulator: [Alacritty](https://wiki.archlinux.org/title/Alacritty)
 * Browsers: 
    * [Brave](https://brave.com/)
-   * [Libre Wolf](https://librewolf.net/)
+   * [Firefox](https://www.mozilla.org/es-ES/firefox/new/)
    * [Tor](https://www.torproject.org/)
 * File Managers:
    * [PcmanFM](https://wiki.archlinux.org/title/PCManFM)
