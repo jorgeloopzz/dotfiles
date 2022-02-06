@@ -24,13 +24,11 @@ general {
 order += "wireless _first_"
 order += "ethernet _first_"
 order += "disk /"
-#order += "load"
-#order += "cpu_temperature 0"
 order += "cpu_usage"
 order += "memory"
 order += "tztime local"
 order += "battery 1"
-#order += "volume master"
+# order += "volume master"
 
 wireless _first_ {
         format_up = "直 %essid "
@@ -47,14 +45,6 @@ disk "/" {
 	prefix_type = decimal
 }
 
-load {
-        format = "%1min"
-}
-
-cpu_temperature 0 {
-	format = "  %degrees°C "
-}
-
 cpu_usage {
 	format =  "  %usage "
 }
@@ -63,11 +53,10 @@ memory {
         format = "  %used "
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
-#	prefix_type = decimal
 }
 
 tztime local {
-        format = "  %A, %d/%m/%Y -  %T "
+        format = "  %A, %d/%m/%Y -  %H:%M "
 }
 
 battery 1 {
