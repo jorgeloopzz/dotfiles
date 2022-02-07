@@ -27,7 +27,7 @@ order += "disk /"
 order += "cpu_usage"
 order += "memory"
 order += "tztime local"
-order += "battery 1"
+# order += "battery 1"
 # order += "volume master"
 
 wireless _first_ {
