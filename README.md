@@ -35,6 +35,7 @@
    * [Tint2](https://wiki.archlinux.org/title/Tint2)
 * Login Manager: [Sddm](https://wiki.archlinux.org/title/SDDM)
 * Terminal emulator: [Alacritty](https://wiki.archlinux.org/title/Alacritty)
+* Shell: [Zsh](https://wiki.archlinux.org/title/Zsh)
 * Browsers: 
    * [Brave](https://brave.com/)
    * [Firefox](https://www.mozilla.org/es-ES/firefox/new/)
