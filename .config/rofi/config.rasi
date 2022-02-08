@@ -7,7 +7,7 @@
 /*  https://github.com/Jorgedeveloopzz  */
 
 configuration {
-	modi: "drun,window";
+	modi: "drun";
 	show-icons: true;
 	theme: "catppuccin";
 	drun-display-format: "{icon} {name}";
@@ -15,9 +15,6 @@ configuration {
 	disable-history: false;
 	hide-scrollbar: true;
 	display-drun: "   Apps ";
-	display-run: "   Run ";
-	display-window: " 﩯  window";
-	display-Network: " 󰤨  Network";
 	sidebar-mode: true;
 }
 
