@@ -90,7 +90,6 @@ source $ZSH/oh-my-zsh.sh
 alias l="ls -la"
 alias neofetch="neofetch --source ~/.config/neofetch/ascii2.txt"
 alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
-alias remove="apt remove --autoremove"
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade"
 
