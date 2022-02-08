@@ -5,7 +5,7 @@
 export ZSH="/home/jorge/.oh-my-zsh"
 
 ### THEME ###
-ZSH_THEME="kardan"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
