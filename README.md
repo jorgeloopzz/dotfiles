@@ -67,6 +67,7 @@
 	* [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome)
 	* [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica)
 	* [Nordic](https://github.com/EliverLara/Nordic)
+	* [Catppuccin](https://github.com/catppuccin/catppuccin)
 	* [Candy-icons](https://github.com/EliverLara/candy-icons)
 * Notifications: [Dunst](https://wiki.archlinux.org/title/Dunst)
 * Sound: 
