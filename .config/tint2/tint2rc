@@ -158,8 +158,7 @@ launcher_icon_asb = 100 0 0
 launcher_icon_theme_override = 0
 startup_notifications = 1
 launcher_tooltip = 1
-launcher_item_app = brave-browser.desktop
-launcher_item_app = com.alacritty.Alacritty.desktop
+launcher_item_app = firefox.desktop
 launcher_item_app = vscode.desktop
 launcher_item_app = pcmanfm.desktop
 
