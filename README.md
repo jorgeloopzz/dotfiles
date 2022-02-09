@@ -22,64 +22,35 @@
 ![openbox](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/openbox-ex.png)
 
 ## Software I use
-* OS: [Ubuntu](https://ubuntu.com/)
-* WM:
-	* [i3-gaps](https://i3wm.org/)
-	* [Sway](https://swaywm.org/)
-	* [Openbox](https://wiki.archlinux.org/title/Openbox)
-	* [Spectrwm](https://wiki.archlinux.org/title/Spectrwm)
-* Status bar:
-	* [i3status](https://i3wm.org/docs/i3status.html)
-	* [Yabar](https://github.com/geommer/yabar)
-	* [Waybar](https://github.com/Alexays/Waybar)
-	* [Tint2](https://wiki.archlinux.org/title/Tint2)
-* Login Manager: [Sddm](https://wiki.archlinux.org/title/SDDM)
-* Terminal emulator: [Alacritty](https://wiki.archlinux.org/title/Alacritty)
-* Shell: [Zsh](https://wiki.archlinux.org/title/Zsh)
-* Browsers: 
-	* [Firefox](https://www.mozilla.org/es-ES/firefox/new/)
-	* [Tor](https://www.torproject.org/)
-* File Managers:
-	* [PcmanFM](https://wiki.archlinux.org/title/PCManFM)
-	* [Ranger](https://wiki.archlinux.org/title/Ranger)
-* IDE'S:
-	* [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code)
-	* [Vim](https://wiki.archlinux.org/title/Vim)
-* Media players:
-	* [SXIV](https://wiki.archlinux.org/title/Sxiv) (pictures)
-	* [MPV](https://wiki.archlinux.org/title/Mpv) (video & audio)
-	* [nuclear](https://nuclear.js.org/) (music)
-* Background setter: [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)
-* Torrent client: [qBittorrent](https://www.qbittorrent.org/)
-* Launchers: 
-	* [Rofi](https://wiki.archlinux.org/title/Rofi)
-	* [Wofi](https://github.com/tsujp/wofi)
-* Screenshots:
-	* [gnome-screenshot](https://github.com/GNOME/gnome-screenshot)
-	* [grim](https://github.com/emersion/grim)
-	* [slurp](https://github.com/emersion/slurp)
-* Document reader: [Zathura](https://wiki.archlinux.org/title/zathura)
-* Password manager: [Seahorse](https://wiki.gnome.org/Apps/Seahorse)
-* GTK:
-	* [lxappearance](https://github.com/lxde/lxappearance)
-	* [Noita](https://github.com/doktorbro/jekyll-noita)
-	* [Arc-Dark](https://github.com/horst3180/arc-theme)
-	* [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome)
-	* [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica)
-	* [Nordic](https://github.com/EliverLara/Nordic)
-	* [Catppuccin](https://github.com/catppuccin/catppuccin)
-	* [Candy-icons](https://github.com/EliverLara/candy-icons)
-* Notifications: [Dunst](https://wiki.archlinux.org/title/Dunst)
-* Sound: 
-	* [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio)
-	* [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)
-* Mouse cursor speed: [Imwheel](https://wiki.archlinux.org/title/IMWheel)
-* Network: [Network manager](https://wiki.archlinux.org/title/NetworkManager)
-* Screen temperature: [SCT](https://github.com/faf0/sct)
-* Monitor resolution: [Xrandr](https://wiki.archlinux.org/title/Xrandr)
-* Compositor: [Picom](https://wiki.archlinux.org/title/Picom)
-* Systray:
-	* [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet)
-	* [cbatticon](https://github.com/valr/cbatticon)
-	* [Volumeicon](https://github.com/Maato/volumeicon)
-	* [Udiskie](https://wiki.archlinux.org/title/Udisks)
+|Software		| Name																	|
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Distribution		| [Ubuntu](https://ubuntu.com/)														|
+| WM			| [i3-gaps](https://i3wm.org/), [Sway](https://swaywm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [Spectrwm](https://wiki.archlinux.org/title/Spectrwm)															|
+| Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Waybar](https://github.com/Alexays/Waybar), [Tint2](https://wiki.archlinux.org/title/Tint2)														|
+| Login Manager		| [Sddm](https://wiki.archlinux.org/title/SDDM)												|
+| Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
+| Shell			| [Zsh](https://wiki.archlinux.org/title/Zsh)												|
+| Browsers		| [Firefox](https://www.mozilla.org/es-ES/firefox/new/), [Tor](https://www.torproject.org/)						|
+| File managers		| [PcmanFM](https://wiki.archlinux.org/title/PCManFM), [Ranger](https://wiki.archlinux.org/title/Ranger)				|
+| Chat			| [Telegram](https://desktop.telegram.org/)												|
+| IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Vim](https://wiki.archlinux.org/title/Vim)				|
+| Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)	|
+| Video player		| [MPV](https://wiki.archlinux.org/title/Mpv)												|
+| Music player		| [nuclear](https://nuclear.js.org/)													|
+| Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
+| Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
+| Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi), [Rofi](https://wiki.archlinux.org/title/Rofi)						|
+| Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot), [grim](https://github.com/emersion/grim), [slurp](https://github.com/emersion/slurp)																		|
+| Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
+| Password Manager	| [Seahorse](https://wiki.gnome.org/Apps/Seahorse)											|
+| GTK configuration	| [lxappearance](https://github.com/lxde/lxappearance)											|
+| GTK Themes		| [Noita](https://github.com/doktorbro/jekyll-noita), [Arc-Dark](https://github.com/horst3180/arc-theme), [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome), [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica), [Nordic](https://github.com/EliverLara/Nordic), [Catppuccin](https://github.com/catppuccin/catppuccin)								|
+| Icon themes		| [Candy-icons](https://github.com/EliverLara/candy-icons), [WhiteSur](https://github.com/vinceliuice/WhiteSur-icon-theme)		|
+| Notfications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
+| Sound			| [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)		|
+| Network		| [Network manager](https://wiki.archlinux.org/title/NetworkManager)									|
+| Cursor speed		| [Imwheel](https://wiki.archlinux.org/title/IMWheel)											|
+| Screen temperature	| [SCT](https://github.com/faf0/sct)													|
+| Monitor resolution	| [Xrandr](https://wiki.archlinux.org/title/Xrandr)											|
+| Compositor		| [Picom](https://wiki.archlinux.org/title/Picom)											|
+| Systray		| [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon), [Udiskie](https://wiki.archlinux.org/title/Udisks)									|
