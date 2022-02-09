@@ -44,7 +44,7 @@ set $menu wofi -I -S drun
 ### Output configuration ###
 
 # Wallpaper
-output * bg ~/Wallpapers/0208.jpg fill
+output * bg ~/Wallpapers/0121.png fill
 
 # Monitors
 output eDP-1 resolution 1920x1080 position 0,0
@@ -258,7 +258,7 @@ set $gnome-schema org.gnome.desktop.interface
 
 exec_always {
     gsettings set $gnome-schema gtk-theme 'Noita'
-    gsettings set $gnome-schema icon-theme 'candy-icons'
+    gsettings set $gnome-schema icon-theme 'WhiteSur-dark'
 }
 
 ### Status bar ###
