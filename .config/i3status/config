@@ -46,11 +46,11 @@ disk "/" {
 }
 
 cpu_usage {
-	format =  "  %usage "
+	format =  "  %usage "
 }
 
 memory {
-        format = "  %used "
+        format = "  %used "
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
