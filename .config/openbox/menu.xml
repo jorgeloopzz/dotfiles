@@ -2,9 +2,9 @@
 <openbox_menu>
     <menu id="root-menu" label="OpenBox 3">
         <!-- Brave -->
-        <item label="Web browser" icon="/usr/share/icons/candy-icons/apps/scalable/brave.svg">
+        <item label="Web browser" icon="/usr/share/icons/candy-icons/apps/scalable/firefox.svg">
             <action name="Execute">
-                <execute>brave-browser</execute>
+                <execute>firefox</execute>
             </action>
         </item>
         <!-- Alacritty -->
