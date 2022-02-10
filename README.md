@@ -39,7 +39,7 @@
 | Music player		| [nuclear](https://nuclear.js.org/)													|
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
-| Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi), [Rofi](https://wiki.archlinux.org/title/Rofi)						|
+| Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi), [Wofi](https://man.archlinux.org/man/wofi.1.en)						|
 | Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot), [grim](https://github.com/emersion/grim), [slurp](https://github.com/emersion/slurp)																		|
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
 | Password Manager	| [Seahorse](https://wiki.gnome.org/Apps/Seahorse)											|
