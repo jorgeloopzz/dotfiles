@@ -4,7 +4,7 @@
 (sleep 1s && xrandr --output HDMI-1 --mode 1920x1080 --rate 60) &
 
 # Screen temperature
-sct 3200 &
+redshift -P -O 3200 &
 
 # Panel
 tint2 -c ~/.config/tint2/tint2rc &

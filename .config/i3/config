@@ -230,7 +230,7 @@ exec --no-startup-id xset s off &
 exec --no-startup-id sleep2; nitrogen --restore &
 
 # Set screen temperature
-exec --no-startup-id sct 3200 &
+exec --no-startup-id redshift -P -O 3200 &
 
 # Notifications
 exec --no-startup-id dunst -conf /home/jorge/.config/dunst/catppuccinrc &

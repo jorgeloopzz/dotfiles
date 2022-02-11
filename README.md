@@ -50,7 +50,7 @@
 | Sound			| [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)		|
 | Network		| [Network manager](https://wiki.archlinux.org/title/NetworkManager)									|
 | Cursor speed		| [Imwheel](https://wiki.archlinux.org/title/IMWheel)											|
-| Screen temperature	| [SCT](https://github.com/faf0/sct)													|
+| Screen temperature	| [Redshift](https://wiki.archlinux.org/title/Redshift)													|
 | Monitor resolution	| [Xrandr](https://wiki.archlinux.org/title/Xrandr)											|
 | Compositor		| [Picom](https://wiki.archlinux.org/title/Picom)											|
 | Systray		| [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon), [Udiskie](https://wiki.archlinux.org/title/Udisks)									|
