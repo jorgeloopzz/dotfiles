@@ -24,7 +24,7 @@
 ## Software I use
 |Software		| Name																	|
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Distribution		| [Ubuntu](https://ubuntu.com/)														|
+| Distribution		| [Arco Linux](https://arcolinux.com/)														|
 | WM			| [i3-gaps](https://i3wm.org/), [Sway](https://swaywm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [Spectrwm](https://wiki.archlinux.org/title/Spectrwm)															|
 | Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Waybar](https://github.com/Alexays/Waybar), [Tint2](https://wiki.archlinux.org/title/Tint2)														|
 | Login Manager		| [Sddm](https://wiki.archlinux.org/title/SDDM)												|
