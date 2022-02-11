@@ -1,0 +1,273 @@
+#          .--,-``-.                                                                       
+#   ,---, /   /     '.                                                                     
+#,`--.' |/ ../        ;                                          .--.,   ,--,              
+#|   :  :\ ``\  .`-    '                    ,---.        ,---, ,--.'  \,--.'|              
+#:   |  ' \___\/   \   :                   '   ,'\   ,-+-. /  ||  | /\/|  |,     ,----._,. 
+#|   :  |      \   :   |           ,---.  /   /   | ,--.'|'   |:  : :  `--'_    /   /  ' / 
+#'   '  ;      /  /   /           /     \.   ; ,. :|   |  ,"' |:  | |-,,' ,'|  |   :     | 
+#|   |  |      \  \   \          /    / ''   | |: :|   | /  | ||  : :/|'  | |  |   | .\  . 
+#'   :  ;  ___ /   :   |        .    ' / '   | .; :|   | |  | ||  |  .'|  | :  .   ; ';  | 
+#|   |  ' /   /\   /   :        '   ; :__|   :    ||   | |  |/ '  : '  '  : |__'   .   . | 
+#'   :  |/ ,,/  ',-    .        '   | '.'|\   \  / |   | |--'  |  | |  |  | '.'|`---`-'| | 
+#;   |.' \ ''\        ;         |   :    : `----'  |   |/      |  : \  ;  :    ;.'__/\_: | 
+#'---'    \   \     .'           \   \  /          '---'       |  |,'  |  ,   / |   :    : 
+#          `--`-,,-'              `----'                       `--'     ---`-'   \   \  /  
+#                                                                                 `--`-'   
+#  https://github.com/Jorgedeveloopzz
+
+#######################################################################
+#                Mod key (Mod1=<Alt>, Mod4=<Super>)                   #
+#######################################################################
+set $mod Mod1
+
+
+#######################################################################
+#                                 Gaps                                #
+#######################################################################
+gaps inner 10
+gaps outer 15
+
+# Only enable gaps on a workspace when there is at least one container
+smart_gaps on
+
+# Only enable outer gaps when there is exactly one container
+smart_gaps inverse_outer
+
+# Activate smart borders (always)
+smart_borders on
+
+# Activate smart borders (only when there are effectively no gaps)
+smart_borders no_gaps
+
+
+#######################################################################
+#                              Window borders                         #
+#######################################################################
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #96CDFB #96CDFB #96CDFB #96CDFB   #96CDFB
+client.unfocused	#055494 #055494 #055494 #055494   #055494
+
+# Disable window titlebars
+for_window [class="^.*"] border pixel 2# Window borders
+
+
+#######################################################################
+#                               Keybindings                           #
+#######################################################################
+
+# Float window
+bindsym $mod+Shift+space floating toggle
+floating_modifier Mod1
+
+# start a terminal
+bindsym $mod+Return exec alacritty
+
+# kill focused window
+bindsym $mod+x kill
+
+# Start rofi
+bindsym $mod+space exec "rofi -show"
+
+# Move focus of the windows
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move windows around the space
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking bindsym $mod+w layout tabbed bindsym $mod+e layout toggle split
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+e layout toggle split
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+bindsym $mod+d focus child
+
+# Use pactl to adjust the volume with pulseaudio
+# Comment this in case you want to use volumeicon
+#bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ +5%; notify-send 'Volume up'"
+#bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ -5%; notify-send 'Volume down'"
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+##############
+# Workspaces #
+##############
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1: "
+set $ws2 "2: "
+set $ws3 "3: "
+set $ws4 "4: "
+set $ws5 "5: "
+set $ws6 "6: "
+set $ws7 "7: "
+set $ws8 "8: "
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1 
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindysm $mod+Shift+8 move container to workspace $ws8
+
+# Open applications in certain workspaces
+assign [class="^Brave-browser$"] → $ws1 
+assign [class="^Tor Browser$"] → $ws1
+assign [class="^Firefox$"] → $ws1
+assign [class="^Alacritty$"] → $ws2
+assign [class="^Code$"] → $ws3
+assign [class="^Pcmanfm$"] → $ws4
+assign [class="^mpv$"] → $ws5
+assign [class="^discord$"] → $ws6
+assign [class="^nuclear$"] → $ws7 
+assign [class="^TelegramDesktop$"] → $ws8
+
+# Open certain applications in floating mode
+for_window [class="^mpv$"] floating enable 
+for_window [class="^Nitrogen$"] floating enable
+for_window [class="^Seahorse$"] floating enable
+for_window [class="^Gnome-system-monitor$"] floating enable
+
+# Focus window opened automatically
+for_window [class="."] focus
+
+### Put workspaces on specific monitors ###
+
+# Monitor 1
+workspace $ws1 output eDP-1
+workspace $ws2 output eDP-1
+workspace $ws3 output eDP-1
+workspace $ws4 output eDP-1
+
+# Monitor 2
+workspace $ws5 output HDMI-1
+workspace $ws6 output HDMI-1
+workspace $ws7 output HDMI-1
+workspace $ws8 output HDMI-1
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut.\
+ Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# Enter resize mode
+bindsym $mod+r mode "resize"
+
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym ntilde resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+
+#######################################################################
+#                               Autostart                             #
+#######################################################################
+
+# Set monitor resolution
+exec --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00 &
+
+# Avoid the screen to turn off after X time
+exec --no-startup-id xset s off &
+
+# Restore the chosen wallpaper with nitrogen
+exec --no-startup-id sleep2; nitrogen --restore &
+
+# Set screen temperature
+exec --no-startup-id sct 3200 &
+
+# Notifications
+exec --no-startup-id dunst -conf /home/jorge/.config/dunst/catppuccinrc &
+
+# Start imwheel
+exec --no-startup-id imwheel &
+
+# The combination of xss-lock, nm-applet and pactl is a popular choice, so
+# they are included here as an example. Modify as you see fit.
+# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
+# screen before suspend. Use loginctl lock-session to lock your screen.
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+# Systrays
+exec --no-startup-id nm-applet &
+exec --no-startup-id volumeicon &
+exec --no-startup-id udiskie -t --no-appindicator &
+exec --no-startup-id cbatticon -i symbolic BAT1 &
+
+# Start picom
+exec --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends & 
+
+# Start any status bar
+# exec_always --no-startup-id yabar &
+bar {
+	status_command i3status
+	strip_workspace_numbers yes
+	workspace_min_width 40
+	tray_output eDP1
+	position top
+	workspace_buttons yes
+	height 27
+ 	font pango:Cousine nerd font 12
+ 	colors {
+		background #302D41
+		separator #D9E0EE
+		focused_workspace #302D41 #302D41 #D9E0EE
+		inactive_workspace #1E1E2E #1E1E2E #808080
+ }
+}

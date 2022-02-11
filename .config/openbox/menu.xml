@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <!-- Brave -->
+        <item label="Web browser" icon="/usr/share/icons/candy-icons/apps/scalable/firefox.svg">
+            <action name="Execute">
+                <execute>firefox</execute>
+            </action>
+        </item>
+        <!-- Alacritty -->
+        <item label="Terminal" icon="/usr/share/icons/candy-icons/apps/scalable/Alacritty.svg">
+            <action name="Execute">
+                <execute>x-terminal-emulator</execute>
+            </action>
+        </item>
+        <!-- VS Code -->
+        <item label="IDe" icon="/usr/share/icons/candy-icons/apps/scalable/com.visualstudio.code.svg">
+            <action name="Execute">
+                <execute>code</execute>
+            </action>
+        </item>
+        <!-- SpaceFM -->
+        <item label="File Manager" icon="/usr/share/icons/candy-icons/apps/scalable/spacefm.svg">
+            <action name="Execute">
+                <execute>pcmanfm</execute>
+            </action>
+        </item>
+        <!-- Music player -->
+        <item label="Music" icon="/usr/share/icons/candy-icons/apps/scalable/juk.svg">
+            <action name="Execute">
+                <execute>nuclear</execute>
+            </action>
+        </item>
+        <separator />
+        <menu id="1" label="Development" icon="/usr/share/icons/candy-icons/apps/scalable/applications-development.svg">
+            <item label="GDB">
+                <action name="Execute">
+                    <execute>alacritty -e gdb</execute>
+                </action>
+            </item>
+        </menu>
+        <menu id="7" label="Multimedia" icon="/usr/share/icons/candy-icons/apps/scalable/multimedia-volume-control.svg">
+            <item label="mpv" icon="/usr/share/icons/candy-icons/apps/scalable/mpv.svg">
+                <action name="Execute">
+                    <execute>mpv --player-operation-mode=pseudo-gui</execute>
+                </action>
+            </item>
+            <item label="Pavucontrol" icon="/usr/share/icons/candy-icons/apps/scalable/pavucontrol.svg">
+                <action name="Execute">
+                    <execute>pavucontrol</execute>
+                </action>
+            </item>
+        </menu>
+        <menu id="5" label="Network" icon="/usr/share/icons/candy-icons/apps/scalable/internet-web-browser.svg">
+            <item label="Brave" icon="/usr/share/icons/candy-icons/apps/scalable/brave.svg">
+                <action name="Execute">
+                    <execute>brave-browser-stable</execute>
+                </action>
+            </item>
+            <item label="Firefox" icon="/usr/share/icons/candy-icons/apps/scalable/firefox-4.0.svg">
+                <action name="Execute">
+                    <execute>firefox</execute>
+                </action>
+            </item>
+            <item label="Discord" icon="/usr/share/icons/candy-icons/apps/scalable/discord.svg">
+                <action name="Execute">
+                    <execute>/usr/share/discord/Discord</execute>
+                </action>
+            </item>
+            <item label="Microsoft Teams" icon="/usr/share/icons/candy-icons/apps/scalable/teams.svg">
+                <action name="Execute">
+                    <execute>teams</execute>
+                </action>
+            </item>
+            <item label="qBittorrent" icon="/usr/share/icons/candy-icons/apps/scalable/qbittorrent.svg">
+                <action name="Execute">
+                    <execute>qbittorrent</execute>
+                </action>
+            </item>
+        </menu>
+        <menu id="3" label="Office" icon="/usr/share/icons/candy-icons/apps/scalable/ms-office.svg">
+            <item label="Document Viewer" icon="/usr/share/icons/candy-icons/apps/scalable/document-viewer.svg">
+                <action name="Execute">
+                    <execute>evince</execute>
+                </action>
+            </item>
+        </menu>
+        <menu id="19" label="Shells" icon="/usr/share/icons/candy-icons/apps/scalable/terminal.svg">
+            <item label="Alacritty">
+                <action name="Execute">
+                    <execute>alacritty</execute>
+                </action>
+            </item>
+            <item label="Bash">
+                <action name="Execute">
+                    <execute>alacritty -e bash --login</execute>
+                </action>
+            </item>
+            <item label="Dash">
+                <action name="Execute">
+                    <execute>alacritty -e dash -i</execute>
+                </action>
+            </item>
+            <item label="fish">
+                <action name="Execute">
+                    <execute>alacritty -e fish</execute>
+                </action>
+            </item>
+            <item label="GIT">
+                <action name="Execute">
+                    <execute>alacritty -e git</execute>
+                </action>
+            </item>
+            <item label="Sh">
+                <action name="Execute">
+                    <execute>alacritty -e sh --login</execute>
+                </action>
+            </item>
+            <item label="Zsh">
+                <action name="Execute">
+                    <execute>alacritty -e zsh</execute>
+                </action>
+            </item>
+        </menu>
+        <menu id="37" label="System" icon="/usr/share/icons/candy-icons/apps/scalable/gnome-settings.svg">
+            <menu id="36" label="Settings">
+                <menu id="21" label="GNOME">
+                    <item label="Advanced Network Configuration">
+                        <action name="Execute">
+                            <execute>nm-connection-editor</execute>
+                        </action>
+                    </item>
+                    <item label="Disks">
+                        <action name="Execute">
+                            <execute>gnome-disks</execute>
+                        </action>
+                    </item>
+                    <item label="Language Support">
+                        <action name="Execute">
+                            <execute>gnome-language-selector</execute>
+                        </action>
+                    </item>
+                    <item label="Printers">
+                        <action name="Execute">
+                            <execute>system-config-printer</execute>
+                        </action>
+                    </item>
+                    <item label="Settings">
+                        <action name="Execute">
+                            <execute>gnome-control-center</execute>
+                        </action>
+                    </item>
+                    <item label="Software &amp; Updates">
+                        <action name="Execute">
+                            <execute>software-properties-gtk</execute>
+                        </action>
+                    </item>
+                    <item label="Startup Applications">
+                        <action name="Execute">
+                            <execute>gnome-session-properties</execute>
+                        </action>
+                    </item>
+                    <item label="Tweaks">
+                        <action name="Execute">
+                            <execute>gnome-tweaks</execute>
+                        </action>
+                    </item>
+                </menu>
+                <menu id="35" label="Xfce">
+                    <item label="Additional Drivers">
+                        <action name="Execute">
+                            <execute>software-properties-gtk --open-tab=4</execute>
+                        </action>
+                    </item>
+                </menu>
+                <item label="IBus Preferences">
+                    <action name="Execute">
+                        <execute>ibus-setup</execute>
+                    </action>
+                </item>
+                <item label="Input Method">
+                    <action name="Execute">
+                        <execute>im-config</execute>
+                    </action>
+                </item>
+                <item label="Livepatch">
+                    <action name="Execute">
+                        <execute>software-properties-gtk --open-tab=6</execute>
+                    </action>
+                </item>
+                <item label="lxappearance">
+                    <action name="Execute">
+                        <execute>lxappearance</execute>
+                    </action>
+                </item>
+                <item label="nitrogen">
+                    <action name="Execute">
+                        <execute>nitrogen</execute>
+                    </action>
+                </item>
+                <item label="Passwords and Keys">
+                    <action name="Execute">
+                        <execute>seahorse</execute>
+                    </action>
+                </item>
+                <item label="Software Updater">
+                    <action name="Execute">
+                        <execute>update-manager</execute>
+                    </action>
+                </item>
+                <item label="Tint2 Settings">
+                    <action name="Execute">
+                        <execute>tint2conf</execute>
+                    </action>
+                </item>
+                <item label="Xfontsel">
+                    <action name="Execute">
+                        <execute>xfontsel</execute>
+                    </action>
+                </item>
+                <item label="Xvidtune">
+                    <action name="Execute">
+                        <execute>xvidtune</execute>
+                    </action>
+                </item>
+            </menu>
+            <item label="Editres">
+                <action name="Execute">
+                    <execute>editres</execute>
+                </action>
+            </item>
+            <item label="GNOME System Monitor">
+                <action name="Execute">
+                    <execute>gnome-system-monitor</execute>
+                </action>
+            </item>
+            <item label="Logout (obsession)">
+                <action name="Execute">
+                    <execute>obsession-logout</execute>
+                </action>
+            </item>
+            <item label="Logs">
+                <action name="Execute">
+                    <execute>gnome-logs</execute>
+                </action>
+            </item>
+            <item label="Power Statistics">
+                <action name="Execute">
+                    <execute>gnome-power-statistics</execute>
+                </action>
+            </item>
+            <item label="Pstree">
+                <action name="Execute">
+                    <execute>xterm -e pstree.x11</execute>
+                </action>
+            </item>
+            <item label="stalonetray">
+                <action name="Execute">
+                    <execute>stalonetray</execute>
+                </action>
+            </item>
+            <item label="Tint2">
+                <action name="Execute">
+                    <execute>tint2</execute>
+                </action>
+            </item>
+            <item label="Top">
+                <action name="Execute">
+                    <execute>xterm -e top</execute>
+                </action>
+            </item>
+            <item label="Xclipboard">
+                <action name="Execute">
+                    <execute>xclipboard</execute>
+                </action>
+            </item>
+            <item label="Xev">
+                <action name="Execute">
+                    <execute>x-terminal-emulator -e xev</execute>
+                </action>
+            </item>
+            <item label="Xkill">
+                <action name="Execute">
+                    <execute>xkill</execute>
+                </action>
+            </item>
+            <item label="Xload">
+                <action name="Execute">
+                    <execute>xload</execute>
+                </action>
+            </item>
+            <item label="Xrefresh">
+                <action name="Execute">
+                    <execute>xrefresh</execute>
+                </action>
+            </item>
+        </menu>
+        <menu id="38" label="Utilities" icon="/usr/share/icons/candy-icons/apps/scalable/applications-utilities.svg">
+            <item label="Fonts">
+                <action name="Execute">
+                    <execute>gnome-font-viewer</execute>
+                </action>
+            </item>
+            <item label="Nitrogen" icon="/usr/share/icons/candy-icons/apps/scalable/AppImageLauncher.svg">
+                <action name="Execute">
+                    <execute>nitrogen</execute>
+                </action>
+            </item>
+            <item label="Screenshot" icon="/usr/share/icons/candy-icons/apps/scalable/gnome-screenshot.svg">
+                <action name="Execute">
+                    <execute>gnome-screenshot --interactive</execute>
+                </action>
+            </item>
+        </menu>
+        <separator />
+        <menu id="40" label="OpenBox" icon="/usr/share/icons/candy-icons/apps/scalable/gnome-monitor.svg">
+            <menu id="client-list-menu" />
+            <item label="Restart" icon="/usr/share/icons/candy-icons/apps/scalable/system-restart.svg">
+                <action name="Restart" />
+            </item>
+            <separator />
+            <item label="Exit" icon="/usr/share/icons/candy-icons/apps/scalable/xedit.svg">
+                <action name="Exit" />
+            </item>
+        </menu>
+    </menu>
+</openbox_menu>

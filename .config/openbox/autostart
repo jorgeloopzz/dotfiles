@@ -1,0 +1,22 @@
+# These things are run when an Openbox X Session is started.
+
+# Set resolution on my second monitos
+(sleep 1s && xrandr --output HDMI-1 --mode 1920x1080 --rate 60) &
+
+# Screen temperature
+sct 3200 &
+
+# Panel
+tint2 -c ~/.config/tint2/tint2rc &
+
+# Systray
+volumeicon &
+udiskie -t &
+
+dunst -conf /home/jorge/.config/dunst/nordrc &
+imwheel &
+(sleep 2s && nitrogen --restore) &
+picom --config ~/.config/picom/picom.conf --experimental-backends &
+conky -d -c ~/.config/conky/conky.conf
+conky -d -c ~/.config/conky/conky2.conf
+ 
