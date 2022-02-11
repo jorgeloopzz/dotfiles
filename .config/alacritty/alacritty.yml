@@ -7,12 +7,11 @@
 #
 # https://github.com/Jorgedeveloopzz  
 
-window.opacity: 0.9
-
 window:
   padding:
     x: 6
     y: 6
+  opacity: 0.8
 
 schemes:
   tokyo-night: &tokyo-night
