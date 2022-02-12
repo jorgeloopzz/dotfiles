@@ -117,11 +117,10 @@ bindsym $mod+d focus child
 set $ws1 "1: "
 set $ws2 "2: "
 set $ws3 "3: "
-set $ws4 "4: "
-set $ws5 "5: "
-set $ws6 "6: "
-set $ws7 "7: "
-set $ws8 "8: "
+set $ws4 "4: "
+set $ws5 "5: "
+set $ws6 "6: "
+set $ws7 "7: "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
@@ -131,7 +130,6 @@ bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -140,18 +138,17 @@ bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindysm $mod+Shift+8 move container to workspace $ws8
+bindysm $mod+Shift+7 move container to workspace $ws7
 
 # Open applications in certain workspaces
 assign [class="^Tor Browser$"] → $ws1
 assign [class="^firefox$"] → $ws1
 assign [class="^Alacritty$"] → $ws2
 assign [class="^code-oss$"] → $ws3
-assign [class="^mpv$"] → $ws5
-assign [class="^discord$"] → $ws6
-assign [class="^nuclear$"] → $ws7 
-assign [class="^TelegramDesktop$"] → $ws8
+assign [class="^mpv$"] → $ws4
+assign [class="^discord$"] → $ws5
+assign [class="^nuclear$"] → $ws6 
+assign [class="^TelegramDesktop$"] → $ws7
 
 # Open certain applications in floating mode
 for_window [class="^mpv$"] floating enable 
