@@ -11,8 +11,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
 
-	"Dracula theme
-	Plug 'dracula/vim', { 'as': 'dracula' }
+	"Catppuccin theme
+	Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 	" File manager
 	Plug 'scrooloose/nerdtree'
 	"Status bar
@@ -34,7 +34,7 @@ set cursorline
 set cursorcolumn
 set number relativenumber
 syntax on
-colorscheme dracula
+colorscheme catppuccin
 let g:airline_powerline_fonts=1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
