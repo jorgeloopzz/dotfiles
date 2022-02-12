@@ -27,13 +27,13 @@
 | Distribution		| [Arco Linux](https://arcolinux.com/)														|
 | WM			| [i3-gaps](https://i3wm.org/), [Sway](https://swaywm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [Spectrwm](https://wiki.archlinux.org/title/Spectrwm)															|
 | Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Waybar](https://github.com/Alexays/Waybar), [Tint2](https://wiki.archlinux.org/title/Tint2)														|
-| Login Manager		| [Sddm](https://wiki.archlinux.org/title/SDDM)												|
+| Login Manager		| [LightDM](https://wiki.archlinux.org/title/LightDM)												|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Zsh](https://wiki.archlinux.org/title/Zsh)												|
 | Browsers		| [Firefox](https://www.mozilla.org/es-ES/firefox/new/), [Tor](https://www.torproject.org/)						|
-| File managers		| [PcmanFM](https://wiki.archlinux.org/title/PCManFM), [Ranger](https://wiki.archlinux.org/title/Ranger)				|
+| File managers		| [Ranger](https://wiki.archlinux.org/title/Ranger)				|
 | Chat			| [Telegram](https://desktop.telegram.org/)												|
-| IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Vim](https://wiki.archlinux.org/title/Vim)				|
+| IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)				|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)	|
 | Video player		| [MPV](https://wiki.archlinux.org/title/Mpv)												|
 | Music player		| [nuclear](https://nuclear.js.org/)													|
