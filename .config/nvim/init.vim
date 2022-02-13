@@ -11,6 +11,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
 
+	" Nord theme
+	Plug 'arcticicestudio/nord-vim'
 	"Catppuccin theme
 	Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 	" File manager
