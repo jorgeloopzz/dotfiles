@@ -12,6 +12,7 @@ tint2 -c ~/.config/tint2/tint2rc &
 # Systray
 volumeicon &
 udiskie -t &
+nm-applet &
 
 dunst -conf /home/jorge/.config/dunst/nordrc &
 imwheel &
