@@ -92,6 +92,7 @@ alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias update="sudo pacman -Syu"
 alias install="sudo pacman -S" 
 alias search="pacman -Ss"
+alias zzz="systemctl suspend"
 
 neofetch
 
