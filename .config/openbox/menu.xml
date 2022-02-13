@@ -2,9 +2,9 @@
 <openbox_menu>
     <menu id="root-menu" label="OpenBox 3">
         <!-- Brave -->
-        <item label="Web browser" icon="/usr/share/icons/candy-icons/apps/scalable/firefox.svg">
+        <item label="Web browser" icon="/usr/share/icons/candy-icons/apps/scalable/appimagekit-librewolf.svg">
             <action name="Execute">
-                <execute>firefox</execute>
+                <execute>librewolf</execute>
             </action>
         </item>
         <!-- Alacritty -->
@@ -52,9 +52,9 @@
             </item>
         </menu>
         <menu id="5" label="Network" icon="/usr/share/icons/candy-icons/apps/scalable/internet-web-browser.svg">
-            <item label="Firefox" icon="/usr/share/icons/candy-icons/apps/scalable/firefox-4.0.svg">
+            <item label="Firefox" icon="/usr/share/icons/candy-icons/apps/scalable/appimagekit-librewolf.svg">
                 <action name="Execute">
-                    <execute>firefox</execute>
+                    <execute>librewolf</execute>
                 </action>
             </item>
             <item label="Discord" icon="/usr/share/icons/candy-icons/apps/scalable/discord.svg">
