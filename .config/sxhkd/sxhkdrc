@@ -1,0 +1,22 @@
+### COMMANDS ###
+
+# Alacritty
+alt + Return
+	alacritty
+
+# Rofi
+alt + space
+	rofi -show
+
+# Restart configuration file
+alt + p
+	pkill -USR1 -x sxhkd
+
+# Restart bspwm
+shift + alt + {q,r}
+	bspc {quit,wm -r}
+
+# Kill window
+alt + x
+    bspc node -{c,k}
+
