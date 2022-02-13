@@ -12,7 +12,7 @@
 include catppuccin
 
 # Font
-set font "FiraCode Nerd Font 12"
+set font "Agave Nerd Font 12"
 
 # settings
 set window-height 1920
