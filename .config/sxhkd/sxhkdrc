@@ -1,10 +1,10 @@
 ### COMMANDS ###
 
-# Alacritty
+# Terminal emulator
 alt + Return
 	alacritty
 
-# Rofi
+# Launcher
 alt + space
 	rofi -show
 
@@ -18,5 +18,13 @@ shift + alt + {q,r}
 
 # Kill window
 alt + x
-    bspc node -{c,k}
+	bspc node -{c,k}
+
+# Change to workspace
+alt + {1,2,3,4,5,6,7,8,9,0}
+	bspc desktop -f {I,II,III,IV,V,VI,VII,VIII,IX,X}
+
+# Move window to workspace
+alt + shift {1-9,0}
+	bspc node -d '^{1-9,10}'
 
