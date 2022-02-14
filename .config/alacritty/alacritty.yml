@@ -223,7 +223,31 @@ schemes:
     indexed_colors:
       - { index: 16, color: '#F8BD96' }
       - { index: 17, color: '#F5E0DC' }
-
+  reddy: &reddy
+    primary:
+      background: '#100c08'
+      foreground: '#D9E0EE'
+    cursor:
+      text:   '#1E1D2F'
+      cursor: '#FFFFFF'
+    normal:
+      black:   '#6E6C7E'
+      red:     '#ff0000'
+      green:   '#7fff00'
+      yellow:  '#ffef00'
+      blue:    '#73c2fb'
+      magenta: '#F5C2E7'
+      cyan:    '#00ffff'
+      white:   '#ffffff'
+    bright:
+      black:   '#988BA2'
+      red:     '#ff0000'
+      green:   '#7fff00'
+      yellow:  '#ffef00'
+      blue:    '#73c2fb'
+      magenta: '#F5C2E7'
+      cyan:    '#00ffff'
+      white:   '#ffffff'
 # Select one of the next themes:
 # - tokyo-night
 # - tokyo-night-storm
@@ -231,7 +255,7 @@ schemes:
 # - nord
 # - snazzy
 # - catppuccin
-colors: *catppuccin
+colors: *reddy
 
 # Fonts
 font:
