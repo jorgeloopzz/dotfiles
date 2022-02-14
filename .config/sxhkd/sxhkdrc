@@ -32,3 +32,7 @@ alt + shift {1-9,0}
 alt + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
+# Volume control
+{XF86AudioRaiseVolume,XF86AudioLowerVolume, XF86AudioMute}
+	{pactl set-sink-volume @DEFAULT_SINK@ +5%,pactl set-sink-volume @DEFAULT_SINK@ -5%, pactl set-sink-mute @DEFAULT_SINK@ toggle}
+
