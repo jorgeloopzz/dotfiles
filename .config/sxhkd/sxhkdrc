@@ -13,7 +13,7 @@ alt + p
 	pkill -USR1 -x sxhkd
 
 # Restart bspwm
-shift + alt + {q,r}
+shift + alt + {e,r}
 	bspc {quit,wm -r}
 
 # Kill window
