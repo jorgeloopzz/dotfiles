@@ -229,9 +229,6 @@ exec --no-startup-id redshift -P -O 3200 &
 # Notifications
 exec --no-startup-id dunst -conf /home/jorge/.config/dunst/catppuccinrc &
 
-# Start imwheel
-exec --no-startup-id imwheel &
-
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the

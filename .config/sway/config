@@ -242,9 +242,6 @@ mode "resize" {
 # Notifications
 exec mako
 
-# Start imwheel
-exec imwheel &
-
 # Set GTK theme
 set $gnome-schema org.gnome.desktop.interface
 
