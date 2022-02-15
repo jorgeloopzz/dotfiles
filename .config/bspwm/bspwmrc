@@ -6,7 +6,7 @@ nitrogen --restore &
 redshift -P -O 3200 &
 picom --config ~/.config/picom/picom.conf --experimental-backends &
 nm-applet &
-udiskie -t &
+udiskie &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
