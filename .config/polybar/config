@@ -35,9 +35,9 @@ border-size = 4
 border-color = #00000000
 
 padding-left = 0
-padding-right = 2
+padding-right = 0
 
-module-margin-left = 2
+module-margin-left = 0
 module-margin-right = 2
 
 font-0 = FiraCode Nerd Font Mono:style=Bold:pixelsize=10
