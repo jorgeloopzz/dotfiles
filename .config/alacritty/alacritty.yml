@@ -232,7 +232,7 @@ schemes:
       cursor: '#FFFFFF'
     normal:
       black:   '#6E6C7E'
-      red:     '#ff0000'
+      red:     '#ff6666'
       green:   '#7fff00'
       yellow:  '#ffef00'
       blue:    '#73c2fb'
@@ -241,7 +241,7 @@ schemes:
       white:   '#ffffff'
     bright:
       black:   '#988BA2'
-      red:     '#ff0000'
+      red:     '#ff6666'
       green:   '#7fff00'
       yellow:  '#ffef00'
       blue:    '#73c2fb'
