@@ -23,9 +23,7 @@ background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+primary = #ff0000
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -76,7 +74,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title:0:30:...%
+label = %title%
 
 [module/xkeyboard]
 type = internal/xkeyboard
