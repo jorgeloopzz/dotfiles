@@ -23,7 +23,7 @@ background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
-primary = #ff0000
+primary = #ff6666
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -48,7 +48,7 @@ padding-right = 2
 module-margin-left = 2
 module-margin-right = 2
 
-font-0 = Hack NF:style=Bold:size=10
+font-0 = FiraCode Nerd Font Mono:style=Bold:pixelsize=10
 
 modules-left = bspwm i3
 modules-center = xwindow
@@ -74,7 +74,7 @@ cursor-scroll = ns-resize
 
 [module/xwindow]
 type = internal/xwindow
-label = %title%
+label = %title:0:50:...%
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -98,7 +98,7 @@ interval = 25
 
 mount-0 = /
 
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-mounted = %{F#ff6666}%{F-} %used% / %total%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -178,19 +178,8 @@ label-song-ellipsis = true
 [module/xbacklight]
 type = internal/xbacklight
 
-format = <label> <bar>
-label = BL
-
-bar-width = 10
-bar-indicator = |
-bar-indicator-foreground = #fff
-bar-indicator-font = 2
-bar-fill = ─
-bar-fill-font = 2
-bar-fill-foreground = #9f78e1
-bar-empty = ─
-bar-empty-font = 2
-bar-empty-foreground = ${colors.foreground-alt}
+format = <label>
+label = %{F#ff6666} %{F-}%percentage%%
 
 [module/backlight-acpi]
 inherit = module/xbacklight
@@ -200,17 +189,15 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
+format-prefix = ""
+format-prefix-foreground = #ff6666
 label = %percentage:2%%
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
+format-prefix = " "
+format-prefix-foreground = #ff6666
 label = %percentage_used%%
 
 [module/wlan]
@@ -259,21 +246,23 @@ date = "%a %d/%m/%Y"
 
 time = %H:%M
 
-format-prefix = 
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+format-prefix = " "
+format-prefix-foreground = #ff6666
 
 label = %date%  -  %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume = <label-volume> <bar-volume>
-label-volume = VOL %percentage%%
+format-volume = <ramp-volume> <label-volume> <bar-volume>
+label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted = 🔇 muted
-label-muted-foreground = #666
+label-muted = %{F#ff6666}婢%{F-}
+
+ramp-volume-0 = %{F#ff6666}%{F-}
+ramp-volume-1 = %{F#ff6666}%{F-}
+ramp-volume-2 = %{F#ff6666} %{F-}
 
 bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
@@ -327,31 +316,25 @@ adapter = ADP1
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
 
-format-discharging = <animation-discharging> <label-discharging>
+format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.foreground-alt}
+ramp-capacity-0 = %{F#ff6666} %{F-}
+ramp-capacity-1 = %{F#ff6666} %{F-}
+ramp-capacity-2 = %{F#ff6666} %{F-}
+ramp-capacity-3 = %{F#ff6666} %{F-}
+ramp-capacity-4 = %{F#ff6666} %{F-}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = %{F#55aa55}%{F-}
+animation-charging-1 = %{F#55aa55}%{F-}
+animation-charging-2 = %{F#55aa55}%{F-}
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
-
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-foreground = ${colors.foreground-alt}
-animation-discharging-framerate = 750
 
 [module/temperature]
 type = internal/temperature
