@@ -87,7 +87,7 @@ label-indicator-underline = ${colors.secondary}
 
 [module/filesystem]
 type = internal/fs
-interval = 25
+interval = 60
 
 mount-0 = /
 
@@ -181,14 +181,14 @@ card = intel_backlight
 
 [module/cpu]
 type = internal/cpu
-interval = 2
-format-prefix = ""
+interval = 1
+format-prefix = " "
 format-prefix-foreground = #ff6666
 label = %percentage:2%%
 
 [module/memory]
 type = internal/memory
-interval = 2
+interval = 1
 format-prefix = " "
 format-prefix-foreground = #ff6666
 label = %percentage_used%%
@@ -233,7 +233,7 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 60
 
 date = %a %d %B
 
