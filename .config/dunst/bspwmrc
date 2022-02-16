@@ -32,7 +32,7 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "330x5-10+32"
+    geometry = "240x5-10+32"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -62,10 +62,10 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 2
+    frame_width = 1
 
     # Defines color of the frame around the notification window.
-    frame_color = "#96CDFB"
+    frame_color = "#ff6666"
 
     # Define a color for the separator.
     # possible values are:
@@ -87,7 +87,7 @@
 
     ### Text ###
 
-    font = Cousine Nerd Font 12 
+    font = DaddyTimeMono Nerd Font 12 
 
     # The spacing between lines.
     line_height = 0
@@ -213,7 +213,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 6
+    corner_radius = 50
 
     ### Legacy
 
@@ -260,22 +260,22 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#B5E8E0"
-    foreground = "#1A1826"
+    background = "#000000"
+    foreground = "#ffffff"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#302D41"
-    foreground = "#D9E0EE"
+    background = "#000000"
+    foreground = "#ff6666"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_critical]
-    background = "#F28FAD"
-    foreground = "#6E6C7E"
+    background = "#ff6666"
+    foreground = "#000000"
     timeout = 0
     # Icon for notifications with critical urgency, uncomment to enable
     #icon = /path/to/icon
