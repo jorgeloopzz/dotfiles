@@ -22,9 +22,9 @@ primary = #ff6666
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 27
-offset-y = 1%
+offset-y = 0.5%
 radius = 0.0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
