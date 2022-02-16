@@ -323,9 +323,11 @@ ramp-capacity-2 = %{F#ff6666} %{F-}
 ramp-capacity-3 = %{F#ff6666} %{F-}
 ramp-capacity-4 = %{F#ff6666} %{F-}
 
-animation-charging-0 = %{F#55aa55}%{F-}
-animation-charging-1 = %{F#55aa55}%{F-}
-animation-charging-2 = %{F#55aa55}%{F-}
+animation-charging-0 = %{F#55aa55} %{F-}
+animation-charging-1 = %{F#55aa55} %{F-}
+animation-charging-2 = %{F#55aa55} %{F-}
+animation-charging-3 = %{F#55aa55} %{F-}
+animation-charging-4 = %{F#55aa55} %{F-}
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
