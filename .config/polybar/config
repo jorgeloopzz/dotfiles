@@ -106,7 +106,7 @@ label-focused-padding = 2
 label-occupied = %index%
 label-occupied-padding = 2
 
-label-urgent = %index%!
+label-urgent = %index%%{F#ff6666}%{F-}
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
