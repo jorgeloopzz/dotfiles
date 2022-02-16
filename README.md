@@ -21,6 +21,9 @@
 ### [Openbox](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/openbox)
 ![openbox](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/openbox-ex.png)
 
+### [bspwm](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/openbox)
+![bspwm](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/bspwm-ex.png)
+
 ## Software I use
 |Software		| Name																	|
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
