@@ -40,7 +40,8 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 2
 
-font-0 = FiraCode Nerd Font Mono:style=Bold:pixelsize=10
+font-0 = FiraCode Nerd Font:style=Bold: size=10
+font-1 = FiraCode Nerd Font Mono: size=100
 
 modules-left = bspwm i3
 modules-center = xwindow
@@ -234,19 +235,19 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date = "%a %d/%m/%Y"
+date = %a %d/%m/%Y
 
 time = %H:%M
 
 format-prefix = " "
 format-prefix-foreground = #ff6666
 
-label = %date%  -  %time%
+label = %date% %{F#ff6666} %{F-}%time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume = <ramp-volume> <label-volume> <bar-volume>
+format-volume = <ramp-volume> <label-volume>
 label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 
@@ -316,11 +317,11 @@ format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = %{F#ff6666}%{F-}
-ramp-capacity-1 = %{F#ff6666}%{F-}
-ramp-capacity-2 = %{F#ff6666}%{F-}
-ramp-capacity-3 = %{F#ff6666}%{F-}
-ramp-capacity-4 = %{F#ff6666}%{F-}
+ramp-capacity-0 = %{F#ff6666} %{F-}
+ramp-capacity-1 = %{F#ff6666} %{F-}
+ramp-capacity-2 = %{F#ff6666} %{F-}
+ramp-capacity-3 = %{F#ff6666} %{F-}
+ramp-capacity-4 = %{F#ff6666} %{F-}
 
 animation-charging-0 = %{F#55aa55}%{F-}
 animation-charging-1 = %{F#55aa55}%{F-}
