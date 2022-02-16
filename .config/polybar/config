@@ -21,7 +21,7 @@ primary = #ff6666
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 27
+height = 30
 offset-y = 0.5%
 radius = 0.0
 fixed-center = true
