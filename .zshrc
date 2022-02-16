@@ -88,11 +88,13 @@ source $ZSH/oh-my-zsh.sh
 
 ### ALIASES ###
 alias l="ls -la"
-alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias update="sudo pacman -Syu"
 alias install="sudo pacman -S" 
 alias search="pacman -Ss"
 alias zzz="systemctl suspend"
+alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+alias da="dotfiles add"
+alias dc="dotfiles commit -m"
 
 neofetch
 
