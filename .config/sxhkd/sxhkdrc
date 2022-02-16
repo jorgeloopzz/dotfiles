@@ -20,6 +20,10 @@ shift + alt + {e,r}
 alt + x
 	bspc node -{c,k}
 
+#
+# bspwm keybindings
+#
+
 # Change to workspace
 alt + {1,2,3,4,5,6,7,8,9,0}
 	bspc desktop -f {I,II,III,IV,V,VI,VII,VIII,IX,X}
@@ -35,4 +39,8 @@ alt + {t,shift + t,s,f}
 # Volume control
 {XF86AudioRaiseVolume,XF86AudioLowerVolume, XF86AudioMute}
 	{pactl set-sink-volume @DEFAULT_SINK@ +5%,pactl set-sink-volume @DEFAULT_SINK@ -5%, pactl set-sink-mute @DEFAULT_SINK@ toggle}
+
+# Focus the window in the given direction
+alt + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
 
