@@ -167,10 +167,10 @@ workspace $ws3 output eDP1
 workspace $ws4 output eDP1
 
 # Monitor 2
-workspace $ws5 output HDMI-1
-workspace $ws6 output HDMI-1
-workspace $ws7 output HDMI-1
-workspace $ws8 output HDMI-1
+workspace $ws5 output HDMI1
+workspace $ws6 output HDMI1
+workspace $ws7 output HDMI1
+workspace $ws8 output HDMI1
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -215,7 +215,7 @@ mode "resize" {
 #######################################################################
 
 # Set monitor resolution
-exec --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 60.00 &
+exec --no-startup-id xrandr --output HDMI1 --mode 1920x1080 --rate 60.00 --right-of eDP1 &
 
 # Avoid the screen to turn off after X time
 exec --no-startup-id xset s off &

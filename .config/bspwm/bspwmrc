@@ -2,6 +2,7 @@
 
 # Programs to run when a session is started
 pgrep -x sxhkd > /dev/null || sxhkd &
+xrandr --output HDMI1 --mode 1920x1080 --rate 60.00 --right-of eDP1 &
 ~/.config/polybar/launch.sh &
 nitrogen --restore &
 redshift -P -O 3200 &

@@ -1,7 +1,7 @@
 # These things are run when an Openbox X Session is started.
 
 # Set resolution on my second monitos
-(sleep 1s && xrandr --output HDMI-1 --mode 1920x1080 --rate 60) &
+(sleep 1s && xrandr --output HDMI1 --mode 1920x1080 --rate 60.00 --right-of eDP1) &
 
 # Screen temperature
 redshift -P -O 3200 &
