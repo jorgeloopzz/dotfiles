@@ -45,7 +45,7 @@ font-1 = FiraCode Nerd Font Mono: size=100
 
 modules-left = bspwm i3
 modules-center = xwindow
-modules-right = filesystem xbacklight pulseaudio memory cpu wlan eth battery date powermenu
+modules-right = filesystem xbacklight memory cpu date pulseaudio battery
 
 tray-position = right
 tray-padding = 2
