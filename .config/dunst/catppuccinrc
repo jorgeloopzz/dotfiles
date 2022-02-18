@@ -32,7 +32,7 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "330x5-10+32"
+    geometry = "420x5-10+32"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -260,8 +260,8 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#B5E8E0"
-    foreground = "#1A1826"
+    background = "#161320"
+    foreground = "#ABE9B3"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
