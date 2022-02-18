@@ -36,6 +36,6 @@ bspc rule -a Alacritty desktop='^2' follow=on
 bspc rule -a code-oss desktop='^3' follow=on
 bspc rule -a mpv desktop='^4' follow=on
 bspc rule -a discord desktop='^5' follow=on
-bspc rule -a nuclear desktop='^6' follow=on
+bspc rule -a Spotify desktop='^6' follow=on
 bspc rule -a TelegramDesktop desktop='^7' follow=on
 

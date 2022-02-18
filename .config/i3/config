@@ -147,7 +147,7 @@ assign [class="^Alacritty$"] → $ws2
 assign [class="^code-oss$"] → $ws3
 assign [class="^mpv$"] → $ws4
 assign [class="^discord$"] → $ws5
-assign [class="^nuclear$"] → $ws6 
+assign [class="^Spotify$"] → $ws6 
 assign [class="^TelegramDesktop$"] → $ws7
 
 # Open certain applications in floating mode

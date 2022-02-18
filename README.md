@@ -39,7 +39,7 @@
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
 | Video player		| [MPV](https://wiki.archlinux.org/title/Mpv)												|
-| Music player		| [nuclear](https://nuclear.js.org/)													|
+| Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)													|
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi), [Wofi](https://man.archlinux.org/man/wofi.1.en)					|
