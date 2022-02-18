@@ -255,7 +255,7 @@ schemes:
 # - nord
 # - snazzy
 # - catppuccin
-colors: *reddy
+colors: *catppuccin
 
 # Fonts
 font:
