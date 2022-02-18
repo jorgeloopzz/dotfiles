@@ -87,7 +87,7 @@
 
     ### Text ###
 
-    font = Cousine Nerd Font 12 
+    font = FiraCode Nerd Font 12 
 
     # The spacing between lines.
     line_height = 0
