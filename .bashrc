@@ -311,3 +311,4 @@ alias personal='cp -Rf /personal/* ~'
 
 # reporting tools - install when not installed
 
+export PATH="$PATH:$HOME/.spicetify"

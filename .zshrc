@@ -99,3 +99,4 @@ alias dc="dotfiles commit -m"
 neofetch
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="$PATH:$HOME/.spicetify"
