@@ -87,7 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 ### ALIASES ###
-alias l="ls -la"
+alias l="exa -la"
 alias update="sudo pacman -Syu"
 alias install="sudo pacman -S" 
 alias remove="sudo pacman -Rscu"
@@ -101,3 +101,5 @@ neofetch
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="$PATH:$HOME/.spicetify"
+
+export NNN_COLORS="2136"
