@@ -97,7 +97,7 @@ alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias da="dotfiles add"
 alias dc="dotfiles commit -m"
 
-neofetch
+colorscript random
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="$PATH:$HOME/.spicetify"
