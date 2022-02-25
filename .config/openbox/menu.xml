@@ -25,10 +25,10 @@
                 <execute>alacritty -e ranger</execute>
             </action>
         </item>
-        <!-- Music player -->
-        <item label="Music" icon="/usr/share/icons/candy-icons/apps/scalable/juk.svg">
+        <!-- Spotify -->
+        <item label="Music" icon="/usr/share/icons/candy-icons/apps/scalable/com.spotify.Client.svg">
             <action name="Execute">
-                <execute>nuclear</execute>
+                <execute>env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U</execute>
             </action>
         </item>
         <separator />
@@ -40,6 +40,11 @@
             </item>
         </menu>
         <menu id="7" label="Multimedia" icon="/usr/share/icons/candy-icons/apps/scalable/multimedia-volume-control.svg">
+           <item label="Spotify" icon="/usr/share/icons/candy-icons/apps/scalable/com.spotify.Client.svg">
+               <action name="Execute">
+                   <execute>env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U</execute>
+               </action>
+           </item>
             <item label="mpv" icon="/usr/share/icons/candy-icons/apps/scalable/mpv.svg">
                 <action name="Execute">
                     <execute>mpv --player-operation-mode=pseudo-gui</execute>
