@@ -151,7 +151,6 @@ assign [class="^Spotify$"] → $ws6
 assign [class="^TelegramDesktop$"] → $ws7
 
 # Open certain applications in floating mode
-for_window [class="^mpv$"] floating enable 
 for_window [class="^Nitrogen$"] floating enable
 for_window [class="^Seahorse$"] floating enable
 
