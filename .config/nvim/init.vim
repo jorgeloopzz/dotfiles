@@ -4,7 +4,7 @@
 "  \ \__|    \ \_\  \ \_\ \ \_\ 
 "   \/_/      \/_/   \/_/  \/_/ 
 "
-" https://github.com/Jorgedeveloopzz                              
+" https://github.com/jorgeloopzz                              
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins
