@@ -34,12 +34,11 @@
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Zsh](https://wiki.archlinux.org/title/Zsh)												|
 | Browsers		| [LibreWolf](https://librewolf.net/), [Tor](https://www.torproject.org/)								|
-| File manager		| [Ranger](https://wiki.archlinux.org/title/Ranger)											|
-| Chat			| [Telegram](https://desktop.telegram.org/)												|
+| Chat			| [Telegram](https://desktop.telegram.org/), [Discord](https://discord.com/)								|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
 | Video player		| [MPV](https://wiki.archlinux.org/title/Mpv)												|
-| Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)													|
+| Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)											|
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi), [Wofi](https://man.archlinux.org/man/wofi.1.en)					|
@@ -47,7 +46,7 @@
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
 | Password Manager	| [Seahorse](https://wiki.gnome.org/Apps/Seahorse)											|
 | GTK configuration	| [lxappearance](https://github.com/lxde/lxappearance)											|
-| GTK Themes		| [Noita](https://github.com/doktorbro/jekyll-noita), [Arc-Dark](https://github.com/horst3180/arc-theme), [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome), [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica), [Nordic](https://github.com/EliverLara/Nordic), [Catppuccin](https://github.com/catppuccin/catppuccin)																|
+| GTK Themes		| [Noita](https://github.com/doktorbro/jekyll-noita), [Arc-Dark](https://github.com/horst3180/arc-theme), [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome), [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica), [Nordic](https://github.com/EliverLara/Nordic), [Catppuccin](https://github.com/catppuccin/catppuccin)																		|
 | Icon themes		| [Candy-icons](https://github.com/EliverLara/candy-icons), [WhiteSur](https://github.com/vinceliuice/WhiteSur-icon-theme)		|
 | Notfications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
 | Sound			| [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)		|
