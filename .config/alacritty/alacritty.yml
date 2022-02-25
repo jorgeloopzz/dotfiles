@@ -248,6 +248,7 @@ schemes:
       magenta: '#F5C2E7'
       cyan:    '#00ffff'
       white:   '#ffffff'
+
 # Select one of the next themes:
 # - tokyo-night
 # - tokyo-night-storm
