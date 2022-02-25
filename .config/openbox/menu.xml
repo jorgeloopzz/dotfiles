@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openbox_menu>
     <menu id="root-menu" label="OpenBox 3">
-        <!-- Brave -->
+        <!-- LibreWolf -->
         <item label="Web browser" icon="/usr/share/icons/candy-icons/apps/scalable/appimagekit-librewolf.svg">
             <action name="Execute">
                 <execute>librewolf</execute>
@@ -19,7 +19,7 @@
                 <execute>code</execute>
             </action>
         </item>
-        <!-- SpaceFM -->
+        <!-- Ranger -->
         <item label="File Manager" icon="/usr/share/icons/candy-icons/apps/scalable/spacefm.svg">
             <action name="Execute">
                 <execute>alacritty -e ranger</execute>
@@ -52,7 +52,7 @@
             </item>
         </menu>
         <menu id="5" label="Network" icon="/usr/share/icons/candy-icons/apps/scalable/internet-web-browser.svg">
-            <item label="Firefox" icon="/usr/share/icons/candy-icons/apps/scalable/appimagekit-librewolf.svg">
+            <item label="LibreWolf" icon="/usr/share/icons/candy-icons/apps/scalable/appimagekit-librewolf.svg">
                 <action name="Execute">
                     <execute>librewolf</execute>
                 </action>
