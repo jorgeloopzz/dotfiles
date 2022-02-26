@@ -60,14 +60,17 @@ for_window [class="^.*"] border pixel 2# Window borders
 bindsym $mod+Shift+space floating toggle
 floating_modifier Mod1
 
-# start a terminal
+# Start a terminal
 bindsym $mod+Return exec alacritty
 
-# kill focused window
+# Kill focused window
 bindsym $mod+x kill
 
 # Start rofi
 bindsym $mod+space exec "rofi -show"
+
+# Launch browser
+bindsym $mod+b exec "librewolf"
 
 # Move focus of the windows
 bindsym $mod+Left focus left
