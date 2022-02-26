@@ -96,6 +96,7 @@ alias zzz="systemctl suspend"
 alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias da="dotfiles add"
 alias dc="dotfiles commit -m"
+alias cl="clear"
 
 colorscript random
 
