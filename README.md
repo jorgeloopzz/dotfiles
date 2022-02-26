@@ -29,7 +29,7 @@
 | Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Waybar](https://github.com/Alexays/Waybar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)											|
 | Login Manager		| [LightDM](https://wiki.archlinux.org/title/LightDM)											|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
-| Shell			| [Zsh](https://wiki.archlinux.org/title/Zsh)												|
+| Shell			| [Fish](https://fishshell.com/)												|
 | Browsers		| [LibreWolf](https://librewolf.net/), [Tor](https://www.torproject.org/)								|
 | Chat			| [Telegram](https://desktop.telegram.org/), [Discord](https://discord.com/)								|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
