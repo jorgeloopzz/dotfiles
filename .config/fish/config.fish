@@ -10,4 +10,5 @@ if status is-interactive
 	alias da="dotfiles add"
 	alias dc="dotfiles commit -m"
 	alias cl="clear"
+	colorscript random
 end
