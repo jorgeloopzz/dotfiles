@@ -239,9 +239,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # Systrays
 exec --no-startup-id nm-applet &
-# exec --no-startup-id volumeicon &
+exec --no-startup-id volumeicon &
 exec --no-startup-id udiskie  --no-appindicator &
-exec --no-startup-id cbatticon -i symbolic BAT1 &
+# exec --no-startup-id cbatticon -i symbolic BAT1 &
 
 # Start picom
 exec --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends & 
