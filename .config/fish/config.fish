@@ -1,6 +1,6 @@
 if status is-interactive
 	set -U fish_greeting
-	alias l="exa -la"
+	alias l="exa -la --icons"
 	alias update="sudo pacman -Syu"
 	alias install="sudo pacman -S"
 	alias remove="sudo pacman -Rscu"
