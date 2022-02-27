@@ -58,7 +58,7 @@ for_window [class="^.*"] border pixel 2# Window borders
 
 # Float window
 bindsym $mod+Shift+space floating toggle
-floating_modifier Mod1
+floating_modifier Mod4
 
 # Start a terminal
 bindsym $mod+Return exec alacritty
