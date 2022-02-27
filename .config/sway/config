@@ -26,7 +26,7 @@
 ### Variables ###
 
 # Logo key. Use Mod1 for Alt, Mod4 for Windows.
-set $mod Mod1
+set $mod Mod4
 
 # Home row direction keys, like vim
 set $left h
@@ -257,3 +257,4 @@ bar {
 }
 
 include /etc/sway/config.d/*
+

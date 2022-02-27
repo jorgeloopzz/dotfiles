@@ -140,71 +140,71 @@
 
   <keyboard>
     <!-- Keybindings for desktop switching -->
-    <keybind key="A-1">
+    <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
       </action>
     </keybind>
-    <keybind key="A-2">
+    <keybind key="W-2">
       <action name="GoToDesktop">
         <to>2</to>
       </action>
     </keybind>
-    <keybind key="A-3">
+    <keybind key="W-3">
       <action name="GoToDesktop">
         <to>3</to>
       </action>
     </keybind>
-    <keybind key="A-4">
+    <keybind key="W-4">
       <action name="GoToDesktop">
         <to>4</to>
       </action>
     </keybind>
-    <keybind key="A-d">
+    <keybind key="W-d">
       <action name="ToggleShowDesktop" />
     </keybind>
 
     <!-- Keybindings for sending windows to workspaces -->
-    <keybind key="A-S-1">
+    <keybind key="W-S-1">
       <action name="SendToDesktop">
         <to>1</to>
       </action>
     </keybind>
-    <keybind key="A-S-2">
+    <keybind key="W-S-2">
       <action name="SendToDesktop">
         <to>2</to>
       </action>
     </keybind>
-    <keybind key="A-S-3">
+    <keybind key="W-S-3">
       <action name="SendToDesktop">
         <to>3</to>
       </action>
     </keybind>
-    <keybind key="A-S-4">
+    <keybind key="W-S-4">
       <action name="SendToDesktop">
         <to>4</to>
       </action>
     </keybind>
 
     <!-- Keybindings for windows -->
-    <keybind key="A-X">
+    <keybind key="W-X">
       <action name="Close" />
     </keybind>
-    <keybind key="A-Escape">
+    <keybind key="W-Escape">
       <action name="Lower" />
       <action name="FocusToBottom" />
       <action name="Unfocus" />
     </keybind>
 
     <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
-    <keybind key="A-Print">
+    <keybind key="W-Print">
       <action name="Execute">
         <command>scrot -s</command>
       </action>
     </keybind>
 
     <!-- Keybindings for window switching -->
-    <keybind key="A-Tab">
+    <keybind key="W-Tab">
       <action name="NextWindow">
         <finalactions>
           <action name="Focus" />
@@ -215,39 +215,39 @@
     </keybind>
 
     <!-- Keybindings for window switching with the arrow keys -->
-    <keybind key="A-Right">
+    <keybind key="W-Right">
       <action name="DirectionalCycleWindows">
         <direction>right</direction>
       </action>
     </keybind>
-    <keybind key="A-Left">
+    <keybind key="W-Left">
       <action name="DirectionalCycleWindows">
         <direction>left</direction>
       </action>
     </keybind>
-    <keybind key="A-Up">
+    <keybind key="W-Up">
       <action name="DirectionalCycleWindows">
         <direction>up</direction>
       </action>
     </keybind>
-    <keybind key="A-Down">
+    <keybind key="W-Down">
       <action name="DirectionalCycleWindows">
         <direction>down</direction>
       </action>
     </keybind>
 
     <!-- Keybinding to restart Openbox -->
-    <keybind key="A-S-R">
+    <keybind key="W-S-R">
       <action name="Reconfigure"></action>
     </keybind>
 
     <!-- ToggleFullscreen -->
-    <keybind key="A-F">
+    <keybind key="W-F">
       <action name="ToggleFullscreen" />
     </keybind>
 
     <!-- Launch Alacritty -->
-    <keybind key="A-Return">
+    <keybind key="W-Return">
       <action name="Execute">
         <command>alacritty</command>
       </action>
@@ -268,58 +268,58 @@
        switching due to hitting the edge of the screen -->
 
     <context name="Frame">
-      <mousebind button="A-Left" action="Press">
+      <mousebind button="W-Left" action="Press">
         <action name="Focus" />
         <action name="Raise" />
       </mousebind>
-      <mousebind button="A-Left" action="Click">
+      <mousebind button="W-Left" action="Click">
         <action name="Unshade" />
       </mousebind>
-      <mousebind button="A-Left" action="Drag">
+      <mousebind button="W-Left" action="Drag">
         <action name="Move" />
       </mousebind>
 
-      <mousebind button="A-Right" action="Press">
+      <mousebind button="W-Right" action="Press">
         <action name="Focus" />
         <action name="Raise" />
         <action name="Unshade" />
       </mousebind>
-      <mousebind button="A-Right" action="Drag">
+      <mousebind button="W-Right" action="Drag">
         <action name="Resize" />
       </mousebind>
 
-      <mousebind button="A-Middle" action="Press">
+      <mousebind button="W-Middle" action="Press">
         <action name="Lower" />
         <action name="FocusToBottom" />
         <action name="Unfocus" />
       </mousebind>
 
-      <mousebind button="A-Up" action="Click">
+      <mousebind button="W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="A-Down" action="Click">
+      <mousebind button="W-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Up" action="Click">
+      <mousebind button="C-W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Down" action="Click">
+      <mousebind button="C-W-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="A-S-Up" action="Click">
+      <mousebind button="A-W-Up" action="Click">
         <action name="SendToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="A-S-Down" action="Click">
+      <mousebind button="A-W-Down" action="Click">
         <action name="SendToDesktop">
           <to>next</to>
         </action>
