@@ -9,7 +9,7 @@
 
 window:
   padding:
-    x: 6
+    x: 0
     y: 6
   opacity: 0.7
 
