@@ -230,14 +230,14 @@
 [urgency_low]
     background = "#000000"
     foreground = "#ffffff"
-    timeout = 10
+    timeout = 7
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
     background = "#000000"
     foreground = "#ff6666"
-    timeout = 10
+    timeout = 7
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon
 
