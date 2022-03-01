@@ -118,12 +118,10 @@ bindsym $mod+d focus child
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: "
-set $ws2 "2:  "
-set $ws3 "3:  "
+set $ws2 "2: "
+set $ws3 "3: "
 set $ws4 "4: "
-set $ws5 "5:ﭮ"
-set $ws6 "6:"
-set $ws7 "7: "
+set $ws5 "5: "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
@@ -131,8 +129,6 @@ bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -140,8 +136,6 @@ bindsym $mod+Shift+2 move container to workspace $ws2
 bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6
-bindysm $mod+Shift+7 move container to workspace $ws7
 
 # Open applications in certain workspaces
 assign [class="^LibreWolf$"] → $ws1
@@ -150,8 +144,8 @@ assign [class="^Alacritty$"] → $ws2
 assign [class="^code-oss$"] → $ws3
 assign [class="^mpv$"] → $ws4
 assign [class="^discord$"] → $ws5
-assign [class="^Spotify$"] → $ws6 
-assign [class="^TelegramDesktop$"] → $ws7
+assign [class="^Spotify$"] → $ws5 
+assign [class="^TelegramDesktop$"] → $ws5
 
 # Open certain applications in floating mode
 for_window [class="^Nitrogen$"] floating enable
