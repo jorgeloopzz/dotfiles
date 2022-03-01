@@ -46,6 +46,7 @@ smart_borders no_gaps
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #96CDFB #96CDFB #96CDFB #96CDFB   #96CDFB
+client.focused_inactive #055494 #055494 #055494 #055494   #055494
 client.unfocused	#055494 #055494 #055494 #055494   #055494
 
 # Disable window titlebars
@@ -232,7 +233,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet &
 exec --no-startup-id volumeicon &
 exec --no-startup-id udiskie  --no-appindicator &
-# exec --no-startup-id cbatticon -i symbolic BAT1 &
+exec --no-startup-id cbatticon -i symbolic BAT1 &
 
 # Start picom
 exec --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends & 
