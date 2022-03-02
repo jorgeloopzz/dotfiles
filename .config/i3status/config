@@ -69,7 +69,7 @@ battery 1 {
 }
 
 volume master {
-	format = " 墳 %volume "
-	format_muted = " 婢 %volume "
+	format = "  %volume "
+	format_muted = "  "
 	device = "pulse"
 }
