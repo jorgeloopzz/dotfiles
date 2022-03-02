@@ -17,8 +17,10 @@ call plug#begin('~/.vim/plugged')
 	Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 	" File manager
 	Plug 'scrooloose/nerdtree'
-	"Status bar
+	" Status bar
 	Plug 'vim-airline/vim-airline'
+	" Rainbow parentheses
+	Plug 'frazrepo/vim-rainbow'
 	" Icons
 	Plug 'ryanoasis/vim-devicons'
 	" Preview CSS colors
@@ -38,6 +40,7 @@ set number relativenumber
 syntax on
 colorscheme catppuccin
 let g:airline_powerline_fonts=1
+let g:rainbow_active = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Keybindings
