@@ -10,5 +10,6 @@ if status is-interactive
 	alias da="dotfiles add"
 	alias dc="dotfiles commit -m"
 	alias cl="clear"
+	alias lovesay="/home/jorge/.local/bin/lovesay"
 	colorscript random
 end
