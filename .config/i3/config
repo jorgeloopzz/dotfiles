@@ -108,9 +108,9 @@ bindsym $mod+d focus child
 
 # Use pactl to adjust the volume with pulseaudio
 # Comment this in case you want to use volumeicon
-#bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ +5%; notify-send 'Volume up'"
-#bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ -5%; notify-send 'Volume down'"
-#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ +5%"
+bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 ##############
 # Workspaces #
@@ -231,7 +231,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # Systrays
 exec --no-startup-id nm-applet &
-exec --no-startup-id volumeicon &
+# exec --no-startup-id volumeicon &
 exec --no-startup-id udiskie  --no-appindicator &
 exec --no-startup-id cbatticon -i symbolic BAT1 &
 

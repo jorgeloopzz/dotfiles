@@ -27,8 +27,8 @@ order += "disk /"
 order += "cpu_usage"
 order += "memory"
 order += "tztime local"
-order += "battery 1"
-# order += "volume master"
+# order += "battery 1"
+order += "volume master"
 
 wireless _first_ {
         format_up = "直 %essid "
