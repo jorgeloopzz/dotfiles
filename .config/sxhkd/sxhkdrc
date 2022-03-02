@@ -8,6 +8,10 @@ super + Return
 super + space
 	rofi -show
 
+# Launch browser
+super + b
+	librewolf
+
 # Restart configuration file
 super + p
 	pkill -USR1 -x sxhkd
