@@ -1,5 +1,13 @@
 if status is-interactive
+
+	## Disable greeting ##
 	set -U fish_greeting
+
+	## Make Neovim default IDe ##
+	export EDITOR='nvim'
+	export VISUAL='nvim'
+
+	## Aliases ##
 	alias l="exa -la --icons"
 	alias update="sudo pacman -Syu"
 	alias install="sudo pacman -S"
@@ -11,5 +19,7 @@ if status is-interactive
 	alias dc="dotfiles commit -m"
 	alias cl="clear"
 	alias lovesay="/home/jorge/.local/bin/lovesay"
+
+	## Init scripts ##
 	colorscript random
 end
