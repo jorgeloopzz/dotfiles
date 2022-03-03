@@ -240,7 +240,7 @@ date = %a %d %B
 
 time = %H:%M
 
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = #ff6666
 
 label = %date% %{F#ff6666} %{F-}%time%
@@ -254,9 +254,9 @@ label-volume-foreground = ${root.foreground}
 
 label-muted = %{F#ff6666}婢%{F-}
 
-ramp-volume-0 = %{F#ff6666}%{F-}
-ramp-volume-1 = %{F#ff6666}%{F-}
-ramp-volume-2 = %{F#ff6666} %{F-}
+ramp-volume-0 = %{F#ff6666}奄%{F-}
+ramp-volume-1 = %{F#ff6666}奔%{F-}
+ramp-volume-2 = %{F#ff6666}墳%{F-}
 
 bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
