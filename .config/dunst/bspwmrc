@@ -31,7 +31,7 @@
     height = 200
 
     # Position the notification in the top right corner
-    origin = top-right
+    origin = top-center
 
     # Offset from the origin
     offset = 10x50
