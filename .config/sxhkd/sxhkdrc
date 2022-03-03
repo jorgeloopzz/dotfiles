@@ -44,6 +44,10 @@ super + {t,shift + t,s,f}
 {XF86AudioRaiseVolume,XF86AudioLowerVolume, XF86AudioMute}
 	{pactl set-sink-volume @DEFAULT_SINK@ +5%,pactl set-sink-volume @DEFAULT_SINK@ -5%, pactl set-sink-mute @DEFAULT_SINK@ toggle}
 
+# Brightness control
+{XF86MonBrightnessUp, XF86MonBrightnessDown}
+	{xbacklight -inc 10, xbacklight -dec 10}
+
 # Focus the window in the given direction
 super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}

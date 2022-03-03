@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
+<openbox_config xmlns="http://openbox.org/3.4/rc"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <resistance>
     <strength>10</strength>
@@ -233,6 +234,18 @@
     <keybind key="W-Down">
       <action name="DirectionalCycleWindows">
         <direction>down</direction>
+      </action>
+    </keybind>
+
+    <!-- Brigthness control -->
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <command>xbacklight -inc 10</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>xbacklight -dec 10</command>
       </action>
     </keybind>
 
