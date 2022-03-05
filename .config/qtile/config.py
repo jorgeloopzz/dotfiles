@@ -102,13 +102,12 @@ for i in groups:
     )
 
 layouts = [
-    layout.Columns(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4, margin=8),
+    layout.MonadTall(border_focus="#39ff14", border_normal="#228b22", border_width=1, margin=6),
     layout.Max(),
-    # Try more layouts by unleashing below layouts.
     layout.Stack(num_stacks=2),
+    # layout.Columns(border_focus=["#d75f5f", "#8f3d3d"], border_width=4, margin=8),
     # layout.Bsp(),
     # layout.Matrix(),
-    layout.MonadTall(),
     # layout.MonadWide(),
     # layout.RatioTile(),
     # layout.Tile(),
