@@ -44,7 +44,7 @@ font-1 = FiraCode Nerd Font Mono: size=100
 
 modules-left = bspwm i3
 modules-center = spotify
-modules-right =  xbacklight memory cpu pulseaudio date battery
+modules-right =  xbacklight memory cpu date battery pulseaudio
 
 tray-position = right
 tray-padding = 2
@@ -227,7 +227,6 @@ type = internal/pulseaudio
 
 format-volume = <ramp-volume> <label-volume>
 label-volume = %percentage%%
-label-volume-foreground = ${root.foreground}
 
 label-muted = %{F#ff6666}婢%{F-}
 
