@@ -43,7 +43,7 @@ font-0 = FiraCode Nerd Font:style=Bold: size=10
 font-1 = FiraCode Nerd Font Mono: size=100
 
 modules-left = bspwm i3
-modules-center = xwindow
+modules-center = spotify
 modules-right = filesystem xbacklight memory cpu date pulseaudio battery
 
 tray-position = right
@@ -67,6 +67,18 @@ cursor-scroll = ns-resize
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:50:...%
+
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = python ~/Scripts/spotify_status.py -f '{artist}: {song}'
+format-underline = #1db954
+;control players (optional)
+click-left = playerctl --player=spotify play-pause 
+click-right = playerctl --player=spotify next 
+click-middle = playerctl --player=spotify previous 
 
 [module/xkeyboard]
 type = internal/xkeyboard
