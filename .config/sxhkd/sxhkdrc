@@ -28,13 +28,9 @@ super + x
 # bspwm keybindings
 #
 
-# Change to workspace
-super + {1,2,3,4,5,6,7,8,9,0}
-	bspc desktop -f {I,II,III,IV,V,VI,VII,VIII,IX,X}
-
-# Move window to any workspace and focus on it
-super + shift {1-9,0}
-	id=$(bspc query -N -n); bspc node -d ^{1-9}; bspc node -f ${id}
+# Focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
 
 # Set the window state
 super + {t,shift + t,s,f}
