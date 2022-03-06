@@ -34,17 +34,17 @@ border-size = 14
 border-color = #00000000
 
 padding-left = 0
-padding-right = 0
+padding-right = 2
 
-module-margin-left = 0
-module-margin-right = 2
+module-margin-left = 1
+module-margin-right = 1
 
 font-0 = FiraCode Nerd Font:style=Bold: size=10
 font-1 = FiraCode Nerd Font Mono: size=100
 
 modules-left = bspwm i3
 modules-center = spotify
-modules-right = filesystem xbacklight memory cpu date pulseaudio battery
+modules-right = filesystem xbacklight memory cpu battery pulseaudio date
 
 tray-position = right
 tray-padding = 2
