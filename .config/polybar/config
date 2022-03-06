@@ -44,7 +44,7 @@ font-1 = FiraCode Nerd Font Mono: size=100
 
 modules-left = bspwm i3
 modules-center = spotify
-modules-right = filesystem xbacklight memory cpu pulseaudio date battery
+modules-right =  xbacklight memory cpu pulseaudio date battery
 
 tray-position = right
 tray-padding = 2
