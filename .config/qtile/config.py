@@ -23,7 +23,6 @@ from libqtile.utils import guess_terminal
 #   SUPER KEY   #
 #---------------#
 mod = "mod4"
-terminal = "alacritty"
 
 #---------------#
 #   KEYBINDINGS #
@@ -63,7 +62,7 @@ keys = [
     ),
 
     #---    Terminal    ---#
-    Key([mod], "Return", lazy.spawn(terminal)),
+    Key([mod], "Return", lazy.spawn("alacritty")),
 
     #---    Launcher    ---#
     Key([mod], "space", lazy.spawn("rofi -show")),
