@@ -109,19 +109,12 @@ for i in groups:
         ]
     )
 
-layout_conf = {
-    'border_focus': #ff79c6,
-    'border_normal': #990057,
-    'border_width': 1,
-    'margin': 10
-}
-
 layouts = [
-    layout.MonadTall(**layout_conf),
+    layout.MonadTall(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=6),
     layout.Max(),
-    layout.Bsp(**layout_conf),
-    layout.MonadWide(**layout_conf),
-    layout.RatioTile(**layout_conf),
+    layout.Bsp(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=6),
+    layout.MonadWide(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=6),
+    layout.RatioTile(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=6),
     # layout.Matrix(),
 ]
 
