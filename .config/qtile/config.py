@@ -64,6 +64,9 @@ keys = [
         lazy.layout.toggle_split(),
     ),
 
+    #---    Browser     ---#
+    Key([mod], "b", lazy.spawn("librewolf")),
+
     #---    Terminal    ---#
     Key([mod], "Return", lazy.spawn("alacritty")),
 
