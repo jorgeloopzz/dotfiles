@@ -227,6 +227,9 @@ exec --no-startup-id redshift -P -O 3200 &
 # Notifications
 exec --no-startup-id dunst -conf /home/jorge/.config/dunst/catppuccinrc &
 
+# Hard drives
+exec --no-startup-id udiskie  --no-appindicator &
+
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
@@ -236,7 +239,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # Systrays
 exec --no-startup-id nm-applet &
 # exec --no-startup-id volumeicon &
-exec --no-startup-id udiskie  --no-appindicator &
 exec --no-startup-id cbatticon -i symbolic BAT1 &
 
 # Start picom
