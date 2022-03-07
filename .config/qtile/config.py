@@ -80,6 +80,10 @@ keys = [
     Key([mod, "shift"], "e", lazy.shutdown()),
 ]
 
+#---------------#
+#   WORKSPACES  #
+#---------------#
+
 groups = [Group(i) for i in "123456789"]
 
 for i in groups:
@@ -106,6 +110,10 @@ for i in groups:
         ]
     )
 
+#-----------#
+#   LAYOUTS #
+#-----------#
+
 layouts = [
     layout.MonadTall(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=6),
     layout.Max(),
@@ -121,13 +129,32 @@ layouts = [
     # layout.Zoomy(),
 ]
 
-widget_defaults = dict(
-    font="sans",
-    fontsize=12,
-    padding=3,
+floating_layout = layout.Floating(
+    float_rules=[
+        # Run the utility of `xprop` to see the wm class and name of an X client.
+        *layout.Floating.default_float_rules,
+        Match(wm_class="confirmreset"),  # gitk
+        Match(wm_class="makebranch"),  # gitk
+        Match(wm_class="maketag"),  # gitk
+        Match(wm_class="ssh-askpass"),  # ssh-askpass
+        Match(title="branchdialog"),  # gitk
+        Match(title="pinentry"),  # GPG key password entry
+    ]
 )
+
+
+#---    Drag floating layouts.  ---#
+mouse = [
+    Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
+    Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
+    Click([mod], "Button2", lazy.window.bring_to_front()),
+]
+
 extension_defaults = widget_defaults.copy()
 
+#---------------#
+#   Monitors    #
+#---------------#
 screens = [
     Screen(
         top=bar.Bar(
@@ -155,30 +182,17 @@ screens = [
     ),
 ]
 
-# Drag floating layouts.
-mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
-    Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
-    Click([mod], "Button2", lazy.window.bring_to_front()),
-]
+widget_defaults = dict(
+    font="sans",
+    fontsize=12,
+    padding=3,
+)
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: List
 follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
-floating_layout = layout.Floating(
-    float_rules=[
-        # Run the utility of `xprop` to see the wm class and name of an X client.
-        *layout.Floating.default_float_rules,
-        Match(wm_class="confirmreset"),  # gitk
-        Match(wm_class="makebranch"),  # gitk
-        Match(wm_class="maketag"),  # gitk
-        Match(wm_class="ssh-askpass"),  # ssh-askpass
-        Match(title="branchdialog"),  # gitk
-        Match(title="pinentry"),  # GPG key password entry
-    ]
-)
 auto_fullscreen = True
 focus_on_window_activation = "smart"
 reconfigure_screens = True
