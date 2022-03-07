@@ -109,13 +109,20 @@ for i in groups:
         ]
     )
 
+layout_conf = {
+    'border_focus': #ff79c6,
+    'border_normal': #990057,
+    'border_width': 1,
+    'margin': 10
+}
+
 layouts = [
-    layout.MonadTall(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=10),
+    layout.MonadTall(**layout_conf),
     layout.Max(),
-    layout.Bsp(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=10),
+    layout.Bsp(**layout_conf),
+    layout.MonadWide(**layout_conf),
+    layout.RatioTile(**layout_conf),
     # layout.Matrix(),
-    layout.MonadWide(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=10),
-    layout.RatioTile(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=10),
 ]
 
 widget_defaults = dict(
