@@ -17,12 +17,20 @@ from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
+from libqtile import hook
 
 
 #---------------#
 #   SUPER KEY   #
 #---------------#
 mod = "mod4"
+
+#---------------#
+#   AUTOSTART   #
+#---------------#
+@hook.subscribe.startup_once
+def autostart():
+    subprocess.call([path.join(qtile_path, 'autostart.sh')])
 
 #---------------#
 #   KEYBINDINGS #
