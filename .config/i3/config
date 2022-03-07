@@ -68,7 +68,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+x kill
 
 # Start rofi
-bindsym $mod+space exec "rofi -show drun"
+bindsym $mod+space exec "rofi -show"
 
 # Launch browser
 bindsym $mod+b exec "librewolf"
