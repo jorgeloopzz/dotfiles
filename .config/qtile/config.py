@@ -110,18 +110,12 @@ for i in groups:
     )
 
 layouts = [
-    layout.MonadTall(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=6),
+    layout.MonadTall(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=10),
     layout.Max(),
-    layout.Stack(border_focus="#ff79c6", border_normal="#990057", border_width=1, num_stacks=2),
-    # layout.Columns(border_focus=["#d75f5f", "#8f3d3d"], border_width=4, margin=8),
-    # layout.Bsp(),
+    layout.Bsp(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=10),
     # layout.Matrix(),
-    # layout.MonadWide(),
-    # layout.RatioTile(),
-    # layout.Tile(),
-    # layout.TreeTab(),
-    # layout.VerticalTile(),
-    # layout.Zoomy(),
+    layout.MonadWide(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=10),
+    layout.RatioTile(border_focus="#ff79c6", border_normal="#990057", border_width=1, margin=10),
 ]
 
 widget_defaults = dict(
