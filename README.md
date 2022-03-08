@@ -25,8 +25,8 @@
 | Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Waybar](https://github.com/Alexays/Waybar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)											|
 | Login Manager		| [LightDM](https://wiki.archlinux.org/title/LightDM)											|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
-| Shell			| [Fish](https://fishshell.com/)												|
-| Browsers		| [LibreWolf](https://librewolf.net/), [Tor](https://www.torproject.org/)								|
+| Shell			| [Fish](https://fishshell.com/)													|
+| Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com), [Tor](https://www.torproject.org/)			|
 | Chat			| [Telegram](https://desktop.telegram.org/), [Discord](https://discord.com/)								|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
@@ -39,7 +39,7 @@
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
 | Password Manager	| [Seahorse](https://wiki.gnome.org/Apps/Seahorse)											|
 | GTK configuration	| [lxappearance](https://github.com/lxde/lxappearance)											|
-| GTK Themes		| [Noita](https://github.com/doktorbro/jekyll-noita), [Arc-Dark](https://github.com/horst3180/arc-theme), [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome), [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica), [Nordic](https://github.com/EliverLara/Nordic), [Catppuccin](https://github.com/catppuccin/catppuccin)																		|
+| GTK Themes		| [Noita](https://github.com/doktorbro/jekyll-noita), [Arc-Dark](https://github.com/horst3180/arc-theme), [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome), [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica), [Nordic](https://github.com/EliverLara/Nordic), [Catppuccin](https://github.com/catppuccin/catppuccin)																			|
 | Icon themes		| [Candy-icons](https://github.com/EliverLara/candy-icons), [WhiteSur](https://github.com/vinceliuice/WhiteSur-icon-theme)		|
 | Notfications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
 | Sound			| [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)		|

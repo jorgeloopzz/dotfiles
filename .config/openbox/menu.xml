@@ -2,9 +2,9 @@
 <openbox_menu>
     <menu id="root-menu" label="OpenBox 3">
         <!-- LibreWolf -->
-        <item label="Web browser" icon="/usr/share/icons/candy-icons/apps/scalable/appimagekit-librewolf.svg">
+        <item label="Web browser" icon="/usr/share/icons/candy-icons/apps/scalable/mozilla-firefox.svg">
             <action name="Execute">
-                <execute>librewolf</execute>
+                <execute>firefox</execute>
             </action>
         </item>
         <!-- Alacritty -->

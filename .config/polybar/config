@@ -195,7 +195,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = vmnet8
+interface = enp1s0
 interval = 3.0
 
 format-connected-underline = #55aa55

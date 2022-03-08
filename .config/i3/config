@@ -71,7 +71,7 @@ bindsym $mod+x kill
 bindsym $mod+space exec "rofi -show"
 
 # Launch browser
-bindsym $mod+b exec "librewolf"
+bindsym $mod+b exec "firefox"
 
 # Move focus of the windows
 bindsym $mod+Left focus left
@@ -143,7 +143,7 @@ bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
 
 # Open applications in certain workspaces
-assign [class="^LibreWolf$"] → $ws1
+assign [class="^firefox$"] → $ws1
 assign [class="^Tor Browser$"] → $ws1
 assign [class="^Alacritty$"] → $ws2
 assign [class="^code-oss$"] → $ws3
