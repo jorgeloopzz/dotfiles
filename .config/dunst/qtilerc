@@ -25,16 +25,16 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 360
+    width = 300
 
     # The maximum height of a single notification, excluding the frame.
-    height = 200
+    height = 300
 
     # Position the notification in the top right corner
     origin = top-right
 
     # Offset from the origin
-    offset = 10x40
+    offset = 20x30
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -64,7 +64,7 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#96CDFB"
+    frame_color = "#bd93f9"
 
     # Define a color for the separator.
     # possible values are:
@@ -86,7 +86,7 @@
 
     ### Text ###
 
-    font = FiraCode Nerd Font 12 
+    font = CaskaydiaCove Nerd Font 12 
 
     # The spacing between lines.
     line_height = 0
@@ -125,7 +125,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<b>%s</b>\n%b"
+    format = "<i>%s</i>\n%b"
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
