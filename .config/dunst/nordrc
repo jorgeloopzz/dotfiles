@@ -22,12 +22,8 @@
 
     ### Geometry ###
 
-    # dynamic width from 0 to 300
-    # width = (0, 300)
-    # constant width of 300
     width = 360
 
-    # The maximum height of a single notification, excluding the frame.
     height = 200
 
     # Position the notification in the top right corner
@@ -37,33 +33,24 @@
     offset = 10x40
 
     # Show how many messages are currently hidden (because of geometry).
-    indicate_hidden = yes
+    indicate_hidden = no
 
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
     shrink = no
 
-    # The transparency of the window.  Range: [0; 100].
-    # This option will only work if a compositing window manager is
-    # present (e.g. xcompmgr, compiz, etc.).
     transparency = 0
 
-    # Draw a line of "separator_height" pixel height between two
-    # notifications.
-    # Set to 0 to disable.
+    # Draw a line of "separator_height" pixel height between two notifications
     separator_height = 2
 
-    # Padding between text and separator.
     padding = 8
 
-    # Horizontal padding.
     horizontal_padding = 8
 
     # Defines width in pixels of frame around the notification window.
-    # Set to 0 to disable.
     frame_width = 2
 
-    # Defines color of the frame around the notification window.
     frame_color = "#88C0D0"
 
     # Define a color for the separator.
@@ -127,8 +114,6 @@
     # Markup is allowed
     format = "<b>%s</b>\n%b"
 
-    # Alignment of message text.
-    # Possible values are "left", "center" and "right".
     alignment = center 
 
     # Show age of message if message is older than show_age_threshold
@@ -178,12 +163,6 @@
 
     ### Misc/Advanced ###
 
-    # dmenu path.
-    dmenu = /usr/bin/dmenu -p dunst:
-
-    # Browser for opening urls in context menu.
-    browser = /usr/bin/sensible-browser
-
     # Always run rule-defined scripts, even if the notification is suppressed
     always_run_script = true
 
@@ -207,24 +186,7 @@
     # debug: all less than unimportant stuff
     verbosity = mesg
 
-    # Define the corner radius of the notification window
-    # in pixel size. If the radius is 0, you have no rounded
-    # corners.
-    # The radius will be automatically lowered if it exceeds half of the
-    # notification height to avoid clipping text and/or icons.
     corner_radius = 0 
-
-    ### Legacy
-
-    # Use the Xinerama extension instead of RandR for multi-monitor support.
-    # This setting is provided for compatibility with older nVidia drivers that
-    # do not support RandR and using it on systems that support RandR is highly
-    # discouraged.
-    #
-    # By enabling this setting dunst will not be able to detect when a monitor
-    # is connected or disconnected which might break follow mode if the screen
-    # layout changes.
-    force_xinerama = false
 
     ### mouse
     mouse_left_click = close_current
