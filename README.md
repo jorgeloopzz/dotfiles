@@ -9,7 +9,7 @@
 </div>
 
 ### [i3](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/i3)
-![2](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/i3-ex.png)
+![i3](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/i3-ex.png)
 
 ### [Openbox](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/openbox)
 ![openbox](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/openbox-ex.png)
