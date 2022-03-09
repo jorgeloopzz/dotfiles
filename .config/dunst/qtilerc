@@ -178,12 +178,6 @@
 
     ### Misc/Advanced ###
 
-    # dmenu path.
-    dmenu = /usr/bin/dmenu -p dunst:
-
-    # Browser for opening urls in context menu.
-    browser = /usr/bin/sensible-browser
-
     # Always run rule-defined scripts, even if the notification is suppressed
     always_run_script = true
 
@@ -198,7 +192,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 6
+    corner_radius = 3
 
     ### Legacy
 
