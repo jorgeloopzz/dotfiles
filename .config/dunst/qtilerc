@@ -49,7 +49,7 @@
     horizontal_padding = 8
 
     # Defines width in pixels of frame around the notification window.
-    frame_width = 2
+    frame_width = 1
 
     frame_color = "#bd93f9"
 
