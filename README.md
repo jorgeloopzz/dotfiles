@@ -17,6 +17,9 @@
 ### [bspwm](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/bspwm)
 ![bspwm](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/bspwm-ex.png)
 
+### [Sway](https://github.com/jorgeloopzz/dotfiles/tree/57921b9df9224ed18429694315539e027989f2ca/.config/sway)
+![sway](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/sway-ex.png)
+
 ## Software I use
 |Software		| Name																	|
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
