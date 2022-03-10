@@ -50,7 +50,7 @@ client.focused_inactive #055494 #055494 #055494 #055494   #055494
 client.unfocused	#055494 #055494 #055494 #055494   #055494
 
 # Disable window titlebars
-for_window [class="^.*"] border pixel 2# Window borders
+for_window [class="^.*"] border pixel 1# Window borders
 
 
 #######################################################################
