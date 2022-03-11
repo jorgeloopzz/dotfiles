@@ -24,6 +24,11 @@ shift + super + {e,r}
 super + x
 	bspc node -{c,k}
 
+# Toogle microphone
+F8
+	amixer set Capture toggle && amixer get Capture | grep "\[off\]" && notify-send "MIC switched OFF" || notify-send "MIC switched ON"
+
+
 #
 # bspwm keybindings
 #
