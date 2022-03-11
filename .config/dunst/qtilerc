@@ -51,8 +51,6 @@
     # Defines width in pixels of frame around the notification window.
     frame_width = 0
 
-    frame_color = "#bd93f9"
-
     # Define a color for the separator.
     # possible values are:
     #  * auto: dunst tries to find a color fitting to the background;
