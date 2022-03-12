@@ -221,8 +221,8 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#2e3440"
-    foreground = "#6272a4"
+    background = "#88c0d0"
+    foreground = "#4c566a"
     timeout = 7
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
@@ -236,7 +236,7 @@
 
 [urgency_critical]
     background = "#BF616A"
-    foreground = "#ECEFF4"
+    foreground = "#2e3440"
     timeout = 0
     # Icon for notifications with critical urgency, uncomment to enable
     #icon = /path/to/icon
