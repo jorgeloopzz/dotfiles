@@ -1,6 +1,17 @@
+ <!-- HEADERS -->
+ <h1 align="center">
+  <b> 
+   <i>
+    ~ My configuration files ~
+   </i>
+  </b>
+</h1>
+ 
  <div align="center">
-   <img src="https://img.shields.io/badge/Dotfiles-%F0%9F%A4%AA-9cf?style=plastic" width=200>
-  </div>
+
+   ![80071604](https://user-images.githubusercontent.com/80071604/158031119-d8e8c5f0-9430-4f76-927a-6c0d27d9917e.png)
+
+ </div>
   
 <div align="center">
   <img alt="APM" src="https://img.shields.io/apm/l/vim-mode?color=gree&label=License&style=plastic"> 
