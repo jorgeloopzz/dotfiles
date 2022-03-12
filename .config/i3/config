@@ -146,7 +146,7 @@ bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
 
 # Open applications in certain workspaces
-assign [class="^LibreWolf$"] → $ws1
+assign [class="^librewolf$"] → $ws1
 assign [class="^Tor Browser$"] → $ws1
 assign [class="^Alacritty$"] → $ws2
 assign [class="^code-oss$"] → $ws3
