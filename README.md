@@ -14,9 +14,9 @@
  </div>
   
 <div align="center">
-  <img alt="APM" src="https://img.shields.io/apm/l/vim-mode?color=gree&label=License&style=plastic"> 
-  <img src="https://img.shields.io/badge/Open Source-%E2%9D%A4%EF%B8%8F-blue?style=plastic"> 
-  <img src="https://img.shields.io/badge/Linux-%F0%9F%90%A7-9cf?style=plastic"> 
+  <img src="https://img.shields.io/github/stars/jorgeloopzz/dotfiles?color=%23BB9AF7&style=for-the-badge"> 
+  <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-23bb9a?style=for-the-badge"> 
+  <img src="https://img.shields.io/badge/Linux-%F0%9F%90%A7-9cf?style=for-the-badge"> 
 </div>
 
 ### [i3](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/i3)
@@ -64,3 +64,6 @@
 | Compositor		| [Picom](https://wiki.archlinux.org/title/Picom)											|
 | Systray		| [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon), [Udiskie](https://wiki.archlinux.org/title/Udisks)													|
 | [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, Cousine, DaddyTimeMono, FiraCode, Hack, Inconsolata				|
+
+<p align="center"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=1A1B26&colorB=F7768E"/></p>
+
