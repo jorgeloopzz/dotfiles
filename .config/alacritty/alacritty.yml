@@ -251,6 +251,48 @@ schemes:
       magenta: '#F5C2E7'
       cyan:    '#00ffff'
       white:   '#ffffff'
+  rose-pine: &rose-pine
+    primary:
+      background: '#232136'
+      foreground: '#e0def4'
+    cursor:
+      text: '#232136'
+      cursor: '#825B65'
+    vi_mode_cursor:
+      text: '#191724'
+      cursor: '#825B65'
+    line_indicator:
+      foreground: None
+      background: None
+    selection:
+      text: CellForeground
+      background: '#312E45'
+    normal:
+      black:   '#817c9c'
+      red:     '#eb6f92'
+      green:   '#9ccfd8'
+      yellow:  '#f6c177'
+      blue:    '#3e8fb0'
+      magenta: '#c4a7e7'
+      cyan:    '#ea9a97'
+      white:   '#e0def4'
+    bright:
+      black:   '#6e6a86'
+      red:     '#eb6f92'
+      green:   '#9ccfd8'
+      yellow:  '#f6c177'
+      blue:    '#31748f'
+      magenta: '#c4a7e7'
+      cyan:    '#ebbcba'
+      white:   '#e0def4'
+    hints:
+      start:
+       foreground: '#817c9c'
+       background: '#393552'
+      end:
+       foreground: '#59546d'
+       background: '#393552'
+
 
 # Select one of the next themes:
 # - tokyo-night
@@ -259,6 +301,8 @@ schemes:
 # - nord
 # - snazzy
 # - catppuccin
+# - reddy
+# - rose-pine
 colors: *catppuccin
 
 # Fonts
