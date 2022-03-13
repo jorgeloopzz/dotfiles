@@ -32,3 +32,7 @@ fi
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 export PATH="$PATH:$HOME/.spicetify"
+
+# Setting the starship prompt
+eval "$(starship init bash)"
+

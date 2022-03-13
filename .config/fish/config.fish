@@ -22,4 +22,7 @@ if status is-interactive
 
 	## Init scripts ##
 	colorscript random
+
+	## Setting the starship prompt ##
+	starship init fish | source
 end
