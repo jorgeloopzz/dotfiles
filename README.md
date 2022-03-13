@@ -14,9 +14,9 @@
  </div>
   
 <div align="center">
-  <img alt="APM" src="https://img.shields.io/apm/l/vim-mode?color=gree&label=License&style=plastic"> 
-  <img src="https://img.shields.io/badge/Open Source-%E2%9D%A4%EF%B8%8F-blue?style=plastic"> 
-  <img src="https://img.shields.io/badge/Linux-%F0%9F%90%A7-9cf?style=plastic"> 
+  <img src="https://img.shields.io/github/stars/jorgeloopzz/dotfiles?color=%23BB9AF7&style=for-the-badge"> 
+  <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-23bb9a?style=for-the-badge"> 
+  <img src="https://img.shields.io/badge/Linux-%F0%9F%90%A7-9cf?style=for-the-badge"> 
 </div>
 
 ### [i3](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/i3)
