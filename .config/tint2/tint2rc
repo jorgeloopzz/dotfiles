@@ -177,17 +177,17 @@ clock_rclick_command = orage
 
 #-------------------------------------
 # Battery
-battery_tooltip = 1
-battery_low_status = 30
-battery_low_cmd = notify-send "battery low"
-battery_full_cmd = 
-bat1_font = DaddyTimeMono Nerd Font 15
-battery_font_color = #ECEFF4 100
-bat1_format = %p 
-battery_background_id = 0
-battery_hide = 101
-ac_connected_cmd = notify-send "Charging  "
-ac_disconnected_cmd = notify-send "Done  "
+# battery_tooltip = 1
+# battery_low_status = 30
+# battery_low_cmd = notify-send "battery low"
+# battery_full_cmd = 
+# bat1_font = DaddyTimeMono Nerd Font 15
+# battery_font_color = #ECEFF4 100
+# bat1_format = %p 
+# battery_background_id = 0
+# battery_hide = 101
+# ac_connected_cmd = notify-send "Charging  "
+# ac_disconnected_cmd = notify-send "Done  "
 
 #-------------------------------------
 # Tooltip
