@@ -67,11 +67,6 @@
                     <execute>/usr/share/discord/Discord</execute>
                 </action>
             </item>
-            <item label="Microsoft Teams" icon="/usr/share/icons/candy-icons/apps/scalable/teams.svg">
-                <action name="Execute">
-                    <execute>teams</execute>
-                </action>
-            </item>
             <item label="qBittorrent" icon="/usr/share/icons/candy-icons/apps/scalable/qbittorrent.svg">
                 <action name="Execute">
                     <execute>qbittorrent</execute>
