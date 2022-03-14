@@ -11,8 +11,9 @@ tint2 -c ~/.config/tint2/tint2rc &
 
 # Systray
 volumeicon &
-udiskie  &
+udiskie &
 nm-applet &
+cbatticon -i standard BAT1 &
 
 dunst -conf /home/jorge/.config/dunst/nordrc &
 (sleep 2s && nitrogen --restore) &
