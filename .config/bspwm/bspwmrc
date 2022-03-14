@@ -28,7 +28,7 @@ bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 
 # Open apllications in certain workspaces
-bspc rule -a librewolf desktop='^1' follow=on
+bspc rule -a firefox desktop='^1' follow=on
 bspc rule -a Tor Browser desktop='^1' follow=on
 bspc rule -a Alacritty desktop='^2' follow=on
 bspc rule -a code-oss desktop='^3' follow=on

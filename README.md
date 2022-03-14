@@ -40,7 +40,7 @@
 | Login Manager		| [LightDM](https://wiki.archlinux.org/title/LightDM)											|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Fish](https://fishshell.com/)													|
-| Browsers		| [LibreWolf](https://librewolf.net/), [Tor](https://www.torproject.org/)								|
+| Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Tor](https://www.torproject.org/)								|
 | Chat			| [Telegram](https://desktop.telegram.org/), [Discord](https://discord.com/)								|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|

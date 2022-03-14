@@ -10,7 +10,7 @@ super + space
 
 # Launch browser
 super + b
-	librewolf
+	firefox
 
 # Restart configuration file
 super + p
