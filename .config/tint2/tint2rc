@@ -65,7 +65,7 @@ background_color_pressed = #a9a9a9 21
 
 #-------------------------------------
 # Panel
-panel_items = PLTSB
+panel_items = PLTS
 panel_size = 100% 50
 panel_margin = 0 10 
 panel_padding = 10 0 15
