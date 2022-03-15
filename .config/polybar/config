@@ -22,7 +22,7 @@ primary = #ff6666
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 30
-radius = 15.0
+radius = 9.0
 fixed-center = true
 
 background = ${colors.background}
@@ -33,8 +33,8 @@ line-size = 2
 border-size = 14
 border-color = #00000000
 
-padding-left = 0
-padding-right = 2
+padding-left = 2
+padding-right = 10
 
 module-margin-left = 1
 module-margin-right = 1
@@ -48,6 +48,11 @@ modules-right =  xbacklight memory cpu date battery pulseaudio
 
 tray-position = right
 tray-padding = 2
+tray-detached = true
+tray-offset-x = -5
+tray-offset-y = 0
+tray-scale = 1.0
+tray-maxsize = 20
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
