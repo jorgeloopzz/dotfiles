@@ -55,7 +55,7 @@
 | GTK configuration	| [lxappearance](https://github.com/lxde/lxappearance)											|
 | GTK Themes		| [Noita](https://github.com/doktorbro/jekyll-noita), [Arc-Dark](https://github.com/horst3180/arc-theme), [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome), [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica), [Nordic](https://github.com/EliverLara/Nordic), [Catppuccin](https://github.com/catppuccin/catppuccin)																			|
 | Icon themes		| [Candy-icons](https://github.com/EliverLara/candy-icons), [WhiteSur](https://github.com/vinceliuice/WhiteSur-icon-theme)		|
-| Notfications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
+| Notifications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
 | Sound			| [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)		|
 | Network		| [Network manager](https://wiki.archlinux.org/title/NetworkManager)									|
 | Cursor speed		| [Imwheel](https://wiki.archlinux.org/title/IMWheel)											|
