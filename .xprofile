@@ -4,5 +4,18 @@ hdmi=`xrandr | grep ' connected' | grep 'HDMI' | awk '{print $1}'`
 if [ "$hdmi" = "HDMI1" ]; then
   xrandr --output eDP1 --primary --mode 1920x1080 --output HDMI1 --mode 1920x1080 --rate 60.00 --above eDP1 &
 else
-  xrandr --output eDP1 --mode 1920x1080
+  xrandr --output eDP1 --mode 1920x1080 &
 fi
+
+# Restore wallpaper
+nitrogen --restore &
+
+# Screen temperature
+redshift -P -O 3200 &
+
+# Hard drives
+udiskie &
+
+# Avoid screen to turn off after a certain time
+xset s off &
+
