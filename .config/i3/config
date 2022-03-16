@@ -25,7 +25,7 @@ set $mod Mod4
 #                                 Gaps                                #
 #######################################################################
 gaps inner 10
-gaps outer 15
+gaps outer 20
 
 # Only enable gaps on a workspace when there is at least one container
 smart_gaps on
