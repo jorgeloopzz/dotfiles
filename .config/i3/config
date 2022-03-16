@@ -215,14 +215,11 @@ mode "resize" {
 #                               Autostart                             #
 #######################################################################
 
-# Set monitor resolution
-exec --no-startup-id xrandr --output HDMI1 --mode 1920x1080 --rate 60.00 --right-of eDP1 &
-
 # Avoid the screen to turn off after X time
 exec --no-startup-id xset s off &
 
 # Restore the chosen wallpaper with nitrogen
-exec --no-startup-id sleep2; nitrogen --restore &
+exec --no-startup-id nitrogen --restore &
 
 # Set screen temperature
 exec --no-startup-id redshift -P -O 3200 &
