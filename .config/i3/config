@@ -215,20 +215,8 @@ mode "resize" {
 #                               Autostart                             #
 #######################################################################
 
-# Avoid the screen to turn off after X time
-exec --no-startup-id xset s off &
-
-# Restore the chosen wallpaper with nitrogen
-exec --no-startup-id nitrogen --restore &
-
-# Set screen temperature
-exec --no-startup-id redshift -P -O 3200 &
-
 # Notifications
 exec --no-startup-id dunst -conf /home/jorge/.config/dunst/catppuccinrc &
-
-# Hard drives
-exec --no-startup-id udiskie  --no-appindicator &
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.

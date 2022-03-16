@@ -1,19 +1,14 @@
 # These things are run when an Openbox X Session is started.
 
-# Screen temperature
-redshift -P -O 3200 &
-
 # Panel
 tint2 -c ~/.config/tint2/tint2rc &
 
 # Systray
 volumeicon &
-udiskie &
 nm-applet &
 cbatticon -i standard BAT1 &
 
 dunst -conf /home/jorge/.config/dunst/nordrc &
-nitrogen --restore &
 picom --config ~/.config/picom/picom.conf --experimental-backends &
 conky -d -c ~/.config/conky/conky.conf
 conky -d -c ~/.config/conky/conky2.conf
