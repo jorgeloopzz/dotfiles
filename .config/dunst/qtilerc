@@ -167,7 +167,7 @@
     # Define the class of the windows spawned by dunst
     class = Dunst
 
-    corner_radius = 3
+    corner_radius = 1
 
     ### mouse
     mouse_left_click = close_current
