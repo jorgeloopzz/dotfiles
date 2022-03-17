@@ -18,7 +18,7 @@
     #   mouse: follow mouse pointer
     #   keyboard: follow window with keyboard focus
     #   none: don't follow anything
-    follow = mouse
+    follow = none
 
      ### Geometry ###
 
