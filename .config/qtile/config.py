@@ -65,7 +65,7 @@ keys = [
     ),
 
     #---    Browser     ---#
-    Key([mod], "b", lazy.spawn("librewolf")),
+    Key([mod], "b", lazy.spawn("firefox")),
 
     #---    Terminal    ---#
     Key([mod], "Return", lazy.spawn("alacritty")),
