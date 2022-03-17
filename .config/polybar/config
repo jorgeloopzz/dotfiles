@@ -28,7 +28,7 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 2
+line-size = 1
 
 border-size = 14
 border-color = #00000000
