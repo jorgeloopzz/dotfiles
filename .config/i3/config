@@ -128,8 +128,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightne
 set $ws1 "1: "
 set $ws2 "2: "
 set $ws3 "3: "
-set $ws4 "4: "
-set $ws5 "5: "
+set $ws4 "4:"
+set $ws5 "5: "
+set $ws6 "6: "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
@@ -137,6 +138,7 @@ bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -144,16 +146,24 @@ bindsym $mod+Shift+2 move container to workspace $ws2
 bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
 
 # Open applications in certain workspaces
 assign [class="^firefox$"] → $ws1
 assign [class="^Tor Browser$"] → $ws1
 assign [class="^Alacritty$"] → $ws2
 assign [class="^code-oss$"] → $ws3
-assign [class="^mpv$"] → $ws4
-assign [class="^discord$"] → $ws5
-assign [class="^Spotify$"] → $ws5 
-assign [class="^TelegramDesktop$"] → $ws5
+assign [class="^Zathura$"] → $ws4
+assign [instance="^libreoffice$"] → $ws4
+assign [class="^libreoffice-writer$"] → $ws4
+assign [class="^libreoffice-calc$"] → $ws4
+assign [class="^libreoffice-impress$"] → $ws4
+assign [class="^libreoffice-draw$"] → $ws4
+assign [class="^libreoffice-math$"] → $ws4
+assign [class="^mpv$"] → $ws5
+assign [class="^discord$"] → $ws6
+assign [class="^Spotify$"] → $ws6
+assign [class="^TelegramDesktop$"] → $ws6
 
 # Open certain applications in floating mode
 for_window [class="^Nitrogen$"] floating enable
