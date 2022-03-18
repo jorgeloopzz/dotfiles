@@ -174,12 +174,13 @@ for_window [class="."] focus
 
 # Monitor 1
 workspace $ws1 output eDP1
-workspace $ws4 output eDP1
 workspace $ws5 output eDP1
+workspace $ws6 output eDP1
 
 # Monitor 2
 workspace $ws2 output HDMI1
 workspace $ws3 output HDMI1
+workspace $ws4 output HDMI1
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
