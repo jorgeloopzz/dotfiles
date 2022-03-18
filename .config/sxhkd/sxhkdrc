@@ -28,6 +28,9 @@ super + x
 F8
 	amixer set Capture toggle && amixer get Capture | grep "\[off\]" && notify-send "MIC switched OFF" || notify-send "MIC switched ON"
 
+# Suspend your machine
+F1
+	systemctl suspend && i3lock
 
 #
 # bspwm keybindings

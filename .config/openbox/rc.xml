@@ -265,6 +265,13 @@
         <command>alacritty</command>
       </action>
     </keybind>
+
+    <!-- Suspend your machine -->
+    <keybind key="F1">
+      <action name="Execute">
+        <command>systemctl suspend && i3lock</command>
+      </action>
+    </keybind>
   </keyboard>
 
   <mouse>
