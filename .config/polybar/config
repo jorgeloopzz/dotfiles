@@ -78,7 +78,7 @@ type = custom/script
 interval = 1
 format-prefix = " "
 format = <label>
-exec = python ~/Scripts/spotify_status.py -t 40 -f '{artist} | {song}'
+exec = python ~/Code/Scripts/spotify_status.py -t 40 -f '{artist} | {song}'
 format-underline = #1db954
 ;control players (optional)
 click-left = playerctl --player=spotify play-pause 
