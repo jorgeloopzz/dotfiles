@@ -19,3 +19,6 @@ udiskie &
 # Avoid screen to turn off after a certain time
 xset s off &
 
+# Enable touchpad
+~/Code/Scripts/touchpad.sh
+
