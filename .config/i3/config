@@ -74,7 +74,7 @@ bindsym $mod+space exec "rofi -show"
 bindsym $mod+b exec "firefox"
 
 # Suspend machine
-bindsym F1 exec "systemctl suspend && i3lock"
+bindsym F1 exec "systemctl suspend && betterlockscreen --lock blur"
 
 # Move focus of the windows
 bindsym $mod+Left focus left

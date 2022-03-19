@@ -30,7 +30,7 @@ F8
 
 # Suspend your machine
 F1
-	systemctl suspend && i3lock
+	systemctl suspend && betterlockscreen --lock blur
 
 #
 # bspwm keybindings
