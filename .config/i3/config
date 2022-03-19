@@ -256,6 +256,6 @@ bar {
 		background #302D41
 		separator #D9E0EE
 		focused_workspace #302D41 #302D41 #D9E0EE
-		inactive_workspace #1E1E2E #1E1E2E #808080
+		active_workspace #1E1E2E #1E1E2E #808080
  }
 }
