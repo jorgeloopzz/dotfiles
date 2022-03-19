@@ -38,6 +38,7 @@
 | WM			| [i3-gaps](https://i3wm.org/), [Sway](https://swaywm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm)																				|
 | Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Waybar](https://github.com/Alexays/Waybar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)											|
 | Login Manager		| [LightDM](https://wiki.archlinux.org/title/LightDM)											|
+| Screen locker		| [i3lock](https://github.com/i3/i3lock)												|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Fish](https://fishshell.com/)													|
 | Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Tor](https://www.torproject.org/)						|
