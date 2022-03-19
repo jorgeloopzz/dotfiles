@@ -38,7 +38,7 @@
 | WM			| [i3-gaps](https://i3wm.org/), [Sway](https://swaywm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm)																				|
 | Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Waybar](https://github.com/Alexays/Waybar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)											|
 | Login Manager		| [LightDM](https://wiki.archlinux.org/title/LightDM)											|
-| Screen locker		| [i3lock](https://github.com/i3/i3lock)												|
+| Screen locker		| [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)								|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Fish](https://fishshell.com/)													|
 | Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Tor](https://www.torproject.org/)						|
@@ -52,7 +52,6 @@
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi), [Wofi](https://man.archlinux.org/man/wofi.1.en)					|
 | Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot), [grim](https://github.com/emersion/grim), [slurp](https://github.com/emersion/slurp)																								|
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
-| Password Manager	| [Seahorse](https://wiki.gnome.org/Apps/Seahorse)											|
 | GTK configuration	| [lxappearance](https://github.com/lxde/lxappearance)											|
 | GTK Themes		| [Noita](https://github.com/doktorbro/jekyll-noita), [Arc-Dark](https://github.com/horst3180/arc-theme), [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome), [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica), [Nordic](https://github.com/EliverLara/Nordic), [Catppuccin](https://github.com/catppuccin/catppuccin), [Material-black](https://www.gnome-look.org/p/1316887/)														|
 | Icon themes		| [Candy-icons](https://github.com/EliverLara/candy-icons), [Material-black](https://www.gnome-look.org/p/1333360)			|
