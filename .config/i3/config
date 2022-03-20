@@ -251,7 +251,7 @@ bar {
 	position top
 	workspace_buttons yes
 	height 27
- 	font pango:Cousine nerd font 12
+ 	font pango:SpaceMono Nerd Font 12
  	colors {
 		background #302D41
 		separator #D9E0EE

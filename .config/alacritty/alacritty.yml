@@ -308,16 +308,16 @@ colors: *catppuccin
 # Fonts
 font:
   normal:
-    family: UbuntuMono Nerd Font
+    family: mononoki Nerd Font
     style: Regular
   bold:
-    family: UbuntuMono Nerd Font
+    family: mononoki Nerd Font
     style: Bold
   italic:
-    family: UbuntuMono Nerd Font
+    family: mononoki Nerd Font
     style: Italic
   bold_italic:
-    family: UbuntuMono Nerd Font
+    family: mononoki Nerd Font
     style: Bold Italic
   size: 12 
 
