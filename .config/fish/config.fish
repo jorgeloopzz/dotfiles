@@ -1,13 +1,13 @@
 if status is-interactive
 
-	## Disable greeting ##
+	## DISABLE GREETING ##
 	set -U fish_greeting
 
-	## Make Neovim default IDe ##
+	## MAKE NEOVIM DEFAULT IDE ##
 	export EDITOR='nvim'
 	export VISUAL='nvim'
 
-	## Aliases ##
+	## ALIASES ##
 	alias l="exa -la --icons"
 	alias update="sudo pacman -Syu"
 	alias install="sudo pacman -S"
@@ -22,9 +22,9 @@ if status is-interactive
 	alias da="dotfiles add"
 	alias dc="dotfiles commit -m"
 
-	## Init script ##
+	## INIT SCRIPT ##
 	colorscript random
 
-	## Setting the starship prompt ##
+	## SETTING THE STARSHIP PROMPT ##
 	starship init fish | source
 end
