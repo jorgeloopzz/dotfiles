@@ -98,21 +98,17 @@ label-unmounted-foreground = ${colors.foreground-alt}
 [module/bspwm]
 type = internal/bspwm
 
-pin-workspaces = true
+pin-workspaces = false
 
-label-focused = %index%
 label-focused-background = ${colors.background-alt}
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 
-label-occupied = %index%
 label-occupied-padding = 2
 
-label-urgent = %index%%{F#ff6666}%{F-}
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
-label-empty = %index%
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 2
 
