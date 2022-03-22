@@ -44,7 +44,7 @@ font-1 = mononoki Nerd Font Mono: size=100
 
 modules-left = bspwm i3
 modules-center = spotify
-modules-right =  xbacklight memory cpu date battery pulseaudio
+modules-right =  eth wlan xbacklight memory cpu date battery pulseaudio
 
 tray-position = right
 tray-padding = 2
@@ -174,7 +174,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = net1
+interface = wlp2s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
