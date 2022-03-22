@@ -46,7 +46,8 @@ super + {t,shift + t,s,f}
 
 # Volume control
 {XF86AudioRaiseVolume,XF86AudioLowerVolume, XF86AudioMute}
-	{pactl set-sink-volume @DEFAULT_SINK@ +5%,pactl set-sink-volume @DEFAULT_SINK@ -5%, pactl set-sink-mute @DEFAULT_SINK@ toggle}
+	{pactl set-sink-volume @DEFAULT_SINK@ +5% && pactl set-sink-mute @DEFAULT_SINK@ false, pactl set-sink-volume @DEFAULT_SINK@ -5% \
+	&& pactl set-sink-mute @DEFAULT_SINK@ false, pactl set-sink-mute @DEFAULT_SINK@ toggle}
 
 # Brightness control
 {XF86MonBrightnessUp, XF86MonBrightnessDown}
