@@ -41,7 +41,7 @@ ethernet _first_ {
 }
 
 disk "/" {
-        format = "  %avail "
+        format = "  %avail "
 	prefix_type = decimal
 }
 
