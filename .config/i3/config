@@ -167,7 +167,6 @@ assign [class="^TelegramDesktop$"] → $ws6
 
 # Open certain applications in floating mode
 for_window [class="^Nitrogen$"] floating enable
-for_window [class="^Seahorse$"] floating enable
 
 # Focus window opened automatically
 for_window [class="."] focus
