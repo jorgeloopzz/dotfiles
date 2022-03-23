@@ -81,9 +81,9 @@ format = <label>
 exec = python ~/Code/Scripts/spotify_status.py -t 40 -f '{artist} | {song}'
 format-underline = #1db954
 ;control players (optional)
-click-left = playerctl --player=spotify play-pause 
+click-left = playerctl --player=spotify previous 
 click-right = playerctl --player=spotify next 
-click-middle = playerctl --player=spotify previous 
+click-middle = playerctl --player=spotify play-pause 
 
 [module/filesystem]
 type = internal/fs
