@@ -30,7 +30,7 @@
     origin = top-center
 
     # Offset from the origin
-    offset = 10x50
+    offset = 0x50
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = no
@@ -172,7 +172,7 @@
     # Define the class of the windows spawned by dunst
     class = Dunst
 
-    corner_radius = 26
+    corner_radius = 9
 
     ### Legacy
 
