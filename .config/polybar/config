@@ -151,12 +151,12 @@ format-connected-prefix-foreground = #ff6666
 [module/eth]
 type = internal/network
 interface = enp1s0
-interval = 3.0
+interval = 1.0
 
 format-connected = <label-connected>
-label-connected = %essid%
+label-connected = %upspeed% %downspeed%
 
-format-connected-prefix = ""
+format-connected-prefix = " "
 format-connected-prefix-foreground = #ff6666
 
 format-disconnected =
