@@ -41,6 +41,7 @@ syntax on
 colorscheme catppuccin
 let g:airline_powerline_fonts=1
 let g:rainbow_active = 1
+hi Normal guibg=NONE ctermbg=NONE
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Keybindings
