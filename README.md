@@ -52,7 +52,6 @@
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi), [Wofi](https://man.archlinux.org/man/wofi.1.en)					|
 | Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot), [grim](https://github.com/emersion/grim), [slurp](https://github.com/emersion/slurp)																								|
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
-| GTK configuration	| [lxappearance](https://github.com/lxde/lxappearance)											|
 | GTK Themes		| [Noita](https://github.com/doktorbro/jekyll-noita), [Arc-Dark](https://github.com/horst3180/arc-theme), [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome), [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica), [Nordic](https://github.com/EliverLara/Nordic), [Catppuccin](https://github.com/catppuccin/catppuccin), [Material-black](https://www.gnome-look.org/p/1316887/)														|
 | Icon themes		| [Candy-icons](https://github.com/EliverLara/candy-icons), [Material-black](https://www.gnome-look.org/p/1333360)			|
 | Notifications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
