@@ -111,7 +111,7 @@ layouts = [
 widget_defaults = dict(
     font="UbuntuMono Nerd Font",
     fontsize=18,
-    padding=3,
+    padding=6,
 )
 extension_defaults = widget_defaults.copy()
 
@@ -136,7 +136,6 @@ screens = [
                     update_interval=60.0
                     ),
                 widget.Systray(),
-                widget.QuickExit(),
             ],
             30,
             background="#191724",
