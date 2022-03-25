@@ -25,3 +25,9 @@ URxvt.font: xft:CaskaydiaCove Nerd Font:size=11
 URxvt.letterSpace: -1
 URxvt.saveLines: 2000
 
+!Clipboard
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+
+
