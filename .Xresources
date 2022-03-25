@@ -15,3 +15,8 @@ Xft.dpi: 96
 ! Cursor size
 Xcursor.size: 24
 
+! URXVT CONFIGURATION
+
+! Disable scrollbar
+URxvt.scrollBar: false
+
