@@ -20,3 +20,8 @@ Xcursor.size: 24
 ! Disable scrollbar
 URxvt.scrollBar: false
 
+! Fonts
+URxvt.font: xft:CaskaydiaCove Nerd Font:size=11
+URxvt.letterSpace: -1
+URxvt.saveLines: 2000
+
