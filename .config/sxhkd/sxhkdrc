@@ -1,4 +1,6 @@
-### COMMANDS ###
+# 
+# GENERAL COMMANDS
+#
 
 # Terminal emulator
 super + Return
@@ -16,14 +18,6 @@ super + b
 super + p
 	pkill -USR1 -x sxhkd
 
-# Restart bspwm
-shift + super + {e,r}
-	bspc {quit,wm -r}
-
-# Kill window
-super + x
-	bspc node -{c,k}
-
 # Toogle microphone
 F8
 	amixer set Capture toggle && amixer get Capture | grep "\[off\]" && notify-send "MIC switched OFF" || notify-send "MIC switched ON"
@@ -31,18 +25,6 @@ F8
 # Suspend your machine
 F1
 	systemctl suspend && betterlockscreen --lock blur
-
-#
-# bspwm keybindings
-#
-
-# Focus or send to the given desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
-
-# Set the window state
-super + {t,shift + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # Volume control
 {XF86AudioRaiseVolume,XF86AudioLowerVolume, XF86AudioMute}
@@ -53,7 +35,27 @@ super + {t,shift + t,s,f}
 {XF86MonBrightnessUp, XF86MonBrightnessDown}
 	{xbacklight -inc 5, xbacklight -dec 5}
 
+#
+# BSPWM KEYBINDINGS
+#
+
+# Focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+# Set the window state
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
 # Focus the window in the given direction
 super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
+
+# Restart bspwm
+shift + super + {e,r}
+	bspc {quit,wm -r}
+
+# Kill window
+super + x
+	bspc node -{c,k}
 
