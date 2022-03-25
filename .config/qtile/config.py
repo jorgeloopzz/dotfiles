@@ -110,7 +110,7 @@ layouts = [
 
 widget_defaults = dict(
     font="UbuntuMono Nerd Font",
-    fontsize=15,
+    fontsize=18,
     padding=3,
 )
 extension_defaults = widget_defaults.copy()
@@ -119,23 +119,19 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(),
                 widget.GroupBox(),
-                widget.Prompt(),
                 widget.WindowName(),
-                widget.Chord(
-                    chords_colors={
-                        "launch": ("#ff0000", "#ffffff"),
-                    },
-                    name_transform=lambda name: name.upper(),
-                ),
-                widget.TextBox("default config", name="default"),
-                widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
-                widget.Systray(),
+                widget.CheckUpdates(
+                    update_interval = 1800,
+                    display_format=" {updates}",
+                    no_update_string=" 0"
+                    ),
+                widget.CurrentLayout(),
                 widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
+                widget.Systray(),
                 widget.QuickExit(),
             ],
-            24,
+            30,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
         ),
