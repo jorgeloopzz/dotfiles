@@ -127,6 +127,10 @@ screens = [
                     no_update_string=" 0"
                     ),
                 widget.CurrentLayout(),
+                widget.Net(
+                    interface="enp1s0",
+                    format=" {down}{up}"
+                    ),
                 widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
                 widget.Systray(),
                 widget.QuickExit(),
