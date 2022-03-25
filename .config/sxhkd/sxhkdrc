@@ -51,7 +51,7 @@ super + {t,shift + t,s,f}
 
 # Brightness control
 {XF86MonBrightnessUp, XF86MonBrightnessDown}
-	{xbacklight -inc 10, xbacklight -dec 10}
+	{xbacklight -inc 5, xbacklight -dec 5}
 
 # Focus the window in the given direction
 super + {_,shift + }{h,j,k,l}

@@ -121,8 +121,8 @@ bindsym F8 exec amixer set Capture toggle && amixer get Capture | \
 grep "\[off\]" && notify-send "MIC switched OFF" || notify-send "MIC switched ON"
 
 # Brightness control
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
 
 ##############
 # Workspaces #
