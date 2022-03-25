@@ -215,7 +215,7 @@ format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
-format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-prefix-foreground = #55aa55
 format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = %{F#ff6666} %{F-}
