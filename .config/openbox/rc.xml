@@ -197,7 +197,7 @@
       <action name="Unfocus" />
     </keybind>
 
-    <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
+    <!-- Take a screenshot of the current window with scrot when Window+Print are pressed -->
     <keybind key="W-Print">
       <action name="Execute">
         <command>scrot -s</command>
