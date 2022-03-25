@@ -113,11 +113,11 @@ for i in groups:
     )
 
 layouts = [
-    layout.MonadTall(border_focus="#bd93f9", border_normal="#410891", border_width=1, margin=9),
+    layout.MonadTall(border_focus="#c4a7e7", border_normal="#602ca0", border_width=1, margin=9),
     layout.Max(),
-    layout.Bsp(border_focus="#bd93f9", border_normal="#410891", border_width=1, margin=9),
-    layout.MonadWide(border_focus="#bd93f9", border_normal="#410891", border_width=1, margin=9),
-    layout.RatioTile(border_focus="#bd93f9", border_normal="#410891", border_width=1, margin=9),
+    layout.Bsp(border_focus="#c4a7e7", border_normal="#602ca0", border_width=1, margin=9),
+    layout.MonadWide(border_focus="#c4a7e7", border_normal="#602ca0", border_width=1, margin=9),
+    layout.RatioTile(border_focus="#c4a7e7", border_normal="#602ca0", border_width=1, margin=9),
     # layout.Matrix(),
 ]
 
