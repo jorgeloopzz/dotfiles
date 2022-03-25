@@ -131,7 +131,10 @@ screens = [
                     interface="enp1s0",
                     format=" {down}{up}"
                     ),
-                widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
+                widget.Clock(
+                    format=" %d/%m/%Y -  %H:%M",
+                    update_interval=60.0
+                    ),
                 widget.Systray(),
                 widget.QuickExit(),
             ],
