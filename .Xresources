@@ -21,7 +21,8 @@ Xcursor.size: 24
 URxvt.scrollBar: false
 
 ! Fonts
-URxvt.font: xft:CaskaydiaCove Nerd Font:size=11
+URxvt.font: xft:CaskaydiaCove Nerd Font:size=11, \
+	xft:DejaVu Sans:pixelsize=18 \
 URxvt.letterSpace: -1
 URxvt.saveLines: 2000
 
