@@ -11,16 +11,14 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
 
-	" Nord theme
-	Plug 'arcticicestudio/nord-vim'
-	"Catppuccin theme
-	Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+	" Colorscheme
+	Plug 'morhetz/gruvbox'
 	" File manager
 	Plug 'scrooloose/nerdtree'
-	" Status bar
-	Plug 'vim-airline/vim-airline'
 	" Rainbow parentheses
 	Plug 'frazrepo/vim-rainbow'
+	" Status bar
+	Plug 'vim-airline/vim-airline'
 	" Icons
 	Plug 'ryanoasis/vim-devicons'
 	" Preview CSS colors
@@ -38,7 +36,7 @@ set cursorline
 set cursorcolumn
 set number relativenumber
 syntax on
-colorscheme catppuccin
+colorscheme gruvbox
 let g:airline_powerline_fonts=1
 let g:rainbow_active = 1
 hi Normal guibg=NONE ctermbg=NONE
