@@ -16,6 +16,11 @@ if status is-interactive
 	alias cl="clear"
 	alias lovesay="/home/jorge/.local/bin/lovesay"
 
+	# Window swallowing
+	alias mpv="devour mpv"
+	alias sxiv="devour sxiv"
+	alias zathura="devour zathura"
+
 	# Dotfiles aliases
 	alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 	alias da="dotfiles add"
