@@ -87,7 +87,7 @@ keys = [
 ]
 
 groups = [Group(i) for i in [
-    "   ", "   ", "   ", "  ", "   ", "   ", "   ",
+    "   ", "   ", "   ", "   ", "   ", "   ", "   ",
 ]]
 
 for i, group in enumerate(groups):
@@ -124,6 +124,7 @@ screens = [
                      rounded = False,
                      highlight_color = "#c4a7e7",
                      highlight_method = "line",
+                     borderwidth = 0,
                     ),
                 widget.WindowName(
                     fontsize = 14,
