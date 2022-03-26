@@ -119,6 +119,10 @@ screens = [
     Screen(
         top=bar.Bar(
             [
+                widget.Sep(
+                     linewidth = 0,
+                     padding = 3,
+                       ),
                 widget.TextBox(
                     text=' ',
                     foreground = "#ffffff",
@@ -128,7 +132,6 @@ screens = [
                      linewidth = 0,
                      padding = 3,
                        ),
-
                 widget.GroupBox(
                      active = "#ffffff",
                      rounded = False,
@@ -142,13 +145,13 @@ screens = [
                     ),
                 widget.TextBox(
                     text='',
-                    foreground = "#9ccfd8",
+                    foreground = "#c4a7e7",
                     padding = -3,
                     fontsize = 40
                     ),
                 widget.TextBox(
                     text=' ',
-                    background = "#9ccfd8",
+                    background = "#c4a7e7",
                     foreground = "#191724",
                     padding = 7
                     ),
@@ -157,6 +160,19 @@ screens = [
                     display_format="{updates}",
                     foreground = "#191724",
                     background = "#9ccfd8",
+                    ),
+                widget.TextBox(
+                    text='',
+                    foreground = "#9ccfd8",
+                    background = "#c4a7e7",
+                    padding = -3,
+                    fontsize = 40
+                    ),
+                widget.Memory(
+                    format="溜{MemUsed: .0f}{mm}",
+                    background = "#9ccfd8",
+                    foreground = "#191724",
+                    interval = 1.0
                     ),
                 widget.TextBox(
                     text='',
@@ -182,9 +198,15 @@ screens = [
                     padding = -3,
                     fontsize = 40
                     ),
+                widget.TextBox(
+                    text=' ',
+                    background = "#9ccfd8",
+                    foreground = "#191724",
+                    padding = 3
+                    ),
                 widget.Net(
                     interface="enp1s0",
-                    format=" {down}{up}",
+                    format="{down} {up}",
                     background = "#9ccfd8",
                     foreground = "#191724",
                     ),
