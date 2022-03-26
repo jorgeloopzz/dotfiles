@@ -87,7 +87,7 @@ keys = [
 ]
 
 groups = [Group(i) for i in [
-    "   ", "   ", "   ", "   ", "   ", "   ", "   ",
+    "   ", "   ", "   ", "  ", "   ", "   ", "   ",
 ]]
 
 for i, group in enumerate(groups):
@@ -119,6 +119,16 @@ screens = [
     Screen(
         top=bar.Bar(
             [
+                widget.TextBox(
+                    text=' ',
+                    foreground = "#ffffff",
+                    fontsize = 22
+                    ),
+                widget.Sep(
+                     linewidth = 0,
+                     padding = 3,
+                       ),
+
                 widget.GroupBox(
                      active = "#ffffff",
                      rounded = False,
