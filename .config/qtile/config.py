@@ -120,7 +120,10 @@ screens = [
         top=bar.Bar(
             [
                 widget.GroupBox(
-                    rounded = False,
+                     active = "#ffffff",
+                     rounded = False,
+                     highlight_color = "#c4a7e7",
+                     highlight_method = "line",
                     ),
                 widget.WindowName(
                     fontsize = 14,
