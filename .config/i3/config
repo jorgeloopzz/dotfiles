@@ -168,6 +168,16 @@ assign [class="^TelegramDesktop$"] → $ws6
 # Focus window opened automatically
 for_window [class="."] focus
 
+#########################
+#	Scratchpad	#
+#########################
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+u move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+u scratchpad show
+
 ### Put workspaces on specific monitors ###
 
 # Monitor 1
@@ -232,6 +242,9 @@ exec --no-startup-id cbatticon -i standard BAT1 &
 
 # Start picom
 exec --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends & 
+
+# Start urxvt as scratchpad
+exec --no-startup-id urxvt &
 
 # Start any status bar
 # exec_always --no-startup-id yabar &
