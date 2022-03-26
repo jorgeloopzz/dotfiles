@@ -30,7 +30,7 @@ foreground = ${colors.foreground}
 
 line-size = 1
 
-border-size = 14
+border-size = 8
 border-color = #00000000
 
 padding-left = 6
