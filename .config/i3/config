@@ -243,9 +243,6 @@ exec --no-startup-id cbatticon -i standard BAT1 &
 # Start picom
 exec --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends & 
 
-# Start urxvt as scratchpad
-exec --no-startup-id urxvt &
-
 # Start any status bar
 # exec_always --no-startup-id yabar &
 bar {
