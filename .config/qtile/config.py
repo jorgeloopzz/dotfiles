@@ -100,11 +100,11 @@ for i, group in enumerate(groups):
     ])
 
 layouts = [
-    layout.MonadTall(border_focus="#c4a7e7", border_normal="#602ca0", border_width=1, margin=9),
+    layout.MonadTall(border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=9),
     layout.Max(),
-    layout.Bsp(border_focus="#c4a7e7", border_normal="#602ca0", border_width=1, margin=9),
-    layout.MonadWide(border_focus="#c4a7e7", border_normal="#602ca0", border_width=1, margin=9),
-    layout.RatioTile(border_focus="#c4a7e7", border_normal="#602ca0", border_width=1, margin=9),
+    layout.Bsp(border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=9),
+    layout.MonadWide(border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=9),
+    layout.RatioTile(border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=9),
     # layout.Matrix(),
 ]
 
@@ -229,8 +229,8 @@ floating_layout = layout.Floating(
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),  # GPG key password entry
     ],
-    border_focus="#c4a7e7",
-    border_normal="#602ca0"
+    border_focus="#9ccfd8",
+    border_normal="#31748f"
 )
 auto_fullscreen = True
 focus_on_window_activation = "smart"
