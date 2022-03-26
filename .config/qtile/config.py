@@ -124,23 +124,78 @@ screens = [
                     fontsize = 14,
                     foreground = "#c4a7e7"
                     ),
+                widget.TextBox(
+                    text='',
+                    foreground = "#9ccfd8",
+                    padding = -2,
+                    fontsize = 30
+                    ),
                 widget.CheckUpdates(
                     update_interval = 1800,
                     display_format=" {updates}",
-                    no_update_string=" 0"
+                    no_update_string=" 0",
+                    background = "#9ccfd8",
+                    foreground = "#191724",
                     ),
-                widget.CurrentLayout(),
+                widget.TextBox(
+                    text='',
+                    background = "#9ccfd8",
+                    foreground = "#c4a7e7",
+                    padding = -2,
+                    fontsize = 30
+                    ),
+                widget.TextBox(
+                    text=' ',
+                    background = "#c4a7e7",
+                    foreground = "#191724",
+                    padding = 7
+                    ),
+                widget.CurrentLayout(
+                    background = "#c4a7e7",
+                    foreground = "#191724",
+                    ),
+                widget.TextBox(
+                    text='',
+                    background = "#c4a7e7",
+                    foreground = "#9ccfd8",
+                    padding = -2,
+                    fontsize = 30
+                    ),
                 widget.Net(
                     interface="enp1s0",
-                    format=" {down}{up}"
+                    format=" {down}{up}",
+                    background = "#9ccfd8",
+                    foreground = "#191724",
+                    ),
+                widget.TextBox(
+                    text='',
+                    background = "#9ccfd8",
+                    foreground = "#c4a7e7",
+                    padding = -2,
+                    fontsize = 30
+                    ),
+                widget.TextBox(
+                    text='',
+                    background = "#c4a7e7",
+                    foreground = "#191724",
+                    padding = 7
                     ),
                 widget.Clock(
-                    format=" %d/%m/%Y -  %H:%M",
+                    background = "#c4a7e7",
+                    foreground = "#191724",
+                    format="%d/%m/%Y - %H:%M",
                     update_interval=60.0
+                    ),
+                widget.TextBox(
+                    text='',
+                    background = "#c4a7e7",
+                    foreground = "#191724",
+                    padding = -2,
+                    fontsize = 30
                     ),
                 widget.Systray(),
             ],
-            30,
+            20,
             background="#191724",
         ),
     ),
