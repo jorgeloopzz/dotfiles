@@ -119,7 +119,9 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.GroupBox(),
+                widget.GroupBox(
+                    rounded = False,
+                    ),
                 widget.WindowName(
                     fontsize = 14,
                     foreground = "#c4a7e7"
@@ -127,8 +129,8 @@ screens = [
                 widget.TextBox(
                     text='',
                     foreground = "#9ccfd8",
-                    padding = -2,
-                    fontsize = 30
+                    padding = -3,
+                    fontsize = 40
                     ),
                 widget.TextBox(
                     text=' ',
@@ -146,8 +148,8 @@ screens = [
                     text='',
                     background = "#9ccfd8",
                     foreground = "#c4a7e7",
-                    padding = -2,
-                    fontsize = 30
+                    padding = -3,
+                    fontsize = 40
                     ),
                 widget.TextBox(
                     text=' ',
@@ -163,8 +165,8 @@ screens = [
                     text='',
                     background = "#c4a7e7",
                     foreground = "#9ccfd8",
-                    padding = -2,
-                    fontsize = 30
+                    padding = -3,
+                    fontsize = 40
                     ),
                 widget.Net(
                     interface="enp1s0",
@@ -176,8 +178,8 @@ screens = [
                     text='',
                     background = "#9ccfd8",
                     foreground = "#c4a7e7",
-                    padding = -2,
-                    fontsize = 30
+                    padding = -3,
+                    fontsize = 40
                     ),
                 widget.TextBox(
                     text='',
@@ -195,12 +197,12 @@ screens = [
                     text='',
                     background = "#c4a7e7",
                     foreground = "#191724",
-                    padding = -2,
-                    fontsize = 30
+                    padding = -3,
+                    fontsize = 40
                     ),
                 widget.Systray(),
             ],
-            20,
+            25,
             background="#191724",
         ),
     ),
