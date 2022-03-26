@@ -130,12 +130,17 @@ screens = [
                     padding = -2,
                     fontsize = 30
                     ),
-                widget.CheckUpdates(
-                    update_interval = 1800,
-                    display_format=" {updates}",
-                    no_update_string=" 0",
+                widget.TextBox(
+                    text=' ',
                     background = "#9ccfd8",
                     foreground = "#191724",
+                    padding = 7
+                    ),
+                widget.CheckUpdates(
+                    update_interval = 1800,
+                    display_format="{updates}",
+                    foreground = "#191724",
+                    background = "#9ccfd8",
                     ),
                 widget.TextBox(
                     text='',
