@@ -145,13 +145,13 @@ screens = [
                     ),
                 widget.TextBox(
                     text='',
-                    foreground = "#c4a7e7",
+                    foreground = "#e0def4",
                     padding = -3,
                     fontsize = 40
                     ),
                 widget.TextBox(
                     text=' ',
-                    background = "#c4a7e7",
+                    background = "#e0def4",
                     foreground = "#191724",
                     padding = 7
                     ),
@@ -163,37 +163,37 @@ screens = [
                     ),
                 widget.TextBox(
                     text='',
-                    foreground = "#9ccfd8",
-                    background = "#c4a7e7",
+                    foreground = "#eb6f92",
+                    background = "#e0def4",
                     padding = -3,
                     fontsize = 40
                     ),
                 widget.Memory(
                     format="溜{MemUsed: .0f}{mm}",
-                    background = "#9ccfd8",
+                    background = "#eb6f92",
                     foreground = "#191724",
                     interval = 1.0
                     ),
                 widget.TextBox(
                     text='',
-                    background = "#9ccfd8",
-                    foreground = "#c4a7e7",
+                    background = "#eb6f92",
+                    foreground = "#f6c177",
                     padding = -3,
                     fontsize = 40
                     ),
                 widget.TextBox(
                     text=' ',
-                    background = "#c4a7e7",
+                    background = "#f6c177",
                     foreground = "#191724",
                     padding = 7
                     ),
                 widget.CurrentLayout(
-                    background = "#c4a7e7",
+                    background = "#f6c177",
                     foreground = "#191724",
                     ),
                 widget.TextBox(
                     text='',
-                    background = "#c4a7e7",
+                    background = "#f6c177",
                     foreground = "#9ccfd8",
                     padding = -3,
                     fontsize = 40
@@ -232,14 +232,14 @@ screens = [
                 widget.TextBox(
                     text='',
                     background = "#c4a7e7",
-                    foreground = "#191724",
+                    foreground = "#232136",
                     padding = -3,
                     fontsize = 40
                     ),
                 widget.Systray(),
             ],
             25,
-            background="#191724",
+            background="#232136",
         ),
     ),
 ]
