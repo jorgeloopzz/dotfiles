@@ -120,7 +120,10 @@ screens = [
         top=bar.Bar(
             [
                 widget.GroupBox(),
-                widget.WindowName(),
+                widget.WindowName(
+                    fontsize = 14,
+                    foreground = "#c4a7e7"
+                    ),
                 widget.CheckUpdates(
                     update_interval = 1800,
                     display_format=" {updates}",
@@ -139,8 +142,6 @@ screens = [
             ],
             30,
             background="#191724",
-            # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
-            # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
         ),
     ),
 ]
