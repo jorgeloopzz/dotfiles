@@ -1,14 +1,14 @@
-#  $$$$$$\    $$\     $$\ $$\           
-# $$  __$$\   $$ |    \__|$$ |          
-# $$ /  $$ |$$$$$$\   $$\ $$ | $$$$$$\  
-# $$ |  $$ |\_$$  _|  $$ |$$ |$$  __$$\ 
+#  $$$$$$\    $$\     $$\ $$\
+# $$  __$$\   $$ |    \__|$$ |
+# $$ /  $$ |$$$$$$\   $$\ $$ | $$$$$$\
+# $$ |  $$ |\_$$  _|  $$ |$$ |$$  __$$\
 # $$ |  $$ |  $$ |    $$ |$$ |$$$$$$$$ |
 # $$ $$\$$ |  $$ |$$\ $$ |$$ |$$   ____|
-# \$$$$$$ /   \$$$$  |$$ |$$ |\$$$$$$$\ 
+# \$$$$$$ /   \$$$$  |$$ |$$ |\$$$$$$$\
 #  \___$$$\    \____/ \__|\__| \_______|
-#      \___|                            
-#                                       
-# https://github.com/jorgeloopzz/dotfiles                                     
+#      \___|
+#
+# https://github.com/jorgeloopzz/dotfiles
 
 import os
 import subprocess
@@ -100,11 +100,15 @@ for i, group in enumerate(groups):
     ])
 
 layouts = [
-    layout.MonadTall(border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=9),
+    layout.MonadTall(border_focus="#9ccfd8",
+                     border_normal="#31748f", border_width=1, margin=9),
     layout.Max(),
-    layout.Bsp(border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=9),
-    layout.MonadWide(border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=9),
-    layout.RatioTile(border_focus="#9ccfd8", border_normal="#31748f", border_width=1, margin=9),
+    layout.Bsp(border_focus="#9ccfd8", border_normal="#31748f",
+               border_width=1, margin=9),
+    layout.MonadWide(border_focus="#9ccfd8",
+                     border_normal="#31748f", border_width=1, margin=9),
+    layout.RatioTile(border_focus="#9ccfd8",
+                     border_normal="#31748f", border_width=1, margin=9),
     # layout.Matrix(),
 ]
 
@@ -120,122 +124,122 @@ screens = [
         top=bar.Bar(
             [
                 widget.Sep(
-                     linewidth = 0,
-                     padding = 3,
-                       ),
+                    linewidth=0,
+                    padding=3,
+                ),
                 widget.TextBox(
                     text=' ',
-                    foreground = "#ffffff",
-                    fontsize = 22
-                    ),
+                    foreground="#ffffff",
+                    fontsize=22
+                ),
                 widget.Sep(
-                     linewidth = 0,
-                     padding = 3,
-                       ),
+                    linewidth=0,
+                    padding=3,
+                ),
                 widget.GroupBox(
-                     active = "#ffffff",
-                     rounded = False,
-                     highlight_color = "#c4a7e7",
-                     highlight_method = "line",
-                     borderwidth = 0,
-                    ),
+                    active="#ffffff",
+                    rounded=False,
+                    highlight_color="#c4a7e7",
+                    highlight_method="line",
+                    borderwidth=0,
+                ),
                 widget.WindowName(
-                    fontsize = 14,
-                    foreground = "#c4a7e7"
-                    ),
+                    fontsize=14,
+                    foreground="#c4a7e7"
+                ),
                 widget.TextBox(
                     text='',
-                    foreground = "#e0def4",
-                    padding = -3,
-                    fontsize = 40
-                    ),
+                    foreground="#e0def4",
+                    padding=-3,
+                    fontsize=40
+                ),
                 widget.TextBox(
                     text=' ',
-                    background = "#e0def4",
-                    foreground = "#191724",
-                    padding = 7
-                    ),
+                    background="#e0def4",
+                    foreground="#191724",
+                    padding=2
+                ),
                 widget.CheckUpdates(
-                    update_interval = 1800,
+                    update_interval=1800,
                     display_format="{updates}",
-                    foreground = "#191724",
-                    background = "#9ccfd8",
-                    ),
+                    colour_have_updates="#191724",
+                    background="#e0def8",
+                ),
                 widget.TextBox(
                     text='',
-                    foreground = "#eb6f92",
-                    background = "#e0def4",
-                    padding = -3,
-                    fontsize = 40
-                    ),
+                    foreground="#eb6f92",
+                    background="#e0def4",
+                    padding=-3,
+                    fontsize=40
+                ),
                 widget.Memory(
                     format="溜{MemUsed: .0f}{mm}",
-                    background = "#eb6f92",
-                    foreground = "#191724",
-                    interval = 1.0
-                    ),
+                    background="#eb6f92",
+                    foreground="#191724",
+                    interval=1.0
+                ),
                 widget.TextBox(
                     text='',
-                    background = "#eb6f92",
-                    foreground = "#f6c177",
-                    padding = -3,
-                    fontsize = 40
-                    ),
+                    background="#eb6f92",
+                    foreground="#f6c177",
+                    padding=-3,
+                    fontsize=40
+                ),
                 widget.TextBox(
                     text=' ',
-                    background = "#f6c177",
-                    foreground = "#191724",
-                    padding = 7
-                    ),
+                    background="#f6c177",
+                    foreground="#191724",
+                    padding=7
+                ),
                 widget.CurrentLayout(
-                    background = "#f6c177",
-                    foreground = "#191724",
-                    ),
+                    background="#f6c177",
+                    foreground="#191724",
+                ),
                 widget.TextBox(
                     text='',
-                    background = "#f6c177",
-                    foreground = "#9ccfd8",
-                    padding = -3,
-                    fontsize = 40
-                    ),
+                    background="#f6c177",
+                    foreground="#9ccfd8",
+                    padding=-3,
+                    fontsize=40
+                ),
                 widget.TextBox(
                     text=' ',
-                    background = "#9ccfd8",
-                    foreground = "#191724",
-                    padding = 3
-                    ),
+                    background="#9ccfd8",
+                    foreground="#191724",
+                    padding=3
+                ),
                 widget.Net(
                     interface="enp1s0",
                     format="{down} {up}",
-                    background = "#9ccfd8",
-                    foreground = "#191724",
-                    ),
+                    background="#9ccfd8",
+                    foreground="#191724",
+                ),
                 widget.TextBox(
                     text='',
-                    background = "#9ccfd8",
-                    foreground = "#c4a7e7",
-                    padding = -3,
-                    fontsize = 40
-                    ),
+                    background="#9ccfd8",
+                    foreground="#c4a7e7",
+                    padding=-3,
+                    fontsize=40
+                ),
                 widget.TextBox(
                     text='',
-                    background = "#c4a7e7",
-                    foreground = "#191724",
-                    padding = 7
-                    ),
+                    background="#c4a7e7",
+                    foreground="#191724",
+                    padding=7
+                ),
                 widget.Clock(
-                    background = "#c4a7e7",
-                    foreground = "#191724",
+                    background="#c4a7e7",
+                    foreground="#191724",
                     format="%d/%m/%Y - %H:%M",
                     update_interval=60.0
-                    ),
+                ),
                 widget.TextBox(
                     text='',
-                    background = "#c4a7e7",
-                    foreground = "#232136",
-                    padding = -3,
-                    fontsize = 40
-                    ),
+                    background="#c4a7e7",
+                    foreground="#232136",
+                    padding=-3,
+                    fontsize=40
+                ),
                 widget.Systray(),
             ],
             25,
@@ -246,8 +250,10 @@ screens = [
 
 # Drag floating layouts.
 mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
-    Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
+    Drag([mod], "Button1", lazy.window.set_position_floating(),
+         start=lazy.window.get_position()),
+    Drag([mod], "Button3", lazy.window.set_size_floating(),
+         start=lazy.window.get_size()),
     Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
 
@@ -282,6 +288,7 @@ auto_minimize = True
 #   AUTOSTART   #
 #---------------#
 
+
 @hook.subscribe.startup_once
 def autostart():
     home = os.path.expanduser('~/.config/qtile/autostart.sh')
@@ -297,4 +304,3 @@ def autostart():
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
-
