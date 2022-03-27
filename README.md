@@ -44,6 +44,7 @@
 | Screen locker		| [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)								|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Fish](https://fishshell.com/)													|
+| Prompt		| [Starship](https://starship.rs/)													|
 | Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Tor](https://www.torproject.org/)						|
 | Chat			| [Telegram](https://desktop.telegram.org/), [Discord](https://discord.com/)								|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
