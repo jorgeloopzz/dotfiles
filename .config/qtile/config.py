@@ -210,9 +210,9 @@ screens = [
                 ),
                 widget.Net(
                     interface="enp1s0",
-                    format="{down} {up}",
+                    format="{down} ↓↑ {up}",
                     background="#9ccfd8",
-                    foreground="#191724",
+                    foreground="#191724"
                 ),
                 widget.TextBox(
                     text='',
