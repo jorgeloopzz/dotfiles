@@ -125,23 +125,22 @@ screens = [
             [
                 widget.Sep(
                     linewidth=0,
-                    padding=3,
+                    padding=6
                 ),
-                widget.TextBox(
-                    text=' ',
-                    foreground="#ffffff",
-                    fontsize=22
+                widget.Image(
+                    filename = "~/.config/qtile/Archlinux-icon.svg",
+                    scale = "False"
                 ),
                 widget.Sep(
                     linewidth=0,
-                    padding=3,
+                    padding=6
                 ),
                 widget.GroupBox(
                     active="#ffffff",
                     rounded=False,
                     highlight_color="#c4a7e7",
                     highlight_method="line",
-                    borderwidth=0,
+                    borderwidth=0
                 ),
                 widget.WindowName(
                     fontsize=14,
@@ -194,7 +193,7 @@ screens = [
                 ),
                 widget.CurrentLayout(
                     background="#f6c177",
-                    foreground="#191724",
+                    foreground="#191724"
                 ),
                 widget.TextBox(
                     text='',
