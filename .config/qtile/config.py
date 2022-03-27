@@ -167,8 +167,21 @@ screens = [
                 ),
                 widget.TextBox(
                     text='',
-                    foreground="#eb6f92",
                     background="#e0def4",
+                    foreground="#ebbcba",
+                    padding=-3,
+                    fontsize=40
+                ),
+                widget.ThermalZone(
+                    format=" {temp}°C",
+                    fgcolor_normal="#191724",
+                    background="#ebbcba",
+                    zone="/sys/class/thermal/thermal_zone0/temp"
+                ),
+                widget.TextBox(
+                    text='',
+                    foreground="#eb6f92",
+                    background="#ebbcba",
                     padding=-3,
                     fontsize=40
                 ),
