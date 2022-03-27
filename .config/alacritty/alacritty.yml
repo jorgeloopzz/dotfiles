@@ -303,7 +303,7 @@ schemes:
 # - catppuccin
 # - reddy
 # - rose-pine
-colors: *catppuccin
+colors: *rose-pine
 
 # Fonts
 font:
