@@ -164,6 +164,7 @@ screens = [
                     display_format="{updates}",
                     colour_have_updates="#191724",
                     background="#e0def8",
+                    execute="alacritty -e sudo pacman -Syu"
                 ),
                 widget.TextBox(
                     text='',
