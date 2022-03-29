@@ -73,8 +73,8 @@ bindsym $mod+space exec "rofi -show"
 # Launch browser
 bindsym $mod+b exec "firefox"
 
-# Suspend machine
-bindsym F1 exec "systemctl suspend && betterlockscreen --lock blur"
+# Lock screen
+bindsym F1 exec "betterlockscreen --lock blur"
 
 # Move focus of the windows
 bindsym $mod+Left focus left

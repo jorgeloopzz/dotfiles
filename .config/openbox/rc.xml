@@ -139,7 +139,7 @@
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
 
-  <keyboard>
+  <keyboard
     <!-- Keybindings for desktop switching -->
     <keybind key="W-1">
       <action name="GoToDesktop">
@@ -266,10 +266,10 @@
       </action>
     </keybind>
 
-    <!-- Suspend your machine -->
+    <!-- Lock screen -->
     <keybind key="F1">
       <action name="Execute">
-        <command>systemctl suspend && betterlockscreen --lock blur</command>
+        <command>betterlockscreen --lock blur</command>
       </action>
     </keybind>
   </keyboard>
