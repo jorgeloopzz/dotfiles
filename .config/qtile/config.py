@@ -176,8 +176,8 @@ screens = [
                     borderwidth=0
                 ),
                 widget.WindowName(
-                    fontsize=14,
-                    foreground="#c4a7e7"
+                    # Make it transparent
+                    foreground="#232136"
                 ),
                 widget.TextBox(
                     text='',
