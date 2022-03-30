@@ -263,6 +263,19 @@ screens = [
                 widget.TextBox(
                     text='',
                     background="#c4a7e7",
+                    foreground="#ebbcba",
+                    padding=-3,
+                    fontsize=40
+                ),
+                widget.PulseVolume(
+                    background="#ebbcba",
+                    foreground="#191724",
+                    update_interval=0.01,
+                    emoji=" "
+                ),
+                widget.TextBox(
+                    text='',
+                    background="#ebbcba",
                     foreground="#232136",
                     padding=-3,
                     fontsize=40
