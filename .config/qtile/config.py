@@ -81,6 +81,30 @@ keys = [
 
     #---    Exit Qtile      ---#
     Key([mod, "shift"], "e", lazy.shutdown()),
+
+    #---    Brightness up   ---#
+    Key([], "XF86MonBrightnessUp", lazy.spawn("xbacklight -inc 10")),
+
+    #---    Brightness down ---#
+    Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 10")),
+
+    #---    Volume up   ---#
+    Key(
+            [], "XF86AudioRaiseVolume",
+            lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")
+    ),
+
+    #---    Volume down ---#
+    Key(
+            [], "XF86AudioLowerVolume",
+            lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%")
+    ),
+
+    #---    Mute volume ---#
+    Key(
+            [], "XF86AudioMute",
+            lazy.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle")
+    ),
 ]
 
 #---------------#
