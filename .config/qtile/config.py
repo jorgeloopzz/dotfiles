@@ -12,15 +12,12 @@
 
 import os
 import subprocess
-
 from typing import List  # noqa: F401
-
 from libqtile import bar, layout, widget
 from libqtile import hook
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
-
 
 #---------------#
 #   SUPER KEY   #
@@ -86,6 +83,10 @@ keys = [
     Key([mod, "shift"], "e", lazy.shutdown()),
 ]
 
+#---------------#
+#   WORKSPACES  #
+#---------------#
+
 groups = [Group(i) for i in [
     "   ", "   ", "   ", "   ", "   ", "   ", "   ",
 ]]
@@ -99,6 +100,10 @@ for i, group in enumerate(groups):
         Key([mod, "shift"], actual_key, lazy.window.togroup(group.name))
     ])
 
+#---------------------------#
+#   WINDOW STYLE IN LAYOUTS #
+#---------------------------#
+
 layouts = [
     layout.MonadTall(border_focus="#9ccfd8",
                      border_normal="#31748f", border_width=1, margin=9),
@@ -111,6 +116,10 @@ layouts = [
                      border_normal="#31748f", border_width=1, margin=9),
     # layout.Matrix(),
 ]
+
+#-----#
+# BAR #
+#-----#
 
 widget_defaults = dict(
     font="UbuntuMono Nerd Font",
@@ -242,7 +251,10 @@ screens = [
     ),
 ]
 
-# Drag floating layouts.
+#-----------------------#
+#   FLOATING WINDOWS    #
+#-----------------------#
+
 mouse = [
     Drag([mod], "Button1", lazy.window.set_position_floating(),
          start=lazy.window.get_position()),
@@ -250,7 +262,6 @@ mouse = [
          start=lazy.window.get_size()),
     Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
-
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: List
 follow_mouse_focus = True
@@ -281,7 +292,6 @@ auto_minimize = True
 #---------------#
 #   AUTOSTART   #
 #---------------#
-
 
 @hook.subscribe.startup_once
 def autostart():
