@@ -148,52 +148,7 @@ screens = [
                 ),
                 widget.TextBox(
                     text='',
-                    foreground="#e0def4",
-                    padding=-3,
-                    fontsize=40
-                ),
-                widget.TextBox(
-                    text=' ',
-                    background="#e0def4",
-                    foreground="#191724",
-                    padding=2
-                ),
-                widget.CheckUpdates(
-                    update_interval=1800,
-                    display_format="{updates}",
-                    colour_have_updates="#191724",
-                    background="#e0def8",
-                    execute="alacritty -e sudo pacman -Syu"
-                ),
-                widget.TextBox(
-                    text='',
-                    background="#e0def4",
-                    foreground="#ebbcba",
-                    padding=-3,
-                    fontsize=40
-                ),
-                widget.ThermalZone(
-                    format=" {temp}°C",
-                    fgcolor_normal="#191724",
-                    background="#ebbcba",
-                    zone="/sys/class/thermal/thermal_zone0/temp"
-                ),
-                widget.TextBox(
-                    text='',
-                    foreground="#eb6f92",
-                    background="#ebbcba",
-                    padding=-3,
-                    fontsize=40
-                ),
-                widget.Memory(
-                    format="溜{MemUsed: .0f}{mm}",
-                    background="#eb6f92",
-                    foreground="#191724",
-                    interval=1.0
-                ),
-                widget.TextBox(
-                    text='',
-                    background="#eb6f92",
+                    background="#232136",
                     foreground="#f6c177",
                     padding=-3,
                     fontsize=40
@@ -211,6 +166,32 @@ screens = [
                 widget.TextBox(
                     text='',
                     background="#f6c177",
+                    foreground="#e0def4",
+                    padding=-3,
+                    fontsize=40
+                ),
+                widget.ThermalZone(
+                    format=" {temp}°C",
+                    fgcolor_normal="#191724",
+                    background="#e0def4",
+                    zone="/sys/class/thermal/thermal_zone0/temp"
+                ),
+                widget.TextBox(
+                    text='',
+                    foreground="#eb6f92",
+                    background="#e0def4",
+                    padding=-3,
+                    fontsize=40
+                ),
+                widget.Memory(
+                    format="溜{MemUsed: .0f}{mm}",
+                    background="#eb6f92",
+                    foreground="#191724",
+                    interval=1.0
+                ),
+                widget.TextBox(
+                    text='',
+                    background="#eb6f92",
                     foreground="#9ccfd8",
                     padding=-3,
                     fontsize=40
