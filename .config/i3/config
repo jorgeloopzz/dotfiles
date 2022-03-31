@@ -50,7 +50,7 @@ client.focused_inactive #055494 #055494 #055494 #055494   #055494
 client.unfocused	#055494 #055494 #055494 #055494   #055494
 
 # Disable window titlebars
-for_window [class="^.*"] border pixel 1# Window borders
+for_window [class="^.*"] border pixel 0# Window borders
 
 
 #######################################################################
@@ -130,12 +130,12 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: "
-set $ws2 "2: "
-set $ws3 "3: "
-set $ws4 "4:"
-set $ws5 "5: "
-set $ws6 "6: "
+set $ws1 "1:<span color='#66FFB2'> </span>"
+set $ws2 "2:<span color='#D9E0EE'> </span>"
+set $ws3 "3:<span color='#ea4879'> </span>"
+set $ws4 "4:<span color='#96CDFB'> </span>"
+set $ws5 "5:<span color='#F8BD96'> </span>"
+set $ws6 "6:<span color='#DDB6F2'> </span>"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
