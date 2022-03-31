@@ -229,15 +229,9 @@ screens = [
                     padding=-3,
                     fontsize=40
                 ),
-                widget.TextBox(
-                    text=' ',
-                    background="#9ccfd8",
-                    foreground="#191724",
-                    padding=3
-                ),
                 widget.Net(
                     interface="enp1s0",
-                    format="{down} ↓↑ {up}",
+                    format=" {interface}: {down} ↓↑ {up}",
                     background="#9ccfd8",
                     foreground="#191724"
                 ),
