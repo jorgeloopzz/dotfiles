@@ -54,9 +54,9 @@
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi), [Wofi](https://man.archlinux.org/man/wofi.1.en)					|
-| Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot), [grim](https://github.com/emersion/grim), [slurp](https://github.com/emersion/slurp)																								|
+| Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot), [grim](https://github.com/emersion/grim), [slurp](https://github.com/emersion/slurp)|
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
-| GTK Themes		| [Noita](https://github.com/doktorbro/jekyll-noita), [Arc-Dark](https://github.com/horst3180/arc-theme), [Fantome](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Fantome), [Vestica](https://github.com/addy-dclxvi/gtk-theme-collections/tree/master/Vestica), [Nordic](https://github.com/EliverLara/Nordic), [Catppuccin](https://github.com/catppuccin/catppuccin), [Material-black](https://www.gnome-look.org/p/1316887/)														|
+| GTK Themes		| [Material-black](https://www.gnome-look.org/p/1316887/)										|
 | Icon themes		| [Candy-icons](https://github.com/EliverLara/candy-icons), [Material-black](https://www.gnome-look.org/p/1333360)			|
 | Notifications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
 | Sound			| [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)		|
@@ -66,7 +66,7 @@
 | Monitor resolution	| [Xrandr](https://wiki.archlinux.org/title/Xrandr)											|
 | Compositor		| [Picom](https://wiki.archlinux.org/title/Picom)											|
 | Systray		| [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon), [Udiskie](https://wiki.archlinux.org/title/Udisks)													|
-| [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, Cousine, DaddyTimeMono, FiraCode, Hack, Inconsolata				|
+| [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, CodeNewRoman, Cousine, DaddyTimeMono, FiraCode, Hack, mononoki, SpaceMono, UbuntuMono	|
 
 <p align="center"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=1A1B26&colorB=F7768E"/></p>
 
