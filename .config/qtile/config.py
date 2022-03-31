@@ -281,6 +281,11 @@ screens = [
                     fontsize=40
                 ),
                 widget.Systray(),
+                widget.QuickExit(
+                    default_text=" ",
+                    fontsize=16,
+                    foreground="#e0def4"
+                )
             ],
             25,
             background="#232136",
