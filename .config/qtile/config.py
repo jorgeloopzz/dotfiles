@@ -248,7 +248,9 @@ screens = [
                 widget.QuickExit(
                     default_text=" ",
                     fontsize=16,
-                    foreground="#e0def4"
+                    foreground="#e0def4",
+                    timer_interval=0,
+                    countdown_format=" "
                 )
             ],
             25,
