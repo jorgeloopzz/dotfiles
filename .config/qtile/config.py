@@ -87,24 +87,6 @@ keys = [
 
     #---    Brightness down ---#
     Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 10")),
-
-    #---    Volume up   ---#
-    Key(
-            [], "XF86AudioRaiseVolume",
-            lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")
-    ),
-
-    #---    Volume down ---#
-    Key(
-            [], "XF86AudioLowerVolume",
-            lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%")
-    ),
-
-    #---    Mute volume ---#
-    Key(
-            [], "XF86AudioMute",
-            lazy.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle")
-    ),
 ]
 
 #---------------#
@@ -258,19 +240,6 @@ screens = [
                 widget.TextBox(
                     text='',
                     background="#c4a7e7",
-                    foreground="#ebbcba",
-                    padding=-3,
-                    fontsize=40
-                ),
-                widget.PulseVolume(
-                    background="#ebbcba",
-                    foreground="#191724",
-                    update_interval=0.01,
-                    emoji=" "
-                ),
-                widget.TextBox(
-                    text='',
-                    background="#ebbcba",
                     foreground="#232136",
                     padding=-3,
                     fontsize=40
