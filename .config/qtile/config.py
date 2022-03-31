@@ -233,7 +233,8 @@ screens = [
                     interface="enp1s0",
                     format=" {interface}: {down} ↓↑ {up}",
                     background="#9ccfd8",
-                    foreground="#191724"
+                    foreground="#191724",
+                    update_interval=1.0
                 ),
                 widget.TextBox(
                     text='',
