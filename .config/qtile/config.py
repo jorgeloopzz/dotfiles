@@ -257,7 +257,7 @@ screens = [
                 widget.Clock(
                     background="#c4a7e7",
                     foreground="#191724",
-                    format="%d/%m/%Y - %H:%M",
+                    format="%H:%M - %d/%m/%Y",
                     update_interval=60.0
                 ),
                 widget.TextBox(
