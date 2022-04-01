@@ -13,16 +13,18 @@ unknown_indicator = "mystery shell"
 style = "cyan bold"
 disabled = false
 
-
 [python]
-symbol = " "
+symbol = " "
 
 [nodejs]
-symbol = " "
+symbol = " "
 
 [rust]
 symbol = " "
 
 [java]
-symbol = ""
+symbol = " "
+
+[lua]
+format = "via [ $version](bold blue) "
 
