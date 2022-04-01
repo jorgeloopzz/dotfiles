@@ -55,7 +55,7 @@ tray-scale = 1.0
 tray-maxsize = 20
 tray-background = ${colors.background}
 
-;wm-restack = bspwm
+wm-restack = bspwm
 ;wm-restack = i3
 
 ;override-redirect = true
