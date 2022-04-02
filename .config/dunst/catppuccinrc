@@ -187,14 +187,14 @@
     per_monitor_dpi = false
 
 [urgency_low]
-    background = "#B5E8E0"
-    foreground = "#1A1826"
+    background = "#1E1E2E"
+    foreground = "#D9E0EE"
     timeout = 7
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#302D41"
+    background = "#1E1E2E"
     foreground = "#D9E0EE"
     timeout = 7
     # Icon for notifications with normal urgency, uncomment to enable
