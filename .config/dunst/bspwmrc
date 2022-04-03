@@ -24,13 +24,13 @@
 
     width = 360
 
-    height = 200
+    height = 100
 
     # Position the notification in the top right corner
-    origin = top-center
+    origin = bottom-center
 
     # Offset from the origin
-    offset = 0x50
+    offset = 0x10
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = no
