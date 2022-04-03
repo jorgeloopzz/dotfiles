@@ -234,15 +234,14 @@ animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
 [module/powermenu]
-type = custom/menu
+type = custom/script
 
-expand-right = true
+format = <label>
+format-foreground = #ff6666
 
-format-spacing = 1
+label = 
 
-label-open = 
-label-open-foreground = #ff6666
-
+exec = echo " "
 click-left = python ~/Code/logout_menu/logout.py
 
 [settings]
