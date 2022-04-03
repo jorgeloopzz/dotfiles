@@ -91,7 +91,7 @@ interval = 60
 
 mount-0 = /
 
-label-mounted = %{F#ff6666}%{F-} %used% / %total%
+label-mounted = %{F#ff6666}%{F-} %used% / %total%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -118,8 +118,12 @@ label-empty-padding = 2
 [module/xbacklight]
 type = internal/xbacklight
 
-format = <label>
-label = %{F#ff6666} %{F-}%percentage%%
+format = <ramp> <label>
+label = %percentage%%
+
+ramp-0 = %{F#ff6666}%{F-}
+ramp-1 = %{F#ff6666}%{F-}
+ramp-2 = %{F#ff6666}%{F-}
 
 [module/cpu]
 type = internal/cpu
