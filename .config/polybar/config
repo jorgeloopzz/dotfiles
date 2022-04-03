@@ -18,12 +18,12 @@ foreground = #dfdfdf
 foreground-alt = #555
 primary = #ff6666
 
-[bar/example]
-;monitor = ${env:MONITOR:HDMI-1}
+[bar/left]
 width = 100%
 height = 30
 radius = 9.0
 fixed-center = true
+bottom = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -78,7 +78,7 @@ type = custom/script
 interval = 1
 format-prefix = " "
 format = <label>
-exec = python ~/Code/Scripts/spotify_status.py -t 40 -f '{artist} | {song}'
+exec = python ~/Code/Scripts/polybar_spotify/spotify_status.py -t 40 -f '{artist} | {song}'
 format-underline = #1db954
 ;control players (optional)
 click-left = playerctl --player=spotify previous 
