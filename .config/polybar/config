@@ -96,12 +96,12 @@ click-right = playerctl --player=spotify next
 click-middle = playerctl --player=spotify play-pause 
 
 [bar/right]
-width = 30%
+width = 33%
 height = 30
 radius = 9.0
 fixed-center = true
 bottom = true
-offset-x = 70%
+offset-x = 67%
 wm-restack = bspwm
 
 background = ${colors.background}
@@ -113,6 +113,7 @@ border-color = #00000000
 padding-right = 6
 
 module-margin-right = 1
+module-margin-left = 1
 
 font-0 = mononoki Nerd Font:style=Bold: size=10
 font-1 = mononoki Nerd Font Mono: size=100
@@ -126,7 +127,7 @@ tray-scale = 1.0
 tray-maxsize = 20
 tray-background = ${colors.background}
 
-modules-right =  eth wlan xbacklight memory cpu date battery pulseaudio
+modules-right =  eth wlan xbacklight memory cpu date battery pulseaudio powermenu
 
 [module/xbacklight]
 type = internal/xbacklight
@@ -239,28 +240,10 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = 
-label-open-foreground = ${colors.secondary}
-label-close =  cancel
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
+label-open = 
+label-open-foreground = #ff6666
 
-menu-0-0 = reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
-
-menu-1-0 = cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
-
-menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
-menu-2-1 = cancel
-menu-2-1-exec = meoffset-x = 86.5%
-offset-y = 10nu-open-0
+click-left = python ~/Code/logout_menu/logout.py
 
 [settings]
 screenchange-reload = true
