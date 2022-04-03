@@ -119,7 +119,7 @@ font-0 = mononoki Nerd Font:style=Bold: size=10
 font-1 = mononoki Nerd Font Mono: size=100
 
 tray-position = right
-tray-padding = 2
+tray-padding = 1
 tray-detached = true
 tray-offset-x = -5
 tray-offset-y = 0
