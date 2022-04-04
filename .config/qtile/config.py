@@ -115,14 +115,14 @@ for i, group in enumerate(groups):
 
 layouts = [
     layout.MonadTall(border_focus="#9ccfd8",
-                     border_normal="#31748f", border_width=1, margin=9),
+                     border_normal="#31748f", border_width=1, margin=15),
     layout.Max(),
     layout.Bsp(border_focus="#9ccfd8", border_normal="#31748f",
-               border_width=1, margin=9),
+               border_width=1, margin=15),
     layout.MonadWide(border_focus="#9ccfd8",
-                     border_normal="#31748f", border_width=1, margin=9),
+                     border_normal="#31748f", border_width=1, margin=15),
     layout.RatioTile(border_focus="#9ccfd8",
-                     border_normal="#31748f", border_width=1, margin=9),
+                     border_normal="#31748f", border_width=1, margin=15),
     # layout.Matrix(),
 ]
 
