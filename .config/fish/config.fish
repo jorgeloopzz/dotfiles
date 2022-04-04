@@ -15,6 +15,7 @@ if status is-interactive
 	alias search="pacman -Ss"
 	alias cl="clear"
 	alias lovesay="/home/jorge/.local/bin/lovesay"
+	alias fonts="fc-list : family | grep Nerd | sort | awk '{print $1 $2 $3}' | uniq"
 
 	# Window swallowing
 	alias mpv="devour mpv"
