@@ -187,10 +187,10 @@ date = %a %d %B
 
 time = %H:%M
 
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = #ff6666
 
-label = %date% %{F#ff6666} %{F-}%time%
+label = %date% %{F#ff6666} %{F-}%time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
