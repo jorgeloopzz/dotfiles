@@ -135,7 +135,8 @@ set $ws2 "2:<span color='#D9E0EE'> </span>"
 set $ws3 "3:<span color='#ea4879'> </span>"
 set $ws4 "4:<span color='#96CDFB'> </span>"
 set $ws5 "5:<span color='#F8BD96'> </span>"
-set $ws6 "6:<span color='#DDB6F2'> </span>"
+set $ws6 "6:<span color='#E8A2AF'> </span>"
+set $ws7 "7:<span color='#DDB6F2'> </span>"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
@@ -144,6 +145,7 @@ bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -152,6 +154,7 @@ bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
 
 # Open applications in certain workspaces
 assign [class="^firefox$"] → $ws1
@@ -161,9 +164,9 @@ assign [class="^code-oss$"] → $ws3
 assign [class="^Zathura$"] → $ws4
 assign [instance="^libreoffice$"] → $ws4
 assign [class="^mpv$"] → $ws5
-assign [class="^discord$"] → $ws6
-assign [class="^Spotify$"] → $ws6
 assign [class="^TelegramDesktop$"] → $ws6
+assign [class="^discord$"] → $ws7
+assign [class="^Spotify$"] → $ws7
 
 # Focus window opened automatically
 for_window [class="."] focus
