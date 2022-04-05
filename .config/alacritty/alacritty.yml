@@ -17,34 +17,6 @@ window:
   opacity: 0.8
 
 schemes:
-  tokyo-night: &tokyo-night
-    # Default colors
-    primary:
-      background: '#1a1b26'
-      foreground: '#a9b1d6'
-
-    # Normal colors
-    normal:
-      black:   '#32344a'
-      red:     '#f7768e'
-      green:   '#9ece6a'
-      yellow:  '#e0af68'
-      blue:    '#7aa2f7'
-      magenta: '#ad8ee6'
-      cyan:    '#449dab'
-      white:   '#787c99'
-
-    # Bright colors
-    bright:
-      black:   '#444b6a'
-      red:     '#ff7a93'
-      green:   '#b9f27c'
-      yellow:  '#ff9e64'
-      blue:    '#7da6ff'
-      magenta: '#bb9af7'
-      cyan:    '#0db9d7'
-      white:   '#acb0d0'
-
   DoomOne: &DoomOne
     primary:
       background: '#282c34'
@@ -73,8 +45,6 @@ schemes:
       magenta: '#a9a1e1'
       cyan:    '#46d9ff'
       white:   '#dfdfdf'
-
-
 
   dracula: &dracula
     primary:
@@ -178,29 +148,6 @@ schemes:
       cyan: '#6d96a5'
       white: '#aeb3bb'
 
-  snazzy: &snazzy
-    primary:
-      background: '#100c08'
-      foreground: '#eff0eb'
-    normal:
-      black:   '#282a36'
-      red:     '#ff5c57'
-      green:   '#5af78e'
-      yellow:  '#f3f99d'
-      blue:    '#57c7ff'
-      magenta: '#ff6ac1'
-      cyan:    '#9aedfe'
-      white:   '#f1f1f0'
-    bright:
-      black:   '#686868'
-      red:     '#ff5c57'
-      green:   '#5af78e'
-      yellow:  '#f3f99d'
-      blue:    '#57c7ff'
-      magenta: '#ff6ac1'
-      cyan:    '#9aedfe'
-      white:   '#f1f1f0'
-
   catppuccin: &catppuccin
     primary:
       background: '#1E1D2F'
@@ -257,11 +204,9 @@ schemes:
       white:   '#ffffff'
 
 # Select one of the next themes:
-# - tokyo-night
 # - DoomOne
 # - dracula
 # - nord
-# - snazzy
 # - catppuccin
 # - reddy
 colors: *catppuccin
@@ -269,16 +214,16 @@ colors: *catppuccin
 # Fonts
 font:
   normal:
-    family: mononoki Nerd Font
+    family: CodeNewRoman Nerd Font
     style: Regular
   bold:
-    family: mononoki Nerd Font
+    family: CodeNewRoman Nerd Font
     style: Bold
   italic:
-    family: mononoki Nerd Font
+    family: CodeNewRoman Nerd Font
     style: Italic
   bold_italic:
-    family: mononoki Nerd Font
+    family: CodeNewRoman Nerd Font
     style: Bold Italic
   size: 12 
 
