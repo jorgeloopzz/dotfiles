@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<openbox_config xmlns="http://openbox.org/3.4/rc"
-  xmlns:xi="http://www.w3.org/2001/XInclude">
+<openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <resistance>
     <strength>10</strength>
@@ -139,7 +138,7 @@
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
 
-  <keyboard
+  <keyboard>
     <!-- Keybindings for desktop switching -->
     <keybind key="W-1">
       <action name="GoToDesktop">
@@ -197,7 +196,7 @@
       <action name="Unfocus" />
     </keybind>
 
-    <!-- Take a screenshot of the current window with scrot when Window+Print are pressed -->
+    <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
     <keybind key="W-Print">
       <action name="Execute">
         <command>scrot -s</command>
@@ -237,18 +236,6 @@
       </action>
     </keybind>
 
-    <!-- Brigthness control -->
-    <keybind key="XF86MonBrightnessUp">
-      <action name="Execute">
-        <command>xbacklight -inc 5</command>
-      </action>
-    </keybind>
-    <keybind key="XF86MonBrightnessDown">
-      <action name="Execute">
-        <command>xbacklight -dec 5</command>
-      </action>
-    </keybind>
-
     <!-- Keybinding to restart Openbox -->
     <keybind key="W-S-R">
       <action name="Reconfigure"></action>
@@ -266,8 +253,21 @@
       </action>
     </keybind>
 
+    <!-- Brightness control -->
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <command>xbacklight -inc 5</command>
+      </action>
+    </keybind>
+
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>xbacklight -dec 5</command>
+      </action>
+    </keybind>
+
     <!-- Lock screen -->
-    <keybind key="F1">
+    <keybind key="F8">
       <action name="Execute">
         <command>betterlockscreen --lock blur</command>
       </action>
