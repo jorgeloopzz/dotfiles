@@ -161,8 +161,8 @@ launcher_icon_theme_override = 0
 startup_notifications = 1
 launcher_tooltip = 1
 launcher_item_app = firefox.desktop
-launcher_item_app = code-oss.desktop
 launcher_item_app = Alacritty.desktop
+launcher_icon_theme = candy-icons
 
 #-------------------------------------
 # Clock
