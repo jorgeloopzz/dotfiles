@@ -165,11 +165,11 @@ screens = [
                     foreground="#232136"
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     background="#232136",
                     foreground="#f6c177",
-                    padding=0,
-                    fontsize=30
+                    padding=-3,
+                    fontsize=38
                 ),
                 widget.TextBox(
                     text=' ',
@@ -182,11 +182,11 @@ screens = [
                     foreground="#191724"
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     background="#f6c177",
                     foreground="#e0def4",
-                    padding=0,
-                    fontsize=30
+                    padding=-3,
+                    fontsize=38
                 ),
                 widget.ThermalZone(
                     format=" {temp}°C",
@@ -195,11 +195,11 @@ screens = [
                     zone="/sys/class/thermal/thermal_zone0/temp"
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     foreground="#eb6f92",
                     background="#e0def4",
-                    padding=0,
-                    fontsize=30
+                    padding=-3,
+                    fontsize=38
                 ),
                 widget.Memory(
                     format="溜{MemUsed: .0f}{mm}",
@@ -208,11 +208,11 @@ screens = [
                     interval=1.0
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     background="#eb6f92",
                     foreground="#9ccfd8",
-                    padding=0,
-                    fontsize=30
+                    padding=-3,
+                    fontsize=38
                 ),
                 widget.Net(
                     interface="enp1s0",
@@ -222,11 +222,11 @@ screens = [
                     update_interval=1.0
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     background="#9ccfd8",
                     foreground="#c4a7e7",
-                    padding=0,
-                    fontsize=30
+                    padding=-3,
+                    fontsize=38
                 ),
                 widget.TextBox(
                     text='',
@@ -241,11 +241,11 @@ screens = [
                     update_interval=60.0
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     background="#c4a7e7",
                     foreground="#232136",
-                    padding=0,
-                    fontsize=30
+                    padding=-3,
+                    fontsize=38
                 ),
                 widget.Systray(),
                 widget.QuickExit(
