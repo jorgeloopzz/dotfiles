@@ -248,13 +248,6 @@ screens = [
                     fontsize=38
                 ),
                 widget.Systray(),
-                widget.QuickExit(
-                    default_text="拉",
-                    fontsize=20,
-                    foreground="#e0def4",
-                    timer_interval=0,
-                    countdown_format="拉"
-                )
             ],
             25,
             background="#232136",
