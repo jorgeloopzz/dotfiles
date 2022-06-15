@@ -135,7 +135,7 @@ set $ws2 "2:<span color='#D9E0EE'> </span>"
 set $ws3 "3:<span color='#ea4879'> </span>"
 set $ws4 "4:<span color='#96CDFB'> </span>"
 set $ws5 "5:<span color='#F8BD96'> </span>"
-set $ws6 "6:<span color='#E8A2AF'> </span>"
+set $ws6 "6:<span color='#E8A2AF'> </span>"
 set $ws7 "7:<span color='#DDB6F2'> </span>"
 
 # switch to workspace
