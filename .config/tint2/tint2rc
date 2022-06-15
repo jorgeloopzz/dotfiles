@@ -161,7 +161,9 @@ launcher_icon_theme_override = 0
 startup_notifications = 1
 launcher_tooltip = 1
 launcher_item_app = firefox.desktop
-launcher_item_app = Alacritty.desktop
+launcher_item_app = spotify-adblock.desktop
+launcher_item_app = telegramdesktop.desktop
+launcher_item_app = whatsapp.desktop
 launcher_icon_theme = candy-icons
 
 #-------------------------------------
