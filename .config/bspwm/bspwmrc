@@ -32,6 +32,7 @@ bspc rule -a mpv desktop='^4' follow=on
 bspc rule -a discord desktop='^5' follow=on
 bspc rule -a Spotify desktop='^6' follow=on
 bspc rule -a TelegramDesktop desktop='^7' follow=on
+bspc rule -a walc desktop='^7' follow=on
 
 # Floatin window
 bspc rule -a Tk follow=on state=floating

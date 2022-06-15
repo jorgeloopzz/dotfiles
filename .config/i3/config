@@ -165,6 +165,7 @@ assign [class="^Zathura$"] → $ws4
 assign [instance="^libreoffice$"] → $ws4
 assign [class="^mpv$"] → $ws5
 assign [class="^TelegramDesktop$"] → $ws6
+assign [class="^walc$"] → $ws6
 assign [class="^discord$"] → $ws7
 assign [class="^Spotify$"] → $ws7
 
