@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/home/jorge/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 ### THEME ###
 ZSH_THEME="agnoster"
@@ -24,8 +24,12 @@ HIST_STAMPS="dd/mm/yyyy"
 
 ### PLUGINS ### 
 plugins=(
-git 
-zsh-autosuggestions)
+  sudo
+  extract
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
