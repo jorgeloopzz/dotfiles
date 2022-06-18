@@ -28,9 +28,6 @@
 ### [Openbox](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/openbox)
 ![openbox](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/openbox-ex.png)
 
-### [Sway](https://github.com/jorgeloopzz/dotfiles/tree/57921b9df9224ed18429694315539e027989f2ca/.config/sway)
-![sway](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/sway-ex.png)
-
 ### [Qtile](https://github.com/Jorgedeveloopzz/dotfiles/tree/master/.config/qtile)
 ![qtile](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/qtile-ex.png)
 
@@ -38,7 +35,7 @@
 |Software		| Name																	|
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Distribution		| [Arco Linux](https://arcolinux.com/)													|
-| WM			| [i3-gaps](https://i3wm.org/), [Sway](https://swaywm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm), [qtile](https://wiki.archlinux.org/title/Qtile), [dwm](https://dwm.suckless.org/)														|
+| WM			| [i3-gaps](https://i3wm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm), [qtile](https://wiki.archlinux.org/title/Qtile), [dwm](https://dwm.suckless.org/)														|
 | Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Waybar](https://github.com/Alexays/Waybar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)											|
 | Login Manager		| [LightDM](https://wiki.archlinux.org/title/LightDM)											|
 | Screen locker		| [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)								|
