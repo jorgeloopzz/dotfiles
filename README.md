@@ -36,7 +36,7 @@
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Distribution		| [Arco Linux](https://arcolinux.com/)													|
 | WM			| [i3-gaps](https://i3wm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm), [qtile](https://wiki.archlinux.org/title/Qtile), [dwm](https://dwm.suckless.org/)														|
-| Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Waybar](https://github.com/Alexays/Waybar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)											|
+| Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)											|
 | Login Manager		| [LightDM](https://wiki.archlinux.org/title/LightDM)											|
 | Screen locker		| [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)								|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
@@ -50,8 +50,8 @@
 | Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)											|
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
-| Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi), [Wofi](https://man.archlinux.org/man/wofi.1.en)					|
-| Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot), [grim](https://github.com/emersion/grim), [slurp](https://github.com/emersion/slurp)|
+| Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi) |
+| Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot) |
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
 | GTK Themes		| [Material-black](https://www.gnome-look.org/p/1316887/)										|
 | Icon themes		| [Candy-icons](https://github.com/EliverLara/candy-icons), [Material-black](https://www.gnome-look.org/p/1333360)			|
