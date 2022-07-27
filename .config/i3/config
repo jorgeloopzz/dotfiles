@@ -158,15 +158,12 @@ bindsym $mod+Shift+7 move container to workspace $ws7
 
 # Open applications in certain workspaces
 assign [class="^firefox$"] → $ws1
-assign [class="^Tor Browser$"] → $ws1
 assign [class="^Alacritty$"] → $ws2
 assign [class="^code-oss$"] → $ws3
 assign [class="^Zathura$"] → $ws4
 assign [instance="^libreoffice$"] → $ws4
 assign [class="^mpv$"] → $ws5
 assign [class="^TelegramDesktop$"] → $ws6
-assign [class="^walc$"] → $ws6
-assign [class="^discord$"] → $ws7
 assign [class="^Spotify$"] → $ws7
 
 # Focus window opened automatically

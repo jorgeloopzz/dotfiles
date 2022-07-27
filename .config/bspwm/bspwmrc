@@ -25,14 +25,11 @@ bspc config focus_follows_pointer true
 
 # Open apllications in certain workspaces
 bspc rule -a firefox desktop='^1' follow=on
-bspc rule -a Tor Browser desktop='^1' follow=on
 bspc rule -a Alacritty desktop='^2' follow=on
 bspc rule -a code-oss desktop='^3' follow=on
 bspc rule -a mpv desktop='^4' follow=on
-bspc rule -a discord desktop='^5' follow=on
-bspc rule -a Spotify desktop='^6' follow=on
-bspc rule -a TelegramDesktop desktop='^7' follow=on
-bspc rule -a walc desktop='^7' follow=on
+bspc rule -a Spotify desktop='^5' follow=on
+bspc rule -a TelegramDesktop desktop='^6' follow=on
 
 # Floatin window
 bspc rule -a Tk follow=on state=floating
