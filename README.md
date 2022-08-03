@@ -42,7 +42,7 @@
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Fish](https://fishshell.com/)													|
 | Prompt		| [Starship](https://starship.rs/)													|
-| Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Brave](https://brave.com/)											|
+| Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Brave](https://brave.com/)							|
 | Chat			| [Telegram](https://desktop.telegram.org/)												|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
@@ -50,11 +50,11 @@
 | Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)											|
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
-| Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi) |
-| Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot) |
+| Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi) 											|
+| Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot)										|
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
-| GTK Themes		| [Material-black](https://www.gnome-look.org/p/1316887/)										|
-| Icon themes		| [Candy-icons](https://github.com/EliverLara/candy-icons), [Material-black](https://www.gnome-look.org/p/1333360)			|
+| GTK Themes		| [Arc-Dark](https://www.gnome-look.org/p/1181106/)											|
+| Icon themes		| [Material-black](https://www.gnome-look.org/p/1333360)										|
 | Notifications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
 | Sound			| [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)		|
 | Network		| [Network manager](https://wiki.archlinux.org/title/NetworkManager)									|
