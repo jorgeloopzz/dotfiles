@@ -42,7 +42,7 @@
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Fish](https://fishshell.com/)													|
 | Prompt		| [Starship](https://starship.rs/)													|
-| Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/)											|
+| Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Brave](https://brave.com/)											|
 | Chat			| [Telegram](https://desktop.telegram.org/)												|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
