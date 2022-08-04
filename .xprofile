@@ -4,14 +4,14 @@ resolution
 # Enable touchpad
 touchpad
 
+# Start imwheel
+imwheel
+
 # Restore wallpaper
 nitrogen --restore &
 
 # Screen temperature
 redshift -P -O 3200 &
-
-# Hard drives
-udiskie &
 
 # Avoid screen to turn off after a certain time
 xset s off &
