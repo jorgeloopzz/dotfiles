@@ -45,6 +45,7 @@
 | Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Brave](https://brave.com/)							|
 | Chat			| [Telegram](https://desktop.telegram.org/)												|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
+| File manager		| [Thunar](https://wiki.archlinux.org/title/thunar), [Ranger](https://wiki.archlinux.org/title/Ranger)					|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
 | Video/Audio player	| [MPV](https://wiki.archlinux.org/title/Mpv)												|
 | Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)											|
