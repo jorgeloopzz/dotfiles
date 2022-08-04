@@ -214,18 +214,18 @@ colors: *catppuccin
 # Fonts
 font:
   normal:
-    family: CodeNewRoman Nerd Font
+    family: FiraCode Nerd Font
     style: Regular
   bold:
-    family: CodeNewRoman Nerd Font
+    family: FiraCode Nerd Font
     style: Bold
   italic:
-    family: CodeNewRoman Nerd Font
+    family: FiraCode Nerd Font
     style: Italic
   bold_italic:
-    family: CodeNewRoman Nerd Font
+    family: FiraCode Nerd Font
     style: Bold Italic
-  size: 12 
+  size: 11 
 
 cursor:
   # Values for `style`:
