@@ -63,7 +63,7 @@
 | Screen temperature	| [Redshift](https://wiki.archlinux.org/title/Redshift)											|
 | Monitor resolution	| [Xrandr](https://wiki.archlinux.org/title/Xrandr)											|
 | Compositor		| [Picom](https://wiki.archlinux.org/title/Picom)											|
-| Systray		| [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon), [Udiskie](https://wiki.archlinux.org/title/Udisks)													|
+| Systray		| [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon)|
 | [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, CodeNewRoman, Cousine, DaddyTimeMono, FiraCode, Hack, mononoki, SpaceMono, UbuntuMono	|
 
 <p align="center"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=1A1B26&colorB=F7768E"/></p>
