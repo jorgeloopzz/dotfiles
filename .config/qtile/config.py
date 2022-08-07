@@ -146,8 +146,8 @@ screens = [
                     padding=6
                 ),
                 widget.Image(
-                    filename = "~/.config/qtile/Archlinux-icon.svg",
-                    scale = "False"
+                    filename="~/.config/qtile/Archlinux-icon.svg",
+                    scale="False"
                 ),
                 widget.Sep(
                     linewidth=0,
@@ -253,6 +253,106 @@ screens = [
             background="#232136",
         ),
     ),
+    Screen(
+        top=bar.Bar(
+            [
+                widget.Sep(
+                    linewidth=0,
+                    padding=6
+                ),
+                widget.GroupBox(
+                    active="#ffffff",
+                    rounded=False,
+                    highlight_color="#c4a7e7",
+                    highlight_method="line",
+                    borderwidth=0
+                ),
+                widget.WindowName(
+                    # Make it transparent
+                    foreground="#232136"
+                ),
+                widget.TextBox(
+                    text='',
+                    background="#232136",
+                    foreground="#f6c177",
+                    padding=-3,
+                    fontsize=38
+                ),
+                widget.TextBox(
+                    text=' ',
+                    background="#f6c177",
+                    foreground="#191724",
+                    padding=7
+                ),
+                widget.CurrentLayout(
+                    background="#f6c177",
+                    foreground="#191724"
+                ),
+                widget.TextBox(
+                    text='',
+                    background="#f6c177",
+                    foreground="#e0def4",
+                    padding=-3,
+                    fontsize=38
+                ),
+                widget.ThermalZone(
+                    format=" {temp}°C",
+                    fgcolor_normal="#191724",
+                    background="#e0def4",
+                    zone="/sys/class/thermal/thermal_zone0/temp"
+                ),
+                widget.TextBox(
+                    text='',
+                    foreground="#eb6f92",
+                    background="#e0def4",
+                    padding=-3,
+                    fontsize=38
+                ),
+                widget.Memory(
+                    format="溜{MemUsed: .0f}{mm}",
+                    background="#eb6f92",
+                    foreground="#191724",
+                    interval=1.0
+                ),
+                widget.TextBox(
+                    text='',
+                    background="#eb6f92",
+                    foreground="#9ccfd8",
+                    padding=-3,
+                    fontsize=38
+                ),
+                widget.Net(
+                    interface="enp1s0",
+                    format=" {interface}: {down} ↓↑ {up}",
+                    background="#9ccfd8",
+                    foreground="#191724",
+                    update_interval=1.0
+                ),
+                widget.TextBox(
+                    text='',
+                    background="#9ccfd8",
+                    foreground="#c4a7e7",
+                    padding=-3,
+                    fontsize=38
+                ),
+                widget.TextBox(
+                    text='',
+                    background="#c4a7e7",
+                    foreground="#191724",
+                    padding=7
+                ),
+                widget.Clock(
+                    background="#c4a7e7",
+                    foreground="#191724",
+                    format="%H:%M - %d/%m/%Y",
+                    update_interval=60.0
+                ),
+            ],
+            25,
+            background="#232136",
+        ),
+    ),
+
 ]
 
 #-----------------------#
@@ -296,6 +396,7 @@ auto_minimize = True
 #---------------#
 #   AUTOSTART   #
 #---------------#
+
 
 @hook.subscribe.startup_once
 def autostart():
