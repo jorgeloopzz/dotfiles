@@ -259,6 +259,13 @@ screens = [
     Screen(
         top=bar.Bar(
             [
+                widget.GroupBox(
+                    active="#ffffff",
+                    rounded=False,
+                    highlight_color="#c4a7e7",
+                    highlight_method="line",
+                    borderwidth=0
+                ),
                 widget.WindowName(
                     foreground="#eb6f92",
                     markup=True,
