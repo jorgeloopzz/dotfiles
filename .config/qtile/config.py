@@ -276,7 +276,7 @@ screens = [
                 widget.Clock(
                     background="#c4a7e7",
                     foreground="#191724",
-                    format="%H:%M - %d/%m/%Y",
+                    format="%H:%M",
                     update_interval=60.0
                 ),
             ],
