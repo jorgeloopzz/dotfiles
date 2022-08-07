@@ -274,23 +274,6 @@ screens = [
                 widget.TextBox(
                     text='',
                     background="#232136",
-                    foreground="#f6c177",
-                    padding=-3,
-                    fontsize=38
-                ),
-                widget.TextBox(
-                    text=' ',
-                    background="#f6c177",
-                    foreground="#191724",
-                    padding=7
-                ),
-                widget.CurrentLayout(
-                    background="#f6c177",
-                    foreground="#191724"
-                ),
-                widget.TextBox(
-                    text='',
-                    background="#f6c177",
                     foreground="#e0def4",
                     padding=-3,
                     fontsize=38
