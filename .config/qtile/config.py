@@ -268,6 +268,18 @@ screens = [
                 widget.TextBox(
                     text='',
                     background="#232136",
+                    foreground="#ea9a97",
+                    padding=-3,
+                    fontsize=38
+                ),
+                widget.CPU(
+                    background="#ea9a97",
+                    foreground="191724",
+                    format=" {load_percent}%"
+                ),
+                widget.TextBox(
+                    text='',
+                    background="#ea9a97",
                     foreground="#c4a7e7",
                     padding=-3,
                     fontsize=38
