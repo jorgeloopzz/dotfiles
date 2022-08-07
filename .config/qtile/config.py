@@ -161,8 +161,11 @@ screens = [
                     borderwidth=0
                 ),
                 widget.WindowName(
-                    # Make it transparent
-                    foreground="#232136"
+                    foreground="#eb6f92",
+                    markup=True,
+                    font="DaddyTimeMono Nerd Font",
+                    fontsize=15,
+                    max_chars=63
                 ),
                 widget.TextBox(
                     text='',
@@ -257,8 +260,10 @@ screens = [
         top=bar.Bar(
             [
                 widget.WindowName(
-                    # Make it transparent
-                    foreground="#232136"
+                    foreground="#eb6f92",
+                    markup=True,
+                    font="DaddyTimeMono Nerd Font",
+                    fontsize=15,
                 ),
                 widget.TextBox(
                     text='',
