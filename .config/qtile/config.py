@@ -267,7 +267,25 @@ screens = [
                 ),
                 widget.TextBox(
                     text='',
-                    background="#232136",
+                    foreground="#e0def4",
+                    padding=-3,
+                    fontsize=40
+                ),
+                widget.TextBox(
+                    text=' ',
+                    background="#e0def4",
+                    foreground="#191724",
+                    padding=2
+                ),
+                widget.CheckUpdates(
+                    update_interval=18000,
+                    display_format="{updates}",
+                    colour_have_updates="#191724",
+                    background="#e0def8"
+                ),
+                widget.TextBox(
+                    text='',
+                    background="#e0def4",
                     foreground="#ea9a97",
                     padding=-3,
                     fontsize=38
