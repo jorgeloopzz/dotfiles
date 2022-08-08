@@ -35,8 +35,8 @@
 |Software		| Name																	|
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Distribution		| [Arco Linux](https://arcolinux.com/)													|
-| WM			| [i3-gaps](https://i3wm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm), [qtile](https://wiki.archlinux.org/title/Qtile), [dwm](https://dwm.suckless.org/)														|
-| Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)											|
+| WM			| [i3-gaps](https://i3wm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm), [qtile](https://wiki.archlinux.org/title/Qtile), [dwm](https://dwm.suckless.org/)|
+| Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)|
 | Login Manager		| [LightDM](https://wiki.archlinux.org/title/LightDM)											|
 | Screen locker		| [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)								|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
@@ -45,7 +45,6 @@
 | Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Brave](https://brave.com/)							|
 | Chat			| [Telegram](https://desktop.telegram.org/)												|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
-| File manager		| [Thunar](https://wiki.archlinux.org/title/thunar), [Ranger](https://wiki.archlinux.org/title/Ranger)					|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
 | Video/Audio player	| [MPV](https://wiki.archlinux.org/title/Mpv)												|
 | Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)											|
@@ -64,7 +63,8 @@
 | Monitor resolution	| [Xrandr](https://wiki.archlinux.org/title/Xrandr)											|
 | Compositor		| [Picom](https://wiki.archlinux.org/title/Picom)											|
 | Systray		| [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon)|
-| [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, CodeNewRoman, Cousine, DaddyTimeMono, FiraCode, Hack, mononoki, SpaceMono, UbuntuMono	|
+| Storage devices	| [Udisks](https://wiki.archlinux.org/title/Udisks)											|
+| [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, CodeNewRoman, Cousine, DaddyTimeMono, FiraCode, Hack, mononoki, SpaceMono, UbuntuMono|
 
 <p align="center"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=1A1B26&colorB=F7768E"/></p>
 
