@@ -19,4 +19,5 @@ set window-height 1920
 set window-width 1080
 set adjust-open width
 set page-padding 3
+set selection-clipboard clipboard # Enable copy to clipboard
 
