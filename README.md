@@ -52,6 +52,7 @@
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi) 											|
 | Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot)										|
+| Screen recorder	| [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)									|
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
 | GTK Themes		| [Arc-Dark](https://www.gnome-look.org/p/1181106/)											|
 | Icon themes		| [Material-black](https://www.gnome-look.org/p/1333360)										|
