@@ -203,12 +203,39 @@ schemes:
       cyan:    '#00ffff'
       white:   '#ffffff'
 
+  # Colors (Gruvbox Material Dark Medium)
+  Gruvbox: &gruvbox
+    primary:
+      background: '#282828'
+      foreground: '#dfbf8e'
+
+    normal:
+      black:   '#665c54'
+      red:     '#ea6962'
+      green:   '#a9b665'
+      yellow:  '#e78a4e'
+      blue:    '#7daea3'
+      magenta: '#d3869b'
+      cyan:    '#89b482'
+      white:   '#dfbf8e'
+
+    bright:
+      black:   '#928374'
+      red:     '#ea6962'
+      green:   '#a9b665'
+      yellow:  '#e3a84e'
+      blue:    '#7daea3'
+      magenta: '#d3869b'
+      cyan:    '#89b482'
+      white:   '#dfbf8e'
+
 # Select one of the next themes:
 # - DoomOne
 # - dracula
 # - nord
 # - catppuccin
 # - reddy
+# - gruvbox
 colors: *catppuccin
 
 # Fonts
