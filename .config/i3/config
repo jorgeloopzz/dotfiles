@@ -244,6 +244,9 @@ exec --no-startup-id cbatticon -i standard BAT1 &
 # Start picom
 exec --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends & 
 
+# Conky
+exec --no-startup-id conky --config ~/.config/conky/mocha.conf &
+
 # Start any status bar
 # exec_always --no-startup-id yabar &
 bar {
