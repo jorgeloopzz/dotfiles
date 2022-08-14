@@ -23,9 +23,9 @@ general {
 
 order += "wireless _first_"
 order += "ethernet _first_"
-order += "disk /"
-order += "cpu_usage"
-order += "memory"
+# order += "disk /"
+# order += "cpu_usage"
+# order += "memory"
 order += "tztime local"
 # order += "battery 1"
 order += "volume master"
