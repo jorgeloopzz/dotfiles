@@ -54,6 +54,7 @@
 | Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot)										|
 | Screen recorder	| [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)									|
 | Document viewer	| [Zathura](https://wiki.archlinux.org/title/zathura)											|
+| Passwords manager	| [KeePassXC](https://keepassxc.org/)													|
 | GTK Themes		| [Arc-Dark](https://www.gnome-look.org/p/1181106/)											|
 | Icon themes		| [Material-black](https://www.gnome-look.org/p/1333360)										|
 | Notifications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
