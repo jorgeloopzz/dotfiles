@@ -13,11 +13,6 @@ if status is-interactive
 	alias lovesay="/home/jorge/.local/bin/lovesay"
 	alias fonts="fc-list : family | grep Nerd | sort | awk '{print $1 $2 $3}' | uniq"
 
-	# Window swallowing
-	alias mpv="devour mpv"
-	alias sxiv="devour sxiv"
-	alias zathura="devour zathura"
-
 	# Dotfiles aliases
 	alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 	alias da="dotfiles add"
