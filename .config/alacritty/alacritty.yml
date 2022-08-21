@@ -17,34 +17,41 @@ window:
   opacity: 0.8
 
 schemes:
-  DoomOne: &DoomOne
+  onedark: &onedark
     primary:
-      background: '#282c34'
-      foreground: '#bbc2cf'
-    cursor:
-      text: CellBackground
-      cursor: '#528bff'
-    selection:
-      text: CellForeground
-      background: '#3e4451'
+      background: '#1e2127'
+      foreground: '#abb2bf'
+    # Normal colors
     normal:
-      black:   '#1c1f24'
-      red:     '#ff6c6b'
-      green:   '#98be65'
-      yellow:  '#da8548'
-      blue:    '#51afef'
+      black:   '#1e2127'
+      red:     '#e06c75'
+      green:   '#98c379'
+      yellow:  '#d19a66'
+      blue:    '#61afef'
       magenta: '#c678dd'
-      cyan:    '#5699af'
-      white:   '#202328'
+      cyan:    '#56b6c2'
+      white:   '#828791'
+    # Bright colors
     bright:
-      black:   '#5b6268'
-      red:     '#da8548'
-      green:   '#4db5bd'
-      yellow:  '#ecbe7b'
-      blue:    '#3071db'   # This is 2257a0 in Doom Emacs but I lightened it.
-      magenta: '#a9a1e1'
-      cyan:    '#46d9ff'
-      white:   '#dfdfdf'
+      black:   '#5c6370'
+      red:     '#e06c75'
+      green:   '#98c379'
+      yellow:  '#d19a66'
+      blue:    '#61afef'
+      magenta: '#c678dd'
+      cyan:    '#56b6c2'
+      white:   '#e6efff'
+
+  # Dim colors
+    dim:
+      black:   '#1e2127'
+      red:     '#e06c75'
+      green:   '#98c379'
+      yellow:  '#d19a66'
+      blue:    '#61afef'
+      magenta: '#c678dd'
+      cyan:    '#56b6c2'
+      white:   '#828791'
 
   dracula: &dracula
     primary:
@@ -230,7 +237,7 @@ schemes:
       white:   '#dfbf8e'
 
 # Select one of the next themes:
-# - DoomOne
+# - onedark
 # - dracula
 # - nord
 # - catppuccin
