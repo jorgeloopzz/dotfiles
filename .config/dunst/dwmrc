@@ -22,9 +22,9 @@
 
      ### Geometry ###
 
-    width = 200
+    width = 300
 
-    height = 5
+    height = 100
 
     # Position the notification in the top right corner
     origin = top-right
