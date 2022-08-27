@@ -35,7 +35,7 @@ set $up k
 set $right l
 
 # Your preferred terminal emulator
-set $term x-terminal-emulator
+set $term alacritty
 
 # Your preferred application launcher
 set $menu wofi -I -S drun
