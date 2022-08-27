@@ -255,7 +255,7 @@ set $gnome-schema org.gnome.desktop.interface
 
 exec_always {
     gsettings set $gnome-schema gtk-theme 'Noita'
-    gsettings set $gnome-schema icon-theme 'candy-icons'
+    gsettings set $gnome-schema icon-theme 'Material-Black-Plum-Suru'
 }
 
 ### Status bar ###
