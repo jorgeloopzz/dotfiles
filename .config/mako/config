@@ -1,0 +1,8 @@
+font=Hack Nerd Font 12
+background-color=#0f0f0f
+border-size=3
+border-color=#ff0000
+icons=1
+format=<i>%s</i>\n%b
+default-timeout=5000
+
