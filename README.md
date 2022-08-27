@@ -59,6 +59,7 @@
 | Icon themes		| [Material-black](https://www.gnome-look.org/p/1333360)										|
 | Notifications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
 | Sound			| [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)		|
+| Bluethooth		| [bluez](https://wiki.archlinux.org/title/bluetooth), [bluez-utils](https://wiki.archlinux.org/title/bluetooth), [blueman](https://github.com/blueman-project/blueman) (GUI)	|
 | Network		| [Network manager](https://wiki.archlinux.org/title/NetworkManager)									|
 | Cursor speed		| [Imwheel](https://wiki.archlinux.org/title/IMWheel)											|
 | Screen temperature	| [Redshift](https://wiki.archlinux.org/title/Redshift)											|
