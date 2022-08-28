@@ -19,3 +19,6 @@ redshift -P -O 3200 &
 # Avoid screen to turn off after a certain time
 xset s off &
 
+# Enable numlock
+numlockx
+

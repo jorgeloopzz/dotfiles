@@ -71,6 +71,8 @@ input * {
     xkb_layout "es"
     xkb_variant "colemak,,typewriter"
     xkb_options "grp:win_space_toggle"
+    xkb_capslock enable
+    xkb_numlock enable
 }
 
 input 0:0:Acer_WMI_hotkeys xkb_model "pc101"
