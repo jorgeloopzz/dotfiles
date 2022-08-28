@@ -48,7 +48,7 @@ output * bg ~/Wallpapers/0222.png fill
 
 # Monitors
 output eDP-1 resolution 1920x1080 position 0,0
-output HDMI-A-1 resolution 1920x1080 position 1920,0
+output HDMI-A-1 resolution 1920x1080 position -1920,0
 
 
 ### Idle configuration ###
