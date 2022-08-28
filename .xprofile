@@ -8,7 +8,7 @@ touchpad
 imwheel
 
 # Udiskie
-# udiskie
+udiskie &
 
 # Restore wallpaper
 nitrogen --restore &
