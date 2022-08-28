@@ -36,8 +36,8 @@
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Distribution		| [Arco Linux](https://arcolinux.com/)													|
 | WM			| [i3-gaps](https://i3wm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm), [qtile](https://wiki.archlinux.org/title/Qtile), [dwm](https://dwm.suckless.org/), [Sway](https://wiki.archlinux.org/title/Sway)|
-| Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Yabar](https://github.com/geommer/yabar), [Tint2](https://wiki.archlinux.org/title/Tint2), [Polybar](https://github.com/polybar/polybar)|
-| Login Manager		| [SDDM](https://wiki.archlinux.org/title/SDDM)											|
+| Status bar		| [i3status](https://i3wm.org/docs/i3status.html), [Cairo-dock](https://wiki.archlinux.org/title/Cairo-Dock), [Polybar](https://github.com/polybar/polybar)|
+| Login Manager		| [SDDM](https://wiki.archlinux.org/title/SDDM)												|
 | Screen locker		| [Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)								|
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Fish](https://fishshell.com/)													|
