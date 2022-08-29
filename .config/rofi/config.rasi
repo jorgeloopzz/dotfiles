@@ -1,0 +1,20 @@
+/*      __________        _____.__      */
+/*      \______   \ _____/ ____\__|     */
+/*       |       _//  _ \   __\|  |     */
+/*       |    |   (  <_> )  |  |  |     */
+/*       |____|_  /\____/|__|  |__|     */
+/*              \/                      */
+/*  https://github.com/jorgeloopzz	*/
+
+configuration {
+	modi: "drun";
+	show-icons: true;
+	drun-display-format: "{icon} {name}";
+	location: 0;
+	disable-history: false;
+	hide-scrollbar: true;
+	display-drun: "   Apps ";
+}
+
+@theme "catppuccin-mocha"
+
