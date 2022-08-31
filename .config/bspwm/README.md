@@ -2,7 +2,7 @@
   bspwm 
 </h1>
 
-![bspwm](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/Screenshots/bspwm.png)
+![bspwm](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/.screenshots/bspwm.png)
 
 *bspwm* is a tiling window manager that represents windows as the leaves of a full binary tree.
 

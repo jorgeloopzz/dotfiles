@@ -20,16 +20,16 @@
 </div>
 
 ### [i3](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/i3)
-![i3](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/Screenshots/i3-ex.png)
+![i3](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/i3-ex.png)
 
 ### [bspwm](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/bspwm)
-![bspwm](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/Screenshots/bspwm-ex.png)
+![bspwm](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/bspwm-ex.png)
 
 ### [Openbox](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/openbox)
-![openbox](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/Screenshots/openbox-ex.png)
+![openbox](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/openbox-ex.png)
 
 ### [Qtile](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/qtile)
-![qtile](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/Screenshots/qtile-ex.png)
+![qtile](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/qtile-ex.png)
 
 ## Software I use
 |Software		| Name																	|
