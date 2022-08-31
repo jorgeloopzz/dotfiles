@@ -25,14 +25,14 @@
 ### [bspwm](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/bspwm)
 ![bspwm](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/bspwm-ex.png)
 
+### [Sway](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/sway)
+![qtile](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/sway-ex.png)
+
 ### [Openbox](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/openbox)
 ![openbox](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/openbox-ex.png)
 
 ### [Qtile](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/qtile)
 ![qtile](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/qtile-ex.png)
-
-### [Sway](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/sway)
-![qtile](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/sway-ex.png)
 
 ## Software I use
 |Software		| Name																	|
