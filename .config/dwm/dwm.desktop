@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=dwm
+Exec=dwm
+TryExec=dwm
+Type=Application
+X-LightDM-DesktopName=dwm

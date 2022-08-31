@@ -1,0 +1,276 @@
+#      ___       __          ___       ______ .______       __  .___________.___________.____    ____ 
+#     /   \     |  |        /   \     /      ||   _  \     |  | |           |           |\   \  /   / 
+#    /  ^  \    |  |       /  ^  \   |  ,----'|  |_)  |    |  | `---|  |----`---|  |----` \   \/   /  
+#   /  /_\  \   |  |      /  /_\  \  |  |     |      /     |  |     |  |        |  |       \_    _/   
+#  /  _____  \  |  `----./  _____  \ |  `----.|  |\  \----.|  |     |  |        |  |         |  |     
+# /__/     \__\ |_______/__/     \__\ \______|| _| `._____||__|     |__|        |__|         |__|     
+#
+# https://github.com/jorgeloopzz  
+
+env:
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 6
+    y: 6
+  opacity: 0.8
+
+schemes:
+  onedark: &onedark
+    primary:
+      background: '#1e2127'
+      foreground: '#abb2bf'
+    # Normal colors
+    normal:
+      black:   '#1e2127'
+      red:     '#e06c75'
+      green:   '#98c379'
+      yellow:  '#d19a66'
+      blue:    '#61afef'
+      magenta: '#c678dd'
+      cyan:    '#56b6c2'
+      white:   '#828791'
+    # Bright colors
+    bright:
+      black:   '#5c6370'
+      red:     '#e06c75'
+      green:   '#98c379'
+      yellow:  '#d19a66'
+      blue:    '#61afef'
+      magenta: '#c678dd'
+      cyan:    '#56b6c2'
+      white:   '#e6efff'
+
+  # Dim colors
+    dim:
+      black:   '#1e2127'
+      red:     '#e06c75'
+      green:   '#98c379'
+      yellow:  '#d19a66'
+      blue:    '#61afef'
+      magenta: '#c678dd'
+      cyan:    '#56b6c2'
+      white:   '#828791'
+
+  dracula: &dracula
+    primary:
+      background: '#282a36'
+      foreground: '#f8f8f2'
+      bright_foreground: '#ffffff'
+    cursor:
+      text: CellBackground
+      cursor: CellForeground
+    vi_mode_cursor:
+      text: CellBackground
+      cursor: CellForeground
+    search:
+      matches:
+        foreground: '#44475a'
+        background: '#50fa7b'
+      focused_match:
+        foreground: '#44475a'
+        background: '#ffb86c'
+      bar:
+        background: '#282a36'
+        foreground: '#f8f8f2'
+    hints:
+      start:
+        foreground: '#282a36'
+        background: '#f1fa8c'
+      end:
+         foreground: '#f1fa8c'
+         background: '#282a36'
+    line_indicator:
+      foreground: None
+      background: None
+    selection:
+      text: CellForeground
+      background: '#44475a'
+    normal:
+      black: '#21222c'
+      red: '#ff5555'
+      green: '#50fa7b'
+      yellow: '#f1fa8c'
+      blue: '#bd93f9'
+      magenta: '#ff79c6'
+      cyan: '#8be9fd'
+      white: '#f8f8f2'
+    bright:
+      black: '#6272a4'
+      red: '#ff6e6e'
+      green: '#69ff94'
+      yellow: '#ffffa5'
+      blue: '#d6acff'
+      magenta: '#ff92df'
+      cyan: '#a4ffff'
+      white: '#ffffff'
+
+  nord: &nord
+    primary:
+      background: '#2e3440'
+      foreground: '#d8dee9'
+      dim_foreground: '#a5abb6'
+    cursor:
+      text: '#2e3440'
+      cursor: '#d8dee9'
+    vi_mode_cursor:
+      text: '#2e3440'
+      cursor: '#d8dee9'
+    selection:
+      text: CellForeground
+      background: '#4c566a'
+    search:
+      matches:
+        foreground: CellBackground
+        background: '#88c0d0'
+      bar:
+        background: '#434c5e'
+        foreground: '#d8dee9'
+    normal:
+      black: '#3b4252'
+      red: '#bf616a'
+      green: '#a3be8c'
+      yellow: '#ebcb8b'
+      blue: '#81a1c1'
+      magenta: '#b48ead'
+      cyan: '#88c0d0'
+      white: '#e5e9f0'
+    bright:
+      black: '#4c566a'
+      red: '#bf616a'
+      green: '#a3be8c'
+      yellow: '#ebcb8b'
+      blue: '#81a1c1'
+      magenta: '#b48ead'
+      cyan: '#8fbcbb'
+      white: '#eceff4'
+    dim:
+      black: '#373e4d'
+      red: '#94545d'
+      green: '#809575'
+      yellow: '#b29e75'
+      blue: '#68809a'
+      magenta: '#8c738c'
+      cyan: '#6d96a5'
+      white: '#aeb3bb'
+
+  catppuccin: &catppuccin
+    primary:
+      background: '#1E1D2F'
+      foreground: '#D9E0EE'
+    cursor:
+      text: '#1E1D2F'
+      cursor: '#F5E0DC'
+    normal:
+      black:   '#6E6C7E'
+      red:     '#F28FAD'
+      green:   '#ABE9B3'
+      yellow:  '#FAE3B0'
+      blue:    '#96CDFB'
+      magenta: '#F5C2E7'
+      cyan:    '#89DCEB'
+      white:   '#D9E0EE'
+    bright:
+      black:   '#988BA2'
+      red:     '#F28FAD'
+      green:   '#ABE9B3'
+      yellow:  '#FAE3B0'
+      blue:    '#96CDFB'
+      magenta: '#F5C2E7'
+      cyan:    '#89DCEB'
+      white:   '#D9E0EE'
+    indexed_colors:
+      - { index: 16, color: '#F8BD96' }
+      - { index: 17, color: '#F5E0DC' }
+
+  reddy: &reddy
+    primary:
+      background: '#100c08'
+      foreground: '#D9E0EE'
+    cursor:
+      text:   '#1E1D2F'
+      cursor: '#FFFFFF'
+    normal:
+      black:   '#6E6C7E'
+      red:     '#ff6666'
+      green:   '#7fff00'
+      yellow:  '#ffef00'
+      blue:    '#73c2fb'
+      magenta: '#F5C2E7'
+      cyan:    '#00ffff'
+      white:   '#ffffff'
+    bright:
+      black:   '#988BA2'
+      red:     '#ff6666'
+      green:   '#7fff00'
+      yellow:  '#ffef00'
+      blue:    '#73c2fb'
+      magenta: '#F5C2E7'
+      cyan:    '#00ffff'
+      white:   '#ffffff'
+
+  # Colors (Gruvbox Material Dark Medium)
+  Gruvbox: &gruvbox
+    primary:
+      background: '#282828'
+      foreground: '#dfbf8e'
+
+    normal:
+      black:   '#665c54'
+      red:     '#ea6962'
+      green:   '#a9b665'
+      yellow:  '#e78a4e'
+      blue:    '#7daea3'
+      magenta: '#d3869b'
+      cyan:    '#89b482'
+      white:   '#dfbf8e'
+
+    bright:
+      black:   '#928374'
+      red:     '#ea6962'
+      green:   '#a9b665'
+      yellow:  '#e3a84e'
+      blue:    '#7daea3'
+      magenta: '#d3869b'
+      cyan:    '#89b482'
+      white:   '#dfbf8e'
+
+# Select one of the next themes:
+# - onedark
+# - dracula
+# - nord
+# - catppuccin
+# - reddy
+# - gruvbox
+colors: *catppuccin
+
+# Fonts
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+  size: 11 
+
+cursor:
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Block
+
+# Keybindings
+key_bindings:
+        - { key: V,  mods: Control, action: Paste }
+        - { key: C,  mods: Control, action: Copy  }
+        - { key: X,  mods: Control, chars: "\x03" }
+

@@ -1,0 +1,82 @@
+!      __   ___  __   __        __   __   ___  __  
+! \_/ |__) |__  /__` /  \ |  | |__) /  ` |__  /__` 
+! / \ |  \ |___ .__/ \__/ \__/ |  \ \__, |___ .__/ 
+!                                                  
+! https://github.com/jorgeloopzz
+
+! COLORS FOR SXIV
+Sxiv.foreground: #FFFFFF
+Sxiv.background: #16161d
+Sxiv.font: DaddyTimeMono Nerd Font-12
+
+! Scale external monitors
+Xft.dpi: 96
+
+! Cursor size
+Xcursor.size: 24
+
+! URXVT CONFIGURATION
+
+! Disable scrollbar
+URxvt.scrollBar: false
+
+! Fonts
+URxvt.font: xft:SpaceMono Nerd Font:size=13
+URxvt.letterSpace: -1
+URxvt.saveLines: 2000
+
+!Clipboard
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+
+!! Catppuccin colorscheme
+
+! special
+URxvt.foreground: #DADAE8
+URxvt.background: #1E1E29
+URxvt.cursorColor: #B1E3AD
+
+! black
+URxvt.color0: #6E6C7E
+URxvt.color8: #6E6C7E
+
+! red
+URxvt.color1: #E38C8F
+URxvt.color9: #E38C8F
+
+! green
+URxvt.color2: #B1E3AD
+URxvt.color10: #B1E3AD
+
+! yellow
+URxvt.color3: #EBDDAA
+URxvt.color11: #EBDDAA
+
+! blue
+URxvt.color4: #A4B9EF
+URxvt.color12: #A4B9EF
+
+! magenta
+URxvt.color5: #C6AAE8
+URxvt.color13: #C6AAE8
+
+! cyan
+URxvt.color6: #E5B4E2
+URxvt.color14: #E5B4E2
+
+! white
+URxvt.color7: #DADAE8
+URxvt.color15: #DADAE8
+
+!! URxvt Appearance
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
