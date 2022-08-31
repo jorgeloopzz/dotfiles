@@ -31,6 +31,9 @@
 ### [Qtile](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/qtile)
 ![qtile](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/qtile-ex.png)
 
+### [Sway](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/sway)
+![qtile](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/sway-ex.png)
+
 ## Software I use
 |Software		| Name																	|
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
