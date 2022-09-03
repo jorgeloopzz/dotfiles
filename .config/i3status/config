@@ -27,7 +27,6 @@ order += "disk /"
 order += "cpu_usage"
 order += "memory"
 order += "tztime local"
-# order += "battery 1"
 order += "volume master"
 
 wireless _first_ {
@@ -57,15 +56,6 @@ memory {
 
 tztime local {
         format = "  %A - %H:%M "
-}
-
-battery 1 {
-        format = "%status %percentage "
-	status_bat = " "
-	status_chr = " "
-	status_full = " "
-	last_full_capacity = true
-	integer_battery_capacity = true
 }
 
 volume master {
