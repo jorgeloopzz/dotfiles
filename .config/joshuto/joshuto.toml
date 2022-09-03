@@ -31,7 +31,10 @@ reverse = false
 
 [preview]
 max_preview_size = 2097152 # 2MB
+preview_images = true
 preview_script = "~/.config/joshuto/preview_file.sh"
+preview_shown_hook_script = "~/.config/joshuto/on_preview_shown"
+preview_removed_hook_script = "~/.config/joshuto/on_preview_removed"
 
 [tab]
 # inherit, home, root
