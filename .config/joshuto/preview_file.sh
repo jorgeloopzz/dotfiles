@@ -100,12 +100,12 @@ handle_extension() {
         ## PDF
         ## pdf)
             ## Preview as text conversion
-        ##    pdftotext -l 10 -nopgbrk -q -- "${FILE_PATH}" - | \
-        ##      fmt -w "${PREVIEW_WIDTH}" && exit 5
-        ##    mutool draw -F txt -i -- "${FILE_PATH}" 1-10 | \
-        ##      fmt -w "${PREVIEW_WIDTH}" && exit 5
-        ##    exiftool "${FILE_PATH}" && exit 5
-        ##    exit 1;;
+            pdftotext -l 10 -nopgbrk -q -- "${FILE_PATH}" - | \
+              fmt -w "${PREVIEW_WIDTH}" && exit 5
+            mutool draw -F txt -i -- "${FILE_PATH}" 1-10 | \
+              fmt -w "${PREVIEW_WIDTH}" && exit 5
+            exiftool "${FILE_PATH}" && exit 5
+            exit 1;
 
         ## BitTorrent
         torrent)
@@ -229,10 +229,10 @@ handle_mime() {
             exit 1;;
 
         ## Video and audio
-        ##  video/* | audio/*)
+        ##  video/* 1 audio/* )
         ##    mediainfo "${FILE_PATH}" && exit 5
         ##    exiftool "${FILE_PATH}" && exit 5
-        ##    exit 1;;
+        ##    exit 1;
     esac
 }
 
