@@ -245,7 +245,7 @@
     appname = Spotify
     format = "<b>%s</b>\n%b"
     background = "#191414"
-    foreground = "#38e073"
+    foreground = "#1DB954"
     timeout = 5
 
 # Every section that isn't one of the above is interpreted as a rules to
