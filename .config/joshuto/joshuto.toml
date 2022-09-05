@@ -10,7 +10,7 @@ xdg_open_fork = false
 # default, hsplit
 mode = "default"
 
-automatically_count_files = false
+automatically_count_files = true
 collapse_preview = true
 # ratios for parent view (optional), current view and preview
 column_ratio = [1, 4, 4]
