@@ -10,7 +10,6 @@ if status is-interactive
 	## ALIASES ##
 	alias l="exa -la --icons"
 	alias cl="clear"
-	alias lovesay="/home/jorge/.local/bin/lovesay"
 	alias fonts="fc-list : family | grep Nerd | sort | awk '{print $1 $2 $3}' | uniq"
 
 	# Dotfiles aliases
