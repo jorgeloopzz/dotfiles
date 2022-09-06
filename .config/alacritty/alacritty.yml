@@ -14,7 +14,7 @@ window:
   padding:
     x: 6
     y: 6
-  opacity: 0.8
+  opacity: 0.9
 
 schemes:
   onedark: &onedark
