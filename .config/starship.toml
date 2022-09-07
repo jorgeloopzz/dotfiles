@@ -25,6 +25,9 @@ symbol = " "
 [java]
 symbol = " "
 
+[c]
+symbol = " "
+
 [lua]
 format = "via [ $version](bold blue) "
 
