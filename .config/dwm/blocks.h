@@ -7,8 +7,6 @@ static const Block blocks[] = {
 
 	{" ", 				"date '+%d/%m/%Y - %R'",					60,		0},
 
-	{" ", "amixer get Master | tail -n1 | awk '{print $5}' | cut -c 2- | cut -c -3",		1,		0},
-
 	{" ", 				"acpi | awk '{print $4}' | sed 's/,//'",			60,		0},
 };
 
