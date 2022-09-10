@@ -2,17 +2,17 @@
 #include <X11/XF86keysym.h>
 
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 6;        /* gaps between windows */
-static const unsigned int snap      = 32;       /* snap pixel */
-static const int showbar            = 1;        /* 0 means no bar */
-static const int user_bh            = 24;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
-static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "CodeNewRoman Nerd Font:size=12:weight=bold:antialias=true:autohint:true" };
-static const char black[]	= "#282828";
-static const char yellow[]       = "#dfbf8e";
-static const char green[]        = "#a9b665";
-static const char *colors[][3]      = {
+static const unsigned int borderpx	= 1; 	/* border pixel of windows */
+static const unsigned int gappx   	= 6; 	/* gaps between windows */
+static const unsigned int snap    	= 32;	/* snap pixel */
+static const int showbar          	= 1; 	/* 0 means no bar */
+static const int user_bh          	= 24;	/* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
+static const int topbar           	= 1; 	/* 0 means bottom bar */
+static const char *fonts[]        	= { "CodeNewRoman Nerd Font:size=12:weight=bold:antialias=true:autohint:true" };
+static const char black[]		= "#282828";
+static const char yellow[]       	= "#dfbf8e";
+static const char green[]        	= "#a9b665";
+static const char *colors[][3]      	= {
 	/*               fg         	bg		border		*/
 	[SchemeNorm] = { yellow,	black,		black		},
 	[SchemeSel]  = { black,		green,		green		},
@@ -32,10 +32,10 @@ static const Rule rules[] = {
 };
 
 /* layout(s) */
-static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
-static const int nmaster     = 1;    /* number of clients in master area */
-static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
-static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen window */
+static const float mfact    	= 0.55; /* factor of master area size [0.05..0.95] */
+static const int nmaster    	= 1;    /* number of clients in master area */
+static const int resizehints	= 1;    /* 1 means respect size hints in tiled resizals */
+static const int lockfullscreen	= 1; /* 1 will force focus on the fullscreen window */
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
