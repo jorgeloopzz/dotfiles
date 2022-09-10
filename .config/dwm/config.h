@@ -9,15 +9,13 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int user_bh            = 24;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "CodeNewRoman Nerd Font:size=12:weight=bold:antialias=true:autohint:true" };
-static const char col_gray1[]       = "#282828";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#dfbf8e";
-static const char col_gray4[]       = "#0f0f0f";
-static const char col_cyan[]        = "#a9b665";
+static const char black[]	= "#282828";
+static const char yellow[]       = "#dfbf8e";
+static const char green[]        = "#a9b665";
 static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	/*               fg         	bg		border		*/
+	[SchemeNorm] = { yellow,	black,		black		},
+	[SchemeSel]  = { black,		green,		green		},
 };
 
 /* tagging */
