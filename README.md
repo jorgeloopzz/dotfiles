@@ -68,6 +68,7 @@
 | Cursor speed		| [Imwheel](https://wiki.archlinux.org/title/IMWheel)											|
 | Screen temperature	| [Redshift](https://wiki.archlinux.org/title/Redshift)											|
 | Monitor resolution	| [Xrandr](https://wiki.archlinux.org/title/Xrandr)											|
+| Window swallowing	| [Devour](https://github.com/salman-abedin/devour)
 | Compositor		| [Picom](https://wiki.archlinux.org/title/Picom)											|
 | Systray		| [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon)|
 | Storage devices	| [Udisks](https://wiki.archlinux.org/title/Udisks)											|
