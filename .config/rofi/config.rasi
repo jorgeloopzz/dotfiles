@@ -16,5 +16,5 @@ configuration {
 	display-drun: "   Apps ";
 }
 
-@theme "catppuccin-mocha"
+@theme "gruvbox"
 

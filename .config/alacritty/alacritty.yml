@@ -243,7 +243,7 @@ schemes:
 # - catppuccin
 # - reddy
 # - gruvbox
-colors: *catppuccin
+colors: *gruvbox
 
 # Fonts
 font:
