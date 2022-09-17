@@ -57,10 +57,10 @@
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi) 											|
 | Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot)										|
 | Screen recorder	| [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)									|
-| Document viewer	| [Evince](https://wiki.archlinux.org/title/GNOME/Document_viewer)											|
+| Document viewer	| [Evince](https://wiki.archlinux.org/title/GNOME/Document_viewer)									|
 | Passwords manager	| [KeePassXC](https://keepassxc.org/)													|
 | GTK Themes		| [Arc-Dark](https://www.gnome-look.org/p/1181106/), [Noita](https://github.com/addy-dclxvi/gtk-theme-collections)			|
-| Icon themes		| [Material-black](https://www.gnome-look.org/p/1333360)										|
+| Icon themes		| [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)								|
 | Notifications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
 | Sound			| [Pulseaudio](https://wiki.archlinux.org/title/PulseAudio), [Pavucontrol](https://github.com/pulseaudio/pavucontrol) (GUI)		|
 | Bluethooth		| [bluez](https://wiki.archlinux.org/title/bluetooth), [bluez-utils](https://wiki.archlinux.org/title/bluetooth), [blueman](https://github.com/blueman-project/blueman) (GUI)	|
@@ -68,7 +68,7 @@
 | Cursor speed		| [Imwheel](https://wiki.archlinux.org/title/IMWheel)											|
 | Screen temperature	| [Redshift](https://wiki.archlinux.org/title/Redshift)											|
 | Monitor resolution	| [Xrandr](https://wiki.archlinux.org/title/Xrandr)											|
-| Window swallowing	| [Devour](https://github.com/salman-abedin/devour)
+| Window swallowing	| [Devour](https://github.com/salman-abedin/devour)											|
 | Compositor		| [Picom](https://wiki.archlinux.org/title/Picom)											|
 | Systray		| [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon)|
 | Storage devices	| [Udisks](https://wiki.archlinux.org/title/Udisks)											|
