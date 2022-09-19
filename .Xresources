@@ -13,7 +13,7 @@ Sxiv.font: DaddyTimeMono Nerd Font-12
 Xft.dpi: 96
 
 ! Cursor size
-Xcursor.size: 24
+Xcursor.size: 12
 
 ! URXVT CONFIGURATION
 
