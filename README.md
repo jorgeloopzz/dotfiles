@@ -46,7 +46,7 @@
 | Shell			| [Fish](https://fishshell.com/)													|
 | Prompt		| [Starship](https://starship.rs/)													|
 | Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Brave](https://brave.com/)							|
-| File manager		| [Joshuto](https://github.com/kamiyaa/joshuto)												|
+| File managers		| [Thunar](https://wiki.archlinux.org/title/Thunar), [Joshuto](https://github.com/kamiyaa/joshuto)					|
 | Chat			| [Telegram](https://desktop.telegram.org/)												|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
