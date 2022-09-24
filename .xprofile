@@ -4,9 +4,6 @@ resolution
 # Enable touchpad
 touchpad
 
-# Start imwheel
-imwheel
-
 # Udiskie
 udiskie &
 
@@ -21,4 +18,8 @@ xset s off &
 
 # Enable numlock
 numlockx
+
+# Remove cache
+rm ~/.cache/wofi-drun
+rm ~/.cache/rofi3.druncache
 
