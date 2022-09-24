@@ -159,7 +159,7 @@ bindsym $mod+Shift+7 move container to workspace $ws7
 # Open applications in certain workspaces
 assign [class="^firefox$"] → $ws1
 assign [class="^Alacritty$"] → $ws2
-assign [class="^code-oss$"] → $ws3
+assign [class="^VSCodium$"] → $ws3
 assign [class="^Zathura$"] → $ws4
 assign [instance="^libreoffice$"] → $ws4
 assign [class="^mpv$"] → $ws5
