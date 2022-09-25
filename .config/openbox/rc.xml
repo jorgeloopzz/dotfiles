@@ -761,10 +761,6 @@
     <application class="Conky">
       <decor>no</decor>
     </application>
-
-    <application class="Zathura">
-      <decor>no</decor>
-    </application>
   </applications>
 
 </openbox_config>
