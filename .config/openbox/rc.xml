@@ -44,7 +44,7 @@
 
   <theme>
     <name>Nord-Openbox-theme</name>
-    <titleLayout>NLMC</titleLayout>
+    <titleLayout>NLIMC</titleLayout>
     <!--
       N: window icon
       L: window label (AKA title).
