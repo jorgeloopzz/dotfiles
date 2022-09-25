@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openbox_menu>
     <menu id="root-menu" label="OpenBox 3">
-        <!-- LibreWolf -->
-        <item label="Web browser" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/firefox.svg">
+        <!-- Firefox -->
+        <item label="Web browser" icon="/usr/share/icons/Papirus/16x16/apps/firefox.svg">
             <action name="Execute">
                 <execute>firefox</execute>
             </action>
         </item>
         <!-- Alacritty -->
-        <item label="Terminal" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/terminal.svg">
+        <item label="Terminal" icon="/usr/share/icons/Papirus/16x16/apps/terminal.svg">
             <action name="Execute">
                 <execute>alacritty</execute>
             </action>
         </item>
         <!-- VS Code -->
-        <item label="IDe" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/com.visualstudio.code.svg">
+        <item label="IDe" icon="/usr/share/icons/Papirus/16x16/apps/code.svg">
             <action name="Execute">
                 <execute>vscodium</execute>
             </action>
         </item>
-        <!-- Ranger -->
-        <item label="File Manager" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/spacefm.svg">
+        <!-- Thunar -->
+        <item label="File Manager" icon="/usr/share/icons/Papirus/16x16/apps/system-file-manager.svg">
             <action name="Execute">
-                <execute>alacritty -e ranger</execute>
+                <execute>thunar</execute>
             </action>
         </item>
         <!-- Spotify -->
-        <item label="Music" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/com.spotify.Client.svg">
+        <item label="Music" icon="/usr/share/icons/Papirus/16x16/apps/spotify-client.svg">
             <action name="Execute">
                 <execute>env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U</execute>
             </action>
         </item>
         <separator />
-        <menu id="1" label="Development" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/applications-development.svg">
+        <menu id="1" label="Development" icon="/usr/share/icons/Papirus/16x16/apps/applications-development.svg">
             <item label="GDB">
                 <action name="Execute">
                     <execute>alacritty -e gdb</execute>
                 </action>
             </item>
         </menu>
-        <menu id="7" label="Multimedia" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/multimedia-volume-control.svg">
-           <item label="Spotify" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/com.spotify.Client.svg">
+        <menu id="7" label="Multimedia" icon="/usr/share/icons/Papirus/16x16/apps/applications-multimedia.svg">
+           <item label="Spotify" icon="/usr/share/icons/Papirus/16x16/apps/spotify-client.svg">
                <action name="Execute">
                    <execute>env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U</execute>
                </action>
            </item>
-            <item label="mpv" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/mpv.svg">
+            <item label="mpv" icon="/usr/share/icons/Papirus/16x16/apps/mpv.svg">
                 <action name="Execute">
                     <execute>mpv --player-operation-mode=pseudo-gui</execute>
                 </action>
             </item>
-            <item label="Pavucontrol" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/pavucontrol.svg">
+            <item label="Pavucontrol" icon="/usr/share/icons/Papirus/16x16/apps/pavucontrol.svg">
                 <action name="Execute">
                     <execute>pavucontrol</execute>
                 </action>
             </item>
         </menu>
-        <menu id="5" label="Network" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/internet-web-browser.svg">
-            <item label="Firefox" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/firefox.svg">
+        <menu id="5" label="Network" icon="/usr/share/icons/Papirus/16x16/apps/preferences-system-network.svg">
+            <item label="Firefox" icon="/usr/share/icons/Papirus/16x16/apps/firefox.svg">
                 <action name="Execute">
                     <execute>firefox</execute>
                 </action>
             </item>
-            <item label="qBittorrent" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/qbittorrent.svg">
+            <item label="qBittorrent" icon="/usr/share/icons/Papirus/16x16/apps/qbittorrent.svg">
                 <action name="Execute">
                     <execute>qbittorrent</execute>
                 </action>
             </item>
         </menu>
-        <menu id="19" label="Shells" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/terminal.svg">
+        <menu id="19" label="Shells" icon="/usr/share/icons/Papirus/16x16/apps/utilities-terminal.svg">
             <item label="Alacritty">
                 <action name="Execute">
                     <execute>alacritty</execute>
@@ -105,31 +105,31 @@
                 </action>
             </item>
         </menu>
-        <menu id="38" label="Utilities" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/applications-utilities.svg">
+        <menu id="38" label="Utilities" icon="/usr/share/icons/Papirus/16x16/apps/appimagekit-fontbase.svg">
             <item label="Fonts">
                 <action name="Execute">
                     <execute>gnome-font-viewer</execute>
                 </action>
             </item>
-            <item label="Nitrogen" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/AppImageLauncher.svg">
+            <item label="Nitrogen" icon="/usr/share/icons/Papirus/16x16/apps/nitrogen.svg">
                 <action name="Execute">
                     <execute>nitrogen</execute>
                 </action>
             </item>
-            <item label="Screenshot" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/gnome-screenshot.svg">
+            <item label="Screenshot" icon="/usr/share/icons/Papirus/16x16/apps/gnome-screenshot.svg">
                 <action name="Execute">
                     <execute>gnome-screenshot --interactive</execute>
                 </action>
             </item>
         </menu>
         <separator />
-        <menu id="40" label="OpenBox" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/gnome-monitor.svg">
+        <menu id="40" label="OpenBox" icon="/usr/share/icons/Papirus/16x16/apps/gnome-monitor.svg">
             <menu id="client-list-menu" />
-            <item label="Restart" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/system-restart.svg">
+            <item label="Restart" icon="/usr/share/icons/Papirus/16x16/apps/system-restart.svg">
                 <action name="Restart" />
             </item>
             <separator />
-            <item label="Exit" icon="/usr/share/icons/Material-Black-Blueberry-Suru/apps/scalable/xedit.svg">
+            <item label="Exit" icon="/usr/share/icons/Papirus/16x16/apps/backdoor-factory.svg">
                 <action name="Exit" />
             </item>
         </menu>
