@@ -81,20 +81,6 @@ border-color = #00000000
 font-0 = mononoki Nerd Font:style=Bold: size=10
 font-1 = mononoki Nerd Font Mono: size=100
 
-modules-center = spotify
-
-[module/spotify]
-type = custom/script
-interval = 1
-format-prefix = " "
-format = <label>
-exec = python ~/Code/Github/polybar_spotify/spotify_status.py -t 40 -f '{artist} | {song}'
-format-underline = #1db954
-;control players (optional)
-click-left = playerctl --player=spotify previous 
-click-right = playerctl --player=spotify next 
-click-middle = playerctl --player=spotify play-pause 
-
 [bar/right]
 width = 33%
 height = 30
