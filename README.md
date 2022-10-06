@@ -57,7 +57,6 @@
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi) 											|
 | Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot)										|
 | Screen recorder	| [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)									|
-| Document viewer	| [Evince](https://wiki.archlinux.org/title/GNOME/Document_viewer)									|
 | Passwords manager	| [KeePassXC](https://keepassxc.org/)													|
 | GTK Themes		| [Arc-Dark](https://www.gnome-look.org/p/1181106/), [Noita](https://github.com/addy-dclxvi/gtk-theme-collections)			|
 | Icon themes		| [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)								|
