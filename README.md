@@ -50,7 +50,7 @@
 | Chat			| [Telegram](https://desktop.telegram.org/)												|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)			|
 | Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
-| Video/Audio player	| [MPV](https://wiki.archlinux.org/title/Mpv)												|
+| Video/Audio player	| [VLC](https://wiki.archlinux.org/title/VLC_media_player)												|
 | Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)											|
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
