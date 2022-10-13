@@ -1,6 +1,6 @@
 #!/bin/sh
 
-battery=`acpi | awk '{print $4}' | sed 's/,//'`
+battery=`acpi --battery | cut -d, -f2`
 
 state=`acpi | awk '{print $3}' | sed 's/,//'`
 
