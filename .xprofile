@@ -11,7 +11,7 @@ udiskie &
 nitrogen --restore &
 
 # Screen temperature
-redshift -P -O 3200 &
+redshift -P -O 2700 &
 
 # Avoid screen to turn off after a certain time
 xset s off &
