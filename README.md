@@ -73,5 +73,12 @@
 | Storage devices	| [Udisks](https://wiki.archlinux.org/title/Udisks)											|
 | [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, CodeNewRoman, Cousine, DaddyTimeMono, FiraCode, Hack, mononoki, SpaceMono, UbuntuMono|
 
+## r/unixporn
+ * [[Openbox] is actually pretty cool](https://www.reddit.com/r/unixporn/comments/x4b9ij/openbox_is_actually_pretty_cool/)
+ * [[QTILE] Im glad with rose-pine](https://www.reddit.com/r/unixporn/comments/wkrfqq/qtile_im_glad_with_rosepine/)
+ * [[QTILE] Lovin' rounded corners](https://www.reddit.com/r/unixporn/comments/ttkv5m/qtile_lovin_rounded_corners/)
+ * [[i3-gaps] Catppuccin <3](https://www.reddit.com/r/unixporn/comments/twqke9/i3gaps_catppuccin_3/)
+ * [[BSPWM] All in red](https://www.reddit.com/r/unixporn/comments/tvhpvs/bspwm_all_in_red/)
+ 
 <p align="center"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=1A1B26&colorB=F7768E"/></p>
 
