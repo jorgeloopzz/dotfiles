@@ -66,6 +66,9 @@ keys = [
 
     #---    Terminal    ---#
     Key([mod], "Return", lazy.spawn("alacritty")),
+    
+    #---    File manager    ---#
+    Key([mod], "f", lazy.spawn("thunar")),
 
     #---    Launcher    ---#
     Key([mod], "space", lazy.spawn("rofi -show")),
