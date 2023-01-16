@@ -253,6 +253,10 @@ screens = [
                     padding=-3,
                     fontsize=38
                 ),
+                widget.Volume(
+                    foreground="#e0def4",
+                    fmt=" {}"
+                ),
                 widget.Systray(),
             ],
             25,
