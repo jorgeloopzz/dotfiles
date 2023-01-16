@@ -55,7 +55,7 @@
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi) 											|
-| Screenshots		| [gnome-screenshot](https://github.com/GNOME/gnome-screenshot)										|
+| Screenshots		| [Flameshot](https://flameshot.org/)										|
 | Screen recorder	| [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)									|
 | Passwords manager	| [KeePassXC](https://keepassxc.org/)													|
 | GTK Themes		| [Arc-Dark](https://www.gnome-look.org/p/1181106/), [Noita](https://github.com/addy-dclxvi/gtk-theme-collections)			|
