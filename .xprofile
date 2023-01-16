@@ -19,9 +19,6 @@ xset s off &
 # Enable numlock
 numlockx
 
-# Start flameshot
-flameshot &
-
 # Remove cache
 rm ~/.cache/wofi-drun
 rm ~/.cache/rofi3.druncache
