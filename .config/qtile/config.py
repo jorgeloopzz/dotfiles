@@ -90,9 +90,6 @@ keys = [
 
     #---    Brightness down ---#
     Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 10")),
-    
-    #---    Take screenshot ---#
-    Key([], "Print", lazy.spawn("gnome-screenshot -a")),
 
     #---    Lock screen ---#
     Key([], "F1", lazy.spawn("betterlockscreen --lock blur"))
