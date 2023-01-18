@@ -13,6 +13,7 @@ if status is-interactive
 	alias fonts="fc-list : family | grep Nerd | sort | awk '{print $1 $2 $3}' | uniq"
 	alias mpv="devour mpv"
 	alias sxiv="devour sxiv"
+	alias remove="sudo shred -zvu"
 
 	# Dotfiles aliases
 	alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
