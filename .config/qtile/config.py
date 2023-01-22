@@ -93,9 +93,24 @@ keys = [
     
     #---    Sleep machine ---#
     Key([], "XF86Sleep", lazy.spawn("systemctl suspend")),
+    
+    #---    Volume up   ---#
+    Key(
+            [], "XF86AudioRaiseVolume",
+            lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")
+    ),
 
-    #---    Lock screen ---#
-    Key([], "F1", lazy.spawn("betterlockscreen --lock blur"))
+    #---    Volume down ---#
+    Key(
+            [], "XF86AudioLowerVolume",
+            lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%")
+    ),
+
+    #---    Mute volume ---#
+    Key(
+            [], "XF86AudioMute",
+            lazy.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle")
+    )
 ]
 
 #---------------#
