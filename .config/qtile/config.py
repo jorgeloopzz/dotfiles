@@ -90,6 +90,9 @@ keys = [
 
     #---    Brightness down ---#
     Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 10")),
+    
+    #---    Sleep machine ---#
+    Key([], "XF86Sleep", lazy.spawn("systemctl suspend")),
 
     #---    Lock screen ---#
     Key([], "F1", lazy.spawn("betterlockscreen --lock blur"))
