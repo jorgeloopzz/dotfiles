@@ -6,12 +6,7 @@
    </i>
   </b>
 </h1>
- 
- <div align="center">
- 
- ![80071604](https://user-images.githubusercontent.com/80071604/182917042-84604a3d-41e2-418b-9229-0ee5f1c684b6.png)
 
- </div>
   
 <div align="center">
   <img src="https://img.shields.io/github/stars/jorgeloopzz/dotfiles?color=%23BB9AF7&style=for-the-badge"> 
