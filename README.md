@@ -43,7 +43,7 @@
 | Browser		| [Firefox](https://www.mozilla.org/en-US/firefox/new/)											|
 | File managers		| [Thunar](https://wiki.archlinux.org/title/Thunar), [Ranger](https://wiki.archlinux.org/title/Ranger)					|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Vim](https://wiki.archlinux.org/title/Vim)			|
-| Image viewer		| [EoG]([https://wiki.archlinux.org/title/Sxiv](https://wiki.gnome.org/Apps/EyeOfGnome))												|
+| Image viewer		| [EoG](https://wiki.gnome.org/Apps/EyeOfGnome)												|
 | Video/Audio player	| [VLC](https://wiki.archlinux.org/title/VLC_media_player)												|
 | Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)											|
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
