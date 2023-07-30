@@ -40,19 +40,17 @@
 | Terminal emulator	| [Alacritty](https://wiki.archlinux.org/title/Alacritty)										|
 | Shell			| [Fish](https://fishshell.com/)													|
 | Prompt		| [Starship](https://starship.rs/)													|
-| Browsers		| [Firefox](https://www.mozilla.org/en-US/firefox/new/)											|
+| Browser		| [Firefox](https://www.mozilla.org/en-US/firefox/new/)											|
 | File managers		| [Thunar](https://wiki.archlinux.org/title/Thunar), [Ranger](https://wiki.archlinux.org/title/Ranger)					|
-| Chat			| [Telegram](https://desktop.telegram.org/)												|
 | IDE'S			| [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Vim](https://wiki.archlinux.org/title/Vim)			|
-| Image viewer		| [SXIV](https://wiki.archlinux.org/title/Sxiv)												|
-| Video/Audio player	| [MPV](https://wiki.archlinux.org/title/Mpv)												|
+| Image viewer		| [EoG]([https://wiki.archlinux.org/title/Sxiv](https://wiki.gnome.org/Apps/EyeOfGnome))												|
+| Video/Audio player	| [VLC](https://wiki.archlinux.org/title/VLC_media_player)												|
 | Music player		| [Spotify](https://wiki.archlinux.org/title/Spotify)											|
 | Background setter	| [Nitrogen](https://wiki.archlinux.org/title/Nitrogen)											|
 | Torrent client	| [qBittorrent](https://www.qbittorrent.org/)												|
 | Launchers		| [Rofi](https://wiki.archlinux.org/title/Rofi) 											|
 | Screenshots		| [Flameshot](https://flameshot.org/)										|
 | Screen recorder	| [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)									|
-| Passwords manager	| [KeePassXC](https://keepassxc.org/)													|
 | GTK Themes		| [Arc-Dark](https://www.gnome-look.org/p/1181106/), [Noita](https://github.com/addy-dclxvi/gtk-theme-collections)			|
 | Icon themes		| [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)								|
 | Notifications		| [Dunst](https://wiki.archlinux.org/title/Dunst)											|
