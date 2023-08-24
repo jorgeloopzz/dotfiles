@@ -86,10 +86,10 @@ keys = [
     Key([mod, "shift"], "e", lazy.shutdown()),
 
     #---    Brightness up   ---#
-    Key([], "XF86MonBrightnessUp", lazy.spawn("xbacklight -inc 10")),
+    Key([], "XF86MonBrightnessUp", lazy.spawn("xbacklight -inc 5")),
 
     #---    Brightness down ---#
-    Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 10")),
+    Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 5")),
     
     #---    Sleep machine ---#
     Key([], "XF86Sleep", lazy.spawn("systemctl suspend")),
