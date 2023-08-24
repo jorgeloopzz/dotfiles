@@ -7,7 +7,7 @@ success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set
 error_symbol = "[✗](bold red)"
 
 [shell]
-fish_indicator = ""
+fish_indicator = "󰈺"
 powershell_indicator = "_"
 unknown_indicator = "mystery shell"
 style = "cyan bold"
