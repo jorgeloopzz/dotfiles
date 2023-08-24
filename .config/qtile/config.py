@@ -110,7 +110,10 @@ keys = [
     Key(
             [], "XF86AudioMute",
             lazy.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle")
-    )
+    ),
+
+    #---    Print screen    ---#
+    Key([], "Print", lazy.spawn("flameshot gui"))
 ]
 
 #---------------#
