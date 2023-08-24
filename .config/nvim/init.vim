@@ -26,8 +26,6 @@ colorscheme onedark
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Keybindings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap  :NERDTreeToggle 
-nnoremap  :w 
-nnoremap  :wq 
-
-
+nnoremap <C-t> :NERDTreeToggle 
+nnoremap <C-s> :w 
+nnoremap <C-q> :wq
