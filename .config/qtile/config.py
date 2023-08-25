@@ -324,7 +324,7 @@ screens = [
                 widget.CPU(
                     background="#ea9a97",
                     foreground="191724",
-                    format=" {load_percent}%"
+                    format="󰘚 {load_percent}%"
                 ),
                 widget.TextBox(
                     text='',
