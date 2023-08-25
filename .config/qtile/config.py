@@ -301,10 +301,10 @@ screens = [
                     fontsize=15,
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     foreground="#e0def4",
-                    padding=-3,
-                    fontsize=40
+                    padding=0,
+                    fontsize=42
                 ),
                 widget.TextBox(
                     text=' ',
@@ -319,11 +319,11 @@ screens = [
                     background="#e0def8"
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     background="#e0def4",
                     foreground="#ea9a97",
-                    padding=-3,
-                    fontsize=38
+                    padding=0,
+                    fontsize=42
                 ),
                 widget.CPU(
                     background="#ea9a97",
@@ -331,14 +331,14 @@ screens = [
                     format=" {load_percent}%"
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     background="#ea9a97",
                     foreground="#c4a7e7",
-                    padding=-3,
-                    fontsize=38
+                    padding=0,
+                    fontsize=42
                 ),
                 widget.TextBox(
-                    text='',
+                    text='',
                     background="#c4a7e7",
                     foreground="#191724",
                     padding=7
