@@ -30,13 +30,13 @@ order += "tztime local"
 order += "volume master"
 
 wireless _first_ {
-        format_up = "直 %essid "
-        format_down = "睊 "
+        format_up = "󰤨 %essid "
+        format_down = "󰤭 "
 }
 
 ethernet _first_ {
         format_up = "  %speed "
-        format_down = "  "
+        format_down = " 󰈂 "
 }
 
 disk "/" {
@@ -45,7 +45,7 @@ disk "/" {
 }
 
 cpu_usage {
-	format =  "  %usage "
+	format =  " 󰍛 %usage "
 }
 
 memory {
@@ -55,11 +55,11 @@ memory {
 }
 
 tztime local {
-        format = "  %A - %H:%M "
+        format = " 󰃰 %A - %H:%M "
 }
 
 volume master {
-	format = "  %volume"
-	format_muted = " "
+	format = " 󰎈 %volume"
+	format_muted = " 󰎊"
 	device = "pulse"
 }

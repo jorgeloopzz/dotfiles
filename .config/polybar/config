@@ -121,21 +121,21 @@ type = internal/xbacklight
 format = <ramp> <label>
 label = %percentage%%
 
-ramp-0 = %{F#ff6666}%{F-}
-ramp-1 = %{F#ff6666}%{F-}
-ramp-2 = %{F#ff6666}%{F-}
+ramp-0 = %{F#ff6666}󰃚%{F-}
+ramp-1 = %{F#ff6666}󰃛%{F-}
+ramp-2 = %{F#ff6666}󰃜%{F-}
 
 [module/cpu]
 type = internal/cpu
 interval = 1
-format-prefix = " "
+format-prefix = "󰍛 "
 format-prefix-foreground = #ff6666
 label = %percentage%%
 
 [module/memory]
 type = internal/memory
 interval = 1
-format-prefix = " "
+format-prefix = "󰘚 "
 format-prefix-foreground = #ff6666
 label = %percentage_used%%
 
@@ -160,7 +160,7 @@ interval = 1.0
 format-connected = <label-connected>
 label-connected = %upspeed% %downspeed%
 
-format-connected-prefix = " "
+format-connected-prefix = "󰈁 "
 format-connected-prefix-foreground = #ff6666
 
 format-disconnected =
@@ -173,10 +173,10 @@ date = %a %d %B
 
 time = %H:%M
 
-format-prefix = " "
+format-prefix = "󰃵 "
 format-prefix-foreground = #ff6666
 
-label = %date% %{F#ff6666} %{F-}%time%
+label = %date% %{F#ff6666} %{F-}%time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -184,11 +184,11 @@ type = internal/pulseaudio
 format-volume = <ramp-volume> <label-volume>
 label-volume = %percentage%%
 
-label-muted = %{F#ff6666}婢%{F-}
+label-muted = %{F#ff6666}󰖁%{F-}
 
-ramp-volume-0 = %{F#ff6666}奄%{F-}
-ramp-volume-1 = %{F#ff6666}奔%{F-}
-ramp-volume-2 = %{F#ff6666}墳%{F-}
+ramp-volume-0 = %{F#ff6666}󰕾%{F-}
+ramp-volume-1 = %{F#ff6666}󰖀%{F-}
+ramp-volume-2 = %{F#ff6666}󰕿%{F-}
 
 [module/battery]
 type = internal/battery

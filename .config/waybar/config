@@ -38,15 +38,15 @@
      },
 
     "clock": {
-        "format": " {:%a %d/%m/%Y - %T}",
+        "format": "󰸗 {:%a %d/%m/%Y - %T}",
     	"interval": 1
     },
     
     "network": {
-        "format-wifi": " {essid} ({signalStrength}%)",
-        "format-ethernet": " {ifname} {bandwidthUpBits} {bandwidthDownBits}",
+        "format-wifi": "󰖩 {essid} ({signalStrength}%)",
+        "format-ethernet": "󰈁 {ifname} {bandwidthUpBits} {bandwidthDownBits}",
         "format-linked": " (No IP) ",
-        "format-disconnected": "睊",
+        "format-disconnected": "󰖪",
         "interval": 1
     },
     
@@ -56,7 +56,7 @@
     },
     
     "memory": {
-        "format": "{percentage}% ",
+        "format": "{percentage}% 󰍛",
         "interval": 1
     },
     
@@ -74,7 +74,7 @@
                 "phone": "",
                 "portable": "",
                 "car": "",
-                "default": ["奄", "奔", "墳"]
+                "default": ["", "", ""]
             },
             "on-click": "pavucontrol"
         },
@@ -86,8 +86,8 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-icons": ["", "", "", "", "", "", "", "", "", ""],
+        "format-charging": "{capacity}% 󰂅",
+        "format-icons": ["󰁹", "󰂂", "󰂁", "󰂀", "󰁿", "󰁾", "󰁽", "󰁼", "󰁻", "󰁺"],
         "tooltip-format": "{time}"
     },
     
