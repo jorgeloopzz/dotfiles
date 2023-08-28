@@ -36,7 +36,7 @@ smart_borders no_gaps
 #######################################################################
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #96CDFB #96CDFB #96CDFB #96CDFB   #96CDFB
+client.focused          #85c1dc #85c1dc #85c1dc #85c1dc   #85c1dc
 client.focused_inactive #055494 #055494 #055494 #055494   #055494
 client.unfocused	#055494 #055494 #055494 #055494   #055494
 
