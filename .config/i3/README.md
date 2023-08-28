@@ -2,7 +2,7 @@
   i3 
 </h1>
 
-![i3](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/.screenshots/i3.png)
+<img src="https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/.screenshots/i3.png" />
 
 ## ❗ Important
   - If you want my status bar you'll need my [i3status](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.config/i3status/config) config also.

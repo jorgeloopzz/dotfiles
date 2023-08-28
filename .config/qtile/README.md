@@ -2,4 +2,5 @@
 	Qtile
 </h1>
 
-![qtile](https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/.screenshots/qtile.png)
+<img src="https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/.screenshots/qtile.png" />
+
