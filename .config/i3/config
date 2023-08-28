@@ -121,13 +121,13 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightnes
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:<span color='#66FFB2'> </span>"
-set $ws2 "2:<span color='#D9E0EE'> </span>"
-set $ws3 "3:<span color='#ea4879'> </span>"
-set $ws4 "4:<span color='#96CDFB'>󰈙 </span>"
-set $ws5 "5:<span color='#F8BD96'> </span>"
-set $ws6 "6:<span color='#E8A2AF'> </span>"
-set $ws7 "7:<span color='#DDB6F2'>󱓞 </span>"
+set $ws1 "1:<span color='#a6d189'> </span>"
+set $ws2 "2:<span color='#babbf1'> </span>"
+set $ws3 "3:<span color='#e78284'> </span>"
+set $ws4 "4:<span color='#8caaee'>󰈙 </span>"
+set $ws5 "5:<span color='#ef9f76'> </span>"
+set $ws6 "6:<span color='#81c8be'> </span>"
+set $ws7 "7:<span color='#ca9ee6'>󱓞 </span>"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1 
