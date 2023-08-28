@@ -29,17 +29,16 @@ zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-### ALIASES ###
-alias l="exa -la"
-alias update="sudo pacman -Syu"
-alias install="sudo pacman -S" 
-alias remove="sudo pacman -Rscu"
-alias search="pacman -Ss"
-alias zzz="systemctl suspend"
+## ALIASES ##
+alias l="exa -la --icons"
+alias cl="clear"
+alias fonts="fc-list : family | grep Nerd | sort | awk '{print $1 $2 $3}' | uniq"
+alias remove="sudo shred -zvu"
+# Dotfiles aliases
 alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias da="dotfiles add"
 alias dc="dotfiles commit -m"
-alias cl="clear"
+alias dp="dotfiles push origin master"
 
 colorscript random
 

@@ -29,7 +29,16 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
-alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+## Aliases ##
+alias l="exa -la --icons"
+alias cl="clear"
+alias fonts="fc-list : family | grep Nerd | sort | awk '{print $1 $2 $3}' | uniq"
+alias remove="sudo shred -zvu"
+# Dotfiles aliases
+alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+alias da="dotfiles add"
+alias dc="dotfiles commit -m"
+alias dp="dotfiles push origin master"
 
 export PATH="$PATH:$HOME/.spicetify"
 
