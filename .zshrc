@@ -4,6 +4,10 @@ export ZSH="$HOME/.oh-my-zsh"
 ### THEME ###
 ZSH_THEME="agnoster"
 
+### IDE ###
+export EDITOR='nvim'
+export VISUAL='nvim'
+
 # Set list of themes to pick from when loading at random
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
