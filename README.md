@@ -36,7 +36,7 @@
 | Shell                                             | [Fish](https://fishshell.com/)                                                                                                                                                                                                                                       |
 | Prompt                                            | [Starship](https://starship.rs/)                                                                                                                                                                                                                                     |
 | Browser                                           | [Firefox](https://www.mozilla.org/en-US/firefox/new/)                                                                                                                                                                                                                |
-| File managers                                     | [Thunar](https://wiki.archlinux.org/title/Thunar), [Ranger](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/ranger)                                                                                                                                                                 |
+| File managers                                     | [Thunar](https://wiki.archlinux.org/title/Thunar), [Ranger](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/ranger)                                                                                                                                      |
 | IDE'S                                             | [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Vim](https://wiki.archlinux.org/title/Vim)                                                                                                                                                          |
 | Image viewer                                      | [EoG](https://wiki.gnome.org/Apps/EyeOfGnome)                                                                                                                                                                                                                        |
 | Video/Audio player                                | [VLC](https://wiki.archlinux.org/title/VLC_media_player)                                                                                                                                                                                                             |
@@ -59,6 +59,7 @@
 | Compositor                                        | [Picom](https://wiki.archlinux.org/title/Picom)                                                                                                                                                                                                                      |
 | Systray                                           | [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon)                                                                                            |
 | Storage devices                                   | [Udisks](https://wiki.archlinux.org/title/Udisks)                                                                                                                                                                                                                    |
+| [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, CodeNewRoman, Cousine, DaddyTimeMono, FiraCode, Hack, mononoki, SpaceMono, UbuntuMono                                                                                                                                                          |
 
 <h1>
   <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_reddit-512.png" width=20>
@@ -70,5 +71,7 @@
 - [[QTILE] Lovin' rounded corners](https://www.reddit.com/r/unixporn/comments/ttkv5m/qtile_lovin_rounded_corners/)
 - [[i3-gaps] Catppuccin <3](https://www.reddit.com/r/unixporn/comments/twqke9/i3gaps_catppuccin_3/)
 - [[BSPWM] All in red](https://www.reddit.com/r/unixporn/comments/tvhpvs/bspwm_all_in_red/)
+
+> ❗ For more information check the [wiki](https://github.com/jorgeloopzz/dotfiles/wiki)
 
 <p align="center"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=1A1B26&colorB=F7768E"/></p>
