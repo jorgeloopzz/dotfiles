@@ -97,4 +97,4 @@ mkdir -p ~/.config/ranger/plugins
 ---
 
 > ⚠️ **Note**\
-> For more information browse the [wiki](https://wiki.archlinux.org/title/Ranger).
+> For more information browse the [Arch Wiki](https://wiki.archlinux.org/title/Ranger).
