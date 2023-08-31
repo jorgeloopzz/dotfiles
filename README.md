@@ -23,6 +23,8 @@
 
 [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/i3-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/i3)
 
+&nbsp;
+
 # 💻 Software I use
 
 | Software                                          | Name                                                                                                                                                                                                                                                                 |
@@ -61,10 +63,9 @@
 | Storage devices                                   | [Udisks](https://wiki.archlinux.org/title/Udisks)                                                                                                                                                                                                                    |
 | [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, CodeNewRoman, Cousine, DaddyTimeMono, FiraCode, Hack, mononoki, SpaceMono, UbuntuMono                                                                                                                                                          |
 
-<h1>
-  <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_reddit-512.png" width=20>
-  r/unixporn
-</h1>
+&nbsp;
+
+# <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_reddit-512.png" width=20> r/unixporn
 
 - [[Openbox] is actually pretty cool](https://www.reddit.com/r/unixporn/comments/x4b9ij/openbox_is_actually_pretty_cool/)
 - [[QTILE] Im glad with rose-pine](https://www.reddit.com/r/unixporn/comments/wkrfqq/qtile_im_glad_with_rosepine/)
