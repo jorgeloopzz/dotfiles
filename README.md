@@ -60,8 +60,7 @@
 | Monitor resolution                                | [Xrandr](https://wiki.archlinux.org/title/Xrandr)                                                                                                                                                                                                                    |
 | Compositor                                        | [Picom](https://wiki.archlinux.org/title/Picom)                                                                                                                                                                                                                      |
 | Systray                                           | [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon)                                                                                            |
-| Storage devices                                   | [Udisks](https://wiki.archlinux.org/title/Udisks)                                                                                                                                                                                                                    |
-| [Fonts](https://www.nerdfonts.com/font-downloads) | Agave, CaskaydiaCove, CodeNewRoman, Cousine, DaddyTimeMono, FiraCode, Hack, mononoki, SpaceMono, UbuntuMono                                                                                                                                                          |
+| Storage devices                                   | [Udisks](https://wiki.archlinux.org/title/Udisks)         |
 
 &nbsp;
 
