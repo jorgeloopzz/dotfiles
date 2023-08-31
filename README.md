@@ -10,16 +10,16 @@
 </h1>
 
 <div align="center">
-  <img src="https://img.shields.io/github/stars/jorgeloopzz/dotfiles?color=%23BB9AF7&style=for-the-badge"> 
-  <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-23bb9a?style=for-the-badge"> 
-  <img src="https://img.shields.io/badge/Linux-%F0%9F%90%A7-9cf?style=for-the-badge"> 
+  <img src="https://img.shields.io/github/stars/jorgeloopzz/dotfiles?style=for-the-badge&logo=starship&labelColor=%23232634&color=%23a6d189"> 
+  <img src="https://img.shields.io/badge/Open_Source-maker?style=for-the-badge&logo=opensourceinitiative&logoColor=%23f2d5cf&labelColor=%23232634&color=%23ca9ee6"> 
+  <img src="https://img.shields.io/badge/Linux-maker?style=for-the-badge&logo=linux&logoColor=%23c6d0f5&labelColor=%23232634&color=%23e5c890"> 
 </div>
 
 &nbsp;
 
 | [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/qtile-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/qtile) | [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/openbox-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/openbox) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/sway-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/sway)   | [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/bspwm-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/bspwm)     |
+| [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/sway-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/sway) | [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/bspwm-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/bspwm) |
 
 [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/i3-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/i3)
 
