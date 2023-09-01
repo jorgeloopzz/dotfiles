@@ -19,7 +19,7 @@ ranger --copy-config=all
 
 &nbsp;
 
-## 🌄 Preview images
+## 🖼️ Preview images
 
 By default, ranger will preview PDF like an image, also as text files or programming files, but for images there`s to work a little. In order to preview we can choose one of the next programs for it.
 
