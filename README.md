@@ -74,4 +74,4 @@
 
 > ❗ For more information check the [wiki](https://github.com/jorgeloopzz/dotfiles/wiki)
 
-<p align="center"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=1A1B26&colorB=F7768E"/></p>
+<p align="center"><img src="https://img.shields.io/github/license/jorgeloopzz/dotfiles?style=flat-square&logo=github&label=License&labelColor=%23181717&color=e78284"/></p>
