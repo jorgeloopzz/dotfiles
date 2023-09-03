@@ -22,6 +22,9 @@ numlockx
 # Start flameshot
 flameshot &
 
+# Effects
+picom --config ~/.config/picom/picom.conf &
+
 # Remove cache
 rm ~/.cache/wofi-drun
 rm ~/.cache/rofi3.druncache

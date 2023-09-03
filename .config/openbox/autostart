@@ -4,7 +4,6 @@
 cairo-dock &
 
 dunst -conf /home/jorge/.config/dunst/nordrc &
-picom --config ~/.config/picom/picom.conf --experimental-backends &
 conky -d -c ~/.config/conky/conky.conf
 conky -d -c ~/.config/conky/conky2.conf
  

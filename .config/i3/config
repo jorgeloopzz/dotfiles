@@ -227,9 +227,6 @@ exec --no-startup-id nm-applet &
 # exec --no-startup-id volumeicon &
 exec --no-startup-id cbatticon -i standard BAT1 &
 
-# Start picom
-exec --no-startup-id picom --config ~/.config/picom/picom.conf --experimental-backends & 
-
 # Conky
 exec --no-startup-id conky --config ~/.config/conky/mocha.conf &
 

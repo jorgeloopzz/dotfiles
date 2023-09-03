@@ -3,7 +3,6 @@
 # Programs to run when a session is started
 pgrep -x sxhkd > /dev/null || sxhkd &
 ~/.config/polybar/launch.sh &
-picom --config ~/.config/picom/picom.conf --experimental-backends &
 dunst -conf /home/jorge/.config/dunst/bspwmrc &
 
 ### WORKSPACES ###
