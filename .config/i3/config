@@ -24,13 +24,6 @@ smart_gaps on
 # Only enable outer gaps when there is exactly one container
 smart_gaps inverse_outer
 
-# Activate smart borders (always)
-smart_borders on
-
-# Activate smart borders (only when there are effectively no gaps)
-smart_borders no_gaps
-
-
 #######################################################################
 #                              Window borders                         #
 #######################################################################
