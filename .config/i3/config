@@ -60,6 +60,9 @@ bindsym $mod+b exec "firefox"
 # Lock screen
 bindsym XF86Sleep exec "systemctl suspend"
 
+# Print screen
+bindsym Print exec "flameshot gui"
+
 # Move focus of the windows
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
