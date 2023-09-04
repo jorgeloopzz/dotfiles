@@ -71,6 +71,6 @@
 - [[i3-gaps] Catppuccin <3](https://www.reddit.com/r/unixporn/comments/twqke9/i3gaps_catppuccin_3/)
 - [[BSPWM] All in red](https://www.reddit.com/r/unixporn/comments/tvhpvs/bspwm_all_in_red/)
 
-> ❗ For more information check the [wiki](https://github.com/jorgeloopzz/dotfiles/wiki)
+> ℹ️ For more information check the [wiki](https://github.com/jorgeloopzz/dotfiles/wiki)
 
 <p align="center"><img src="https://img.shields.io/github/license/jorgeloopzz/dotfiles?style=flat-square&logo=github&label=License&labelColor=%23181717&color=e78284"/></p>
