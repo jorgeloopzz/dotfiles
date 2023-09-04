@@ -285,10 +285,10 @@
       </action>
     </keybind>
 
-    <!-- Lock screen -->
-    <keybind key="F8">
+    <!-- Sleep machine -->
+    <keybind key="XF86Sleep">
       <action name="Execute">
-        <command>betterlockscreen --lock blur</command>
+        <command>systemctl suspend</command>
       </action>
     </keybind>
   </keyboard>

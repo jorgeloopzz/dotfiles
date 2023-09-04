@@ -26,9 +26,9 @@ super + p
 F8
 	amixer set Capture toggle && amixer get Capture | grep "\[off\]" && notify-send "MIC switched OFF" || notify-send "MIC switched ON"
 
-# Lock screen
-F1
-	betterlockscreen --lock blur
+# Sleep machine
+XF86Sleep
+	systemctl suspend
 
 # Volume control
 {XF86AudioRaiseVolume,XF86AudioLowerVolume, XF86AudioMute}
