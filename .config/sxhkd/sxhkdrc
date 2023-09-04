@@ -14,6 +14,10 @@ super + space
 super + b
 	firefox
 
+# Launch browser
+super + f
+	thunar
+
 # Restart configuration file
 super + p
 	pkill -USR1 -x sxhkd

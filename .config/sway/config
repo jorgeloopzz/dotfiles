@@ -95,6 +95,9 @@ default_border pixel 2
     # Start your launcher
     bindsym $mod+Space exec $menu
 
+    # Launch terminal
+    bindsym $mod+f exec thunar
+
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     floating_modifier $mod normal
@@ -183,7 +186,7 @@ default_border pixel 2
     bindsym $mod+e layout toggle split
 
     # Make the current focus fullscreen
-    bindsym $mod+f fullscreen
+    bindsym $mod+Shift+f fullscreen
 
     # Toggle the current focus between tiling and floating mode
     bindsym $mod+Shift+space floating toggle
