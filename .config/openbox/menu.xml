@@ -45,9 +45,9 @@
                    <execute>env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify %U</execute>
                </action>
            </item>
-            <item label="mpv" icon="/usr/share/icons/Papirus/16x16/apps/mpv.svg">
+            <item label="vlc" icon="/usr/share/icons/Papirus/16x16/apps/vlc.svg">
                 <action name="Execute">
-                    <execute>mpv --player-operation-mode=pseudo-gui</execute>
+                    <execute>vlc</execute>
                 </action>
             </item>
             <item label="Pavucontrol" icon="/usr/share/icons/Papirus/16x16/apps/pavucontrol.svg">
@@ -116,9 +116,9 @@
                     <execute>nitrogen</execute>
                 </action>
             </item>
-            <item label="Screenshot" icon="/usr/share/icons/Papirus/16x16/apps/gnome-screenshot.svg">
+            <item label="Screenshot" icon="/usr/share/icons/Papirus/16x16/apps/flameshot.svg">
                 <action name="Execute">
-                    <execute>gnome-screenshot --interactive</execute>
+                    <execute>flameshot gui</execute>
                 </action>
             </item>
         </menu>
