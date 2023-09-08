@@ -28,6 +28,6 @@ colorscheme onedark
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <C-t> :NERDTreeToggle <CR>
 nnoremap <C-s> :w <CR>
-nnoremap <C-q> :wq <CR>
+nnoremap <C-q> :q <CR>
 
 
