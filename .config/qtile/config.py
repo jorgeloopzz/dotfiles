@@ -183,7 +183,7 @@ screens = [
                 widget.WindowName(
                     foreground="#eb6f92",
                     markup=True,
-                    font="DaddyTimeMono Nerd Font",
+                    font="CodeNewRoman Nerd Font",
                     fontsize=15,
                     max_chars=63
                 ),
@@ -292,7 +292,7 @@ screens = [
                 widget.WindowName(
                     foreground="#eb6f92",
                     markup=True,
-                    font="DaddyTimeMono Nerd Font",
+                    font="CodeNewRoman Nerd Font",
                     fontsize=15,
                 ),
                 widget.TextBox(
