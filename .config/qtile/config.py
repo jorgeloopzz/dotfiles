@@ -211,11 +211,10 @@ screens = [
                     padding=0,
                     fontsize=42
                 ),
-                widget.ThermalZone(
-                    format=" {temp}°C",
-                    fgcolor_normal="#191724",
+                widget.CPU(
                     background="#e0def4",
-                    zone="/sys/class/thermal/thermal_zone0/temp"
+                    foreground="191724",
+                    format="󰘚 {load_percent}%"
                 ),
                 widget.TextBox(
                     text='',
@@ -316,19 +315,7 @@ screens = [
                 ),
                 widget.TextBox(
                     text='',
-                    background="#e0def4",
-                    foreground="#ea9a97",
-                    padding=0,
-                    fontsize=42
-                ),
-                widget.CPU(
-                    background="#ea9a97",
-                    foreground="191724",
-                    format="󰘚 {load_percent}%"
-                ),
-                widget.TextBox(
-                    text='',
-                    background="#ea9a97",
+                    background="#e0def8",
                     foreground="#c4a7e7",
                     padding=0,
                     fontsize=42
