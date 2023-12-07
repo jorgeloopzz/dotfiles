@@ -69,7 +69,6 @@
 - [[QTILE] Im glad with rose-pine](https://www.reddit.com/r/unixporn/comments/wkrfqq/qtile_im_glad_with_rosepine/)
 - [[QTILE] Lovin' rounded corners](https://www.reddit.com/r/unixporn/comments/ttkv5m/qtile_lovin_rounded_corners/)
 - [[i3-gaps] Catppuccin <3](https://www.reddit.com/r/unixporn/comments/twqke9/i3gaps_catppuccin_3/)
-- [[BSPWM] All in red](https://www.reddit.com/r/unixporn/comments/tvhpvs/bspwm_all_in_red/)
 
 > ℹ️ For more information check the [wiki](https://github.com/jorgeloopzz/dotfiles/wiki)
 
