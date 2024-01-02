@@ -23,4 +23,7 @@ if status is-interactive
 
 	## SETTING THE STARSHIP PROMPT ##
 	starship init fish | source
+
+	## USE HOMEBREW ON MAC OS ##
+	# export PATH="/opt/homebrew/bin:$PATH"
 end
