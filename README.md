@@ -63,13 +63,6 @@
 
 &nbsp;
 
-# <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_reddit-512.png" width=20> r/unixporn
-
-- [[Openbox] is actually pretty cool](https://www.reddit.com/r/unixporn/comments/x4b9ij/openbox_is_actually_pretty_cool/)
-- [[QTILE] Im glad with rose-pine](https://www.reddit.com/r/unixporn/comments/wkrfqq/qtile_im_glad_with_rosepine/)
-- [[QTILE] Lovin' rounded corners](https://www.reddit.com/r/unixporn/comments/ttkv5m/qtile_lovin_rounded_corners/)
-- [[i3-gaps] Catppuccin <3](https://www.reddit.com/r/unixporn/comments/twqke9/i3gaps_catppuccin_3/)
-
 > ℹ️ For more information check the [wiki](https://github.com/jorgeloopzz/dotfiles/wiki)
 
 <p align="center"><img src="https://img.shields.io/github/license/jorgeloopzz/dotfiles?style=flat-square&logo=github&label=License&labelColor=%23181717&color=e78284"/></p>
