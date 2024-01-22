@@ -16,7 +16,6 @@ Xft.dpi: 96
 Xcursor.size: 12
 
 ! URXVT CONFIGURATION
-
 ! Disable scrollbar
 URxvt.scrollBar: false
 
@@ -30,8 +29,8 @@ URxvt.clipboard.autocopy: true
 URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
 
-!! Catppuccin colorscheme
 
+!! Catppuccin colorscheme
 ! special
 URxvt.foreground: #DADAE8
 URxvt.background: #1E1E29
@@ -79,4 +78,3 @@ URxvt.saveline: 2048
 URxvt.urgentOnBell: true
 URxvt.depth: 24
 URxvt.iso14755: false
-
