@@ -1,0 +1,65 @@
+#     ___    __    ___   __________  __________________  __
+#    /   |  / /   /   | / ____/ __ \/  _/_  __/_  __/\ \/ /
+#   / /| | / /   / /| |/ /   / /_/ // /  / /   / /    \  / 
+#  / ___ |/ /___/ ___ / /___/ _, _// /  / /   / /     / /  
+# /_/  |_/_____/_/  |_\____/_/ |_/___/ /_/   /_/     /_/   
+#
+# https://github.com/jorgeloopzz  
+
+[cursor]
+style = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 11
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u0003"
+key = "X"
+mods = "Control"
+
+
+[window]
+opacity = 0.9
+
+[window.padding]
+x = 6
+y = 6
+
+# Uncomment the theme you want
+import = [
+	#"~/.config/alacritty/themes/catppuccin_macchiato.toml"
+	#"~/.config/alacritty/themes/dracula.toml"
+	#"~/.config/alacritty/themes/gruvbox_dark.toml"
+	"~/.config/alacritty/themes/onedark.toml"
+	#"~/.config/alacritty/themes/rose-pine-moon.toml"
+]
+
