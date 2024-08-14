@@ -8,7 +8,7 @@ if status is-interactive
 	export VISUAL='nvim'
 
 	## ALIASES ##
-	alias l="exa -la --icons"
+	alias l="eza -la --icons"
 	alias cl="clear"
 	alias fonts="fc-list : family | grep Nerd | sort | awk '{print $1 $2 $3}' | uniq"
 	alias remove="sudo shred -zu"
