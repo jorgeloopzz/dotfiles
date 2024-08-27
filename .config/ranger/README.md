@@ -41,6 +41,14 @@ sudo apt install libxext-dev
 sudo pacman -S ueberzug
 ```
 
+#### Ueberzug
+
+```bash
+# For Mac users
+
+brew install jstkdng/programs/ueberzugpp
+```
+
 Now with program installed, make sure you have this settings in `rc.conf` file.
 
 ```
