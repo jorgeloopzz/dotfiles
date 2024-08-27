@@ -18,6 +18,9 @@ symbol = " "
 
 [nodejs]
 symbol = " "
+detect_files = ['package.json']
+detect_folders = ["node_modules"]
+detect_extensions = [""]
 
 [rust]
 symbol = " "
@@ -27,7 +30,3 @@ symbol = " "
 
 [c]
 symbol = " "
-
-[lua]
-format = "via [ $version](bold blue) "
-
