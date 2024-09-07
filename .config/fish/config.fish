@@ -12,6 +12,8 @@ if status is-interactive
 	alias cl="clear"
 	alias fonts="fc-list : family | grep Nerd | sort | awk '{print $1 $2 $3}' | uniq"
 	alias remove="sudo shred -zu"
+	# alias buu="brew update && brew upgrade"
+
 	# Dotfiles aliases
 	alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 	alias da="dotfiles add"
