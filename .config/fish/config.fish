@@ -14,7 +14,7 @@ if status is-interactive
 	alias remove="sudo shred -zu"
 	# alias buu="brew update && brew upgrade"
 
-	# Dotfiles aliases
+	# DOTFILES ALIASES
 	alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 	alias da="dotfiles add"
 	alias dc="dotfiles commit -m"
