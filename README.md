@@ -17,11 +17,11 @@
 
 &nbsp;
 
-| [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/qtile-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/qtile) | [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/openbox-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/openbox) |
+| [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/i3-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/i3) | [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/openbox-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/openbox) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/sway-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/sway) | [<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/bspwm-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/bspwm) |
 
-[<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/i3-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/i3)
+[<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/qtile-ex.png" />](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/qtile)
 
 &nbsp;
 
