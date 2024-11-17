@@ -58,7 +58,7 @@ set preview_images true
 set preview_images_method ueberzug
 ```
 
-Now in `scope.sh` file, the configuration should look like [this](https://github.com/jorgeloopzz/dotfiles/blob/master/.config/ranger/scope.sh#L142).
+Now in `scope.sh` file, the configuration should look like [this](https://github.com/jorgeloopzz/dotfiles/blob/master/.config/ranger/scope.sh#L141C9-L150C15).
 
 ### w3mimagedisplay
 
@@ -82,7 +82,7 @@ And with that, follow same steps like above, only change this line:
 set preview_images_method w3m
 ```
 
-> To preview videos, you need [ffmpegthumbnailer](https://github.com/dirkvdb/ffmpegthumbnailer), no matter what you chose before. In this case, you should have [this](https://github.com/jorgeloopzz/dotfiles/blob/master/.config/ranger/scope.sh#L157) configuration.
+> To preview videos, you need [ffmpegthumbnailer](https://github.com/dirkvdb/ffmpegthumbnailer), no matter what you chose before. In this case, you should have [this](https://github.com/jorgeloopzz/dotfiles/blob/master/.config/ranger/scope.sh#L156C9-L160C21) configuration.
 >
 > All this preview images are stored in `~/.cache/ranger/`.
 
