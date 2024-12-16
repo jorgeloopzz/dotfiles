@@ -41,11 +41,9 @@ sudo apt install libxext-dev
 sudo pacman -S ueberzug
 ```
 
-#### Ueberzug
+#### Brew
 
 ```bash
-# For Mac users
-
 brew install jstkdng/programs/ueberzugpp
 ```
 
