@@ -6,6 +6,16 @@
 #
 # https://github.com/jorgeloopzz  
 
+# Uncomment the theme you want
+import = [
+	#"~/.config/alacritty/themes/catppuccin_macchiato.toml"
+	#"~/.config/alacritty/themes/dracula.toml"
+	#"~/.config/alacritty/themes/gruvbox_dark.toml"
+	#"~/.config/alacritty/themes/onedark.toml"
+	#"~/.config/alacritty/themes/rose-pine-moon.toml"
+	"~/.config/alacritty/themes/doom_one.toml"
+]
+
 [cursor]
 style = "Block"
 
@@ -53,13 +63,3 @@ opacity = 0.9
 [window.padding]
 x = 6
 y = 6
-
-# Uncomment the theme you want
-import = [
-	#"~/.config/alacritty/themes/catppuccin_macchiato.toml"
-	#"~/.config/alacritty/themes/dracula.toml"
-	#"~/.config/alacritty/themes/gruvbox_dark.toml"
-	"~/.config/alacritty/themes/onedark.toml"
-	#"~/.config/alacritty/themes/rose-pine-moon.toml"
-]
-
