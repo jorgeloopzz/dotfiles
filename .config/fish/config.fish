@@ -12,6 +12,7 @@ if status is-interactive
 	alias cl="clear"
 	alias fonts="fc-list : family | grep Nerd | sort | awk '{print $1 $2 $3}' | uniq"
 	alias remove="sudo shred -zu"
+	alias update="sudo pacman -Syu ; sudo pacman -Sc"
 	# alias buu="brew update && brew upgrade ; brew cleanup"
 	# alias fishcfg="nvim $HOME/.config/fish/config.fish && source $HOME/.config/fish/config.fish"
 
