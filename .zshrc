@@ -1,3 +1,11 @@
+#  _____  _____ __  __
+# /__  / / ___// / / /
+#   / /  \__ \/ /_/ / 
+#  / /_____/ / __  /  
+# /____/____/_/ /_/   
+#
+# https://github.com/jorgeloopzz
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 

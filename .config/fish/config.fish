@@ -1,3 +1,11 @@
+#     _______________ __  __
+#    / ____/  _/ ___// / / /
+#   / /_   / / \__ \/ /_/ / 
+#  / __/ _/ / ___/ / __  /  
+# /_/   /___//____/_/ /_/   
+#
+# https://github.com/jorgeloopzz
+
 if status is-interactive
 
 	## DISABLE GREETING ##
