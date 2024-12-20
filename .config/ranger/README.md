@@ -88,7 +88,7 @@ set preview_images_method w3m
 
 ## 🧩 Plugins
 
-You are able to improve ranger by installing plugins. Take a look at [this](https://github.com/topics/ranger-plugin) list if you are interested in some of them but I personally only use [ranger_devicons](https://github.com/alexanderjeurissen/ranger_devicons) to have a more beautiful view.
+You are able to improve ranger by installing plugins. Take a look at [this](https://github.com/topics/ranger-plugin) list if you are interested in some of them but I personally only use [ranger_devicons](https://github.com/alexanderjeurissen/ranger_devicons).
 
 ### Installation
 
