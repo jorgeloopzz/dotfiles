@@ -166,7 +166,7 @@ screens = [
                     padding=6
                 ),
                 widget.Image(
-                    filename="~/.config/qtile/Archlinux-icon.svg",
+                    filename="~/.config/qtile/arcolinux.svg",
                     scale="False"
                 ),
                 widget.Sep(
