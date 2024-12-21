@@ -15,6 +15,9 @@ if status is-interactive
 
 	# DOTFILES ALIASES
 	alias dotfiles="/usr/bin/env git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+	alias da="dotfiles add"
+	alias dc="dotfiles commit -m"
+	alias dp="dotfiles push origin mac"
 
 	## USE HOMEBREW ON MAC OS ##
 	export PATH="/opt/homebrew/bin:$PATH"
