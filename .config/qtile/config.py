@@ -195,7 +195,7 @@ screens = [
                     fontsize=42
                 ),
                 widget.TextBox(
-                    text=' ',
+                    text=' ',
                     background="#f6c177",
                     foreground="#191724",
                     padding=7
@@ -214,7 +214,7 @@ screens = [
                 widget.CPU(
                     background="#e0def4",
                     foreground="191724",
-                    format="󰘚 {load_percent}%"
+                    format=" {load_percent}%"
                 ),
                 widget.TextBox(
                     text='',
