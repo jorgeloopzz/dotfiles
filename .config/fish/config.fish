@@ -1,3 +1,11 @@
+#     _______________ __  __
+#    / ____/  _/ ___// / / /
+#   / /_   / / \__ \/ /_/ / 
+#  / __/ _/ / ___/ / __  /  
+# /_/   /___//____/_/ /_/   
+#
+# https://github.com/jorgeloopzz
+
 if status is-interactive
 
 	## DISABLE GREETING ##
@@ -10,7 +18,7 @@ if status is-interactive
 	## ALIASES ##
 	alias l="eza -la --icons"
 	alias cl="clear"
-	alias buu="brew update && brew upgrade ; brew cleanup"
+	alias update="brew update && brew upgrade ; brew cleanup"
 	alias fishcfg="nvim $HOME/.config/fish/config.fish && source $HOME/.config/fish/config.fish"
 
 	# DOTFILES ALIASES
@@ -19,7 +27,7 @@ if status is-interactive
 	alias dc="dotfiles commit -m"
 	alias dp="dotfiles push origin mac"
 
-	## USE HOMEBREW ON MAC OS ##
+	## USE HOMEBREW  ##
 	export PATH="/opt/homebrew/bin:$PATH"
 
 	## SETTING THE STARSHIP PROMPT ##
