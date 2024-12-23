@@ -26,7 +26,7 @@
 
 | Software           | Name                                                                                                                                      |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| OS                 | macOS Sonoma                                                                                                                              |
+| OS                 | [Arco Linux](https://github.com/jorgeloopzz/dotfiles/tree/master), [macOS Sonoma](https://github.com/jorgeloopzz/dotfiles/tree/mac)       |
 | WM                 | [Yabai](https://github.com/koekeishiya/yabai)                                                                                             |
 | Terminal emulator  | [iTerm2](https://iterm2.com/)                                                                                   |
 | Shell              | [Fish](https://fishshell.com/)                                                                                                            |
