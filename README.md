@@ -35,6 +35,7 @@
 | File manager       | [Finder](<https://en.wikipedia.org/wiki/Finder_(software)>), [Ranger](https://github.com/jorgeloopzz/dotfiles/tree/master/.config/ranger) |
 | IDE'S              | [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)                         |
 | Video/Audio player | [VLC](https://wiki.archlinux.org/title/VLC_media_player)                                                                                  |
+| Productivity       | [Notion](https://www.notion.com/)                                                                                  |
 | Music player       | [Spotify](https://github.com/abba23/spotify-adblock)                                                                                      |
 | Torrent client     | [qBittorrent](https://www.qbittorrent.org/)                                                                                               |
 | Launchers          | [Spotlight](<https://en.wikipedia.org/wiki/Spotlight_(Apple)>)                                                                            |
