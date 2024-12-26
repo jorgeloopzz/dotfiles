@@ -16,9 +16,7 @@
 
 &nbsp;
 
-<!--
-  Screenshot
--->
+<img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/mac/.screenshots/desktop.png" />
 
 &nbsp;
 
