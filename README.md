@@ -9,6 +9,7 @@
   ⚙️
 </h1>
 
+<!-- BADGES -->
 <div align="center">
   <img src="https://img.shields.io/github/stars/jorgeloopzz/dotfiles?style=for-the-badge&logo=starship&labelColor=%23232634&color=%23a6d189"> 
   <img src="https://img.shields.io/badge/Mac-maker?style=for-the-badge&logo=apple&logoColor=%23c6d0f5&labelColor=%23232634&color=%23e5c890"> 
@@ -16,10 +17,12 @@
 
 &nbsp;
 
+<!-- DESKTOP PREVIEW -->
 <img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/mac/.screenshots/desktop.png" />
 
 &nbsp;
 
+<!-- TABLE WITH TOOLS -->
 # 💻 Software I use
 
 | Software           | Name                                                                                                                                      |
@@ -39,4 +42,5 @@
 | Launchers          | [Spotlight](<https://en.wikipedia.org/wiki/Spotlight_(Apple)>)                                                                            |
 | Screen recorder    | [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)                                                                         |
 
+<!-- LICENSE BADGE -->
 <p align="center"><img src="https://img.shields.io/github/license/jorgeloopzz/dotfiles?style=flat-square&logo=github&label=License&labelColor=%23181717&color=e78284"/></p>
