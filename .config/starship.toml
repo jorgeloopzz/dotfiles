@@ -19,6 +19,7 @@ unknown_indicator = "mystery shell"
 style = "cyan bold"
 disabled = false
 
+# Programming languages configuration
 [python]
 symbol = " "
 
@@ -29,11 +30,16 @@ detect_folders = ["node_modules"]
 detect_extensions = [""]
 
 [rust]
-symbol = " "
+symbol = "󱘗 "
+detect_files = ['Cargo.toml']
+detect_extensions = ['rs']
 
 [java]
-symbol = " "
+symbol = "󰬷 "
+detect_files = ['']
+detect_extensions = ['java', 'class', 'gradle', 'jar', 'cljs', 'cljc']
 
 [c]
 symbol = " "
+detect_extensions = ['c', 'h']
 
