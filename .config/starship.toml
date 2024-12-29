@@ -1,18 +1,33 @@
+#    ______________    ____  _____ __  __________ 
+#   / ___/_  __/   |  / __ \/ ___// / / /  _/ __ \
+#   \__ \ / / / /| | / /_/ /\__ \/ /_/ // // /_/ /
+#  ___/ // / / ___ |/ _, _/___/ / __  // // ____/ 
+# /____//_/ /_/  |_/_/ |_|/____/_/ /_/___/_/      
+#
+# https://github.com/jorgeloopzz
+
 # Inserts a blank line between shell prompts
 add_newline = true
 
-# Replace the "❯" symbol in the prompt with "➜"
-[character] # The name of the module we are configuring is "character"
-success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+# Standard configuration
+[character]
+success_symbol = "[➜](bold green)" 
 error_symbol = "[✗](bold red)"
+vimcmd_symbol = '[](bold green)'
+vimcmd_replace_one_symbol = '[󰑓](bold yellow)'
+vimcmd_visual_symbol = '[](bold yellow)'
 
+# Shell configuration
 [shell]
+bash_indicator = ""
 fish_indicator = "󰈺"
-powershell_indicator = "_"
+zsh_indicator = ""
+powershell_indicator = "󰨊"
 unknown_indicator = "mystery shell"
 style = "cyan bold"
 disabled = false
 
+# Programming languages configuration
 [python]
 symbol = " "
 
@@ -23,10 +38,15 @@ detect_folders = ["node_modules"]
 detect_extensions = [""]
 
 [rust]
-symbol = " "
+symbol = "󱘗 "
+detect_files = ['Cargo.toml']
+detect_extensions = ['rs']
 
 [java]
-symbol = " "
+symbol = "󰬷 "
+detect_files = ['']
+detect_extensions = ['java', 'class', 'gradle', 'jar', 'cljs', 'cljc']
 
 [c]
 symbol = " "
+detect_extensions = ['c', 'h']
