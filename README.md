@@ -41,6 +41,7 @@
 | Torrent client     | [qBittorrent](https://www.qbittorrent.org/)                                                                                               |
 | Launchers          | [Spotlight](<https://en.wikipedia.org/wiki/Spotlight_(Apple)>)                                                                            |
 | Screen recorder    | [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)                                                                         |
+| Hotkey daemon      | [SKHD](https://github.com/koekeishiya/skhd)                                                                         |
 
 &nbsp;
 
