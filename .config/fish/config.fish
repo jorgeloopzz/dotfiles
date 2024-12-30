@@ -30,6 +30,9 @@ if status is-interactive
 	## USE HOMEBREW  ##
 	export PATH="/opt/homebrew/bin:$PATH"
 
+	## INTEGRATE ITERM2 UTILITIES ##
+	test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
 	## SETTING THE STARSHIP PROMPT ##
 	starship init fish | source
 
@@ -37,3 +40,4 @@ if status is-interactive
 	colorscript random
 
 end
+
