@@ -1,3 +1,4 @@
+
 # 📑 Contents
 
 - [What is Ranger?](#❓-what-is-ranger)
@@ -23,6 +24,14 @@ ranger --copy-config=all
 
 By default, ranger will preview PDF like an image, also as text files or programming files, but for images there`s to work a little. In order to preview we can choose one of the next programs for it.
 
+First, make sure you have this settings in `rc.conf` file.
+
+```
+set preview_script ~/.config/ranger/scope.sh
+set use_preview_script true
+set preview_images true
+```
+
 ### Ueberzug
 
 The one I use is [Ueberzug](https://github.com/ueber-devel/ueberzug), to install it:
@@ -41,18 +50,9 @@ sudo apt install libxext-dev
 sudo pacman -S ueberzug
 ```
 
-#### Brew
-
-```bash
-brew install jstkdng/programs/ueberzugpp
-```
-
-Now with program installed, make sure you have this settings in `rc.conf` file.
+With program installed, modify this line in `rc.conf` file.
 
 ```
-set preview_script ~/.config/ranger/scope.sh
-set use_preview_script true
-set preview_images true
 set preview_images_method ueberzug
 ```
 
@@ -74,7 +74,7 @@ sudo apt install w3m w3m-img
 sudo pacman -S w3m
 ```
 
-And with that, follow same steps like above, only change this line:
+And with that, follow same step like above:
 
 ```
 set preview_images_method w3m
