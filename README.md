@@ -63,6 +63,7 @@
 
 &nbsp;
 
-> ℹ️ For more information check the [wiki](https://github.com/jorgeloopzz/dotfiles/wiki)
+> [!NOTE]
+> For more information check the [wiki](https://github.com/jorgeloopzz/dotfiles/wiki)
 
 <p align="center"><img src="https://img.shields.io/github/license/jorgeloopzz/dotfiles?style=flat-square&logo=github&label=License&labelColor=%23181717&color=e78284"/></p>
