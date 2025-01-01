@@ -4,5 +4,6 @@
 
 <img src="https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/.screenshots/sway.png" />
 
-* [Wayland](https://wayland.freedesktop.org/)
-* [Sway](https://swaywm.org/)
+> [!NOTE]
+> * [Wayland](https://wayland.freedesktop.org/)
+> * [Sway](https://swaywm.org/)
