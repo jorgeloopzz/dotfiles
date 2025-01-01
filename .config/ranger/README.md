@@ -87,7 +87,6 @@ mkdir -p ~/.config/ranger/plugins
 
 - Then clone the plugin you want to install.
 
----
-
-> ⚠️ **Note**\
+> [!NOTE]
 > For more information browse the [Arch Wiki](https://wiki.archlinux.org/title/Ranger).
+
