@@ -1,13 +1,14 @@
 <!-- HEADERS -->
 <h1 align="center">
- ⚙️
+ :rice:
   <b> 
    <i>
     ~ My configuration files ~
    </i>
   </b>
-  ⚙️
+ :rice: 
 </h1>
+
 
 <!-- BADGES -->
 <div align="center">
@@ -23,7 +24,7 @@
 &nbsp;
 
 <!-- TABLE WITH TOOLS -->
-# 💻 Software I use
+# :computer: Software I use
 
 | Software           | Name                                                                                                                                      |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
