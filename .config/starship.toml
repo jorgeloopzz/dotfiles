@@ -17,16 +17,6 @@ vimcmd_symbol = '[](bold green)'
 vimcmd_replace_one_symbol = '[󰑓](bold yellow)'
 vimcmd_visual_symbol = '[](bold yellow)'
 
-# Shell configuration
-[shell]
-bash_indicator = ""
-fish_indicator = "󰈺"
-zsh_indicator = ""
-powershell_indicator = "󰨊"
-unknown_indicator = "mystery shell"
-style = "cyan bold"
-disabled = false
-
 # Programming languages configuration
 [python]
 symbol = " "
