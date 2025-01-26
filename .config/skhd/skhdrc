@@ -77,7 +77,7 @@
 # ############################################################### #
 #
 # open terminal
-cmd - 0x24 : open -a iTerm
+cmd - return : open -na iTerm
 
 # focus window
 cmd - h : yabai -m window --focus west
