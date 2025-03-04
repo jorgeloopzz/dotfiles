@@ -1,11 +1,11 @@
 # 📑 Contents
 
-- [What is Ranger?](#❓-what-is-ranger)
-- [Preview images](#🌄-preview-images)
+- [What is Ranger?](#-what-is-ranger)
+- [Preview images](#️-preview-images)
   - [Ueberzug](#ueberzug)
   - [w3mimagedisplay](#w3mimagedisplay)
   - [iTerm2](#iterm2)
-- [Plugins](#🧩-plugins)
+- [Plugins](#-plugins)
   - [Installation](#installation)
 
 <img src="https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.screenshots/ranger.png" />
