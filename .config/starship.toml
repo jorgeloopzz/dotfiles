@@ -17,6 +17,11 @@ vimcmd_symbol = '[](bold green)'
 vimcmd_replace_one_symbol = '[󰑓](bold yellow)'
 vimcmd_visual_symbol = '[](bold yellow)'
 
+[username]
+format = '[ $user](bold blue) in '
+disabled = false
+show_always = true
+
 # Programming languages configuration
 [python]
 symbol = " "
