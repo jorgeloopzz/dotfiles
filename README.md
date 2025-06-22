@@ -13,7 +13,7 @@
 <!-- BADGES -->
 <div align="center">
   <img src="https://img.shields.io/github/stars/jorgeloopzz/dotfiles?style=for-the-badge&logo=starship&labelColor=%23232634&color=%23a6d189"> 
-  <img src="https://img.shields.io/badge/Mac-maker?style=for-the-badge&logo=apple&logoColor=%23c6d0f5&labelColor=%23232634&color=%23e5c890"> 
+  <img src="https://img.shields.io/badge/MacOS-maker?style=for-the-badge&logo=apple&logoColor=%23c6d0f5&labelColor=%23232634&color=%23e5c890"> 
 </div>
 
 &nbsp;
