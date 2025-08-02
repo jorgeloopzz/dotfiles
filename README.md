@@ -9,7 +9,6 @@
  :rice: 
 </h1>
 
-
 <!-- BADGES -->
 <div align="center">
   <img src="https://img.shields.io/github/stars/jorgeloopzz/dotfiles?style=for-the-badge&logo=starship&labelColor=%23232634&color=%23a6d189"> 
@@ -23,10 +22,11 @@
 
 &nbsp;
 
-<!-- TABLE WITH TOOLS -->
-# :computer: Software I use
+# :computer: Machine
 
-| Software           | Name                                                                                                                                      |
+### Software
+
+| Program           | Name                                                                                                                                      |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | OS                 | [Arco Linux](https://github.com/jorgeloopzz/dotfiles/tree/master), [macOS Sonoma](https://github.com/jorgeloopzz/dotfiles/tree/mac)       |
 | WM                 | [Yabai](https://github.com/koekeishiya/yabai)                                                                                             |
@@ -37,10 +37,20 @@
 | File manager       | [Finder](<https://en.wikipedia.org/wiki/Finder_(software)>), [Ranger](https://github.com/jorgeloopzz/dotfiles/tree/mac/.config/ranger) |
 | IDE'S              | [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)                         |
 | Video/Audio player | [VLC](https://wiki.archlinux.org/title/VLC_media_player)                                                                                  |
-| Productivity       | [Notion](https://www.notion.com/)                                                                                  |
 | Torrent client     | [qBittorrent](https://www.qbittorrent.org/)                                                                                               |
 | Launcher          | [Spotlight](<https://en.wikipedia.org/wiki/Spotlight_(Apple)>)                                                                            |
 | Hotkey daemon      | [SKHD](https://github.com/koekeishiya/skhd)                                                                         |
+
+### Hardware
+
+| Component    	| Name                  	|
+|--------------	|-----------------------	|
+| Laptop       	| Macbook Air 2020      	|
+| CPU          	| Apple M1              	|
+| GPU          	| Apple M1 (Integrated) 	|
+| Architecture 	| arm64                 	|
+| Disk space   	| 256 GB                	|
+| Memory       	| 8 GB                  	|
 
 &nbsp;
 
@@ -49,3 +59,4 @@
 
 <!-- LICENSE BADGE -->
 <p align="center"><img src="https://img.shields.io/github/license/jorgeloopzz/dotfiles?style=flat-square&logo=github&label=License&labelColor=%23181717&color=e78284"/></p>
+
