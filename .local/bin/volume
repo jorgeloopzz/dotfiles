@@ -1,0 +1,11 @@
+#!/bin/sh
+volume=`pamixer --get-volume`
+
+if [ $volume -lt 25  ]; then
+	echo -n "󰕿 $volume%"
+elif [ $volume -lt 50  ]; then
+	echo -n "󰖀 $volume%"
+else
+	echo -n "󰕾 $volume%"
+fi
+

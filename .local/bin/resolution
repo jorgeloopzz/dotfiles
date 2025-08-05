@@ -1,0 +1,9 @@
+#!/bin/bash
+
+monitor=`xrandr | grep HDMI | awk '{print $1}'`
+
+if [ "$monitor" = "HDMI-1"  ]; then
+	xrandr --output eDP-1 --mode 1920x1080 --rate 60 --output HDMI-1 --mode 1920x1080 --rate 60 --above eDP-1 &
+else
+	xrandr --output eDP-1 --mode 1920x1080 --rate 60 &
+fi
