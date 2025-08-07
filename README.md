@@ -24,9 +24,10 @@
 
 &nbsp;
 
-# :computer: Software I use
+# :computer: Machine
 
-| Software                                          | Name                                                                                                                                                                                                                                                                 |
+### Software
+| Program                                          | Name                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Distribution                                      | [Arco Linux](https://github.com/jorgeloopzz/dotfiles/tree/master), [macOS Sonoma](https://github.com/jorgeloopzz/dotfiles/tree/mac)                                                                                                                                                                                                                                 |
 | WM                                                | [i3-gaps](https://i3wm.org/), [Openbox](https://wiki.archlinux.org/title/Openbox), [bspwm](https://wiki.archlinux.org/title/Bspwm), [qtile](https://wiki.archlinux.org/title/Qtile), [dwm](https://dwm.suckless.org/), [Sway](https://wiki.archlinux.org/title/Sway) |
@@ -59,6 +60,19 @@
 | Compositor                                        | [Picom](https://wiki.archlinux.org/title/Picom)                                                                                                                                                                                                                      |
 | Systray                                           | [nm-applet](https://wiki.archlinux.org/title/NetworkManager#nm-applet), [cbatticon](https://github.com/valr/cbatticon), [Volumeicon](https://github.com/Maato/volumeicon)                                                                                            |
 | Storage devices                                   | [Udisks](https://wiki.archlinux.org/title/Udisks)         |
+
+
+### Hardware
+
+| Component    	| Name                  	                   |
+|--------------	|-----------------------------------------  |
+| Laptop       	| Acer Aspire A315-56   	                   |
+| CPU          	| Intel i5-1035G1       	                   |
+| GPU          	| Intel Iris Plus Graphics G1 (Integrated) 	|
+| Architecture 	| x86_64                                    |
+| Disk space   	| 256 GB                	                   |
+| Memory       	| 12 GB                  	                  |
+
 
 &nbsp;
 
