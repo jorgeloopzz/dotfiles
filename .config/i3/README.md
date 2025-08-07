@@ -2,8 +2,8 @@
   i3 
 </h1>
 
-<img src="https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/.screenshots/i3.png" />
-
 > [!IMPORTANT]
->  - If you want my status bar you'll need my [i3status](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.config/i3status/config) config also. You can use another status bar as polybar too.
->  - So that you don't have any problem, clone [this](https://github.com/rpieja/i3spotifystatus) repository and change [the path](https://github.com/jorgeloopzz/dotfiles/blob/master/.config/i3/config#L243C1-L243C1) on config, it basically shows current song playing in Spotify, or just delete that line if not interesting for you.
+>  - If you decide to use my bar [configuration](https://raw.githubusercontent.com/jorgeloopzz/dotfiles/master/.config/i3status/config), consider to clone [this](https://github.com/rpieja/i3spotifystatus) repository; it shows the current song playing on Spotify.
+>  - Then, modify the [path](https://github.com/jorgeloopzz/dotfiles/blob/master/.config/i3/config#L239) where you've placed the repo, or simply delete the pipe if you are not into it.
+
+<img src="https://raw.githubusercontent.com/Jorgedeveloopzz/dotfiles/master/.screenshots/i3.png" />
