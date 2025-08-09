@@ -29,7 +29,7 @@
 | Program           | Name                                                                                                                                      |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | OS                 | [Arco Linux](https://github.com/jorgeloopzz/dotfiles/tree/master), [macOS Sonoma](https://github.com/jorgeloopzz/dotfiles/tree/mac)       |
-| WM                 | [Yabai](https://github.com/koekeishiya/yabai)                                                                                             |
+| WM                 | [Amethyst](https://github.com/ianyh/Amethyst)                                                                                             |
 | Terminal emulator  | [iTerm2](https://iterm2.com/)                                                                                   |
 | Shell              | [Fish](https://fishshell.com/)                                                                                                            |
 | Prompt             | [Starship](https://starship.rs/)                                                                                                          |
@@ -38,8 +38,7 @@
 | IDE'S              | [VS Code](https://wiki.archlinux.org/title/Visual_Studio_Code), [Neovim](https://wiki.archlinux.org/title/Neovim)                         |
 | Video/Audio player | [VLC](https://wiki.archlinux.org/title/VLC_media_player)                                                                                  |
 | Torrent client     | [qBittorrent](https://www.qbittorrent.org/)                                                                                               |
-| Launcher          | [Spotlight](<https://en.wikipedia.org/wiki/Spotlight_(Apple)>)                                                                            |
-| Hotkey daemon      | [SKHD](https://github.com/koekeishiya/skhd)                                                                         |
+| Launcher           | [Spotlight](<https://en.wikipedia.org/wiki/Spotlight_(Apple)>)                                                                            |
 
 ### Hardware
 
